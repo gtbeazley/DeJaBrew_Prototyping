@@ -387,3 +387,1249 @@ LogInit: Object subsystem initialized
 [2019.10.20-23.20.23:129][264]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
 [2019.10.20-23.20.23:176][269]LogPlayLevel: Display: Destroying online subsystem :Context_2
 [2019.10.20-23.20.27:850][830]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.20-23.22.34:707][999]LogSavePackage: Moving '../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Saved/aim398BBF86F43D8416FEF9809A7201E2CCA.tmp' to '../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Images/aims/aim3.uasset'
+[2019.10.20-23.22.34:730][999]LogSavePackage: Moving '../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Saved/aim1089432114512A87B4B0B949A319D1161.tmp' to '../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Images/aims/aim1.uasset'
+[2019.10.20-23.22.34:746][999]LogSavePackage: Moving '../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Saved/aim229BC73F3413FCB55026A8AAF6F8137F8.tmp' to '../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Images/aims/aim2.uasset'
+[2019.10.20-23.22.34:992][999]LogSavePackage: Moving '../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Saved/AimingBounds_BP079417C4488A92E7C5BB4EA414E5DADD.tmp' to '../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Blueprints/AimingBounds_BP.uasset'
+[2019.10.20-23.22.35:011][999]LogSavePackage: Moving '../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Saved/AimingCrossHair_BP45984BCD422B66A4E0F9B2B983DB3176.tmp' to '../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Blueprints/AimingCrossHair_BP.uasset'
+[2019.10.20-23.22.35:031][999]LogSavePackage: Moving '../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Saved/AimingMid_BP76F23DCB426242B02CB32FB5685D5FCB.tmp' to '../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Blueprints/AimingMid_BP.uasset'
+[2019.10.20-23.22.43:287][969]LogSavePackage: Moving '../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Saved/SideScrollerExampleMap5A3E89E34634DB59F8C2EDA80213D84C.tmp' to '../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Maps/SideScrollerExampleMap.umap'
+[2019.10.20-23.22.58:666][459]LogAIModule: Creating AISystem for world Level1
+[2019.10.20-23.22.58:678][459]LogAssetEditorManager: Opening Asset editor for World /Game/SideScrollerBP/Maps/Level1.Level1
+[2019.10.20-23.22.58:697][459]Cmd: MAP LOAD FILE="../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Maps/Level1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.10.20-23.22.58:697][459]LightingResults: New page: Lighting Build
+[2019.10.20-23.22.58:697][459]LoadErrors: New page: Loading map: Level1.umap
+[2019.10.20-23.22.58:699][459]MapCheck: New page: Map Check
+[2019.10.20-23.22.58:699][459]LightingResults: New page: Lighting Build
+[2019.10.20-23.22.58:727][459]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.10.20-23.22.58:765][459]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.10.20-23.22.58:819][459]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 53.664ms to complete.
+[2019.10.20-23.22.58:819][459]LogFileHelpers: Loading map 'Level1' took 0.123
+[2019.10.20-23.23.01:983][808]LogSavePackage: Moving '../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Saved/Level1DC79422041F4524D1998F1A3B63DB864.tmp' to '../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Maps/Level1.umap'
+[2019.10.20-23.23.02:008][808]LogFileHelpers: Saving map 'Level1' took 0.160
+[2019.10.20-23.23.51:213][175]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge2)
+[2019.10.20-23.24.04:598][745]LogSlate: Took 0.000167 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.10.20-23.24.28:259][525]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2019.10.20-23.24.31:847][943]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge5)
+[2019.10.20-23.24.39:076][803]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.20-23.24.46:716][694]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.20-23.24.51:322][221]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.20-23.24.53:612][483]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge2)
+[2019.10.20-23.24.57:494][923]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.10.20-23.25.07:393][ 70]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.20-23.25.13:814][824]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge2)
+[2019.10.20-23.25.14:288][867]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2019.10.20-23.25.14:613][902]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge5)
+[2019.10.20-23.25.20:926][644]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.20-23.25.27:446][420]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2019.10.20-23.25.28:262][514]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge5)
+[2019.10.20-23.25.31:926][947]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2019.10.20-23.25.38:967][765]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge5)
+[2019.10.20-23.25.40:533][937]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.20-23.25.44:881][456]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2019.10.20-23.25.45:634][534]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge5)
+[2019.10.20-23.25.46:954][687]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.20-23.25.51:194][194]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2019.10.20-23.25.52:143][304]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge5)
+[2019.10.20-23.25.53:697][485]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.20-23.25.56:670][833]LogTemp: Repeating last play command: Selected Viewport
+[2019.10.20-23.25.56:682][833]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.10.20-23.25.56:684][833]LogPlayLevel: [PlayLevel] Compiling AimingBounds_BP before play...
+[2019.10.20-23.25.56:730][833]LogPlayLevel: [PlayLevel] Compiling AimingCrossHair_BP before play...
+[2019.10.20-23.25.56:775][833]LogPlayLevel: [PlayLevel] Compiling AimingMid_BP before play...
+[2019.10.20-23.25.56:838][833]LogPlayLevel: PlayLevel: Blueprint regeneration took 155 ms (3 blueprints)
+[2019.10.20-23.25.56:839][833]PIE: New page: PIE session: Level1 (Oct 21, 2019, 9:25:56 PM)
+[2019.10.20-23.25.56:839][833]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_Level1
+[2019.10.20-23.25.56:849][833]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010222s)
+[2019.10.20-23.25.56:849][833]LogAIModule: Creating AISystem for world Level1
+[2019.10.20-23.25.56:850][833]LogPlayLevel: PIE: World Init took: (0.000689s)
+[2019.10.20-23.25.56:850][833]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/Level1.Level1 to /Game/SideScrollerBP/Maps/UEDPIE_0_Level1.Level1 (0.011057s)
+[2019.10.20-23.25.56:871][833]LogInit: XAudio2 using 'Realtek Digital Output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.10.20-23.25.56:881][833]LogInit: FAudioDevice initialized.
+[2019.10.20-23.25.56:909][833]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2019.10.20-23.25.56:912][833]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2019.10.21-10.25.56
+[2019.10.20-23.25.56:912][833]LogWorld: Bringing up level for play took: 0.001926
+[2019.10.20-23.25.56:924][833]PIE: Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_Level1 0.619
+[2019.10.20-23.26.07:968][146]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.20-23.26.08:001][146]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.10.20-23.26.08:022][146]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.20-23.26.08:072][151]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2019.10.20-23.26.22:964][925]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2019.10.20-23.26.23:475][977]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.10.20-23.26.43:088][287]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.20-23.27.12:397][768]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.20-23.27.30:718][951]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2019.10.20-23.27.36:472][613]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.10.20-23.28.16:437][394]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.20-23.28.44:097][703]Cmd: DELETE
+[2019.10.20-23.28.44:097][703]Cmd: ACTOR DELETE
+[2019.10.20-23.28.44:099][703]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.10.20-23.28.44:120][703]LogEditorActor: Deleted 1 Actors (0.023 secs)
+[2019.10.20-23.28.45:596][880]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge1)
+[2019.10.20-23.28.49:438][336]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2019.10.20-23.28.49:971][396]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge5)
+[2019.10.20-23.28.52:983][752]Cmd: TRANSACTION UNDO
+[2019.10.20-23.28.52:983][752]LogEditorTransaction: Undo Clicking on Actors
+[2019.10.20-23.28.54:148][885]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2019.10.20-23.28.54:451][919]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge5)
+[2019.10.20-23.29.17:977][725]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.10.20-23.29.18:056][725]LogSavePackage: Moving '../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Saved/Level150BDCA744D94E433B286879A680E7F2E.tmp' to '../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Maps/Level1.umap'
+[2019.10.20-23.30.43:673][796]Cmd: TRANSACTION UNDO
+[2019.10.20-23.30.43:673][796]LogEditorTransaction: Undo Move Actors
+[2019.10.20-23.30.50:895][656]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2019.10.20-23.30.51:070][673]Cmd: TRANSACTION UNDO
+[2019.10.20-23.30.51:070][673]LogEditorTransaction: Undo Clicking on Actors
+[2019.10.20-23.31.00:236][764]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.20-23.31.06:680][536]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.10.20-23.32.10:212][112]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.20-23.32.15:903][789]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.20-23.32.25:893][986]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2019.10.20-23.32.33:370][865]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge1)
+[2019.10.20-23.32.38:812][503]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2019.10.20-23.32.43:089][989]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge6)
+[2019.10.20-23.32.52:452][ 66]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.20-23.33.01:673][168]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2019.10.20-23.33.02:382][249]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge6)
+[2019.10.20-23.33.05:032][560]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2019.10.20-23.33.07:078][784]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge6)
+[2019.10.20-23.33.09:978][123]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge1)
+[2019.10.20-23.33.11:210][266]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2019.10.20-23.33.11:635][313]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge6)
+[2019.10.20-23.33.22:626][618]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.20-23.33.31:746][706]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.20-23.33.44:962][287]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.20-23.33.49:292][801]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2019.10.20-23.33.54:255][380]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.10.20-23.33.54:321][380]LogSavePackage: Moving '../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Saved/Level1471A693A4ADB68F37ACECE96D69CDF6A.tmp' to '../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Maps/Level1.umap'
+[2019.10.20-23.33.55:056][464]LogTemp: Repeating last play command: Selected Viewport
+[2019.10.20-23.33.55:069][464]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.10.20-23.33.55:069][464]PIE: New page: PIE session: Level1 (Oct 21, 2019, 9:33:55 PM)
+[2019.10.20-23.33.55:069][464]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_Level1
+[2019.10.20-23.33.55:078][464]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009580s)
+[2019.10.20-23.33.55:079][464]LogAIModule: Creating AISystem for world Level1
+[2019.10.20-23.33.55:079][464]LogPlayLevel: PIE: World Init took: (0.000962s)
+[2019.10.20-23.33.55:080][464]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/Level1.Level1 to /Game/SideScrollerBP/Maps/UEDPIE_0_Level1.Level1 (0.010662s)
+[2019.10.20-23.33.55:102][464]LogInit: XAudio2 using 'Realtek Digital Output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.10.20-23.33.55:112][464]LogInit: FAudioDevice initialized.
+[2019.10.20-23.33.55:145][464]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2019.10.20-23.33.55:148][464]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2019.10.21-10.33.55
+[2019.10.20-23.33.55:148][464]LogWorld: Bringing up level for play took: 0.002011
+[2019.10.20-23.33.55:161][464]PIE: Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_Level1 0.861
+[2019.10.20-23.34.05:996][762]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.20-23.34.06:028][762]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.10.20-23.34.06:049][762]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.20-23.34.06:103][768]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2019.10.20-23.34.12:520][537]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge7)
+[2019.10.20-23.34.14:201][733]Cmd: DELETE
+[2019.10.20-23.34.14:201][733]Cmd: ACTOR DELETE
+[2019.10.20-23.34.14:203][733]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.10.20-23.34.14:221][733]LogEditorActor: Deleted 1 Actors (0.020 secs)
+[2019.10.20-23.34.14:533][770]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge8)
+[2019.10.20-23.34.14:707][786]Cmd: DELETE
+[2019.10.20-23.34.14:707][786]Cmd: ACTOR DELETE
+[2019.10.20-23.34.14:709][786]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.10.20-23.34.14:728][786]LogEditorActor: Deleted 1 Actors (0.021 secs)
+[2019.10.20-23.34.15:007][819]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge9)
+[2019.10.20-23.34.15:123][828]Cmd: DELETE
+[2019.10.20-23.34.15:123][828]Cmd: ACTOR DELETE
+[2019.10.20-23.34.15:125][828]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.10.20-23.34.15:145][828]LogEditorActor: Deleted 1 Actors (0.021 secs)
+[2019.10.20-23.34.15:465][866]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge4)
+[2019.10.20-23.34.15:613][879]Cmd: DELETE
+[2019.10.20-23.34.15:614][879]Cmd: ACTOR DELETE
+[2019.10.20-23.34.15:615][879]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.10.20-23.34.15:634][879]LogEditorActor: Deleted 1 Actors (0.020 secs)
+[2019.10.20-23.34.15:912][912]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge3)
+[2019.10.20-23.34.16:011][919]Cmd: DELETE
+[2019.10.20-23.34.16:011][919]Cmd: ACTOR DELETE
+[2019.10.20-23.34.16:013][919]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.10.20-23.34.16:032][919]LogEditorActor: Deleted 1 Actors (0.021 secs)
+[2019.10.20-23.34.18:845][243]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pillar2)
+[2019.10.20-23.34.19:506][317]Cmd: DELETE
+[2019.10.20-23.34.19:506][317]Cmd: ACTOR DELETE
+[2019.10.20-23.34.19:508][317]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.10.20-23.34.19:527][317]LogEditorActor: Deleted 1 Actors (0.021 secs)
+[2019.10.20-23.34.20:786][468]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall2)
+[2019.10.20-23.34.21:484][547]Cmd: DELETE
+[2019.10.20-23.34.21:484][547]Cmd: ACTOR DELETE
+[2019.10.20-23.34.21:486][547]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.10.20-23.34.21:505][547]LogEditorActor: Deleted 1 Actors (0.021 secs)
+[2019.10.20-23.34.21:941][599]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall3)
+[2019.10.20-23.34.22:088][612]Cmd: DELETE
+[2019.10.20-23.34.22:088][612]Cmd: ACTOR DELETE
+[2019.10.20-23.34.22:090][612]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.10.20-23.34.22:109][612]LogEditorActor: Deleted 1 Actors (0.021 secs)
+[2019.10.20-23.34.22:562][666]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall1)
+[2019.10.20-23.34.23:133][730]Cmd: DELETE
+[2019.10.20-23.34.23:133][730]Cmd: ACTOR DELETE
+[2019.10.20-23.34.23:135][730]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.10.20-23.34.23:154][730]LogEditorActor: Deleted 1 Actors (0.021 secs)
+[2019.10.20-23.34.34:823][130]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge5)
+[2019.10.20-23.36.43:019][502]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.20-23.36.51:191][471]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2019.10.20-23.36.54:134][795]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge5)
+[2019.10.20-23.37.06:837][303]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.20-23.37.14:507][221]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2019.10.20-23.37.15:248][306]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2019.10.20-23.37.16:114][404]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.10.20-23.37.16:181][404]LogSavePackage: Moving '../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Saved/Level1C13C620C4E1BDA3AAC06E7A4E4B8BF84.tmp' to '../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Maps/Level1.umap'
+[2019.10.20-23.37.27:112][699]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.20-23.37.27:178][707]LogTemp: Repeating last play command: Selected Viewport
+[2019.10.20-23.37.27:191][707]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.10.20-23.37.27:191][707]PIE: New page: PIE session: Level1 (Oct 21, 2019, 9:37:27 PM)
+[2019.10.20-23.37.27:191][707]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_Level1
+[2019.10.20-23.37.27:201][707]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009410s)
+[2019.10.20-23.37.27:201][707]LogAIModule: Creating AISystem for world Level1
+[2019.10.20-23.37.27:202][707]LogPlayLevel: PIE: World Init took: (0.000706s)
+[2019.10.20-23.37.27:202][707]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/Level1.Level1 to /Game/SideScrollerBP/Maps/UEDPIE_0_Level1.Level1 (0.010275s)
+[2019.10.20-23.37.27:224][707]LogInit: XAudio2 using 'Realtek Digital Output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.10.20-23.37.27:234][707]LogInit: FAudioDevice initialized.
+[2019.10.20-23.37.27:261][707]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2019.10.20-23.37.27:264][707]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2019.10.21-10.37.27
+[2019.10.20-23.37.27:264][707]LogWorld: Bringing up level for play took: 0.001714
+[2019.10.20-23.37.27:275][707]PIE: Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_Level1 0.978
+[2019.10.20-23.38.05:530][293]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.20-23.38.05:565][293]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.10.20-23.38.05:586][293]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.20-23.38.05:637][298]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2019.10.20-23.38.18:044][778]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.20-23.38.18:094][784]LogTemp: Repeating last play command: Selected Viewport
+[2019.10.20-23.38.18:108][784]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.10.20-23.38.18:108][784]PIE: New page: PIE session: Level1 (Oct 21, 2019, 9:38:18 PM)
+[2019.10.20-23.38.18:108][784]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_Level1
+[2019.10.20-23.38.18:117][784]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008987s)
+[2019.10.20-23.38.18:118][784]LogAIModule: Creating AISystem for world Level1
+[2019.10.20-23.38.18:118][784]LogPlayLevel: PIE: World Init took: (0.000981s)
+[2019.10.20-23.38.18:118][784]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/Level1.Level1 to /Game/SideScrollerBP/Maps/UEDPIE_0_Level1.Level1 (0.010149s)
+[2019.10.20-23.38.18:139][784]LogInit: XAudio2 using 'Realtek Digital Output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.10.20-23.38.18:149][784]LogInit: FAudioDevice initialized.
+[2019.10.20-23.38.18:182][784]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2019.10.20-23.38.18:184][784]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2019.10.21-10.38.18
+[2019.10.20-23.38.18:185][784]LogWorld: Bringing up level for play took: 0.002174
+[2019.10.20-23.38.18:198][784]PIE: Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_Level1 -0.099
+[2019.10.20-23.38.28:477][ 15]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.20-23.38.28:511][ 15]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.10.20-23.38.28:530][ 15]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.20-23.38.28:583][ 19]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2019.10.20-23.38.32:773][513]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.20-23.38.32:848][522]LogTemp: Repeating last play command: Selected Viewport
+[2019.10.20-23.38.32:861][522]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.10.20-23.38.32:861][522]PIE: New page: PIE session: Level1 (Oct 21, 2019, 9:38:32 PM)
+[2019.10.20-23.38.32:861][522]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_Level1
+[2019.10.20-23.38.32:869][522]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007566s)
+[2019.10.20-23.38.32:870][522]LogAIModule: Creating AISystem for world Level1
+[2019.10.20-23.38.32:870][522]LogPlayLevel: PIE: World Init took: (0.000769s)
+[2019.10.20-23.38.32:870][522]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/Level1.Level1 to /Game/SideScrollerBP/Maps/UEDPIE_0_Level1.Level1 (0.008477s)
+[2019.10.20-23.38.32:891][522]LogInit: XAudio2 using 'Realtek Digital Output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.10.20-23.38.32:902][522]LogInit: FAudioDevice initialized.
+[2019.10.20-23.38.32:937][522]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2019.10.20-23.38.32:939][522]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2019.10.21-10.38.32
+[2019.10.20-23.38.32:940][522]LogWorld: Bringing up level for play took: 0.001815
+[2019.10.20-23.38.32:953][522]PIE: Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_Level1 0.656
+[2019.10.20-23.38.38:881][231]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.20-23.38.38:918][231]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.10.20-23.38.38:939][231]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.20-23.38.38:981][235]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2019.10.20-23.38.48:553][368]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.20-23.38.48:636][378]LogTemp: Repeating last play command: Selected Viewport
+[2019.10.20-23.38.48:648][378]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.10.20-23.38.48:648][378]PIE: New page: PIE session: Level1 (Oct 21, 2019, 9:38:48 PM)
+[2019.10.20-23.38.48:648][378]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_Level1
+[2019.10.20-23.38.48:657][378]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008572s)
+[2019.10.20-23.38.48:657][378]LogAIModule: Creating AISystem for world Level1
+[2019.10.20-23.38.48:658][378]LogPlayLevel: PIE: World Init took: (0.000797s)
+[2019.10.20-23.38.48:658][378]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/Level1.Level1 to /Game/SideScrollerBP/Maps/UEDPIE_0_Level1.Level1 (0.009480s)
+[2019.10.20-23.38.48:679][378]LogInit: XAudio2 using 'Realtek Digital Output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.10.20-23.38.48:690][378]LogInit: FAudioDevice initialized.
+[2019.10.20-23.38.48:723][378]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2019.10.20-23.38.48:725][378]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2019.10.21-10.38.48
+[2019.10.20-23.38.48:726][378]LogWorld: Bringing up level for play took: 0.001653
+[2019.10.20-23.38.48:738][378]PIE: Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_Level1 0.441
+[2019.10.20-23.39.07:351][609]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.20-23.39.07:384][609]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.10.20-23.39.07:405][609]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.20-23.39.07:454][614]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2019.10.20-23.39.41:571][699]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2019.10.20-23.39.41:877][732]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge5)
+[2019.10.20-23.39.52:922][ 34]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2019.10.20-23.39.55:550][330]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge7)
+[2019.10.20-23.40.04:841][429]Cmd: TRANSACTION UNDO
+[2019.10.20-23.40.04:841][429]LogEditorTransaction: Undo Move Actors
+[2019.10.20-23.40.05:943][556]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.20-23.40.15:321][672]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2019.10.20-23.40.17:020][858]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge7)
+[2019.10.20-23.40.20:788][289]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2019.10.20-23.40.22:402][459]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2019.10.20-23.40.23:000][528]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2019.10.20-23.40.23:864][630]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge7)
+[2019.10.20-23.40.26:594][943]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2019.10.20-23.40.29:368][257]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge7)
+[2019.10.20-23.40.33:095][688]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge1)
+[2019.10.20-23.40.42:253][749]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge7)
+[2019.10.20-23.40.48:019][435]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.20-23.41.05:268][503]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2019.10.20-23.41.11:043][175]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.20-23.41.11:110][183]LogTemp: Repeating last play command: Selected Viewport
+[2019.10.20-23.41.11:123][183]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.10.20-23.41.11:124][183]PIE: New page: PIE session: Level1 (Oct 21, 2019, 9:41:11 PM)
+[2019.10.20-23.41.11:124][183]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_Level1
+[2019.10.20-23.41.11:133][183]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009358s)
+[2019.10.20-23.41.11:134][183]LogAIModule: Creating AISystem for world Level1
+[2019.10.20-23.41.11:134][183]LogPlayLevel: PIE: World Init took: (0.000785s)
+[2019.10.20-23.41.11:134][183]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/Level1.Level1 to /Game/SideScrollerBP/Maps/UEDPIE_0_Level1.Level1 (0.010279s)
+[2019.10.20-23.41.11:156][183]LogInit: XAudio2 using 'Realtek Digital Output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.10.20-23.41.11:165][183]LogInit: FAudioDevice initialized.
+[2019.10.20-23.41.11:197][183]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2019.10.20-23.41.11:199][183]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2019.10.21-10.41.11
+[2019.10.20-23.41.11:199][183]LogWorld: Bringing up level for play took: 0.001875
+[2019.10.20-23.41.11:212][183]PIE: Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_Level1 0.916
+[2019.10.20-23.41.17:850][977]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.20-23.41.17:883][977]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.10.20-23.41.17:904][977]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.20-23.41.17:951][982]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2019.10.20-23.41.18:821][ 86]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.20-23.41.18:887][ 94]LogTemp: Repeating last play command: Selected Viewport
+[2019.10.20-23.41.18:900][ 94]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.10.20-23.41.18:900][ 94]PIE: New page: PIE session: Level1 (Oct 21, 2019, 9:41:18 PM)
+[2019.10.20-23.41.18:900][ 94]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_Level1
+[2019.10.20-23.41.18:910][ 94]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009697s)
+[2019.10.20-23.41.18:910][ 94]LogAIModule: Creating AISystem for world Level1
+[2019.10.20-23.41.18:910][ 94]LogPlayLevel: PIE: World Init took: (0.000722s)
+[2019.10.20-23.41.18:910][ 94]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/Level1.Level1 to /Game/SideScrollerBP/Maps/UEDPIE_0_Level1.Level1 (0.010546s)
+[2019.10.20-23.41.18:930][ 94]LogInit: XAudio2 using 'Realtek Digital Output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.10.20-23.41.18:940][ 94]LogInit: FAudioDevice initialized.
+[2019.10.20-23.41.18:969][ 94]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2019.10.20-23.41.18:972][ 94]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2019.10.21-10.41.18
+[2019.10.20-23.41.18:972][ 94]LogWorld: Bringing up level for play took: 0.002122
+[2019.10.20-23.41.18:985][ 94]PIE: Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_Level1 0.69
+[2019.10.20-23.41.26:354][976]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.20-23.41.26:386][976]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.10.20-23.41.26:410][976]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.20-23.41.26:454][979]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2019.10.20-23.41.30:177][418]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge3)
+[2019.10.20-23.41.45:842][279]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2019.10.20-23.41.46:100][306]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2019.10.20-23.41.47:500][464]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge3)
+[2019.10.20-23.41.54:931][328]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.20-23.42.01:281][ 85]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2019.10.20-23.42.05:298][541]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.10.20-23.42.05:359][541]LogSavePackage: Moving '../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Saved/Level1B796EBFE417CE4D9689D81A60E82D452.tmp' to '../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Maps/Level1.umap'
+[2019.10.20-23.42.09:346][ 14]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge3)
+[2019.10.20-23.42.13:379][487]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2019.10.20-23.42.14:518][601]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge3)
+[2019.10.20-23.42.17:700][960]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.20-23.42.17:783][970]LogTemp: Repeating last play command: Selected Viewport
+[2019.10.20-23.42.17:795][970]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.10.20-23.42.17:795][970]PIE: New page: PIE session: Level1 (Oct 21, 2019, 9:42:17 PM)
+[2019.10.20-23.42.17:795][970]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_Level1
+[2019.10.20-23.42.17:804][970]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009143s)
+[2019.10.20-23.42.17:805][970]LogAIModule: Creating AISystem for world Level1
+[2019.10.20-23.42.17:805][970]LogPlayLevel: PIE: World Init took: (0.000736s)
+[2019.10.20-23.42.17:805][970]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/Level1.Level1 to /Game/SideScrollerBP/Maps/UEDPIE_0_Level1.Level1 (0.009998s)
+[2019.10.20-23.42.17:828][970]LogInit: XAudio2 using 'Realtek Digital Output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.10.20-23.42.17:837][970]LogInit: FAudioDevice initialized.
+[2019.10.20-23.42.17:868][970]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2019.10.20-23.42.17:871][970]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2019.10.21-10.42.17
+[2019.10.20-23.42.17:871][970]LogWorld: Bringing up level for play took: 0.001963
+[2019.10.20-23.42.17:884][970]PIE: Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_Level1 -0.411
+[2019.10.20-23.42.50:653][898]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.20-23.42.50:685][898]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.10.20-23.42.50:707][898]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.20-23.42.50:757][903]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2019.10.20-23.42.52:537][116]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (Light Source)
+[2019.10.20-23.43.03:330][403]Cmd: TRANSACTION UNDO
+[2019.10.20-23.43.03:330][403]LogEditorTransaction: Undo Rotate Actors
+[2019.10.20-23.43.12:757][502]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge3)
+[2019.10.20-23.43.39:396][681]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.20-23.52.37:992][281]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.10.20-23.52.38:085][281]LogSavePackage: Moving '../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Saved/Level1_Auto117A6646D4674B97B97C275B6D6A33D4D.tmp' to '../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Saved/Autosaves/Game/SideScrollerBP/Maps/Level1_Auto1.umap'
+[2019.10.20-23.52.38:088][281]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/SideScrollerBP/Maps/Level1' took 0.074
+[2019.10.20-23.52.38:088][281]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.074
+[2019.10.21-00.07.21:153][205]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge5)
+[2019.10.21-00.07.27:229][921]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.21-00.07.27:312][931]LogTemp: Repeating last play command: Selected Viewport
+[2019.10.21-00.07.27:326][931]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.10.21-00.07.27:326][931]PIE: New page: PIE session: Level1 (Oct 21, 2019, 10:07:27 PM)
+[2019.10.21-00.07.27:326][931]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_Level1
+[2019.10.21-00.07.27:336][931]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009947s)
+[2019.10.21-00.07.27:337][931]LogAIModule: Creating AISystem for world Level1
+[2019.10.21-00.07.27:337][931]LogPlayLevel: PIE: World Init took: (0.000859s)
+[2019.10.21-00.07.27:337][931]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/Level1.Level1 to /Game/SideScrollerBP/Maps/UEDPIE_0_Level1.Level1 (0.010916s)
+[2019.10.21-00.07.27:360][931]LogInit: XAudio2 using 'Realtek Digital Output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.10.21-00.07.27:370][931]LogInit: FAudioDevice initialized.
+[2019.10.21-00.07.27:404][931]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2019.10.21-00.07.27:406][931]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2019.10.21-11.07.27
+[2019.10.21-00.07.27:406][931]LogWorld: Bringing up level for play took: 0.001885
+[2019.10.21-00.07.27:418][931]PIE: Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_Level1 -0.862
+[2019.10.21-00.07.51:149][776]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.21-00.07.51:185][776]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.10.21-00.07.51:206][776]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.21-00.07.51:248][780]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2019.10.21-00.07.56:278][383]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2019.10.21-00.07.56:914][455]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2019.10.21-00.07.57:471][520]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2019.10.21-00.07.57:688][544]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge8)
+[2019.10.21-00.08.07:738][742]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.21-00.08.09:587][960]LogTemp: Repeating last play command: Selected Viewport
+[2019.10.21-00.08.09:600][960]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.10.21-00.08.09:600][960]PIE: New page: PIE session: Level1 (Oct 21, 2019, 10:08:09 PM)
+[2019.10.21-00.08.09:600][960]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_Level1
+[2019.10.21-00.08.09:610][960]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009761s)
+[2019.10.21-00.08.09:611][960]LogAIModule: Creating AISystem for world Level1
+[2019.10.21-00.08.09:611][960]LogPlayLevel: PIE: World Init took: (0.000766s)
+[2019.10.21-00.08.09:611][960]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/Level1.Level1 to /Game/SideScrollerBP/Maps/UEDPIE_0_Level1.Level1 (0.010667s)
+[2019.10.21-00.08.09:634][960]LogInit: XAudio2 using 'Realtek Digital Output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.10.21-00.08.09:643][960]LogInit: FAudioDevice initialized.
+[2019.10.21-00.08.09:673][960]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2019.10.21-00.08.09:677][960]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2019.10.21-11.08.09
+[2019.10.21-00.08.09:677][960]LogWorld: Bringing up level for play took: 0.002454
+[2019.10.21-00.08.09:689][960]PIE: Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_Level1 -0.591
+[2019.10.21-00.08.57:874][737]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.21-00.08.57:909][737]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.10.21-00.08.57:930][737]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.21-00.08.57:974][742]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2019.10.21-00.08.58:769][837]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.21-00.08.58:843][846]LogTemp: Repeating last play command: Selected Viewport
+[2019.10.21-00.08.58:855][846]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.10.21-00.08.58:855][846]PIE: New page: PIE session: Level1 (Oct 21, 2019, 10:08:58 PM)
+[2019.10.21-00.08.58:856][846]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_Level1
+[2019.10.21-00.08.58:864][846]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007995s)
+[2019.10.21-00.08.58:864][846]LogAIModule: Creating AISystem for world Level1
+[2019.10.21-00.08.58:865][846]LogPlayLevel: PIE: World Init took: (0.000886s)
+[2019.10.21-00.08.58:865][846]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/Level1.Level1 to /Game/SideScrollerBP/Maps/UEDPIE_0_Level1.Level1 (0.009021s)
+[2019.10.21-00.08.58:886][846]LogInit: XAudio2 using 'Realtek Digital Output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.10.21-00.08.58:896][846]LogInit: FAudioDevice initialized.
+[2019.10.21-00.08.58:925][846]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2019.10.21-00.08.58:928][846]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2019.10.21-11.08.58
+[2019.10.21-00.08.58:928][846]LogWorld: Bringing up level for play took: 0.001996
+[2019.10.21-00.08.58:942][846]PIE: Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_Level1 0.662
+[2019.10.21-00.09.21:054][497]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.21-00.09.21:084][497]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.10.21-00.09.21:105][497]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.21-00.09.21:157][502]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2019.10.21-00.09.21:932][595]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.21-00.09.22:008][604]LogTemp: Repeating last play command: Selected Viewport
+[2019.10.21-00.09.22:021][604]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.10.21-00.09.22:021][604]PIE: New page: PIE session: Level1 (Oct 21, 2019, 10:09:22 PM)
+[2019.10.21-00.09.22:021][604]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_Level1
+[2019.10.21-00.09.22:029][604]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007480s)
+[2019.10.21-00.09.22:029][604]LogAIModule: Creating AISystem for world Level1
+[2019.10.21-00.09.22:030][604]LogPlayLevel: PIE: World Init took: (0.000845s)
+[2019.10.21-00.09.22:030][604]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/Level1.Level1 to /Game/SideScrollerBP/Maps/UEDPIE_0_Level1.Level1 (0.008435s)
+[2019.10.21-00.09.22:050][604]LogInit: XAudio2 using 'Realtek Digital Output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.10.21-00.09.22:060][604]LogInit: FAudioDevice initialized.
+[2019.10.21-00.09.22:089][604]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2019.10.21-00.09.22:092][604]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2019.10.21-11.09.22
+[2019.10.21-00.09.22:093][604]LogWorld: Bringing up level for play took: 0.001755
+[2019.10.21-00.09.22:105][604]PIE: Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_Level1 -0.174
+[2019.10.21-00.09.27:988][306]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.21-00.09.28:021][306]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.10.21-00.09.28:041][306]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.21-00.09.28:087][311]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2019.10.21-00.09.28:620][375]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.21-00.09.29:079][430]LogTemp: Repeating last play command: Selected Viewport
+[2019.10.21-00.09.29:092][430]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.10.21-00.09.29:092][430]PIE: New page: PIE session: Level1 (Oct 21, 2019, 10:09:29 PM)
+[2019.10.21-00.09.29:092][430]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_Level1
+[2019.10.21-00.09.29:100][430]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007974s)
+[2019.10.21-00.09.29:101][430]LogAIModule: Creating AISystem for world Level1
+[2019.10.21-00.09.29:101][430]LogPlayLevel: PIE: World Init took: (0.000772s)
+[2019.10.21-00.09.29:101][430]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/Level1.Level1 to /Game/SideScrollerBP/Maps/UEDPIE_0_Level1.Level1 (0.008874s)
+[2019.10.21-00.09.29:122][430]LogInit: XAudio2 using 'Realtek Digital Output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.10.21-00.09.29:132][430]LogInit: FAudioDevice initialized.
+[2019.10.21-00.09.29:162][430]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2019.10.21-00.09.29:165][430]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2019.10.21-11.09.29
+[2019.10.21-00.09.29:165][430]LogWorld: Bringing up level for play took: 0.002018
+[2019.10.21-00.09.29:178][430]PIE: Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_Level1 0.899
+[2019.10.21-00.10.49:628][ 79]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.21-00.10.49:663][ 79]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.10.21-00.10.49:684][ 79]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.21-00.10.49:728][ 82]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2019.10.21-00.10.50:571][183]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.21-00.10.50:637][191]LogTemp: Repeating last play command: Selected Viewport
+[2019.10.21-00.10.50:651][191]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.10.21-00.10.50:651][191]PIE: New page: PIE session: Level1 (Oct 21, 2019, 10:10:50 PM)
+[2019.10.21-00.10.50:652][191]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_Level1
+[2019.10.21-00.10.50:660][191]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008407s)
+[2019.10.21-00.10.50:661][191]LogAIModule: Creating AISystem for world Level1
+[2019.10.21-00.10.50:661][191]LogPlayLevel: PIE: World Init took: (0.000944s)
+[2019.10.21-00.10.50:661][191]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/Level1.Level1 to /Game/SideScrollerBP/Maps/UEDPIE_0_Level1.Level1 (0.009531s)
+[2019.10.21-00.10.50:682][191]LogInit: XAudio2 using 'Realtek Digital Output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.10.21-00.10.50:692][191]LogInit: FAudioDevice initialized.
+[2019.10.21-00.10.50:722][191]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2019.10.21-00.10.50:725][191]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2019.10.21-11.10.50
+[2019.10.21-00.10.50:725][191]LogWorld: Bringing up level for play took: 0.002600
+[2019.10.21-00.10.50:738][191]PIE: Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_Level1 0.459
+[2019.10.21-00.12.30:603][170]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.21-00.12.30:636][170]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.10.21-00.12.30:656][170]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.21-00.12.30:707][175]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2019.10.21-00.12.34:526][627]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge8)
+[2019.10.21-00.12.38:488][ 96]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.21-00.12.38:546][103]LogTemp: Repeating last play command: Selected Viewport
+[2019.10.21-00.12.38:560][103]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.10.21-00.12.38:560][103]PIE: New page: PIE session: Level1 (Oct 21, 2019, 10:12:38 PM)
+[2019.10.21-00.12.38:560][103]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_Level1
+[2019.10.21-00.12.38:568][103]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009086s)
+[2019.10.21-00.12.38:569][103]LogAIModule: Creating AISystem for world Level1
+[2019.10.21-00.12.38:569][103]LogPlayLevel: PIE: World Init took: (0.000793s)
+[2019.10.21-00.12.38:569][103]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/Level1.Level1 to /Game/SideScrollerBP/Maps/UEDPIE_0_Level1.Level1 (0.010026s)
+[2019.10.21-00.12.38:591][103]LogInit: XAudio2 using 'Realtek Digital Output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.10.21-00.12.38:601][103]LogInit: FAudioDevice initialized.
+[2019.10.21-00.12.38:631][103]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2019.10.21-00.12.38:634][103]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2019.10.21-11.12.38
+[2019.10.21-00.12.38:634][103]LogWorld: Bringing up level for play took: 0.002176
+[2019.10.21-00.12.38:647][103]PIE: Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_Level1 0.369
+[2019.10.21-00.12.46:930][ 93]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.21-00.12.46:964][ 93]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.10.21-00.12.46:984][ 93]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.21-00.12.47:034][ 98]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2019.10.21-00.12.47:852][196]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge8)
+[2019.10.21-00.13.14:068][332]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.21-00.13.14:143][341]LogTemp: Repeating last play command: Selected Viewport
+[2019.10.21-00.13.14:156][341]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.10.21-00.13.14:156][341]PIE: New page: PIE session: Level1 (Oct 21, 2019, 10:13:14 PM)
+[2019.10.21-00.13.14:157][341]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_Level1
+[2019.10.21-00.13.14:165][341]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008003s)
+[2019.10.21-00.13.14:165][341]LogAIModule: Creating AISystem for world Level1
+[2019.10.21-00.13.14:165][341]LogPlayLevel: PIE: World Init took: (0.000628s)
+[2019.10.21-00.13.14:165][341]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/Level1.Level1 to /Game/SideScrollerBP/Maps/UEDPIE_0_Level1.Level1 (0.008747s)
+[2019.10.21-00.13.14:188][341]LogInit: XAudio2 using 'Realtek Digital Output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.10.21-00.13.14:197][341]LogInit: FAudioDevice initialized.
+[2019.10.21-00.13.14:227][341]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2019.10.21-00.13.14:230][341]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2019.10.21-11.13.14
+[2019.10.21-00.13.14:230][341]LogWorld: Bringing up level for play took: 0.002549
+[2019.10.21-00.13.14:242][341]PIE: Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_Level1 -0.035
+[2019.10.21-00.13.27:816][967]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.21-00.13.27:850][967]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.10.21-00.13.27:870][967]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.21-00.13.27:919][972]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2019.10.21-00.13.34:433][753]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge8)
+[2019.10.21-00.13.41:206][532]Cmd: TRANSACTION UNDO
+[2019.10.21-00.13.41:206][532]LogEditorTransaction: Undo Move Actors
+[2019.10.21-00.13.44:048][864]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge6)
+[2019.10.21-00.13.48:729][414]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.21-00.13.48:787][421]LogTemp: Repeating last play command: Selected Viewport
+[2019.10.21-00.13.48:799][421]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.10.21-00.13.48:800][421]PIE: New page: PIE session: Level1 (Oct 21, 2019, 10:13:48 PM)
+[2019.10.21-00.13.48:800][421]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_Level1
+[2019.10.21-00.13.48:808][421]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008293s)
+[2019.10.21-00.13.48:809][421]LogAIModule: Creating AISystem for world Level1
+[2019.10.21-00.13.48:809][421]LogPlayLevel: PIE: World Init took: (0.000762s)
+[2019.10.21-00.13.48:809][421]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/Level1.Level1 to /Game/SideScrollerBP/Maps/UEDPIE_0_Level1.Level1 (0.009167s)
+[2019.10.21-00.13.48:832][421]LogInit: XAudio2 using 'Realtek Digital Output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.10.21-00.13.48:841][421]LogInit: FAudioDevice initialized.
+[2019.10.21-00.13.48:871][421]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2019.10.21-00.13.48:875][421]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2019.10.21-11.13.48
+[2019.10.21-00.13.48:875][421]LogWorld: Bringing up level for play took: 0.002464
+[2019.10.21-00.13.48:888][421]PIE: Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_Level1 0.611
+[2019.10.21-00.14.01:833][972]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.21-00.14.01:862][972]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.10.21-00.14.01:882][972]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.21-00.14.01:933][976]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2019.10.21-00.14.03:008][105]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge9)
+[2019.10.21-00.14.07:570][617]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.21-00.14.16:639][703]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.21-00.14.16:696][710]LogTemp: Repeating last play command: Selected Viewport
+[2019.10.21-00.14.16:710][710]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.10.21-00.14.16:710][710]PIE: New page: PIE session: Level1 (Oct 21, 2019, 10:14:16 PM)
+[2019.10.21-00.14.16:710][710]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_Level1
+[2019.10.21-00.14.16:718][710]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007766s)
+[2019.10.21-00.14.16:719][710]LogAIModule: Creating AISystem for world Level1
+[2019.10.21-00.14.16:719][710]LogPlayLevel: PIE: World Init took: (0.000782s)
+[2019.10.21-00.14.16:719][710]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/Level1.Level1 to /Game/SideScrollerBP/Maps/UEDPIE_0_Level1.Level1 (0.008707s)
+[2019.10.21-00.14.16:741][710]LogInit: XAudio2 using 'Realtek Digital Output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.10.21-00.14.16:751][710]LogInit: FAudioDevice initialized.
+[2019.10.21-00.14.16:783][710]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2019.10.21-00.14.16:786][710]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2019.10.21-11.14.16
+[2019.10.21-00.14.16:786][710]LogWorld: Bringing up level for play took: 0.001931
+[2019.10.21-00.14.16:799][710]PIE: Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_Level1 0.522
+[2019.10.21-00.14.23:785][546]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.21-00.14.23:816][546]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.10.21-00.14.23:838][546]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.21-00.14.23:889][551]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2019.10.21-00.14.26:414][842]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge9)
+[2019.10.21-00.14.31:489][433]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.21-00.14.31:547][440]LogTemp: Repeating last play command: Selected Viewport
+[2019.10.21-00.14.31:560][440]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.10.21-00.14.31:560][440]PIE: New page: PIE session: Level1 (Oct 21, 2019, 10:14:31 PM)
+[2019.10.21-00.14.31:560][440]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_Level1
+[2019.10.21-00.14.31:568][440]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007916s)
+[2019.10.21-00.14.31:569][440]LogAIModule: Creating AISystem for world Level1
+[2019.10.21-00.14.31:569][440]LogPlayLevel: PIE: World Init took: (0.000767s)
+[2019.10.21-00.14.31:569][440]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/Level1.Level1 to /Game/SideScrollerBP/Maps/UEDPIE_0_Level1.Level1 (0.008791s)
+[2019.10.21-00.14.31:592][440]LogInit: XAudio2 using 'Realtek Digital Output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.10.21-00.14.31:602][440]LogInit: FAudioDevice initialized.
+[2019.10.21-00.14.31:630][440]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2019.10.21-00.14.31:632][440]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2019.10.21-11.14.31
+[2019.10.21-00.14.31:633][440]LogWorld: Bringing up level for play took: 0.002119
+[2019.10.21-00.14.31:645][440]PIE: Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_Level1 -0.632
+[2019.10.21-00.14.37:847][182]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.21-00.14.37:882][182]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.10.21-00.14.37:903][182]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.21-00.14.37:951][187]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2019.10.21-00.14.38:385][239]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.21-00.14.42:171][686]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge9)
+[2019.10.21-00.15.08:026][690]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.21-00.15.08:093][698]LogTemp: Repeating last play command: Selected Viewport
+[2019.10.21-00.15.08:105][698]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.10.21-00.15.08:106][698]PIE: New page: PIE session: Level1 (Oct 21, 2019, 10:15:08 PM)
+[2019.10.21-00.15.08:106][698]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_Level1
+[2019.10.21-00.15.08:114][698]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007896s)
+[2019.10.21-00.15.08:115][698]LogAIModule: Creating AISystem for world Level1
+[2019.10.21-00.15.08:115][698]LogPlayLevel: PIE: World Init took: (0.000887s)
+[2019.10.21-00.15.08:115][698]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/Level1.Level1 to /Game/SideScrollerBP/Maps/UEDPIE_0_Level1.Level1 (0.008951s)
+[2019.10.21-00.15.08:137][698]LogInit: XAudio2 using 'Realtek Digital Output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.10.21-00.15.08:146][698]LogInit: FAudioDevice initialized.
+[2019.10.21-00.15.08:176][698]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2019.10.21-00.15.08:180][698]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2019.10.21-11.15.08
+[2019.10.21-00.15.08:180][698]LogWorld: Bringing up level for play took: 0.002743
+[2019.10.21-00.15.08:192][698]PIE: Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_Level1 -0.084
+[2019.10.21-00.15.22:836][451]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.21-00.15.22:868][451]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.10.21-00.15.22:890][451]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.21-00.15.22:939][456]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2019.10.21-00.15.30:262][334]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge1)
+[2019.10.21-00.15.40:367][541]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.21-00.15.40:442][550]LogTemp: Repeating last play command: Selected Viewport
+[2019.10.21-00.15.40:455][550]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.10.21-00.15.40:455][550]PIE: New page: PIE session: Level1 (Oct 21, 2019, 10:15:40 PM)
+[2019.10.21-00.15.40:455][550]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_Level1
+[2019.10.21-00.15.40:464][550]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008196s)
+[2019.10.21-00.15.40:464][550]LogAIModule: Creating AISystem for world Level1
+[2019.10.21-00.15.40:465][550]LogPlayLevel: PIE: World Init took: (0.000690s)
+[2019.10.21-00.15.40:465][550]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/Level1.Level1 to /Game/SideScrollerBP/Maps/UEDPIE_0_Level1.Level1 (0.009031s)
+[2019.10.21-00.15.40:486][550]LogInit: XAudio2 using 'Realtek Digital Output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.10.21-00.15.40:496][550]LogInit: FAudioDevice initialized.
+[2019.10.21-00.15.40:527][550]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2019.10.21-00.15.40:530][550]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2019.10.21-11.15.40
+[2019.10.21-00.15.40:530][550]LogWorld: Bringing up level for play took: 0.002536
+[2019.10.21-00.15.40:543][550]PIE: Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_Level1 0.267
+[2019.10.21-00.15.48:856][545]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.21-00.15.48:889][545]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.10.21-00.15.48:909][545]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.21-00.15.48:958][550]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2019.10.21-00.15.55:889][372]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge9)
+[2019.10.21-00.16.11:436][221]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.21-00.16.11:503][229]LogTemp: Repeating last play command: Selected Viewport
+[2019.10.21-00.16.11:516][229]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.10.21-00.16.11:516][229]PIE: New page: PIE session: Level1 (Oct 21, 2019, 10:16:11 PM)
+[2019.10.21-00.16.11:516][229]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_Level1
+[2019.10.21-00.16.11:525][229]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008483s)
+[2019.10.21-00.16.11:525][229]LogAIModule: Creating AISystem for world Level1
+[2019.10.21-00.16.11:526][229]LogPlayLevel: PIE: World Init took: (0.000718s)
+[2019.10.21-00.16.11:526][229]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/Level1.Level1 to /Game/SideScrollerBP/Maps/UEDPIE_0_Level1.Level1 (0.009316s)
+[2019.10.21-00.16.11:548][229]LogInit: XAudio2 using 'Realtek Digital Output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.10.21-00.16.11:558][229]LogInit: FAudioDevice initialized.
+[2019.10.21-00.16.11:587][229]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2019.10.21-00.16.11:590][229]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2019.10.21-11.16.11
+[2019.10.21-00.16.11:591][229]LogWorld: Bringing up level for play took: 0.002299
+[2019.10.21-00.16.11:603][229]PIE: Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_Level1 -0.672
+[2019.10.21-00.16.19:014][116]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.21-00.16.19:050][116]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.10.21-00.16.19:071][116]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.21-00.16.19:116][121]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2019.10.21-00.16.19:967][223]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2019.10.21-00.16.20:566][291]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2019.10.21-00.16.21:237][370]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge10)
+[2019.10.21-00.16.24:342][735]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.21-00.16.24:392][741]LogTemp: Repeating last play command: Selected Viewport
+[2019.10.21-00.16.24:405][741]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.10.21-00.16.24:405][741]PIE: New page: PIE session: Level1 (Oct 21, 2019, 10:16:24 PM)
+[2019.10.21-00.16.24:405][741]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_Level1
+[2019.10.21-00.16.24:414][741]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008289s)
+[2019.10.21-00.16.24:414][741]LogAIModule: Creating AISystem for world Level1
+[2019.10.21-00.16.24:414][741]LogPlayLevel: PIE: World Init took: (0.000769s)
+[2019.10.21-00.16.24:414][741]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/Level1.Level1 to /Game/SideScrollerBP/Maps/UEDPIE_0_Level1.Level1 (0.009203s)
+[2019.10.21-00.16.24:436][741]LogInit: XAudio2 using 'Realtek Digital Output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.10.21-00.16.24:446][741]LogInit: FAudioDevice initialized.
+[2019.10.21-00.16.24:482][741]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2019.10.21-00.16.24:484][741]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2019.10.21-11.16.24
+[2019.10.21-00.16.24:484][741]LogWorld: Bringing up level for play took: 0.001803
+[2019.10.21-00.16.24:497][741]PIE: Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_Level1 0.221
+[2019.10.21-00.16.34:774][972]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.21-00.16.34:810][972]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.10.21-00.16.34:829][972]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.21-00.16.34:878][977]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2019.10.21-00.16.37:556][298]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2019.10.21-00.16.38:023][350]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge10)
+[2019.10.21-00.16.46:212][324]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.21-00.16.46:295][334]LogTemp: Repeating last play command: Selected Viewport
+[2019.10.21-00.16.46:307][334]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.10.21-00.16.46:307][334]PIE: New page: PIE session: Level1 (Oct 21, 2019, 10:16:46 PM)
+[2019.10.21-00.16.46:308][334]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_Level1
+[2019.10.21-00.16.46:316][334]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008498s)
+[2019.10.21-00.16.46:317][334]LogAIModule: Creating AISystem for world Level1
+[2019.10.21-00.16.46:317][334]LogPlayLevel: PIE: World Init took: (0.000800s)
+[2019.10.21-00.16.46:317][334]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/Level1.Level1 to /Game/SideScrollerBP/Maps/UEDPIE_0_Level1.Level1 (0.009443s)
+[2019.10.21-00.16.46:339][334]LogInit: XAudio2 using 'Realtek Digital Output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.10.21-00.16.46:349][334]LogInit: FAudioDevice initialized.
+[2019.10.21-00.16.46:383][334]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2019.10.21-00.16.46:385][334]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2019.10.21-11.16.46
+[2019.10.21-00.16.46:385][334]LogWorld: Bringing up level for play took: 0.001881
+[2019.10.21-00.16.46:398][334]PIE: Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_Level1 0.123
+[2019.10.21-00.17.21:193][505]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.21-00.17.21:227][505]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.10.21-00.17.21:249][505]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.21-00.17.21:299][510]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2019.10.21-00.17.23:423][763]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.10.21-00.17.23:497][763]LogSavePackage: Moving '../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Saved/Level165009F604AF0E97159684D981B4DBEFE.tmp' to '../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Maps/Level1.umap'
+[2019.10.21-00.17.26:499][105]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge10)
+[2019.10.21-00.17.30:953][628]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge10)
+[2019.10.21-00.17.31:699][712]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge10)
+[2019.10.21-00.17.32:750][836]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2019.10.21-00.17.33:903][970]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge9)
+[2019.10.21-00.17.35:950][210]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge10)
+[2019.10.21-00.17.37:167][351]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge11)
+[2019.10.21-00.17.45:142][286]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.21-00.17.45:233][297]LogTemp: Repeating last play command: Selected Viewport
+[2019.10.21-00.17.45:246][297]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.10.21-00.17.45:246][297]PIE: New page: PIE session: Level1 (Oct 21, 2019, 10:17:45 PM)
+[2019.10.21-00.17.45:247][297]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_Level1
+[2019.10.21-00.17.45:255][297]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008025s)
+[2019.10.21-00.17.45:255][297]LogAIModule: Creating AISystem for world Level1
+[2019.10.21-00.17.45:255][297]LogPlayLevel: PIE: World Init took: (0.000671s)
+[2019.10.21-00.17.45:255][297]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/Level1.Level1 to /Game/SideScrollerBP/Maps/UEDPIE_0_Level1.Level1 (0.008848s)
+[2019.10.21-00.17.45:278][297]LogInit: XAudio2 using 'Realtek Digital Output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.10.21-00.17.45:288][297]LogInit: FAudioDevice initialized.
+[2019.10.21-00.17.45:322][297]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2019.10.21-00.17.45:324][297]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2019.10.21-11.17.45
+[2019.10.21-00.17.45:324][297]LogWorld: Bringing up level for play took: 0.002058
+[2019.10.21-00.17.45:337][297]PIE: Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_Level1 1.062
+[2019.10.21-00.18.08:834][114]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.21-00.18.08:866][114]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.10.21-00.18.08:886][114]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.21-00.18.08:939][120]LogPlayLevel: Display: Destroying online subsystem :Context_29
+[2019.10.21-00.18.15:370][886]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge11)
+[2019.10.21-00.18.17:894][184]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge9)
+[2019.10.21-00.18.24:320][940]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.10.21-00.18.56:365][761]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.21-00.18.56:431][769]LogTemp: Repeating last play command: Selected Viewport
+[2019.10.21-00.18.56:445][769]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.10.21-00.18.56:445][769]PIE: New page: PIE session: Level1 (Oct 21, 2019, 10:18:56 PM)
+[2019.10.21-00.18.56:445][769]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_Level1
+[2019.10.21-00.18.56:455][769]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009742s)
+[2019.10.21-00.18.56:455][769]LogAIModule: Creating AISystem for world Level1
+[2019.10.21-00.18.56:455][769]LogPlayLevel: PIE: World Init took: (0.000729s)
+[2019.10.21-00.18.56:455][769]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/Level1.Level1 to /Game/SideScrollerBP/Maps/UEDPIE_0_Level1.Level1 (0.010584s)
+[2019.10.21-00.18.56:477][769]LogInit: XAudio2 using 'Realtek Digital Output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.10.21-00.18.56:488][769]LogInit: FAudioDevice initialized.
+[2019.10.21-00.18.56:521][769]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2019.10.21-00.18.56:523][769]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2019.10.21-11.18.56
+[2019.10.21-00.18.56:523][769]LogWorld: Bringing up level for play took: 0.001843
+[2019.10.21-00.18.56:536][769]PIE: Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_Level1 0.262
+[2019.10.21-00.19.24:732][150]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.21-00.19.24:763][150]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.10.21-00.19.24:786][150]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.21-00.19.24:836][155]LogPlayLevel: Display: Destroying online subsystem :Context_30
+[2019.10.21-00.19.29:692][735]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge4)
+[2019.10.21-00.19.36:938][591]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2019.10.21-00.19.37:672][675]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge13)
+[2019.10.21-00.19.51:089][242]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge12)
+[2019.10.21-00.19.51:829][326]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge13)
+[2019.10.21-00.19.52:093][353]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2019.10.21-00.19.57:128][949]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge13)
+[2019.10.21-00.20.23:962][158]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.21-00.20.24:028][166]LogTemp: Repeating last play command: Selected Viewport
+[2019.10.21-00.20.24:041][166]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.10.21-00.20.24:042][166]PIE: New page: PIE session: Level1 (Oct 21, 2019, 10:20:24 PM)
+[2019.10.21-00.20.24:042][166]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_Level1
+[2019.10.21-00.20.24:052][166]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010317s)
+[2019.10.21-00.20.24:053][166]LogAIModule: Creating AISystem for world Level1
+[2019.10.21-00.20.24:053][166]LogPlayLevel: PIE: World Init took: (0.000842s)
+[2019.10.21-00.20.24:053][166]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/Level1.Level1 to /Game/SideScrollerBP/Maps/UEDPIE_0_Level1.Level1 (0.011333s)
+[2019.10.21-00.20.24:074][166]LogInit: XAudio2 using 'Realtek Digital Output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.10.21-00.20.24:085][166]LogInit: FAudioDevice initialized.
+[2019.10.21-00.20.24:114][166]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2019.10.21-00.20.24:118][166]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2019.10.21-11.20.24
+[2019.10.21-00.20.24:118][166]LogWorld: Bringing up level for play took: 0.002449
+[2019.10.21-00.20.24:131][166]PIE: Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_Level1 -0.143
+[2019.10.21-00.20.51:767][478]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.21-00.20.51:803][478]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.10.21-00.20.51:824][478]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.21-00.20.51:873][483]LogPlayLevel: Display: Destroying online subsystem :Context_31
+[2019.10.21-00.20.58:720][304]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge12)
+[2019.10.21-00.21.03:731][892]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.10.21-00.21.20:156][847]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.21-00.21.20:197][852]LogTemp: Repeating last play command: Selected Viewport
+[2019.10.21-00.21.20:211][852]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.10.21-00.21.20:211][852]PIE: New page: PIE session: Level1 (Oct 21, 2019, 10:21:20 PM)
+[2019.10.21-00.21.20:211][852]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_Level1
+[2019.10.21-00.21.20:220][852]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008882s)
+[2019.10.21-00.21.20:221][852]LogAIModule: Creating AISystem for world Level1
+[2019.10.21-00.21.20:221][852]LogPlayLevel: PIE: World Init took: (0.000780s)
+[2019.10.21-00.21.20:221][852]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/Level1.Level1 to /Game/SideScrollerBP/Maps/UEDPIE_0_Level1.Level1 (0.009865s)
+[2019.10.21-00.21.20:243][852]LogInit: XAudio2 using 'Realtek Digital Output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.10.21-00.21.20:253][852]LogInit: FAudioDevice initialized.
+[2019.10.21-00.21.20:287][852]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2019.10.21-00.21.20:289][852]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2019.10.21-11.21.20
+[2019.10.21-00.21.20:289][852]LogWorld: Bringing up level for play took: 0.001935
+[2019.10.21-00.21.20:301][852]PIE: Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_Level1 0.028
+[2019.10.21-00.21.34:472][550]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.21-00.21.34:506][550]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.10.21-00.21.34:528][550]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.21-00.21.34:577][555]LogPlayLevel: Display: Destroying online subsystem :Context_32
+[2019.10.21-00.21.42:243][471]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2019.10.21-00.21.43:880][663]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2019.10.21-00.21.45:413][845]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2019.10.21-00.21.46:070][922]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge14)
+[2019.10.21-00.21.56:201][132]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge8)
+[2019.10.21-00.22.14:730][318]LogEditorViewport: Clicking on Actor (LMB): LightmassImportanceVolume (LightmassImportanceVolume)
+[2019.10.21-00.22.15:309][383]LogEditorViewport: Clicking on Actor (LMB): LightmassImportanceVolume (LightmassImportanceVolume)
+[2019.10.21-00.22.16:455][519]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2019.10.21-00.22.16:993][579]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2019.10.21-00.22.17:618][652]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2019.10.21-00.22.19:067][806]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge13)
+[2019.10.21-00.22.23:574][298]Cmd: TRANSACTION UNDO
+[2019.10.21-00.22.23:574][298]LogEditorTransaction: Undo Move Actors
+[2019.10.21-00.22.32:732][375]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge2)
+[2019.10.21-00.22.34:337][543]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge13)
+[2019.10.21-00.22.40:145][220]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.21-00.22.43:646][625]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2019.10.21-00.22.44:210][680]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge2)
+[2019.10.21-00.22.45:236][798]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge13)
+[2019.10.21-00.22.48:450][168]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.21-00.22.51:499][532]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2019.10.21-00.23.16:791][562]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge12)
+[2019.10.21-00.23.33:024][479]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.10.21-00.24.09:947][760]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge11)
+[2019.10.21-00.24.16:386][487]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge12)
+[2019.10.21-00.24.29:703][ 58]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.10.21-00.24.29:781][ 58]LogSavePackage: Moving '../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Saved/Level14B95F6284A6770E4E4784C9BECBE6459.tmp' to '../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Maps/Level1.umap'
+[2019.10.21-00.28.09:712][442]LogTemp: Repeating last play command: Selected Viewport
+[2019.10.21-00.28.09:726][442]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.10.21-00.28.09:726][442]PIE: New page: PIE session: Level1 (Oct 21, 2019, 10:28:09 PM)
+[2019.10.21-00.28.09:726][442]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_Level1
+[2019.10.21-00.28.09:737][442]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010367s)
+[2019.10.21-00.28.09:738][442]LogAIModule: Creating AISystem for world Level1
+[2019.10.21-00.28.09:738][442]LogPlayLevel: PIE: World Init took: (0.000972s)
+[2019.10.21-00.28.09:738][442]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/Level1.Level1 to /Game/SideScrollerBP/Maps/UEDPIE_0_Level1.Level1 (0.011487s)
+[2019.10.21-00.28.09:760][442]LogInit: XAudio2 using 'Realtek Digital Output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.10.21-00.28.09:771][442]LogInit: FAudioDevice initialized.
+[2019.10.21-00.28.09:801][442]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2019.10.21-00.28.09:805][442]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2019.10.21-11.28.09
+[2019.10.21-00.28.09:805][442]LogWorld: Bringing up level for play took: 0.002404
+[2019.10.21-00.28.09:818][442]PIE: Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_Level1 -0.452
+[2019.10.21-00.29.02:790][794]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.21-00.29.02:824][794]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.10.21-00.29.02:844][794]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.21-00.29.02:895][799]LogPlayLevel: Display: Destroying online subsystem :Context_33
+[2019.10.21-00.29.17:184][513]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge13)
+[2019.10.21-00.29.45:873][915]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Ledge15)
+[2019.10.21-00.29.45:897][915]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.10.21-00.30.01:270][693]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.21-00.30.06:776][348]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge8)
+[2019.10.21-00.30.12:680][ 51]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge15)
+[2019.10.21-00.30.20:736][ 10]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge14)
+[2019.10.21-00.30.21:367][ 81]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2019.10.21-00.30.28:685][933]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge12)
+[2019.10.21-00.30.32:483][382]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.21-00.30.32:550][390]LogTemp: Repeating last play command: Selected Viewport
+[2019.10.21-00.30.32:563][390]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.10.21-00.30.32:564][390]PIE: New page: PIE session: Level1 (Oct 21, 2019, 10:30:32 PM)
+[2019.10.21-00.30.32:564][390]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_Level1
+[2019.10.21-00.30.32:573][390]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009654s)
+[2019.10.21-00.30.32:574][390]LogAIModule: Creating AISystem for world Level1
+[2019.10.21-00.30.32:574][390]LogPlayLevel: PIE: World Init took: (0.000805s)
+[2019.10.21-00.30.32:574][390]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/Level1.Level1 to /Game/SideScrollerBP/Maps/UEDPIE_0_Level1.Level1 (0.010579s)
+[2019.10.21-00.30.32:596][390]LogInit: XAudio2 using 'Realtek Digital Output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.10.21-00.30.32:607][390]LogInit: FAudioDevice initialized.
+[2019.10.21-00.30.32:637][390]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2019.10.21-00.30.32:640][390]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2019.10.21-11.30.32
+[2019.10.21-00.30.32:640][390]LogWorld: Bringing up level for play took: 0.002162
+[2019.10.21-00.30.32:653][390]PIE: Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_Level1 0.384
+[2019.10.21-00.30.44:038][754]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.21-00.30.44:071][754]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.10.21-00.30.44:092][754]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.21-00.30.44:142][759]LogPlayLevel: Display: Destroying online subsystem :Context_34
+[2019.10.21-00.30.44:634][818]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge14)
+[2019.10.21-00.30.49:444][365]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.21-00.30.49:502][372]LogTemp: Repeating last play command: Selected Viewport
+[2019.10.21-00.30.49:515][372]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.10.21-00.30.49:515][372]PIE: New page: PIE session: Level1 (Oct 21, 2019, 10:30:49 PM)
+[2019.10.21-00.30.49:515][372]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_Level1
+[2019.10.21-00.30.49:525][372]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010133s)
+[2019.10.21-00.30.49:526][372]LogAIModule: Creating AISystem for world Level1
+[2019.10.21-00.30.49:526][372]LogPlayLevel: PIE: World Init took: (0.000750s)
+[2019.10.21-00.30.49:526][372]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/Level1.Level1 to /Game/SideScrollerBP/Maps/UEDPIE_0_Level1.Level1 (0.011021s)
+[2019.10.21-00.30.49:548][372]LogInit: XAudio2 using 'Realtek Digital Output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.10.21-00.30.49:558][372]LogInit: FAudioDevice initialized.
+[2019.10.21-00.30.49:592][372]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2019.10.21-00.30.49:594][372]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2019.10.21-11.30.49
+[2019.10.21-00.30.49:594][372]LogWorld: Bringing up level for play took: 0.001895
+[2019.10.21-00.30.49:607][372]PIE: Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_Level1 -0.662
+[2019.10.21-00.31.06:351][379]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.21-00.31.06:387][379]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.10.21-00.31.06:408][379]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.21-00.31.06:450][383]LogPlayLevel: Display: Destroying online subsystem :Context_35
+[2019.10.21-00.31.09:772][772]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge15)
+[2019.10.21-00.31.19:349][911]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2019.10.21-00.31.24:383][510]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2019.10.21-00.31.24:857][565]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2019.10.21-00.31.25:229][608]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge14)
+[2019.10.21-00.31.39:598][304]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.21-00.31.39:657][311]LogTemp: Repeating last play command: Selected Viewport
+[2019.10.21-00.31.39:671][311]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.10.21-00.31.39:671][311]PIE: New page: PIE session: Level1 (Oct 21, 2019, 10:31:39 PM)
+[2019.10.21-00.31.39:671][311]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_Level1
+[2019.10.21-00.31.39:680][311]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009829s)
+[2019.10.21-00.31.39:681][311]LogAIModule: Creating AISystem for world Level1
+[2019.10.21-00.31.39:681][311]LogPlayLevel: PIE: World Init took: (0.000808s)
+[2019.10.21-00.31.39:681][311]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/Level1.Level1 to /Game/SideScrollerBP/Maps/UEDPIE_0_Level1.Level1 (0.010799s)
+[2019.10.21-00.31.39:703][311]LogInit: XAudio2 using 'Realtek Digital Output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.10.21-00.31.39:713][311]LogInit: FAudioDevice initialized.
+[2019.10.21-00.31.39:747][311]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2019.10.21-00.31.39:749][311]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2019.10.21-11.31.39
+[2019.10.21-00.31.39:750][311]LogWorld: Bringing up level for play took: 0.001959
+[2019.10.21-00.31.39:763][311]PIE: Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_Level1 -0.506
+[2019.10.21-00.31.47:730][263]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.21-00.31.47:763][263]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.10.21-00.31.47:782][263]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.21-00.31.47:831][268]LogPlayLevel: Display: Destroying online subsystem :Context_36
+[2019.10.21-00.31.49:498][457]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge14)
+[2019.10.21-00.31.56:269][245]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.10.21-00.31.56:349][245]LogSavePackage: Moving '../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Saved/Level1A4D2F8EF44DB1FC26C51D78424E487FA.tmp' to '../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Maps/Level1.umap'
+[2019.10.21-00.31.56:947][312]LogTemp: Repeating last play command: Selected Viewport
+[2019.10.21-00.31.56:960][312]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.10.21-00.31.56:960][312]PIE: New page: PIE session: Level1 (Oct 21, 2019, 10:31:56 PM)
+[2019.10.21-00.31.56:960][312]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_Level1
+[2019.10.21-00.31.56:971][312]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011260s)
+[2019.10.21-00.31.56:972][312]LogAIModule: Creating AISystem for world Level1
+[2019.10.21-00.31.56:972][312]LogPlayLevel: PIE: World Init took: (0.000690s)
+[2019.10.21-00.31.56:972][312]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/Level1.Level1 to /Game/SideScrollerBP/Maps/UEDPIE_0_Level1.Level1 (0.012068s)
+[2019.10.21-00.31.56:994][312]LogInit: XAudio2 using 'Realtek Digital Output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.10.21-00.31.57:004][312]LogInit: FAudioDevice initialized.
+[2019.10.21-00.31.57:036][312]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2019.10.21-00.31.57:038][312]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2019.10.21-11.31.57
+[2019.10.21-00.31.57:038][312]LogWorld: Bringing up level for play took: 0.002184
+[2019.10.21-00.31.57:050][312]PIE: Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_Level1 0.782
+[2019.10.21-00.32.44:913][ 53]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.21-00.32.44:948][ 53]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.10.21-00.32.44:969][ 53]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.21-00.32.45:019][ 58]LogPlayLevel: Display: Destroying online subsystem :Context_37
+[2019.10.21-00.32.48:175][425]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge12)
+[2019.10.21-00.33.14:879][575]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2019.10.21-00.33.15:763][677]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge16)
+[2019.10.21-00.33.26:988][ 18]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ledge13)
+[2019.10.21-00.34.23:369][743]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.10.21-00.34.23:440][743]LogSavePackage: Moving '../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Saved/Level19699A72942882F195B4230BBBB0288EF.tmp' to '../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Maps/Level1.umap'
+[2019.10.21-00.34.24:601][870]LogSlate: Window 'DeJaBrew_Prototyping - Unreal Editor' being destroyed
+[2019.10.21-00.34.24:779][871]Cmd: QUIT_EDITOR
+[2019.10.21-00.34.25:676][871]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.10.21-00.34.25:686][871]LogExit: Preparing to exit.
+[2019.10.21-00.34.26:467][871]LogExit: Editor shut down
+[2019.10.21-00.34.26:467][871]LogExit: Transaction tracking system shut down
+[2019.10.21-00.34.26:899][871]LogExit: Object subsystem successfully closed.
+[2019.10.21-00.34.26:932][871]LogShaderCompilers: Display: Shaders left to compile 0
+[2019.10.21-00.34.26:935][871]LogD3D11RHI: Shutdown
+[2019.10.21-00.34.26:935][871]LogD3D11RHI: CleanupD3DDevice
+[2019.10.21-00.34.26:937][871]LogD3D11RHI: ~FD3D11DynamicRHI
+[2019.10.21-00.34.26:952][871]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (614)
+[2019.10.21-00.34.26:952][871]LogModuleManager: Shutting down and abandoning module Voice (612)
+[2019.10.21-00.34.26:952][871]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (610)
+[2019.10.21-00.34.26:952][871]LogModuleManager: Shutting down and abandoning module SceneOutliner (608)
+[2019.10.21-00.34.26:952][871]LogModuleManager: Shutting down and abandoning module AddContentDialog (606)
+[2019.10.21-00.34.26:952][871]LogModuleManager: Shutting down and abandoning module WidgetCarousel (605)
+[2019.10.21-00.34.26:952][871]LogModuleManager: Shutting down and abandoning module EditorWidgets (602)
+[2019.10.21-00.34.26:952][871]LogModuleManager: Shutting down and abandoning module CollectionManager (600)
+[2019.10.21-00.34.26:953][871]LogModuleManager: Shutting down and abandoning module StatsViewer (598)
+[2019.10.21-00.34.26:953][871]LogModuleManager: Shutting down and abandoning module FoliageEdit (596)
+[2019.10.21-00.34.26:953][871]LogModuleManager: Shutting down and abandoning module LandscapeEditor (594)
+[2019.10.21-00.34.26:953][871]LogModuleManager: Shutting down and abandoning module MeshPaintMode (592)
+[2019.10.21-00.34.26:953][871]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (590)
+[2019.10.21-00.34.26:953][871]LogModuleManager: Shutting down and abandoning module ActorPickerMode (588)
+[2019.10.21-00.34.26:953][871]LogModuleManager: Shutting down and abandoning module GeometryMode (586)
+[2019.10.21-00.34.26:953][871]LogModuleManager: Shutting down and abandoning module TextureAlignMode (584)
+[2019.10.21-00.34.26:953][871]LogModuleManager: Shutting down and abandoning module BspMode (582)
+[2019.10.21-00.34.26:953][871]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (580)
+[2019.10.21-00.34.26:953][871]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (578)
+[2019.10.21-00.34.26:953][871]LogModuleManager: Shutting down and abandoning module AutomationWorker (576)
+[2019.10.21-00.34.26:953][871]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (574)
+[2019.10.21-00.34.26:953][871]LogModuleManager: Shutting down and abandoning module SequenceRecorder (573)
+[2019.10.21-00.34.26:953][871]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (570)
+[2019.10.21-00.34.26:953][871]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (568)
+[2019.10.21-00.34.26:953][871]LogModuleManager: Shutting down and abandoning module PlacementMode (567)
+[2019.10.21-00.34.26:953][871]LogModuleManager: Shutting down and abandoning module MaterialEditor (566)
+[2019.10.21-00.34.26:953][871]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (562)
+[2019.10.21-00.34.26:953][871]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (560)
+[2019.10.21-00.34.26:953][871]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (558)
+[2019.10.21-00.34.26:953][871]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (556)
+[2019.10.21-00.34.26:953][871]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (554)
+[2019.10.21-00.34.26:953][871]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (552)
+[2019.10.21-00.34.26:953][871]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (550)
+[2019.10.21-00.34.26:953][871]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (548)
+[2019.10.21-00.34.26:953][871]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (546)
+[2019.10.21-00.34.26:953][871]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (544)
+[2019.10.21-00.34.26:953][871]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (542)
+[2019.10.21-00.34.26:953][871]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (540)
+[2019.10.21-00.34.26:953][871]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (538)
+[2019.10.21-00.34.26:953][871]LogModuleManager: Shutting down and abandoning module CharacterAI (536)
+[2019.10.21-00.34.26:953][871]LogModuleManager: Shutting down and abandoning module SmartSnapping (534)
+[2019.10.21-00.34.26:953][871]LogModuleManager: Shutting down and abandoning module SessionServices (532)
+[2019.10.21-00.34.26:954][871]LogModuleManager: Shutting down and abandoning module ViewportSnapping (530)
+[2019.10.21-00.34.26:954][871]LogModuleManager: Shutting down and abandoning module ViewportInteraction (528)
+[2019.10.21-00.34.26:954][871]LogModuleManager: Shutting down and abandoning module ClothPainter (526)
+[2019.10.21-00.34.26:954][871]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (525)
+[2019.10.21-00.34.26:954][871]LogModuleManager: Shutting down and abandoning module LogVisualizer (522)
+[2019.10.21-00.34.26:954][871]LogModuleManager: Shutting down and abandoning module IntroTutorials (520)
+[2019.10.21-00.34.26:954][871]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (519)
+[2019.10.21-00.34.26:954][871]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (516)
+[2019.10.21-00.34.26:954][871]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (514)
+[2019.10.21-00.34.26:954][871]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (512)
+[2019.10.21-00.34.26:954][871]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (510)
+[2019.10.21-00.34.26:954][871]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (509)
+[2019.10.21-00.34.27:401][871]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (506)
+[2019.10.21-00.34.27:401][871]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (504)
+[2019.10.21-00.34.27:401][871]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (502)
+[2019.10.21-00.34.27:401][871]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (500)
+[2019.10.21-00.34.27:401][871]LogModuleManager: Shutting down and abandoning module InputBindingEditor (498)
+[2019.10.21-00.34.27:401][871]LogModuleManager: Shutting down and abandoning module MergeActors (496)
+[2019.10.21-00.34.27:401][871]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (494)
+[2019.10.21-00.34.27:401][871]LogModuleManager: Shutting down and abandoning module LocalizationService (493)
+[2019.10.21-00.34.27:401][871]LogModuleManager: Shutting down and abandoning module HardwareTargeting (490)
+[2019.10.21-00.34.27:401][871]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (488)
+[2019.10.21-00.34.27:401][871]LogModuleManager: Shutting down and abandoning module UndoHistory (486)
+[2019.10.21-00.34.27:401][871]LogModuleManager: Shutting down and abandoning module XmlParser (484)
+[2019.10.21-00.34.27:401][871]LogModuleManager: Shutting down and abandoning module Blutility (482)
+[2019.10.21-00.34.27:401][871]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (480)
+[2019.10.21-00.34.27:401][871]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (479)
+[2019.10.21-00.34.27:402][871]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (476)
+[2019.10.21-00.34.27:402][871]LogModuleManager: Shutting down and abandoning module SettingsEditor (474)
+[2019.10.21-00.34.27:402][871]LogModuleManager: Shutting down and abandoning module ProjectLauncher (472)
+[2019.10.21-00.34.27:402][871]LogModuleManager: Shutting down and abandoning module SessionFrontend (470)
+[2019.10.21-00.34.27:402][871]LogModuleManager: Shutting down and abandoning module ProfilerClient (468)
+[2019.10.21-00.34.27:402][871]LogModuleManager: Shutting down and abandoning module DeviceManager (466)
+[2019.10.21-00.34.27:402][871]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (465)
+[2019.10.21-00.34.27:454][871]LogModuleManager: Shutting down and abandoning module AutomationController (462)
+[2019.10.21-00.34.27:454][871]LogModuleManager: Shutting down and abandoning module AutomationWindow (460)
+[2019.10.21-00.34.27:454][871]LogModuleManager: Shutting down and abandoning module Layers (458)
+[2019.10.21-00.34.27:454][871]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (456)
+[2019.10.21-00.34.27:454][871]LogModuleManager: Shutting down and abandoning module DetailCustomizations (454)
+[2019.10.21-00.34.27:454][871]LogModuleManager: Shutting down and abandoning module PackagesDialog (452)
+[2019.10.21-00.34.27:454][871]LogModuleManager: Shutting down and abandoning module Persona (450)
+[2019.10.21-00.34.27:454][871]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (449)
+[2019.10.21-00.34.27:454][871]LogModuleManager: Shutting down and abandoning module AnimGraph (447)
+[2019.10.21-00.34.27:454][871]LogModuleManager: Shutting down and abandoning module Kismet (444)
+[2019.10.21-00.34.27:455][871]LogModuleManager: Shutting down and abandoning module GraphEditor (442)
+[2019.10.21-00.34.27:455][871]LogModuleManager: Shutting down and abandoning module ClassViewer (440)
+[2019.10.21-00.34.27:455][871]LogModuleManager: Shutting down and abandoning module Toolbox (438)
+[2019.10.21-00.34.27:455][871]LogModuleManager: Shutting down and abandoning module ModuleUI (436)
+[2019.10.21-00.34.27:455][871]LogModuleManager: Shutting down and abandoning module MovieSceneTools (434)
+[2019.10.21-00.34.27:455][871]LogModuleManager: Shutting down and abandoning module OutputLog (432)
+[2019.10.21-00.34.27:455][871]LogModuleManager: Shutting down and abandoning module GammaUI (430)
+[2019.10.21-00.34.27:455][871]LogModuleManager: Shutting down and abandoning module Documentation (428)
+[2019.10.21-00.34.27:455][871]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (426)
+[2019.10.21-00.34.27:455][871]LogModuleManager: Shutting down and abandoning module MovieScene (424)
+[2019.10.21-00.34.27:455][871]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (422)
+[2019.10.21-00.34.27:455][871]LogModuleManager: Shutting down and abandoning module LauncherPlatform (420)
+[2019.10.21-00.34.27:455][871]LogModuleManager: Shutting down and abandoning module AnalyticsET (418)
+[2019.10.21-00.34.27:455][871]LogModuleManager: Shutting down and abandoning module PortalServices (416)
+[2019.10.21-00.34.27:455][871]LogModuleManager: Shutting down and abandoning module PortalRpc (414)
+[2019.10.21-00.34.27:455][871]LogModuleManager: Shutting down and abandoning module MessagingRpc (412)
+[2019.10.21-00.34.27:455][871]LogModuleManager: Shutting down and abandoning module AIModule (410)
+[2019.10.21-00.34.27:455][871]LogModuleManager: Shutting down and abandoning module GameplayDebugger (409)
+[2019.10.21-00.34.27:455][871]LogModuleManager: Shutting down and abandoning module AITestSuite (407)
+[2019.10.21-00.34.27:455][871]LogModuleManager: Shutting down and abandoning module NavigationSystem (405)
+[2019.10.21-00.34.27:455][871]LogModuleManager: Shutting down and abandoning module DesktopPlatform (402)
+[2019.10.21-00.34.27:455][871]LogModuleManager: Shutting down and abandoning module ProfilerService (400)
+[2019.10.21-00.34.27:639][871]LogModuleManager: Shutting down and abandoning module TaskGraph (398)
+[2019.10.21-00.34.27:639][871]LogModuleManager: Shutting down and abandoning module SteamVRController (396)
+[2019.10.21-00.34.27:639][871]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (394)
+[2019.10.21-00.34.27:639][871]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (392)
+[2019.10.21-00.34.27:639][871]LogModuleManager: Shutting down and abandoning module OculusInput (390)
+[2019.10.21-00.34.27:639][871]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (388)
+[2019.10.21-00.34.27:639][871]LogModuleManager: Shutting down and abandoning module EditableMesh (386)
+[2019.10.21-00.34.27:639][871]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (384)
+[2019.10.21-00.34.27:639][871]LogModuleManager: Shutting down and abandoning module CableComponent (382)
+[2019.10.21-00.34.27:639][871]LogModuleManager: Shutting down and abandoning module AudioCapture (380)
+[2019.10.21-00.34.27:639][871]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (378)
+[2019.10.21-00.34.27:639][871]LogModuleManager: Shutting down and abandoning module AndroidPermission (376)
+[2019.10.21-00.34.27:639][871]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (374)
+[2019.10.21-00.34.27:639][871]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (372)
+[2019.10.21-00.34.27:639][871]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (370)
+[2019.10.21-00.34.27:639][871]LogModuleManager: Shutting down and abandoning module MediaCompositing (368)
+[2019.10.21-00.34.27:639][871]LogModuleManager: Shutting down and abandoning module LinearTimecode (366)
+[2019.10.21-00.34.27:639][871]LogModuleManager: Shutting down and abandoning module ImgMedia (364)
+[2019.10.21-00.34.27:643][871]LogModuleManager: Shutting down and abandoning module HTML5Networking (362)
+[2019.10.21-00.34.27:643][871]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (360)
+[2019.10.21-00.34.27:643][871]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (358)
+[2019.10.21-00.34.27:643][871]LogModuleManager: Shutting down and abandoning module BackChannel (356)
+[2019.10.21-00.34.27:643][871]LogModuleManager: Shutting down and abandoning module AppleVision (354)
+[2019.10.21-00.34.27:643][871]LogModuleManager: Shutting down and abandoning module AppleImageUtils (352)
+[2019.10.21-00.34.27:644][871]LogModuleManager: Shutting down and abandoning module AlembicImporter (350)
+[2019.10.21-00.34.27:644][871]LogModuleManager: Shutting down and abandoning module AlembicLibrary (349)
+[2019.10.21-00.34.27:644][871]LogModuleManager: Shutting down and abandoning module GeometryCache (348)
+[2019.10.21-00.34.27:644][871]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (347)
+[2019.10.21-00.34.27:644][871]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (342)
+[2019.10.21-00.34.27:644][871]LogModuleManager: Shutting down and abandoning module DatasmithContent (340)
+[2019.10.21-00.34.27:644][871]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (338)
+[2019.10.21-00.34.27:644][871]LogModuleManager: Shutting down and abandoning module PluginBrowser (336)
+[2019.10.21-00.34.27:644][871]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (334)
+[2019.10.21-00.34.27:644][871]LogModuleManager: Shutting down and abandoning module PolygonModeling (332)
+[2019.10.21-00.34.27:644][871]LogModuleManager: Shutting down and abandoning module MeshEditor (330)
+[2019.10.21-00.34.27:644][871]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (328)
+[2019.10.21-00.34.27:644][871]LogModuleManager: Shutting down and abandoning module CryptoKeys (326)
+[2019.10.21-00.34.27:644][871]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (324)
+[2019.10.21-00.34.27:644][871]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (322)
+[2019.10.21-00.34.27:644][871]LogModuleManager: Shutting down and abandoning module UObjectPlugin (320)
+[2019.10.21-00.34.27:644][871]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (318)
+[2019.10.21-00.34.27:644][871]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (316)
+[2019.10.21-00.34.27:644][871]LogModuleManager: Shutting down and abandoning module GitSourceControl (314)
+[2019.10.21-00.34.27:644][871]LogModuleManager: Shutting down and abandoning module SourceControl (313)
+[2019.10.21-00.34.27:645][871]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (310)
+[2019.10.21-00.34.27:645][871]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (308)
+[2019.10.21-00.34.27:645][871]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (306)
+[2019.10.21-00.34.27:645][871]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (304)
+[2019.10.21-00.34.27:645][871]LogModuleManager: Shutting down and abandoning module Paper2DEditor (302)
+[2019.10.21-00.34.27:645][871]LogModuleManager: Shutting down and abandoning module MeshPaint (301)
+[2019.10.21-00.34.27:645][871]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (298)
+[2019.10.21-00.34.27:645][871]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (296)
+[2019.10.21-00.34.27:645][871]LogModuleManager: Shutting down and abandoning module PhysXVehicles (294)
+[2019.10.21-00.34.27:645][871]LogModuleManager: Shutting down and abandoning module OculusEditor (292)
+[2019.10.21-00.34.27:645][871]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (290)
+[2019.10.21-00.34.27:645][871]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (288)
+[2019.10.21-00.34.27:645][871]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (286)
+[2019.10.21-00.34.27:645][871]LogModuleManager: Shutting down and abandoning module ActorSequence (284)
+[2019.10.21-00.34.27:645][871]LogModuleManager: Shutting down and abandoning module UdpMessaging (282)
+[2019.10.21-00.34.27:746][871]LogModuleManager: Shutting down and abandoning module TcpMessaging (280)
+[2019.10.21-00.34.27:846][871]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (278)
+[2019.10.21-00.34.27:846][871]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (276)
+[2019.10.21-00.34.27:846][871]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (274)
+[2019.10.21-00.34.27:846][871]LogModuleManager: Shutting down and abandoning module FacialAnimation (272)
+[2019.10.21-00.34.27:846][871]LogModuleManager: Shutting down and abandoning module DataValidation (270)
+[2019.10.21-00.34.27:846][871]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (268)
+[2019.10.21-00.34.27:846][871]LogModuleManager: Shutting down and abandoning module LevelEditor (267)
+[2019.10.21-00.34.27:846][871]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (266)
+[2019.10.21-00.34.27:846][871]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (264)
+[2019.10.21-00.34.27:846][871]LogModuleManager: Shutting down and abandoning module MainFrame (262)
+[2019.10.21-00.34.27:847][871]LogModuleManager: Shutting down and abandoning module HotReload (261)
+[2019.10.21-00.34.27:847][871]LogModuleManager: Shutting down and abandoning module ContentBrowser (257)
+[2019.10.21-00.34.27:848][871]LogModuleManager: Shutting down and abandoning module TreeMap (255)
+[2019.10.21-00.34.27:848][871]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (252)
+[2019.10.21-00.34.27:848][871]LogModuleManager: Shutting down and abandoning module AISupportModule (250)
+[2019.10.21-00.34.27:848][871]LogModuleManager: Shutting down and abandoning module Paper2D (248)
+[2019.10.21-00.34.27:848][871]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (246)
+[2019.10.21-00.34.27:848][871]LogModuleManager: Shutting down and abandoning module WmfMedia (244)
+[2019.10.21-00.34.27:849][871]LogModuleManager: Shutting down and abandoning module Media (243)
+[2019.10.21-00.34.27:855][871]LogModuleManager: Shutting down and abandoning module PacketHandler (240)
+[2019.10.21-00.34.27:855][871]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (238)
+[2019.10.21-00.34.27:855][871]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (236)
+[2019.10.21-00.34.27:855][871]LogModuleManager: Shutting down and abandoning module MediaAssets (234)
+[2019.10.21-00.34.27:855][871]LogModuleManager: Shutting down and abandoning module Overlay (232)
+[2019.10.21-00.34.27:855][871]LogModuleManager: Shutting down and abandoning module OverlayEditor (231)
+[2019.10.21-00.34.27:855][871]LogModuleManager: Shutting down and abandoning module VREditor (228)
+[2019.10.21-00.34.27:855][871]LogModuleManager: Shutting down and abandoning module StringTableEditor (226)
+[2019.10.21-00.34.27:856][871]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (224)
+[2019.10.21-00.34.27:856][871]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (222)
+[2019.10.21-00.34.27:856][871]LogModuleManager: Shutting down and abandoning module FunctionalTesting (220)
+[2019.10.21-00.34.27:856][871]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (218)
+[2019.10.21-00.34.27:856][871]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (217)
+[2019.10.21-00.34.27:856][871]LogModuleManager: Shutting down and abandoning module UMG (214)
+[2019.10.21-00.34.27:856][871]LogModuleManager: Shutting down and abandoning module UMGEditor (213)
+[2019.10.21-00.34.27:856][871]LogModuleManager: Shutting down and abandoning module Sequencer (212)
+[2019.10.21-00.34.27:856][871]LogModuleManager: Shutting down and abandoning module MessageLog (209)
+[2019.10.21-00.34.27:856][871]LogModuleManager: Shutting down and abandoning module SlateReflector (204)
+[2019.10.21-00.34.27:856][871]LogModuleManager: Shutting down and abandoning module Slate (202)
+[2019.10.21-00.34.27:856][871]LogModuleManager: Shutting down and abandoning module EditorStyle (200)
+[2019.10.21-00.34.27:857][871]LogModuleManager: Shutting down and abandoning module MRMesh (198)
+[2019.10.21-00.34.27:857][871]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (196)
+[2019.10.21-00.34.27:857][871]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (194)
+[2019.10.21-00.34.27:858][871]LogModuleManager: Shutting down and abandoning module XAudio2 (192)
+[2019.10.21-00.34.27:858][871]LogModuleManager: Shutting down and abandoning module Networking (190)
+[2019.10.21-00.34.27:858][871]LogModuleManager: Shutting down and abandoning module Core (188)
+[2019.10.21-00.34.27:858][871]LogModuleManager: Shutting down and abandoning module LevelSequence (186)
+[2019.10.21-00.34.27:858][871]LogModuleManager: Shutting down and abandoning module KismetCompiler (184)
+[2019.10.21-00.34.27:858][871]LogModuleManager: Shutting down and abandoning module MeshUtilities (182)
+[2019.10.21-00.34.27:858][871]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (181)
+[2019.10.21-00.34.27:858][871]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (180)
+[2019.10.21-00.34.27:858][871]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (179)
+[2019.10.21-00.34.27:858][871]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (177)
+[2019.10.21-00.34.27:858][871]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (175)
+[2019.10.21-00.34.27:858][871]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (173)
+[2019.10.21-00.34.27:858][871]LogModuleManager: Shutting down and abandoning module MaterialBaking (169)
+[2019.10.21-00.34.27:858][871]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (165)
+[2019.10.21-00.34.27:858][871]LogModuleManager: Shutting down and abandoning module DerivedDataCache (162)
+[2019.10.21-00.34.27:956][871]LogDerivedDataCache: Shutdown
+[2019.10.21-00.34.27:956][871]LogModuleManager: Shutting down and abandoning module XGEController (160)
+[2019.10.21-00.34.27:956][871]LogXGEController: Cleaning working directory: C:/Users/s191273/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.10.21-00.34.27:957][871]LogModuleManager: Shutting down and abandoning module TargetPlatform (158)
+[2019.10.21-00.34.27:957][871]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (157)
+[2019.10.21-00.34.27:957][871]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (155)
+[2019.10.21-00.34.27:957][871]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (153)
+[2019.10.21-00.34.27:957][871]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (151)
+[2019.10.21-00.34.27:957][871]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (149)
+[2019.10.21-00.34.27:957][871]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (147)
+[2019.10.21-00.34.27:957][871]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (145)
+[2019.10.21-00.34.27:957][871]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (143)
+[2019.10.21-00.34.27:957][871]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (141)
+[2019.10.21-00.34.27:957][871]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (139)
+[2019.10.21-00.34.27:957][871]LogModuleManager: Shutting down and abandoning module ImageWrapper (138)
+[2019.10.21-00.34.27:957][871]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (135)
+[2019.10.21-00.34.27:957][871]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (133)
+[2019.10.21-00.34.27:957][871]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (131)
+[2019.10.21-00.34.27:957][871]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (129)
+[2019.10.21-00.34.27:957][871]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (127)
+[2019.10.21-00.34.27:957][871]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (125)
+[2019.10.21-00.34.27:957][871]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (123)
+[2019.10.21-00.34.27:957][871]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (121)
+[2019.10.21-00.34.27:957][871]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (119)
+[2019.10.21-00.34.27:957][871]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (117)
+[2019.10.21-00.34.27:958][871]LogModuleManager: Shutting down and abandoning module Messaging (115)
+[2019.10.21-00.34.27:958][871]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (113)
+[2019.10.21-00.34.27:958][871]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (111)
+[2019.10.21-00.34.27:958][871]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (109)
+[2019.10.21-00.34.27:964][871]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (107)
+[2019.10.21-00.34.27:964][871]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (105)
+[2019.10.21-00.34.27:964][871]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (103)
+[2019.10.21-00.34.27:964][871]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (101)
+[2019.10.21-00.34.27:964][871]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (99)
+[2019.10.21-00.34.27:964][871]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (97)
+[2019.10.21-00.34.27:964][871]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (95)
+[2019.10.21-00.34.27:964][871]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (93)
+[2019.10.21-00.34.27:964][871]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (91)
+[2019.10.21-00.34.27:964][871]LogModuleManager: Shutting down and abandoning module InputCore (88)
+[2019.10.21-00.34.27:964][871]LogModuleManager: Shutting down and abandoning module Settings (86)
+[2019.10.21-00.34.27:964][871]LogModuleManager: Shutting down and abandoning module PhysXCooking (84)
+[2019.10.21-00.34.27:964][871]LogModuleManager: Shutting down and abandoning module SteamVR (82)
+[2019.10.21-00.34.27:964][871]LogModuleManager: Shutting down and abandoning module OculusHMD (80)
+[2019.10.21-00.34.27:964][871]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (78)
+[2019.10.21-00.34.27:964][871]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (76)
+[2019.10.21-00.34.27:964][871]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2019.10.21-00.34.27:964][871]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (70)
+[2019.10.21-00.34.27:965][871]LogModuleManager: Shutting down and abandoning module XMPP (65)
+[2019.10.21-00.34.27:965][871]LogModuleManager: Shutting down and abandoning module WebSockets (64)
+[2019.10.21-00.34.27:988][871]LogModuleManager: Shutting down and abandoning module HTTP (61)
+[2019.10.21-00.34.27:988][871]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2019.10.21-00.34.27:988][871]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BB5E28311-4754-3342-DED0-C983D4C2AC54%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.20.3-4369336%2B%2B%2BUE4%2BRelease-4.20&UserID=ded914804a13d72480500ca0e5f35a68%7C%7C8477ab9a-818f-47f2-b5e7-b7f2564a0fd7&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2019.10.21-00.34.28:012][871]LogModuleManager: Shutting down and abandoning module SSL (60)
+[2019.10.21-00.34.28:013][871]LogModuleManager: Shutting down and abandoning module MagicLeapEmulator (56)
+[2019.10.21-00.34.28:013][871]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (54)
+[2019.10.21-00.34.28:013][871]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (52)
+[2019.10.21-00.34.28:013][871]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (50)
+[2019.10.21-00.34.28:013][871]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (48)
+[2019.10.21-00.34.28:013][871]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (46)
+[2019.10.21-00.34.28:013][871]LogModuleManager: Shutting down and abandoning module MagicLeapGestures (44)
+[2019.10.21-00.34.28:013][871]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (42)
+[2019.10.21-00.34.28:013][871]LogModuleManager: Shutting down and abandoning module MagicLeapController (40)
+[2019.10.21-00.34.28:013][871]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2019.10.21-00.34.28:013][871]LogModuleManager: Shutting down and abandoning module MagicLeap (38)
+[2019.10.21-00.34.28:013][871]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2019.10.21-00.34.28:013][871]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2019.10.21-00.34.28:013][871]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2019.10.21-00.34.28:013][871]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2019.10.21-00.34.28:013][871]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2019.10.21-00.34.28:013][871]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2019.10.21-00.34.28:013][871]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2019.10.21-00.34.28:013][871]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2019.10.21-00.34.28:013][871]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2019.10.21-00.34.28:014][871]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2019.10.21-00.34.28:014][871]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2019.10.21-00.34.28:014][871]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2019.10.21-00.34.28:014][871]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2019.10.21-00.34.28:014][871]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2019.10.21-00.34.28:014][871]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2019.10.21-00.34.28:014][871]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2019.10.21-00.34.28:014][871]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2019.10.21-00.34.28:014][871]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2019.10.21-00.34.28:019][871]LogExit: Exiting.
+[2019.10.21-00.34.28:031][871]Log file closed, 10/21/19 11:34:28
