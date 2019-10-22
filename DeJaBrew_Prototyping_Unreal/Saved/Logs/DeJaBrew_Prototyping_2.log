@@ -1,4 +1,4 @@
-﻿Log file open, 10/22/19 06:25:34
+﻿Log file open, 10/22/19 21:08:00
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
@@ -10,7 +10,7 @@ LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: DeJaBrew_Prototyping
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.305864
+LogStats: Stats thread started at 0.303015
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +10:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -93,7 +93,7 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogStreaming: Display: Took  0.150s to configure plugins.
+LogStreaming: Display: Took  0.076s to configure plugins.
 LogInit: Using libcurl 7.55.1-DEV
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2h
@@ -123,7 +123,7 @@ LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
 LogInit: Compiled with Visual C++: 19.13.26129.00
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.20
-LogInit: Command Line:  
+LogInit: Command Line:  /Game/SideScrollerBP/Maps/SideScrollerExampleMap -game -PIEVIACONSOLE -ResX=1280 -ResY=720  -Multiprocess -messaging -SessionName="Play in Standalone Game" -featureleveles2 -faketouches -windowed 
 LogInit: Base Directory: C:/Program Files (x86)/UE_4.20/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogDevObjectVersion: Number of dev versions registered: 20
@@ -147,513 +147,782 @@ LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC
 LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
 LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
 LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
-LogStreaming: Display: Took  0.003s to delete old logs.
+LogStreaming: Display: Took  0.004s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2019.10.21-19.25.34:670][  0]LogInit: Selected Device Profile: [Windows]
-[2019.10.21-19.25.34:670][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2019.10.21-19.25.34:692][  0]LogHAL: Display: Platform has ~ 16 GB [17095811072 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2019.10.21-19.25.34:692][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
-[2019.10.21-19.25.34:692][  0]LogInit: Going up to parent DeviceProfile []
-[2019.10.21-19.25.34:697][  0]LogInit: Computer: MSI
-[2019.10.21-19.25.34:697][  0]LogInit: User: hiit
-[2019.10.21-19.25.34:697][  0]LogInit: CPU Page size=4096, Cores=4
-[2019.10.21-19.25.34:697][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2019.10.21-19.25.34:698][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2019.10.21-19.25.34:698][  0]LogMemory: Platform Memory Stats for Windows
-[2019.10.21-19.25.34:698][  0]LogMemory: Process Physical Memory: 101.14 MB used, 101.15 MB peak
-[2019.10.21-19.25.34:698][  0]LogMemory: Process Virtual Memory: 89.71 MB used, 89.71 MB peak
-[2019.10.21-19.25.34:698][  0]LogMemory: Physical Memory: 7613.36 MB used,  8690.47 MB free, 16303.84 MB total
-[2019.10.21-19.25.34:698][  0]LogMemory: Virtual Memory: 4626.85 MB used,  8690.47 MB free, 134217728.00 MB total
-[2019.10.21-19.25.35:153][  0]LogInit: Using OS detected language (en-US).
-[2019.10.21-19.25.35:153][  0]LogInit: Using OS detected locale (en-AU).
-[2019.10.21-19.25.35:155][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2019.10.21-19.25.35:576][  0]LogStreaming: Display: Took  0.423s to InitEngineTextLocalization.
-[2019.10.21-19.25.35:576][  0]LogInit: Setting process to per monitor DPI aware
-[2019.10.21-19.25.35:669][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2019.10.21-19.25.35:669][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2019.10.21-19.25.38:118][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.10.21-19.25.38:118][  0]LogD3D11RHI: D3D11 adapters:
-[2019.10.21-19.25.38:194][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050' (Feature Level 11_0)
-[2019.10.21-19.25.38:194][  0]LogD3D11RHI:       4021/0/8151 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2019.10.21-19.25.38:206][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
-[2019.10.21-19.25.38:207][  0]LogD3D11RHI:       128/0/8151 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2019.10.21-19.25.38:209][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2019.10.21-19.25.38:209][  0]LogD3D11RHI:       0/0/8151 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2019.10.21-19.25.38:209][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2019.10.21-19.25.38:239][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2019.10.21-19.25.38:239][  0]LogD3D11RHI:     GPU DeviceId: 0x1c8d (for the marketing name, search the web for "GPU Device Id")
-[2019.10.21-19.25.38:239][  0]LogWindows: EnumDisplayDevices:
-[2019.10.21-19.25.38:239][  0]LogWindows:    0. 'Intel(R) HD Graphics 630' (P:1 D:1)
-[2019.10.21-19.25.38:239][  0]LogWindows:    1. 'Intel(R) HD Graphics 630' (P:0 D:0)
-[2019.10.21-19.25.38:240][  0]LogWindows:    2. 'Intel(R) HD Graphics 630' (P:0 D:0)
-[2019.10.21-19.25.38:240][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2019.10.21-19.25.38:240][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050
-[2019.10.21-19.25.38:240][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2019.10.21-19.25.38:240][  0]LogD3D11RHI:      Driver Date: Unknown
-[2019.10.21-19.25.38:240][  0]LogRHI: Texture pool is 2814 MB (70% of 4021 MB)
-[2019.10.21-19.25.38:280][  0]LogD3D11RHI: Async texture creation enabled
-[2019.10.21-19.25.38:366][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2019.10.21-19.25.38:367][  0]LogShaderCompilers: Guid format shader working directory is -56 characters bigger than the processId version (../../../../../Users/hi_it/OneDrive/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Intermediate/Shaders/WorkingDirectory/16476/).
-[2019.10.21-19.25.38:367][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/hi_it/AppData/Local/Temp/UnrealShaderWorkingDir/BD10BC0A462E64393F2C4EA1570A1A0E/'.
-[2019.10.21-19.25.39:045][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2019.10.21-19.25.39:060][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2019.10.21-19.25.39:075][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2019.10.21-19.25.39:089][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2019.10.21-19.25.39:109][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2019.10.21-19.25.39:123][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2019.10.21-19.25.39:138][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2019.10.21-19.25.39:153][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2019.10.21-19.25.39:160][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2019.10.21-19.25.39:250][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.10.21-19.25.39:250][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.10.21-19.25.39:250][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.10.21-19.25.39:250][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.10.21-19.25.39:250][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.10.21-19.25.39:250][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.10.21-19.25.39:250][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.10.21-19.25.39:250][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.10.21-19.25.39:250][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.10.21-19.25.39:250][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.10.21-19.25.39:250][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.10.21-19.25.39:250][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.10.21-19.25.39:250][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.10.21-19.25.39:250][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.10.21-19.25.39:250][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.10.21-19.25.39:250][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.10.21-19.25.39:250][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.10.21-19.25.39:250][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.10.21-19.25.39:252][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2019.10.21-19.25.39:324][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2019.10.21-19.25.39:324][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2019.10.21-19.25.39:349][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2019.10.21-19.25.39:349][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2019.10.21-19.25.39:362][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2019.10.21-19.25.39:377][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2019.10.21-19.25.39:391][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2019.10.21-19.25.39:413][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2019.10.21-19.25.39:423][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
-[2019.10.21-19.25.39:423][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2019.10.21-19.25.39:540][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2019.10.21-19.25.39:540][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2019.10.21-19.25.39:540][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2019.10.21-19.25.41:666][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2019.10.21-19.25.41:723][  0]LogDerivedDataCache: Loaded boot cache 0.06s 71MB C:/Users/hi_it/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2019.10.21-19.25.41:723][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/hi_it/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
-[2019.10.21-19.25.41:723][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Users/hi_it/OneDrive/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2019.10.21-19.25.41:723][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2019.10.21-19.25.41:724][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../Users/hi_it/OneDrive/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.10.21-19.25.41:724][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2019.10.21-19.25.41:744][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2019.10.21-19.25.41:756][  0]LogDerivedDataCache: Using Local data cache path C:/Users/hi_it/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2019.10.21-19.25.41:756][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2019.10.21-19.25.41:756][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2019.10.21-19.25.41:774][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2019.10.21-19.25.41:776][  0]LogSlate: Using FreeType 2.6.0
-[2019.10.21-19.25.41:791][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2019.10.21-19.25.42:027][  0]LogAssetRegistry: FAssetRegistry took 0.0266 seconds to start up
-[2019.10.21-19.25.42:365][  0]LogInit: Selected Device Profile: [Windows]
-[2019.10.21-19.25.42:608][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2019.10.21-19.25.42:612][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2019.10.21-19.25.42:612][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2019.10.21-19.25.42:612][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2019.10.21-19.25.42:612][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2019.10.21-19.25.42:649][  0]LogNetVersion: DeJaBrew_Prototyping 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 1964930159)
-[2019.10.21-19.25.43:798][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.112911 seconds
-[2019.10.21-19.25.43:803][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
-[2019.10.21-19.25.43:803][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
-[2019.10.21-19.25.43:803][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2019.10.21-19.25.46:558][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2019.10.21-19.25.46:572][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2019.10.21-19.25.46:796][  0]SourceControl: Source control is disabled
-[2019.10.21-19.25.46:796][  0]SourceControl: Source control is disabled
-[2019.10.21-19.25.46:797][  0]SourceControl: Source control is disabled
-[2019.10.21-19.25.46:798][  0]SourceControl: Source control is disabled
-[2019.10.21-19.25.46:988][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2019.10.21-19.25.47:197][  0]LogOcInput: OculusInput pre-init called
-[2019.10.21-19.25.47:287][  0]LogEngine: Initializing Engine...
-[2019.10.21-19.25.47:288][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.10.21-19.25.47:289][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2019.10.21-19.25.47:289][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2019.10.21-19.25.47:289][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2019.10.21-19.25.47:289][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2019.10.21-19.25.47:664][  0]LogInit: Initializing FReadOnlyCVARCache
-[2019.10.21-19.25.47:680][  0]LogAIModule: Creating AISystem for world Untitled
-[2019.10.21-19.25.47:777][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
-[2019.10.21-19.25.47:867][  0]LogInit: FAudioDevice initialized.
-[2019.10.21-19.25.47:867][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2019.10.21-19.25.48:043][  0]LogDerivedDataCache: Saved boot cache 0.18s 71MB C:/Users/hi_it/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2019.10.21-19.25.48:056][  0]LogInit: Texture streaming: Enabled
-[2019.10.21-19.25.48:076][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2019.10.21-19.25.48:091][  0]LogInit: Transaction tracking system initialized
-[2019.10.21-19.25.48:115][  0]BlueprintLog: New page: Editor Load
-[2019.10.21-19.25.48:199][  0]LocalizationService: Localization service is disabled
-[2019.10.21-19.25.48:699][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2019.10.21-19.25.48:699][  0]LogCook: Display: Mobile HDR setting 1
-[2019.10.21-19.25.48:699][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2019.10.21-19.25.48:699][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2019.10.21-19.25.48:699][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2019.10.21-19.25.48:699][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2019.10.21-19.25.48:699][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2019.10.21-19.25.48:897][  0]LogFileCache: Scanning file cache for directory 'C:/Users/hi_it/OneDrive/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/' took 0.02s
-[2019.10.21-19.25.48:898][  0]SourceControl: Source control is disabled
-[2019.10.21-19.25.49:004][  0]LogSlate: Took 0.006565 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2019.10.21-19.26.02:902][  0]LogSlate: Window 'Restore Packages' being destroyed
-[2019.10.21-19.26.02:902][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2019.10.21-19.26.02:905][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2019.10.21-19.26.05:030][  0]LogSlate: Window 'Unable to Check Out From Source Control!' being destroyed
-[2019.10.21-19.26.05:030][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2019.10.21-19.26.05:032][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2019.10.21-19.26.05:065][  0]LightingResults: New page: Lighting Build
-[2019.10.21-19.26.05:068][  0]MapCheck: New page: Map Check
-[2019.10.21-19.26.05:068][  0]LightingResults: New page: Lighting Build
-[2019.10.21-19.26.05:923][  0]LogAIModule: Creating AISystem for world SideScrollerExampleMap
-[2019.10.21-19.26.05:951][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2019.10.21-19.26.05:977][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.10.21-19.26.06:072][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 94.64ms to complete.
-[2019.10.21-19.26.06:072][  0]LogFileHelpers: Loading map 'SideScrollerExampleMap' took 1.007
-[2019.10.21-19.26.06:130][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.10.21-19.26.06:138][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.10.21-19.26.06:146][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.10.21-19.26.06:154][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.10.21-19.26.06:165][  0]LogCollectionManager: Loaded 0 collections in 0.001690 seconds
-[2019.10.21-19.26.06:208][  0]LogFileCache: Scanning file cache for directory 'C:/Users/hi_it/OneDrive/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Saved/Collections/' took 0.01s
-[2019.10.21-19.26.06:208][  0]LogFileCache: Scanning file cache for directory 'C:/Users/hi_it/OneDrive/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/Developers/hiit/Collections/' took 0.01s
-[2019.10.21-19.26.06:208][  0]LogFileCache: Scanning file cache for directory 'C:/Users/hi_it/OneDrive/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/Collections/' took 0.01s
-[2019.10.21-19.26.06:208][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2019.10.21-19.26.06:217][  0]LogContentBrowser: Native class hierarchy populated in 0.0083 seconds. Added 2572 classes and 603 folders.
-[2019.10.21-19.26.06:221][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2019.10.21-19.26.06:523][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2019.10.21-19.26.06:527][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
-[2019.10.21-19.26.06:549][  0]LogSlate: Took 0.005132 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2019.10.21-19.26.06:560][  0]LogSlate: Took 0.006630 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2019.10.21-19.26.06:657][  0]LogRenderer: Reallocating scene render targets to support 964x436 Format 10 NumSamples 1 (Frame:1).
-[2019.10.21-19.26.06:838][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2019.10.21-19.26.06:838][  0]LogLoad: (Engine Initialization) Total time: 35.42 seconds
-[2019.10.21-19.26.06:838][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2019.10.21-19.26.06:896][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2019.10.21-19.26.06:933][  0]LogSlate: Took 0.004221 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.10.21-19.26.06:936][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/hi_it/OneDrive/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/' took 0.07s
-[2019.10.21-19.26.06:950][  1]LogAssetRegistry: Asset discovery search completed in 24.9457 seconds
-[2019.10.21-19.26.06:952][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2019.10.21-19.26.06:952][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000047 seconds (updated 0 objects)
-[2019.10.21-19.26.07:880][ 45]LogSlate: Took 0.000236 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.10.21-19.26.09:277][129]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.10.21-19.26.09:592][136]LogSavePackage: Moving '../../../../../Users/hi_it/OneDrive/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Saved/SideScrollerExampleMapEA38D3C74447F9B337B5F29A395054C1.tmp' to '../../../../../Users/hi_it/OneDrive/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Maps/SideScrollerExampleMap.umap'
-[2019.10.21-19.26.11:058][216]LogSlate: Window 'DeJaBrew_Prototyping - Unreal Editor' being destroyed
-[2019.10.21-19.26.11:058][216]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2019.10.21-19.26.11:254][217]Cmd: QUIT_EDITOR
-[2019.10.21-19.26.11:286][217]LogExit: Preparing to exit.
-[2019.10.21-19.26.11:687][217]LogExit: Editor shut down
-[2019.10.21-19.26.11:687][217]LogExit: Transaction tracking system shut down
-[2019.10.21-19.26.12:213][217]LogExit: Object subsystem successfully closed.
-[2019.10.21-19.26.12:307][217]LogShaderCompilers: Display: Shaders left to compile 0
-[2019.10.21-19.26.12:316][217]LogD3D11RHI: Shutdown
-[2019.10.21-19.26.12:316][217]LogD3D11RHI: CleanupD3DDevice
-[2019.10.21-19.26.12:341][217]LogD3D11RHI: ~FD3D11DynamicRHI
-[2019.10.21-19.26.12:370][217]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (610)
-[2019.10.21-19.26.12:370][217]LogModuleManager: Shutting down and abandoning module SceneOutliner (608)
-[2019.10.21-19.26.12:370][217]LogModuleManager: Shutting down and abandoning module AddContentDialog (606)
-[2019.10.21-19.26.12:371][217]LogModuleManager: Shutting down and abandoning module WidgetCarousel (605)
-[2019.10.21-19.26.12:371][217]LogModuleManager: Shutting down and abandoning module EditorWidgets (602)
-[2019.10.21-19.26.12:371][217]LogModuleManager: Shutting down and abandoning module CollectionManager (600)
-[2019.10.21-19.26.12:371][217]LogModuleManager: Shutting down and abandoning module StatsViewer (598)
-[2019.10.21-19.26.12:371][217]LogModuleManager: Shutting down and abandoning module FoliageEdit (596)
-[2019.10.21-19.26.12:371][217]LogModuleManager: Shutting down and abandoning module LandscapeEditor (594)
-[2019.10.21-19.26.12:371][217]LogModuleManager: Shutting down and abandoning module MeshPaintMode (592)
-[2019.10.21-19.26.12:371][217]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (590)
-[2019.10.21-19.26.12:371][217]LogModuleManager: Shutting down and abandoning module ActorPickerMode (588)
-[2019.10.21-19.26.12:371][217]LogModuleManager: Shutting down and abandoning module GeometryMode (586)
-[2019.10.21-19.26.12:371][217]LogModuleManager: Shutting down and abandoning module TextureAlignMode (584)
-[2019.10.21-19.26.12:371][217]LogModuleManager: Shutting down and abandoning module BspMode (582)
-[2019.10.21-19.26.12:371][217]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (580)
-[2019.10.21-19.26.12:371][217]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (578)
-[2019.10.21-19.26.12:371][217]LogModuleManager: Shutting down and abandoning module AutomationWorker (576)
-[2019.10.21-19.26.12:371][217]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (574)
-[2019.10.21-19.26.12:371][217]LogModuleManager: Shutting down and abandoning module SequenceRecorder (573)
-[2019.10.21-19.26.12:371][217]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (570)
-[2019.10.21-19.26.12:371][217]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (568)
-[2019.10.21-19.26.12:372][217]LogModuleManager: Shutting down and abandoning module PlacementMode (567)
-[2019.10.21-19.26.12:372][217]LogModuleManager: Shutting down and abandoning module MaterialEditor (566)
-[2019.10.21-19.26.12:372][217]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (562)
-[2019.10.21-19.26.12:372][217]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (560)
-[2019.10.21-19.26.12:372][217]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (558)
-[2019.10.21-19.26.12:372][217]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (556)
-[2019.10.21-19.26.12:372][217]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (554)
-[2019.10.21-19.26.12:372][217]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (552)
-[2019.10.21-19.26.12:372][217]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (550)
-[2019.10.21-19.26.12:372][217]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (548)
-[2019.10.21-19.26.12:372][217]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (546)
-[2019.10.21-19.26.12:372][217]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (544)
-[2019.10.21-19.26.12:372][217]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (542)
-[2019.10.21-19.26.12:373][217]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (540)
-[2019.10.21-19.26.12:373][217]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (538)
-[2019.10.21-19.26.12:373][217]LogModuleManager: Shutting down and abandoning module CharacterAI (536)
-[2019.10.21-19.26.12:373][217]LogModuleManager: Shutting down and abandoning module SmartSnapping (534)
-[2019.10.21-19.26.12:373][217]LogModuleManager: Shutting down and abandoning module SessionServices (532)
-[2019.10.21-19.26.12:373][217]LogModuleManager: Shutting down and abandoning module ViewportSnapping (530)
-[2019.10.21-19.26.12:373][217]LogModuleManager: Shutting down and abandoning module ViewportInteraction (528)
-[2019.10.21-19.26.12:373][217]LogModuleManager: Shutting down and abandoning module ClothPainter (526)
-[2019.10.21-19.26.12:373][217]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (525)
-[2019.10.21-19.26.12:373][217]LogModuleManager: Shutting down and abandoning module LogVisualizer (522)
-[2019.10.21-19.26.12:373][217]LogModuleManager: Shutting down and abandoning module IntroTutorials (520)
-[2019.10.21-19.26.12:373][217]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (519)
-[2019.10.21-19.26.12:373][217]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (516)
-[2019.10.21-19.26.12:373][217]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (514)
-[2019.10.21-19.26.12:373][217]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (512)
-[2019.10.21-19.26.12:373][217]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (510)
-[2019.10.21-19.26.12:373][217]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (509)
-[2019.10.21-19.26.13:252][217]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (506)
-[2019.10.21-19.26.13:252][217]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (504)
-[2019.10.21-19.26.13:253][217]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (502)
-[2019.10.21-19.26.13:254][217]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (500)
-[2019.10.21-19.26.13:254][217]LogModuleManager: Shutting down and abandoning module InputBindingEditor (498)
-[2019.10.21-19.26.13:254][217]LogModuleManager: Shutting down and abandoning module MergeActors (496)
-[2019.10.21-19.26.13:254][217]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (494)
-[2019.10.21-19.26.13:254][217]LogModuleManager: Shutting down and abandoning module LocalizationService (493)
-[2019.10.21-19.26.13:255][217]LogModuleManager: Shutting down and abandoning module HardwareTargeting (490)
-[2019.10.21-19.26.13:255][217]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (488)
-[2019.10.21-19.26.13:255][217]LogModuleManager: Shutting down and abandoning module UndoHistory (486)
-[2019.10.21-19.26.13:255][217]LogModuleManager: Shutting down and abandoning module XmlParser (484)
-[2019.10.21-19.26.13:255][217]LogModuleManager: Shutting down and abandoning module Blutility (482)
-[2019.10.21-19.26.13:255][217]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (480)
-[2019.10.21-19.26.13:255][217]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (479)
-[2019.10.21-19.26.13:255][217]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (476)
-[2019.10.21-19.26.13:255][217]LogModuleManager: Shutting down and abandoning module SettingsEditor (474)
-[2019.10.21-19.26.13:256][217]LogModuleManager: Shutting down and abandoning module ProjectLauncher (472)
-[2019.10.21-19.26.13:256][217]LogModuleManager: Shutting down and abandoning module SessionFrontend (470)
-[2019.10.21-19.26.13:256][217]LogModuleManager: Shutting down and abandoning module ProfilerClient (468)
-[2019.10.21-19.26.13:256][217]LogModuleManager: Shutting down and abandoning module DeviceManager (466)
-[2019.10.21-19.26.13:256][217]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (465)
-[2019.10.21-19.26.13:311][217]LogModuleManager: Shutting down and abandoning module AutomationController (462)
-[2019.10.21-19.26.13:311][217]LogModuleManager: Shutting down and abandoning module AutomationWindow (460)
-[2019.10.21-19.26.13:311][217]LogModuleManager: Shutting down and abandoning module Layers (458)
-[2019.10.21-19.26.13:311][217]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (456)
-[2019.10.21-19.26.13:311][217]LogModuleManager: Shutting down and abandoning module DetailCustomizations (454)
-[2019.10.21-19.26.13:311][217]LogModuleManager: Shutting down and abandoning module PackagesDialog (452)
-[2019.10.21-19.26.13:311][217]LogModuleManager: Shutting down and abandoning module Persona (450)
-[2019.10.21-19.26.13:311][217]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (449)
-[2019.10.21-19.26.13:311][217]LogModuleManager: Shutting down and abandoning module AnimGraph (447)
-[2019.10.21-19.26.13:311][217]LogModuleManager: Shutting down and abandoning module Kismet (444)
-[2019.10.21-19.26.13:311][217]LogModuleManager: Shutting down and abandoning module GraphEditor (442)
-[2019.10.21-19.26.13:312][217]LogModuleManager: Shutting down and abandoning module ClassViewer (440)
-[2019.10.21-19.26.13:312][217]LogModuleManager: Shutting down and abandoning module Toolbox (438)
-[2019.10.21-19.26.13:312][217]LogModuleManager: Shutting down and abandoning module ModuleUI (436)
-[2019.10.21-19.26.13:312][217]LogModuleManager: Shutting down and abandoning module MovieSceneTools (434)
-[2019.10.21-19.26.13:312][217]LogModuleManager: Shutting down and abandoning module OutputLog (432)
-[2019.10.21-19.26.13:312][217]LogModuleManager: Shutting down and abandoning module GammaUI (430)
-[2019.10.21-19.26.13:312][217]LogModuleManager: Shutting down and abandoning module Documentation (428)
-[2019.10.21-19.26.13:312][217]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (426)
-[2019.10.21-19.26.13:312][217]LogModuleManager: Shutting down and abandoning module MovieScene (424)
-[2019.10.21-19.26.13:312][217]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (422)
-[2019.10.21-19.26.13:312][217]LogModuleManager: Shutting down and abandoning module LauncherPlatform (420)
-[2019.10.21-19.26.13:312][217]LogModuleManager: Shutting down and abandoning module AnalyticsET (418)
-[2019.10.21-19.26.13:312][217]LogModuleManager: Shutting down and abandoning module PortalServices (416)
-[2019.10.21-19.26.13:312][217]LogModuleManager: Shutting down and abandoning module PortalRpc (414)
-[2019.10.21-19.26.13:312][217]LogModuleManager: Shutting down and abandoning module MessagingRpc (412)
-[2019.10.21-19.26.13:312][217]LogModuleManager: Shutting down and abandoning module AIModule (410)
-[2019.10.21-19.26.13:312][217]LogModuleManager: Shutting down and abandoning module GameplayDebugger (409)
-[2019.10.21-19.26.13:312][217]LogModuleManager: Shutting down and abandoning module AITestSuite (407)
-[2019.10.21-19.26.13:312][217]LogModuleManager: Shutting down and abandoning module NavigationSystem (405)
-[2019.10.21-19.26.13:312][217]LogModuleManager: Shutting down and abandoning module DesktopPlatform (402)
-[2019.10.21-19.26.13:312][217]LogModuleManager: Shutting down and abandoning module ProfilerService (400)
-[2019.10.21-19.26.13:515][217]LogModuleManager: Shutting down and abandoning module TaskGraph (398)
-[2019.10.21-19.26.13:515][217]LogModuleManager: Shutting down and abandoning module SteamVRController (396)
-[2019.10.21-19.26.13:515][217]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (394)
-[2019.10.21-19.26.13:515][217]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (392)
-[2019.10.21-19.26.13:515][217]LogModuleManager: Shutting down and abandoning module OculusInput (390)
-[2019.10.21-19.26.13:515][217]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (388)
-[2019.10.21-19.26.13:516][217]LogModuleManager: Shutting down and abandoning module EditableMesh (386)
-[2019.10.21-19.26.13:516][217]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (384)
-[2019.10.21-19.26.13:516][217]LogModuleManager: Shutting down and abandoning module CableComponent (382)
-[2019.10.21-19.26.13:516][217]LogModuleManager: Shutting down and abandoning module AudioCapture (380)
-[2019.10.21-19.26.13:516][217]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (378)
-[2019.10.21-19.26.13:516][217]LogModuleManager: Shutting down and abandoning module AndroidPermission (376)
-[2019.10.21-19.26.13:516][217]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (374)
-[2019.10.21-19.26.13:516][217]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (372)
-[2019.10.21-19.26.13:516][217]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (370)
-[2019.10.21-19.26.13:516][217]LogModuleManager: Shutting down and abandoning module MediaCompositing (368)
-[2019.10.21-19.26.13:516][217]LogModuleManager: Shutting down and abandoning module LinearTimecode (366)
-[2019.10.21-19.26.13:516][217]LogModuleManager: Shutting down and abandoning module ImgMedia (364)
-[2019.10.21-19.26.13:519][217]LogModuleManager: Shutting down and abandoning module HTML5Networking (362)
-[2019.10.21-19.26.13:519][217]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (360)
-[2019.10.21-19.26.13:519][217]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (358)
-[2019.10.21-19.26.13:519][217]LogModuleManager: Shutting down and abandoning module BackChannel (356)
-[2019.10.21-19.26.13:519][217]LogModuleManager: Shutting down and abandoning module AppleVision (354)
-[2019.10.21-19.26.13:520][217]LogModuleManager: Shutting down and abandoning module AppleImageUtils (352)
-[2019.10.21-19.26.13:520][217]LogModuleManager: Shutting down and abandoning module AlembicImporter (350)
-[2019.10.21-19.26.13:520][217]LogModuleManager: Shutting down and abandoning module AlembicLibrary (349)
-[2019.10.21-19.26.13:520][217]LogModuleManager: Shutting down and abandoning module GeometryCache (348)
-[2019.10.21-19.26.13:520][217]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (347)
-[2019.10.21-19.26.13:520][217]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (342)
-[2019.10.21-19.26.13:520][217]LogModuleManager: Shutting down and abandoning module DatasmithContent (340)
-[2019.10.21-19.26.13:521][217]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (338)
-[2019.10.21-19.26.13:521][217]LogModuleManager: Shutting down and abandoning module PluginBrowser (336)
-[2019.10.21-19.26.13:521][217]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (334)
-[2019.10.21-19.26.13:521][217]LogModuleManager: Shutting down and abandoning module PolygonModeling (332)
-[2019.10.21-19.26.13:521][217]LogModuleManager: Shutting down and abandoning module MeshEditor (330)
-[2019.10.21-19.26.13:521][217]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (328)
-[2019.10.21-19.26.13:521][217]LogModuleManager: Shutting down and abandoning module CryptoKeys (326)
-[2019.10.21-19.26.13:521][217]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (324)
-[2019.10.21-19.26.13:521][217]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (322)
-[2019.10.21-19.26.13:521][217]LogModuleManager: Shutting down and abandoning module UObjectPlugin (320)
-[2019.10.21-19.26.13:521][217]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (318)
-[2019.10.21-19.26.13:521][217]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (316)
-[2019.10.21-19.26.13:521][217]LogModuleManager: Shutting down and abandoning module GitSourceControl (314)
-[2019.10.21-19.26.13:521][217]LogModuleManager: Shutting down and abandoning module SourceControl (313)
-[2019.10.21-19.26.13:521][217]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (310)
-[2019.10.21-19.26.13:521][217]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (308)
-[2019.10.21-19.26.13:521][217]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (306)
-[2019.10.21-19.26.13:521][217]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (304)
-[2019.10.21-19.26.13:521][217]LogModuleManager: Shutting down and abandoning module Paper2DEditor (302)
-[2019.10.21-19.26.13:521][217]LogModuleManager: Shutting down and abandoning module MeshPaint (301)
-[2019.10.21-19.26.13:521][217]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (298)
-[2019.10.21-19.26.13:521][217]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (296)
-[2019.10.21-19.26.13:521][217]LogModuleManager: Shutting down and abandoning module PhysXVehicles (294)
-[2019.10.21-19.26.13:521][217]LogModuleManager: Shutting down and abandoning module OculusEditor (292)
-[2019.10.21-19.26.13:522][217]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (290)
-[2019.10.21-19.26.13:522][217]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (288)
-[2019.10.21-19.26.13:522][217]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (286)
-[2019.10.21-19.26.13:522][217]LogModuleManager: Shutting down and abandoning module ActorSequence (284)
-[2019.10.21-19.26.13:522][217]LogModuleManager: Shutting down and abandoning module UdpMessaging (282)
-[2019.10.21-19.26.13:623][217]LogModuleManager: Shutting down and abandoning module TcpMessaging (280)
-[2019.10.21-19.26.13:724][217]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (278)
-[2019.10.21-19.26.13:724][217]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (276)
-[2019.10.21-19.26.13:724][217]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (274)
-[2019.10.21-19.26.13:724][217]LogModuleManager: Shutting down and abandoning module FacialAnimation (272)
-[2019.10.21-19.26.13:724][217]LogModuleManager: Shutting down and abandoning module DataValidation (270)
-[2019.10.21-19.26.13:724][217]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (268)
-[2019.10.21-19.26.13:724][217]LogModuleManager: Shutting down and abandoning module LevelEditor (267)
-[2019.10.21-19.26.13:725][217]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (266)
-[2019.10.21-19.26.13:725][217]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (264)
-[2019.10.21-19.26.13:725][217]LogModuleManager: Shutting down and abandoning module MainFrame (262)
-[2019.10.21-19.26.13:725][217]LogModuleManager: Shutting down and abandoning module HotReload (261)
-[2019.10.21-19.26.13:725][217]LogModuleManager: Shutting down and abandoning module ContentBrowser (257)
-[2019.10.21-19.26.13:726][217]LogModuleManager: Shutting down and abandoning module TreeMap (255)
-[2019.10.21-19.26.13:726][217]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (252)
-[2019.10.21-19.26.13:726][217]LogModuleManager: Shutting down and abandoning module AISupportModule (250)
-[2019.10.21-19.26.13:726][217]LogModuleManager: Shutting down and abandoning module Paper2D (248)
-[2019.10.21-19.26.13:727][217]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (246)
-[2019.10.21-19.26.13:727][217]LogModuleManager: Shutting down and abandoning module WmfMedia (244)
-[2019.10.21-19.26.13:728][217]LogModuleManager: Shutting down and abandoning module Media (243)
-[2019.10.21-19.26.13:734][217]LogModuleManager: Shutting down and abandoning module PacketHandler (240)
-[2019.10.21-19.26.13:734][217]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (238)
-[2019.10.21-19.26.13:734][217]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (236)
-[2019.10.21-19.26.13:734][217]LogModuleManager: Shutting down and abandoning module MediaAssets (234)
-[2019.10.21-19.26.13:734][217]LogModuleManager: Shutting down and abandoning module Overlay (232)
-[2019.10.21-19.26.13:734][217]LogModuleManager: Shutting down and abandoning module OverlayEditor (231)
-[2019.10.21-19.26.13:734][217]LogModuleManager: Shutting down and abandoning module VREditor (228)
-[2019.10.21-19.26.13:734][217]LogModuleManager: Shutting down and abandoning module StringTableEditor (226)
-[2019.10.21-19.26.13:734][217]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (224)
-[2019.10.21-19.26.13:734][217]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (222)
-[2019.10.21-19.26.13:734][217]LogModuleManager: Shutting down and abandoning module FunctionalTesting (220)
-[2019.10.21-19.26.13:734][217]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (218)
-[2019.10.21-19.26.13:734][217]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (217)
-[2019.10.21-19.26.13:734][217]LogModuleManager: Shutting down and abandoning module UMG (214)
-[2019.10.21-19.26.13:735][217]LogModuleManager: Shutting down and abandoning module UMGEditor (213)
-[2019.10.21-19.26.13:735][217]LogModuleManager: Shutting down and abandoning module Sequencer (212)
-[2019.10.21-19.26.13:735][217]LogModuleManager: Shutting down and abandoning module MessageLog (209)
-[2019.10.21-19.26.13:735][217]LogModuleManager: Shutting down and abandoning module SlateReflector (204)
-[2019.10.21-19.26.13:735][217]LogModuleManager: Shutting down and abandoning module Slate (202)
-[2019.10.21-19.26.13:735][217]LogModuleManager: Shutting down and abandoning module EditorStyle (200)
-[2019.10.21-19.26.13:736][217]LogModuleManager: Shutting down and abandoning module MRMesh (198)
-[2019.10.21-19.26.13:736][217]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (196)
-[2019.10.21-19.26.13:736][217]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (194)
-[2019.10.21-19.26.13:736][217]LogModuleManager: Shutting down and abandoning module XAudio2 (192)
-[2019.10.21-19.26.13:736][217]LogModuleManager: Shutting down and abandoning module Networking (190)
-[2019.10.21-19.26.13:736][217]LogModuleManager: Shutting down and abandoning module Core (188)
-[2019.10.21-19.26.13:736][217]LogModuleManager: Shutting down and abandoning module LevelSequence (186)
-[2019.10.21-19.26.13:736][217]LogModuleManager: Shutting down and abandoning module KismetCompiler (184)
-[2019.10.21-19.26.13:736][217]LogModuleManager: Shutting down and abandoning module MeshUtilities (182)
-[2019.10.21-19.26.13:736][217]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (181)
-[2019.10.21-19.26.13:736][217]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (180)
-[2019.10.21-19.26.13:736][217]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (179)
-[2019.10.21-19.26.13:737][217]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (177)
-[2019.10.21-19.26.13:737][217]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (175)
-[2019.10.21-19.26.13:737][217]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (173)
-[2019.10.21-19.26.13:737][217]LogModuleManager: Shutting down and abandoning module MaterialBaking (169)
-[2019.10.21-19.26.13:737][217]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (165)
-[2019.10.21-19.26.13:737][217]LogModuleManager: Shutting down and abandoning module DerivedDataCache (162)
-[2019.10.21-19.26.13:778][217]LogDerivedDataCache: Shutdown
-[2019.10.21-19.26.13:778][217]LogModuleManager: Shutting down and abandoning module XGEController (160)
-[2019.10.21-19.26.13:779][217]LogModuleManager: Shutting down and abandoning module TargetPlatform (158)
-[2019.10.21-19.26.13:779][217]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (157)
-[2019.10.21-19.26.13:779][217]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (155)
-[2019.10.21-19.26.13:779][217]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (153)
-[2019.10.21-19.26.13:779][217]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (151)
-[2019.10.21-19.26.13:779][217]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (149)
-[2019.10.21-19.26.13:779][217]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (147)
-[2019.10.21-19.26.13:779][217]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (145)
-[2019.10.21-19.26.13:779][217]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (143)
-[2019.10.21-19.26.13:779][217]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (141)
-[2019.10.21-19.26.13:779][217]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (139)
-[2019.10.21-19.26.13:779][217]LogModuleManager: Shutting down and abandoning module ImageWrapper (138)
-[2019.10.21-19.26.13:779][217]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (135)
-[2019.10.21-19.26.13:779][217]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (133)
-[2019.10.21-19.26.13:779][217]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (131)
-[2019.10.21-19.26.13:779][217]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (129)
-[2019.10.21-19.26.13:779][217]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (127)
-[2019.10.21-19.26.13:779][217]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (125)
-[2019.10.21-19.26.13:779][217]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (123)
-[2019.10.21-19.26.13:779][217]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (121)
-[2019.10.21-19.26.13:779][217]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (119)
-[2019.10.21-19.26.13:779][217]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (117)
-[2019.10.21-19.26.13:780][217]LogModuleManager: Shutting down and abandoning module Messaging (115)
-[2019.10.21-19.26.13:780][217]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (113)
-[2019.10.21-19.26.13:780][217]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (111)
-[2019.10.21-19.26.13:780][217]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (109)
-[2019.10.21-19.26.13:786][217]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (107)
-[2019.10.21-19.26.13:786][217]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (105)
-[2019.10.21-19.26.13:786][217]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (103)
-[2019.10.21-19.26.13:786][217]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (101)
-[2019.10.21-19.26.13:786][217]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (99)
-[2019.10.21-19.26.13:786][217]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (97)
-[2019.10.21-19.26.13:786][217]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (95)
-[2019.10.21-19.26.13:786][217]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (93)
-[2019.10.21-19.26.13:786][217]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (91)
-[2019.10.21-19.26.13:786][217]LogModuleManager: Shutting down and abandoning module InputCore (88)
-[2019.10.21-19.26.13:786][217]LogModuleManager: Shutting down and abandoning module Settings (86)
-[2019.10.21-19.26.13:786][217]LogModuleManager: Shutting down and abandoning module PhysXCooking (84)
-[2019.10.21-19.26.13:786][217]LogModuleManager: Shutting down and abandoning module SteamVR (82)
-[2019.10.21-19.26.13:786][217]LogModuleManager: Shutting down and abandoning module OculusHMD (80)
-[2019.10.21-19.26.13:786][217]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (78)
-[2019.10.21-19.26.13:786][217]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (76)
-[2019.10.21-19.26.13:786][217]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
-[2019.10.21-19.26.13:786][217]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (70)
-[2019.10.21-19.26.13:787][217]LogModuleManager: Shutting down and abandoning module XMPP (65)
-[2019.10.21-19.26.13:787][217]LogModuleManager: Shutting down and abandoning module WebSockets (64)
-[2019.10.21-19.26.13:800][217]LogModuleManager: Shutting down and abandoning module HTTP (61)
-[2019.10.21-19.26.13:800][217]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
-[2019.10.21-19.26.13:801][217]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B6BD699A4-427A-2435-1D18-678B74AAF35A%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.20.3-4369336%2B%2B%2BUE4%2BRelease-4.20&UserID=5d161d844116823b798e61b9a37be28c%7C818bff43747348f699b00837f3477b6d%7C6011a081-cab7-423a-8d4a-3c8c937a4efd&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
-[2019.10.21-19.26.13:817][217]LogModuleManager: Shutting down and abandoning module SSL (60)
-[2019.10.21-19.26.13:818][217]LogModuleManager: Shutting down and abandoning module MagicLeapEmulator (56)
-[2019.10.21-19.26.13:818][217]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (54)
-[2019.10.21-19.26.13:818][217]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (52)
-[2019.10.21-19.26.13:818][217]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (50)
-[2019.10.21-19.26.13:818][217]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (48)
-[2019.10.21-19.26.13:818][217]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (46)
-[2019.10.21-19.26.13:818][217]LogModuleManager: Shutting down and abandoning module MagicLeapGestures (44)
-[2019.10.21-19.26.13:818][217]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (42)
-[2019.10.21-19.26.13:818][217]LogModuleManager: Shutting down and abandoning module MagicLeapController (40)
-[2019.10.21-19.26.13:818][217]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
-[2019.10.21-19.26.13:818][217]LogModuleManager: Shutting down and abandoning module MagicLeap (38)
-[2019.10.21-19.26.13:818][217]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
-[2019.10.21-19.26.13:818][217]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
-[2019.10.21-19.26.13:818][217]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
-[2019.10.21-19.26.13:818][217]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
-[2019.10.21-19.26.13:818][217]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
-[2019.10.21-19.26.13:818][217]LogModuleManager: Shutting down and abandoning module Landscape (26)
-[2019.10.21-19.26.13:818][217]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
-[2019.10.21-19.26.13:819][217]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
-[2019.10.21-19.26.13:819][217]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
-[2019.10.21-19.26.13:819][217]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
-[2019.10.21-19.26.13:819][217]LogModuleManager: Shutting down and abandoning module Renderer (16)
-[2019.10.21-19.26.13:819][217]LogModuleManager: Shutting down and abandoning module Engine (14)
-[2019.10.21-19.26.13:819][217]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
-[2019.10.21-19.26.13:819][217]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
-[2019.10.21-19.26.13:819][217]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
-[2019.10.21-19.26.13:819][217]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
-[2019.10.21-19.26.13:819][217]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
-[2019.10.21-19.26.13:819][217]LogModuleManager: Shutting down and abandoning module PakFile (2)
-[2019.10.21-19.26.13:827][217]LogExit: Exiting.
-[2019.10.21-19.26.13:857][217]Log file closed, 10/22/19 06:26:13
+[2019.10.22-10.08.01:094][  0]LogInit: Selected Device Profile: [Windows]
+[2019.10.22-10.08.01:095][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.10.22-10.08.01:099][  0]LogHAL: Display: Platform has ~ 16 GB [17095811072 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.10.22-10.08.01:099][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2019.10.22-10.08.01:099][  0]LogInit: Going up to parent DeviceProfile []
+[2019.10.22-10.08.01:100][  0]LogInit: Computer: MSI
+[2019.10.22-10.08.01:100][  0]LogInit: User: hiit
+[2019.10.22-10.08.01:100][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.10.22-10.08.01:100][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.10.22-10.08.01:100][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2019.10.22-10.08.01:100][  0]LogMemory: Platform Memory Stats for Windows
+[2019.10.22-10.08.01:100][  0]LogMemory: Process Physical Memory: 100.53 MB used, 100.54 MB peak
+[2019.10.22-10.08.01:100][  0]LogMemory: Process Virtual Memory: 89.25 MB used, 89.25 MB peak
+[2019.10.22-10.08.01:100][  0]LogMemory: Physical Memory: 5185.45 MB used,  11118.39 MB free, 16303.84 MB total
+[2019.10.22-10.08.01:100][  0]LogMemory: Virtual Memory: 4626.85 MB used,  11118.39 MB free, 134217728.00 MB total
+[2019.10.22-10.08.01:397][  0]LogInit: Using OS detected language (en-US).
+[2019.10.22-10.08.01:397][  0]LogInit: Using OS detected locale (en-AU).
+[2019.10.22-10.08.01:398][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.10.22-10.08.01:815][  0]LogStreaming: Display: Took  0.418s to InitEngineTextLocalization.
+[2019.10.22-10.08.01:852][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.10.22-10.08.01:852][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.10.22-10.08.01:884][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.10.22-10.08.01:884][  0]LogD3D11RHI: D3D11 adapters:
+[2019.10.22-10.08.01:945][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050' (Feature Level 11_0)
+[2019.10.22-10.08.01:945][  0]LogD3D11RHI:       4021/0/8151 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.10.22-10.08.01:957][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2019.10.22-10.08.01:957][  0]LogD3D11RHI:       128/0/8151 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2019.10.22-10.08.01:959][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.10.22-10.08.01:959][  0]LogD3D11RHI:       0/0/8151 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.10.22-10.08.01:959][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.10.22-10.08.01:992][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.10.22-10.08.01:992][  0]LogD3D11RHI:     GPU DeviceId: 0x1c8d (for the marketing name, search the web for "GPU Device Id")
+[2019.10.22-10.08.01:992][  0]LogWindows: EnumDisplayDevices:
+[2019.10.22-10.08.01:993][  0]LogWindows:    0. 'Intel(R) HD Graphics 630' (P:1 D:1)
+[2019.10.22-10.08.01:993][  0]LogWindows:    1. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2019.10.22-10.08.01:993][  0]LogWindows:    2. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2019.10.22-10.08.01:993][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2019.10.22-10.08.01:993][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050
+[2019.10.22-10.08.01:993][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2019.10.22-10.08.01:993][  0]LogD3D11RHI:      Driver Date: Unknown
+[2019.10.22-10.08.01:994][  0]LogRHI: Texture pool is 2814 MB (70% of 4021 MB)
+[2019.10.22-10.08.02:037][  0]LogD3D11RHI: Async texture creation enabled
+[2019.10.22-10.08.02:116][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.10.22-10.08.02:117][  0]LogShaderCompilers: Guid format shader working directory is -56 characters bigger than the processId version (../../../../../Users/hi_it/OneDrive/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Intermediate/Shaders/WorkingDirectory/15564/).
+[2019.10.22-10.08.02:117][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/hi_it/AppData/Local/Temp/UnrealShaderWorkingDir/29D3245C48B58BD2E225678D430F9298/'.
+[2019.10.22-10.08.02:411][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.10.22-10.08.02:425][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.10.22-10.08.02:439][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.10.22-10.08.02:454][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.10.22-10.08.02:454][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.10.22-10.08.02:518][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.10.22-10.08.02:518][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.10.22-10.08.02:518][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.10.22-10.08.03:234][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.10.22-10.08.03:285][  0]LogDerivedDataCache: Loaded boot cache 0.05s 71MB C:/Users/hi_it/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.10.22-10.08.03:286][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/hi_it/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2019.10.22-10.08.03:286][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Users/hi_it/OneDrive/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.10.22-10.08.03:286][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.10.22-10.08.03:286][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../Users/hi_it/OneDrive/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.10.22-10.08.03:286][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.10.22-10.08.03:300][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.10.22-10.08.03:313][  0]LogDerivedDataCache: Using Local data cache path C:/Users/hi_it/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.10.22-10.08.03:313][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.10.22-10.08.03:313][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.10.22-10.08.03:313][  0]LogMaterial: Verifying Global Shaders for PCD3D_ES2
+[2019.10.22-10.08.03:704][  0]LogSlate: Using FreeType 2.6.0
+[2019.10.22-10.08.03:705][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.10.22-10.08.03:749][  0]LogShaderCompilers: Display: Shaders left to compile 582
+[2019.10.22-10.08.03:749][  0]LogShaderCompilers: Display: Shaders left to compile 581
+[2019.10.22-10.08.03:749][  0]LogShaderCompilers: Display: Shaders left to compile 580
+[2019.10.22-10.08.03:749][  0]LogShaderCompilers: Display: Shaders left to compile 579
+[2019.10.22-10.08.03:749][  0]LogShaderCompilers: Display: Shaders left to compile 578
+[2019.10.22-10.08.03:749][  0]LogInit: Using OS detected language (en-US).
+[2019.10.22-10.08.03:749][  0]LogInit: Using OS detected locale (en-AU).
+[2019.10.22-10.08.03:749][  0]LogTextLocalizationManager: No localization for 'en-US' exists, so 'en' will be used for the language.
+[2019.10.22-10.08.03:750][  0]LogTextLocalizationManager: No localization for 'en-AU' exists, so 'en' will be used for the locale.
+[2019.10.22-10.08.04:156][  0]LogStreaming: Display: Took  0.408s to InitGameTextLocalization.
+[2019.10.22-10.08.04:171][  0]LogAssetRegistry: FAssetRegistry took 0.0098 seconds to start up
+[2019.10.22-10.08.04:458][  0]LogShaderCompilers: Display: Shaders left to compile 577
+[2019.10.22-10.08.04:458][  0]LogShaderCompilers: Display: Shaders left to compile 576
+[2019.10.22-10.08.04:458][  0]LogShaderCompilers: Display: Shaders left to compile 575
+[2019.10.22-10.08.04:458][  0]LogShaderCompilers: Display: Shaders left to compile 574
+[2019.10.22-10.08.04:458][  0]LogShaderCompilers: Display: Shaders left to compile 573
+[2019.10.22-10.08.04:458][  0]LogShaderCompilers: Display: Shaders left to compile 572
+[2019.10.22-10.08.04:458][  0]LogShaderCompilers: Display: Shaders left to compile 571
+[2019.10.22-10.08.04:458][  0]LogShaderCompilers: Display: Shaders left to compile 570
+[2019.10.22-10.08.04:458][  0]LogShaderCompilers: Display: Shaders left to compile 569
+[2019.10.22-10.08.04:458][  0]LogShaderCompilers: Display: Shaders left to compile 568
+[2019.10.22-10.08.04:458][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 1 prioritized culture(s) in 0.023251 seconds
+[2019.10.22-10.08.04:653][  0]LogShaderCompilers: Display: Shaders left to compile 567
+[2019.10.22-10.08.04:653][  0]LogShaderCompilers: Display: Shaders left to compile 566
+[2019.10.22-10.08.04:653][  0]LogShaderCompilers: Display: Shaders left to compile 565
+[2019.10.22-10.08.04:653][  0]LogShaderCompilers: Display: Shaders left to compile 564
+[2019.10.22-10.08.04:653][  0]LogShaderCompilers: Display: Shaders left to compile 563
+[2019.10.22-10.08.04:653][  0]LogShaderCompilers: Display: Shaders left to compile 562
+[2019.10.22-10.08.04:653][  0]LogShaderCompilers: Display: Shaders left to compile 561
+[2019.10.22-10.08.04:653][  0]LogShaderCompilers: Display: Shaders left to compile 560
+[2019.10.22-10.08.04:653][  0]LogInit: Selected Device Profile: [Windows]
+[2019.10.22-10.08.04:713][  0]LogShaderCompilers: Display: Shaders left to compile 559
+[2019.10.22-10.08.04:713][  0]LogShaderCompilers: Display: Shaders left to compile 558
+[2019.10.22-10.08.04:713][  0]LogShaderCompilers: Display: Shaders left to compile 557
+[2019.10.22-10.08.04:713][  0]LogMaterial: Display: Missing cached shader map for material DefaultDeferredDecalMaterial, compiling. 
+[2019.10.22-10.08.24:353][  0]LogShaderCompilers: Display: Shaders left to compile 556
+[2019.10.22-10.08.24:353][  0]LogShaderCompilers: Display: Shaders left to compile 555
+[2019.10.22-10.08.24:353][  0]LogShaderCompilers: Display: Shaders left to compile 554
+[2019.10.22-10.08.24:353][  0]LogShaderCompilers: Display: Shaders left to compile 553
+[2019.10.22-10.08.24:353][  0]LogShaderCompilers: Display: Shaders left to compile 552
+[2019.10.22-10.08.24:353][  0]LogShaderCompilers: Display: Shaders left to compile 551
+[2019.10.22-10.08.24:353][  0]LogShaderCompilers: Display: Shaders left to compile 550
+[2019.10.22-10.08.24:353][  0]LogShaderCompilers: Display: Shaders left to compile 549
+[2019.10.22-10.08.24:353][  0]LogShaderCompilers: Display: Shaders left to compile 548
+[2019.10.22-10.08.24:353][  0]LogShaderCompilers: Display: Shaders left to compile 651
+[2019.10.22-10.08.24:353][  0]LogShaderCompilers: Display: Shaders left to compile 650
+[2019.10.22-10.08.24:353][  0]LogShaderCompilers: Display: Shaders left to compile 649
+[2019.10.22-10.08.24:353][  0]LogShaderCompilers: Display: Shaders left to compile 648
+[2019.10.22-10.08.24:353][  0]LogShaderCompilers: Display: Shaders left to compile 647
+[2019.10.22-10.08.24:353][  0]LogShaderCompilers: Display: Shaders left to compile 646
+[2019.10.22-10.08.24:353][  0]LogShaderCompilers: Display: Shaders left to compile 645
+[2019.10.22-10.08.24:353][  0]LogShaderCompilers: Display: Shaders left to compile 644
+[2019.10.22-10.08.24:353][  0]LogShaderCompilers: Display: Shaders left to compile 643
+[2019.10.22-10.08.24:353][  0]LogShaderCompilers: Display: Shaders left to compile 642
+[2019.10.22-10.08.24:353][  0]LogShaderCompilers: Display: Shaders left to compile 641
+[2019.10.22-10.08.24:353][  0]LogShaderCompilers: Display: Shaders left to compile 640
+[2019.10.22-10.08.24:353][  0]LogShaderCompilers: Display: Shaders left to compile 639
+[2019.10.22-10.08.24:353][  0]LogShaderCompilers: Display: Shaders left to compile 638
+[2019.10.22-10.08.24:353][  0]LogShaderCompilers: Display: Shaders left to compile 637
+[2019.10.22-10.08.24:353][  0]LogShaderCompilers: Display: Shaders left to compile 636
+[2019.10.22-10.08.24:353][  0]LogShaderCompilers: Display: Shaders left to compile 635
+[2019.10.22-10.08.24:353][  0]LogShaderCompilers: Display: Shaders left to compile 634
+[2019.10.22-10.08.24:353][  0]LogShaderCompilers: Display: Shaders left to compile 633
+[2019.10.22-10.08.24:353][  0]LogShaderCompilers: Display: Shaders left to compile 632
+[2019.10.22-10.08.24:353][  0]LogShaderCompilers: Display: Shaders left to compile 631
+[2019.10.22-10.08.24:353][  0]LogShaderCompilers: Display: Shaders left to compile 630
+[2019.10.22-10.08.24:353][  0]LogShaderCompilers: Display: Shaders left to compile 629
+[2019.10.22-10.08.24:353][  0]LogShaderCompilers: Display: Shaders left to compile 628
+[2019.10.22-10.08.24:353][  0]LogShaderCompilers: Display: Shaders left to compile 627
+[2019.10.22-10.08.24:353][  0]LogShaderCompilers: Display: Shaders left to compile 626
+[2019.10.22-10.08.24:353][  0]LogShaderCompilers: Display: Shaders left to compile 625
+[2019.10.22-10.08.24:353][  0]LogShaderCompilers: Display: Shaders left to compile 624
+[2019.10.22-10.08.24:353][  0]LogShaderCompilers: Display: Shaders left to compile 623
+[2019.10.22-10.08.24:353][  0]LogShaderCompilers: Display: Shaders left to compile 622
+[2019.10.22-10.08.24:353][  0]LogShaderCompilers: Display: Shaders left to compile 621
+[2019.10.22-10.08.24:353][  0]LogShaderCompilers: Display: Shaders left to compile 620
+[2019.10.22-10.08.24:353][  0]LogShaderCompilers: Display: Shaders left to compile 619
+[2019.10.22-10.08.24:353][  0]LogShaderCompilers: Display: Shaders left to compile 618
+[2019.10.22-10.08.24:353][  0]LogShaderCompilers: Display: Shaders left to compile 617
+[2019.10.22-10.08.24:353][  0]LogShaderCompilers: Display: Shaders left to compile 616
+[2019.10.22-10.08.24:353][  0]LogShaderCompilers: Display: Shaders left to compile 615
+[2019.10.22-10.08.24:353][  0]LogShaderCompilers: Display: Shaders left to compile 614
+[2019.10.22-10.08.24:353][  0]LogShaderCompilers: Display: Shaders left to compile 613
+[2019.10.22-10.08.24:353][  0]LogShaderCompilers: Display: Shaders left to compile 612
+[2019.10.22-10.08.24:353][  0]LogShaderCompilers: Display: Shaders left to compile 611
+[2019.10.22-10.08.24:353][  0]LogShaderCompilers: Display: Shaders left to compile 610
+[2019.10.22-10.08.24:353][  0]LogShaderCompilers: Display: Shaders left to compile 609
+[2019.10.22-10.08.24:353][  0]LogShaderCompilers: Display: Shaders left to compile 608
+[2019.10.22-10.08.24:353][  0]LogShaderCompilers: Display: Shaders left to compile 607
+[2019.10.22-10.08.24:353][  0]LogShaderCompilers: Display: Shaders left to compile 606
+[2019.10.22-10.08.24:353][  0]LogShaderCompilers: Display: Shaders left to compile 605
+[2019.10.22-10.08.24:353][  0]LogShaderCompilers: Display: Shaders left to compile 604
+[2019.10.22-10.08.24:353][  0]LogShaderCompilers: Display: Shaders left to compile 603
+[2019.10.22-10.08.24:353][  0]LogShaderCompilers: Display: Shaders left to compile 602
+[2019.10.22-10.08.24:353][  0]LogShaderCompilers: Display: Shaders left to compile 601
+[2019.10.22-10.08.24:354][  0]LogShaderCompilers: Display: Shaders left to compile 600
+[2019.10.22-10.08.24:354][  0]LogShaderCompilers: Display: Shaders left to compile 599
+[2019.10.22-10.08.24:354][  0]LogShaderCompilers: Display: Shaders left to compile 598
+[2019.10.22-10.08.24:354][  0]LogShaderCompilers: Display: Shaders left to compile 597
+[2019.10.22-10.08.24:354][  0]LogShaderCompilers: Display: Shaders left to compile 596
+[2019.10.22-10.08.24:354][  0]LogShaderCompilers: Display: Shaders left to compile 595
+[2019.10.22-10.08.24:354][  0]LogShaderCompilers: Display: Shaders left to compile 594
+[2019.10.22-10.08.24:354][  0]LogShaderCompilers: Display: Shaders left to compile 593
+[2019.10.22-10.08.24:354][  0]LogShaderCompilers: Display: Shaders left to compile 592
+[2019.10.22-10.08.24:354][  0]LogShaderCompilers: Display: Shaders left to compile 591
+[2019.10.22-10.08.24:354][  0]LogShaderCompilers: Display: Shaders left to compile 590
+[2019.10.22-10.08.24:354][  0]LogShaderCompilers: Display: Shaders left to compile 589
+[2019.10.22-10.08.24:354][  0]LogShaderCompilers: Display: Shaders left to compile 588
+[2019.10.22-10.08.24:354][  0]LogShaderCompilers: Display: Shaders left to compile 587
+[2019.10.22-10.08.24:354][  0]LogShaderCompilers: Display: Shaders left to compile 586
+[2019.10.22-10.08.24:354][  0]LogShaderCompilers: Display: Shaders left to compile 585
+[2019.10.22-10.08.24:354][  0]LogShaderCompilers: Display: Shaders left to compile 584
+[2019.10.22-10.08.24:354][  0]LogShaderCompilers: Display: Shaders left to compile 583
+[2019.10.22-10.08.24:354][  0]LogShaderCompilers: Display: Shaders left to compile 582
+[2019.10.22-10.08.24:354][  0]LogShaderCompilers: Display: Shaders left to compile 581
+[2019.10.22-10.08.24:354][  0]LogShaderCompilers: Display: Shaders left to compile 580
+[2019.10.22-10.08.24:354][  0]LogShaderCompilers: Display: Shaders left to compile 579
+[2019.10.22-10.08.24:354][  0]LogShaderCompilers: Display: Shaders left to compile 578
+[2019.10.22-10.08.24:354][  0]LogShaderCompilers: Display: Shaders left to compile 577
+[2019.10.22-10.08.24:354][  0]LogShaderCompilers: Display: Shaders left to compile 576
+[2019.10.22-10.08.24:354][  0]LogShaderCompilers: Display: Shaders left to compile 575
+[2019.10.22-10.08.24:354][  0]LogShaderCompilers: Display: Shaders left to compile 574
+[2019.10.22-10.08.24:354][  0]LogShaderCompilers: Display: Shaders left to compile 573
+[2019.10.22-10.08.24:354][  0]LogShaderCompilers: Display: Shaders left to compile 572
+[2019.10.22-10.08.24:354][  0]LogShaderCompilers: Display: Shaders left to compile 571
+[2019.10.22-10.08.24:354][  0]LogShaderCompilers: Display: Shaders left to compile 570
+[2019.10.22-10.08.24:354][  0]LogShaderCompilers: Display: Shaders left to compile 569
+[2019.10.22-10.08.24:354][  0]LogShaderCompilers: Display: Shaders left to compile 568
+[2019.10.22-10.08.24:354][  0]LogShaderCompilers: Display: Shaders left to compile 567
+[2019.10.22-10.08.24:354][  0]LogShaderCompilers: Display: Shaders left to compile 566
+[2019.10.22-10.08.24:354][  0]LogShaderCompilers: Display: Shaders left to compile 565
+[2019.10.22-10.08.24:354][  0]LogShaderCompilers: Display: Shaders left to compile 564
+[2019.10.22-10.08.24:354][  0]LogShaderCompilers: Display: Shaders left to compile 563
+[2019.10.22-10.08.24:354][  0]LogShaderCompilers: Display: Shaders left to compile 562
+[2019.10.22-10.08.24:354][  0]LogShaderCompilers: Display: Shaders left to compile 561
+[2019.10.22-10.08.24:354][  0]LogShaderCompilers: Display: Shaders left to compile 560
+[2019.10.22-10.08.24:354][  0]LogShaderCompilers: Display: Shaders left to compile 559
+[2019.10.22-10.08.24:354][  0]LogShaderCompilers: Display: Shaders left to compile 558
+[2019.10.22-10.08.24:354][  0]LogShaderCompilers: Display: Shaders left to compile 557
+[2019.10.22-10.08.24:354][  0]LogShaderCompilers: Display: Shaders left to compile 556
+[2019.10.22-10.08.24:354][  0]LogShaderCompilers: Display: Shaders left to compile 555
+[2019.10.22-10.08.24:354][  0]LogShaderCompilers: Display: Shaders left to compile 554
+[2019.10.22-10.08.24:354][  0]LogShaderCompilers: Display: Shaders left to compile 553
+[2019.10.22-10.08.24:354][  0]LogShaderCompilers: Display: Shaders left to compile 552
+[2019.10.22-10.08.24:354][  0]LogShaderCompilers: Display: Shaders left to compile 551
+[2019.10.22-10.08.24:354][  0]LogShaderCompilers: Display: Shaders left to compile 550
+[2019.10.22-10.08.24:354][  0]LogShaderCompilers: Display: Shaders left to compile 549
+[2019.10.22-10.08.24:354][  0]LogShaderCompilers: Display: Shaders left to compile 548
+[2019.10.22-10.08.24:354][  0]LogShaderCompilers: Display: Shaders left to compile 547
+[2019.10.22-10.08.24:354][  0]LogShaderCompilers: Display: Shaders left to compile 546
+[2019.10.22-10.08.24:354][  0]LogShaderCompilers: Display: Shaders left to compile 545
+[2019.10.22-10.08.24:354][  0]LogShaderCompilers: Display: Shaders left to compile 544
+[2019.10.22-10.08.24:354][  0]LogShaderCompilers: Display: Shaders left to compile 543
+[2019.10.22-10.08.24:354][  0]LogShaderCompilers: Display: Shaders left to compile 542
+[2019.10.22-10.08.24:354][  0]LogShaderCompilers: Display: Shaders left to compile 541
+[2019.10.22-10.08.24:354][  0]LogShaderCompilers: Display: Shaders left to compile 540
+[2019.10.22-10.08.24:354][  0]LogShaderCompilers: Display: Shaders left to compile 539
+[2019.10.22-10.08.24:354][  0]LogShaderCompilers: Display: Shaders left to compile 538
+[2019.10.22-10.08.24:354][  0]LogShaderCompilers: Display: Shaders left to compile 537
+[2019.10.22-10.08.24:354][  0]LogShaderCompilers: Display: Shaders left to compile 536
+[2019.10.22-10.08.24:354][  0]LogShaderCompilers: Display: Shaders left to compile 535
+[2019.10.22-10.08.24:354][  0]LogShaderCompilers: Display: Shaders left to compile 534
+[2019.10.22-10.08.24:354][  0]LogShaderCompilers: Display: Shaders left to compile 533
+[2019.10.22-10.08.24:354][  0]LogShaderCompilers: Display: Shaders left to compile 532
+[2019.10.22-10.08.24:354][  0]LogShaderCompilers: Display: Shaders left to compile 531
+[2019.10.22-10.08.24:354][  0]LogShaderCompilers: Display: Shaders left to compile 530
+[2019.10.22-10.08.24:354][  0]LogShaderCompilers: Display: Shaders left to compile 529
+[2019.10.22-10.08.24:354][  0]LogShaderCompilers: Display: Shaders left to compile 528
+[2019.10.22-10.08.24:354][  0]LogShaderCompilers: Display: Shaders left to compile 527
+[2019.10.22-10.08.24:354][  0]LogShaderCompilers: Display: Shaders left to compile 526
+[2019.10.22-10.08.24:354][  0]LogShaderCompilers: Display: Shaders left to compile 525
+[2019.10.22-10.08.24:354][  0]LogShaderCompilers: Display: Shaders left to compile 524
+[2019.10.22-10.08.24:354][  0]LogShaderCompilers: Display: Shaders left to compile 523
+[2019.10.22-10.08.24:354][  0]LogShaderCompilers: Display: Shaders left to compile 522
+[2019.10.22-10.08.24:354][  0]LogShaderCompilers: Display: Shaders left to compile 521
+[2019.10.22-10.08.24:354][  0]LogShaderCompilers: Display: Shaders left to compile 520
+[2019.10.22-10.08.24:354][  0]LogShaderCompilers: Display: Shaders left to compile 519
+[2019.10.22-10.08.24:354][  0]LogShaderCompilers: Display: Shaders left to compile 518
+[2019.10.22-10.08.24:354][  0]LogShaderCompilers: Display: Shaders left to compile 517
+[2019.10.22-10.08.24:354][  0]LogShaderCompilers: Display: Shaders left to compile 516
+[2019.10.22-10.08.24:354][  0]LogShaderCompilers: Display: Shaders left to compile 515
+[2019.10.22-10.08.24:354][  0]LogShaderCompilers: Display: Shaders left to compile 514
+[2019.10.22-10.08.24:354][  0]LogShaderCompilers: Display: Shaders left to compile 513
+[2019.10.22-10.08.24:354][  0]LogShaderCompilers: Display: Shaders left to compile 512
+[2019.10.22-10.08.24:354][  0]LogShaderCompilers: Display: Shaders left to compile 511
+[2019.10.22-10.08.24:355][  0]LogShaderCompilers: Display: Shaders left to compile 510
+[2019.10.22-10.08.24:355][  0]LogShaderCompilers: Display: Shaders left to compile 509
+[2019.10.22-10.08.24:355][  0]LogShaderCompilers: Display: Shaders left to compile 508
+[2019.10.22-10.08.24:355][  0]LogShaderCompilers: Display: Shaders left to compile 507
+[2019.10.22-10.08.24:355][  0]LogShaderCompilers: Display: Shaders left to compile 506
+[2019.10.22-10.08.24:355][  0]LogShaderCompilers: Display: Shaders left to compile 505
+[2019.10.22-10.08.24:355][  0]LogShaderCompilers: Display: Shaders left to compile 504
+[2019.10.22-10.08.24:355][  0]LogShaderCompilers: Display: Shaders left to compile 503
+[2019.10.22-10.08.24:355][  0]LogShaderCompilers: Display: Shaders left to compile 502
+[2019.10.22-10.08.24:355][  0]LogShaderCompilers: Display: Shaders left to compile 501
+[2019.10.22-10.08.24:355][  0]LogShaderCompilers: Display: Shaders left to compile 500
+[2019.10.22-10.08.24:355][  0]LogShaderCompilers: Display: Shaders left to compile 499
+[2019.10.22-10.08.24:355][  0]LogShaderCompilers: Display: Shaders left to compile 498
+[2019.10.22-10.08.24:355][  0]LogShaderCompilers: Display: Shaders left to compile 497
+[2019.10.22-10.08.24:355][  0]LogShaderCompilers: Display: Shaders left to compile 496
+[2019.10.22-10.08.24:355][  0]LogShaderCompilers: Display: Shaders left to compile 495
+[2019.10.22-10.08.24:355][  0]LogShaderCompilers: Display: Shaders left to compile 494
+[2019.10.22-10.08.24:355][  0]LogShaderCompilers: Display: Shaders left to compile 493
+[2019.10.22-10.08.24:355][  0]LogShaderCompilers: Display: Shaders left to compile 492
+[2019.10.22-10.08.24:355][  0]LogShaderCompilers: Display: Shaders left to compile 491
+[2019.10.22-10.08.24:355][  0]LogShaderCompilers: Display: Shaders left to compile 490
+[2019.10.22-10.08.24:355][  0]LogShaderCompilers: Display: Shaders left to compile 489
+[2019.10.22-10.08.24:355][  0]LogShaderCompilers: Display: Shaders left to compile 488
+[2019.10.22-10.08.24:355][  0]LogShaderCompilers: Display: Shaders left to compile 487
+[2019.10.22-10.08.24:355][  0]LogShaderCompilers: Display: Shaders left to compile 486
+[2019.10.22-10.08.24:355][  0]LogShaderCompilers: Display: Shaders left to compile 485
+[2019.10.22-10.08.24:355][  0]LogShaderCompilers: Display: Shaders left to compile 484
+[2019.10.22-10.08.24:355][  0]LogShaderCompilers: Display: Shaders left to compile 483
+[2019.10.22-10.08.24:355][  0]LogShaderCompilers: Display: Shaders left to compile 482
+[2019.10.22-10.08.24:355][  0]LogShaderCompilers: Display: Shaders left to compile 481
+[2019.10.22-10.08.24:355][  0]LogShaderCompilers: Display: Shaders left to compile 480
+[2019.10.22-10.08.24:355][  0]LogShaderCompilers: Display: Shaders left to compile 479
+[2019.10.22-10.08.24:355][  0]LogShaderCompilers: Display: Shaders left to compile 478
+[2019.10.22-10.08.24:355][  0]LogShaderCompilers: Display: Shaders left to compile 477
+[2019.10.22-10.08.24:355][  0]LogShaderCompilers: Display: Shaders left to compile 476
+[2019.10.22-10.08.24:355][  0]LogShaderCompilers: Display: Shaders left to compile 475
+[2019.10.22-10.08.24:355][  0]LogShaderCompilers: Display: Shaders left to compile 474
+[2019.10.22-10.08.24:355][  0]LogShaderCompilers: Display: Shaders left to compile 473
+[2019.10.22-10.08.24:355][  0]LogShaderCompilers: Display: Shaders left to compile 472
+[2019.10.22-10.08.24:355][  0]LogShaderCompilers: Display: Shaders left to compile 471
+[2019.10.22-10.08.24:355][  0]LogShaderCompilers: Display: Shaders left to compile 470
+[2019.10.22-10.08.24:355][  0]LogShaderCompilers: Display: Shaders left to compile 469
+[2019.10.22-10.08.24:355][  0]LogShaderCompilers: Display: Shaders left to compile 468
+[2019.10.22-10.08.24:355][  0]LogShaderCompilers: Display: Shaders left to compile 467
+[2019.10.22-10.08.24:355][  0]LogShaderCompilers: Display: Shaders left to compile 466
+[2019.10.22-10.08.24:355][  0]LogShaderCompilers: Display: Shaders left to compile 465
+[2019.10.22-10.08.24:355][  0]LogShaderCompilers: Display: Shaders left to compile 464
+[2019.10.22-10.08.24:356][  0]LogShaderCompilers: Display: Shaders left to compile 463
+[2019.10.22-10.08.24:356][  0]LogShaderCompilers: Display: Shaders left to compile 462
+[2019.10.22-10.08.24:356][  0]LogShaderCompilers: Display: Shaders left to compile 461
+[2019.10.22-10.08.24:356][  0]LogShaderCompilers: Display: Shaders left to compile 460
+[2019.10.22-10.08.24:356][  0]LogShaderCompilers: Display: Shaders left to compile 459
+[2019.10.22-10.08.24:356][  0]LogShaderCompilers: Display: Shaders left to compile 458
+[2019.10.22-10.08.24:356][  0]LogShaderCompilers: Display: Shaders left to compile 457
+[2019.10.22-10.08.24:356][  0]LogShaderCompilers: Display: Shaders left to compile 456
+[2019.10.22-10.08.24:356][  0]LogShaderCompilers: Display: Shaders left to compile 455
+[2019.10.22-10.08.24:356][  0]LogShaderCompilers: Display: Shaders left to compile 454
+[2019.10.22-10.08.24:356][  0]LogShaderCompilers: Display: Shaders left to compile 453
+[2019.10.22-10.08.24:356][  0]LogShaderCompilers: Display: Shaders left to compile 452
+[2019.10.22-10.08.24:356][  0]LogShaderCompilers: Display: Shaders left to compile 451
+[2019.10.22-10.08.24:356][  0]LogShaderCompilers: Display: Shaders left to compile 450
+[2019.10.22-10.08.24:356][  0]LogShaderCompilers: Display: Shaders left to compile 449
+[2019.10.22-10.08.24:356][  0]LogShaderCompilers: Display: Shaders left to compile 448
+[2019.10.22-10.08.24:356][  0]LogShaderCompilers: Display: Shaders left to compile 447
+[2019.10.22-10.08.24:356][  0]LogShaderCompilers: Display: Shaders left to compile 446
+[2019.10.22-10.08.24:356][  0]LogShaderCompilers: Display: Shaders left to compile 445
+[2019.10.22-10.08.24:356][  0]LogShaderCompilers: Display: Shaders left to compile 444
+[2019.10.22-10.08.24:356][  0]LogShaderCompilers: Display: Shaders left to compile 443
+[2019.10.22-10.08.24:356][  0]LogShaderCompilers: Display: Shaders left to compile 442
+[2019.10.22-10.08.24:356][  0]LogShaderCompilers: Display: Shaders left to compile 441
+[2019.10.22-10.08.24:356][  0]LogShaderCompilers: Display: Shaders left to compile 440
+[2019.10.22-10.08.24:356][  0]LogShaderCompilers: Display: Shaders left to compile 439
+[2019.10.22-10.08.24:356][  0]LogShaderCompilers: Display: Shaders left to compile 438
+[2019.10.22-10.08.24:356][  0]LogShaderCompilers: Display: Shaders left to compile 437
+[2019.10.22-10.08.24:356][  0]LogShaderCompilers: Display: Shaders left to compile 436
+[2019.10.22-10.08.24:356][  0]LogShaderCompilers: Display: Shaders left to compile 435
+[2019.10.22-10.08.24:356][  0]LogShaderCompilers: Display: Shaders left to compile 434
+[2019.10.22-10.08.24:356][  0]LogShaderCompilers: Display: Shaders left to compile 433
+[2019.10.22-10.08.24:356][  0]LogShaderCompilers: Display: Shaders left to compile 432
+[2019.10.22-10.08.24:356][  0]LogShaderCompilers: Display: Shaders left to compile 431
+[2019.10.22-10.08.24:356][  0]LogShaderCompilers: Display: Shaders left to compile 430
+[2019.10.22-10.08.24:356][  0]LogShaderCompilers: Display: Shaders left to compile 429
+[2019.10.22-10.08.24:356][  0]LogShaderCompilers: Display: Shaders left to compile 428
+[2019.10.22-10.08.24:356][  0]LogShaderCompilers: Display: Shaders left to compile 427
+[2019.10.22-10.08.24:356][  0]LogShaderCompilers: Display: Shaders left to compile 426
+[2019.10.22-10.08.24:356][  0]LogShaderCompilers: Display: Shaders left to compile 425
+[2019.10.22-10.08.24:356][  0]LogShaderCompilers: Display: Shaders left to compile 424
+[2019.10.22-10.08.24:356][  0]LogShaderCompilers: Display: Shaders left to compile 423
+[2019.10.22-10.08.24:356][  0]LogShaderCompilers: Display: Shaders left to compile 422
+[2019.10.22-10.08.24:356][  0]LogShaderCompilers: Display: Shaders left to compile 421
+[2019.10.22-10.08.24:356][  0]LogShaderCompilers: Display: Shaders left to compile 420
+[2019.10.22-10.08.24:356][  0]LogShaderCompilers: Display: Shaders left to compile 419
+[2019.10.22-10.08.24:356][  0]LogShaderCompilers: Display: Shaders left to compile 418
+[2019.10.22-10.08.24:356][  0]LogShaderCompilers: Display: Shaders left to compile 417
+[2019.10.22-10.08.24:356][  0]LogShaderCompilers: Display: Shaders left to compile 416
+[2019.10.22-10.08.24:356][  0]LogShaderCompilers: Display: Shaders left to compile 415
+[2019.10.22-10.08.24:356][  0]LogShaderCompilers: Display: Shaders left to compile 414
+[2019.10.22-10.08.24:356][  0]LogShaderCompilers: Display: Shaders left to compile 413
+[2019.10.22-10.08.24:356][  0]LogShaderCompilers: Display: Shaders left to compile 412
+[2019.10.22-10.08.24:356][  0]LogShaderCompilers: Display: Shaders left to compile 411
+[2019.10.22-10.08.24:356][  0]LogShaderCompilers: Display: Shaders left to compile 410
+[2019.10.22-10.08.24:356][  0]LogShaderCompilers: Display: Shaders left to compile 409
+[2019.10.22-10.08.24:356][  0]LogShaderCompilers: Display: Shaders left to compile 408
+[2019.10.22-10.08.24:356][  0]LogShaderCompilers: Display: Shaders left to compile 407
+[2019.10.22-10.08.24:356][  0]LogShaderCompilers: Display: Shaders left to compile 406
+[2019.10.22-10.08.24:356][  0]LogShaderCompilers: Display: Shaders left to compile 405
+[2019.10.22-10.08.24:356][  0]LogShaderCompilers: Display: Shaders left to compile 404
+[2019.10.22-10.08.24:356][  0]LogShaderCompilers: Display: Shaders left to compile 403
+[2019.10.22-10.08.24:356][  0]LogShaderCompilers: Display: Shaders left to compile 402
+[2019.10.22-10.08.24:356][  0]LogShaderCompilers: Display: Shaders left to compile 401
+[2019.10.22-10.08.24:356][  0]LogShaderCompilers: Display: Shaders left to compile 400
+[2019.10.22-10.08.24:356][  0]LogShaderCompilers: Display: Shaders left to compile 399
+[2019.10.22-10.08.24:356][  0]LogShaderCompilers: Display: Shaders left to compile 398
+[2019.10.22-10.08.24:356][  0]LogShaderCompilers: Display: Shaders left to compile 397
+[2019.10.22-10.08.24:356][  0]LogShaderCompilers: Display: Shaders left to compile 396
+[2019.10.22-10.08.24:356][  0]LogShaderCompilers: Display: Shaders left to compile 395
+[2019.10.22-10.08.24:356][  0]LogShaderCompilers: Display: Shaders left to compile 394
+[2019.10.22-10.08.24:356][  0]LogShaderCompilers: Display: Shaders left to compile 393
+[2019.10.22-10.08.24:356][  0]LogShaderCompilers: Display: Shaders left to compile 392
+[2019.10.22-10.08.24:356][  0]LogShaderCompilers: Display: Shaders left to compile 391
+[2019.10.22-10.08.24:356][  0]LogShaderCompilers: Display: Shaders left to compile 390
+[2019.10.22-10.08.24:357][  0]LogShaderCompilers: Display: Shaders left to compile 389
+[2019.10.22-10.08.24:357][  0]LogShaderCompilers: Display: Shaders left to compile 388
+[2019.10.22-10.08.24:357][  0]LogShaderCompilers: Display: Shaders left to compile 387
+[2019.10.22-10.08.24:357][  0]LogShaderCompilers: Display: Shaders left to compile 386
+[2019.10.22-10.08.24:357][  0]LogShaderCompilers: Display: Shaders left to compile 385
+[2019.10.22-10.08.24:357][  0]LogShaderCompilers: Display: Shaders left to compile 384
+[2019.10.22-10.08.24:357][  0]LogShaderCompilers: Display: Shaders left to compile 383
+[2019.10.22-10.08.24:357][  0]LogShaderCompilers: Display: Shaders left to compile 382
+[2019.10.22-10.08.24:357][  0]LogShaderCompilers: Display: Shaders left to compile 381
+[2019.10.22-10.08.24:357][  0]LogShaderCompilers: Display: Shaders left to compile 380
+[2019.10.22-10.08.24:357][  0]LogShaderCompilers: Display: Shaders left to compile 379
+[2019.10.22-10.08.24:357][  0]LogShaderCompilers: Display: Shaders left to compile 378
+[2019.10.22-10.08.24:357][  0]LogShaderCompilers: Display: Shaders left to compile 377
+[2019.10.22-10.08.24:357][  0]LogShaderCompilers: Display: Shaders left to compile 376
+[2019.10.22-10.08.24:357][  0]LogShaderCompilers: Display: Shaders left to compile 375
+[2019.10.22-10.08.24:357][  0]LogShaderCompilers: Display: Shaders left to compile 374
+[2019.10.22-10.08.24:357][  0]LogShaderCompilers: Display: Shaders left to compile 373
+[2019.10.22-10.08.24:357][  0]LogShaderCompilers: Display: Shaders left to compile 372
+[2019.10.22-10.08.24:357][  0]LogShaderCompilers: Display: Shaders left to compile 371
+[2019.10.22-10.08.24:357][  0]LogShaderCompilers: Display: Shaders left to compile 370
+[2019.10.22-10.08.24:357][  0]LogShaderCompilers: Display: Shaders left to compile 369
+[2019.10.22-10.08.24:357][  0]LogShaderCompilers: Display: Shaders left to compile 368
+[2019.10.22-10.08.24:357][  0]LogShaderCompilers: Display: Shaders left to compile 367
+[2019.10.22-10.08.24:357][  0]LogShaderCompilers: Display: Shaders left to compile 366
+[2019.10.22-10.08.24:357][  0]LogShaderCompilers: Display: Shaders left to compile 365
+[2019.10.22-10.08.24:357][  0]LogShaderCompilers: Display: Shaders left to compile 364
+[2019.10.22-10.08.24:357][  0]LogShaderCompilers: Display: Shaders left to compile 363
+[2019.10.22-10.08.24:357][  0]LogShaderCompilers: Display: Shaders left to compile 362
+[2019.10.22-10.08.24:357][  0]LogShaderCompilers: Display: Shaders left to compile 361
+[2019.10.22-10.08.24:357][  0]LogShaderCompilers: Display: Shaders left to compile 360
+[2019.10.22-10.08.24:357][  0]LogShaderCompilers: Display: Shaders left to compile 359
+[2019.10.22-10.08.24:357][  0]LogShaderCompilers: Display: Shaders left to compile 358
+[2019.10.22-10.08.24:357][  0]LogShaderCompilers: Display: Shaders left to compile 357
+[2019.10.22-10.08.24:357][  0]LogShaderCompilers: Display: Shaders left to compile 356
+[2019.10.22-10.08.24:357][  0]LogShaderCompilers: Display: Shaders left to compile 355
+[2019.10.22-10.08.24:357][  0]LogShaderCompilers: Display: Shaders left to compile 354
+[2019.10.22-10.08.24:357][  0]LogShaderCompilers: Display: Shaders left to compile 353
+[2019.10.22-10.08.24:357][  0]LogShaderCompilers: Display: Shaders left to compile 352
+[2019.10.22-10.08.24:357][  0]LogShaderCompilers: Display: Shaders left to compile 351
+[2019.10.22-10.08.24:357][  0]LogShaderCompilers: Display: Shaders left to compile 350
+[2019.10.22-10.08.24:357][  0]LogShaderCompilers: Display: Shaders left to compile 349
+[2019.10.22-10.08.24:357][  0]LogShaderCompilers: Display: Shaders left to compile 348
+[2019.10.22-10.08.24:357][  0]LogShaderCompilers: Display: Shaders left to compile 347
+[2019.10.22-10.08.24:357][  0]LogShaderCompilers: Display: Shaders left to compile 346
+[2019.10.22-10.08.24:357][  0]LogShaderCompilers: Display: Shaders left to compile 345
+[2019.10.22-10.08.24:357][  0]LogShaderCompilers: Display: Shaders left to compile 344
+[2019.10.22-10.08.24:357][  0]LogShaderCompilers: Display: Shaders left to compile 343
+[2019.10.22-10.08.24:357][  0]LogShaderCompilers: Display: Shaders left to compile 342
+[2019.10.22-10.08.24:357][  0]LogShaderCompilers: Display: Shaders left to compile 341
+[2019.10.22-10.08.24:357][  0]LogShaderCompilers: Display: Shaders left to compile 340
+[2019.10.22-10.08.24:357][  0]LogShaderCompilers: Display: Shaders left to compile 339
+[2019.10.22-10.08.24:357][  0]LogShaderCompilers: Display: Shaders left to compile 338
+[2019.10.22-10.08.24:357][  0]LogShaderCompilers: Display: Shaders left to compile 337
+[2019.10.22-10.08.24:357][  0]LogShaderCompilers: Display: Shaders left to compile 336
+[2019.10.22-10.08.24:357][  0]LogShaderCompilers: Display: Shaders left to compile 335
+[2019.10.22-10.08.24:357][  0]LogShaderCompilers: Display: Shaders left to compile 334
+[2019.10.22-10.08.24:357][  0]LogShaderCompilers: Display: Shaders left to compile 333
+[2019.10.22-10.08.24:357][  0]LogShaderCompilers: Display: Shaders left to compile 332
+[2019.10.22-10.08.24:357][  0]LogShaderCompilers: Display: Shaders left to compile 331
+[2019.10.22-10.08.24:357][  0]LogShaderCompilers: Display: Shaders left to compile 330
+[2019.10.22-10.08.24:357][  0]LogShaderCompilers: Display: Shaders left to compile 329
+[2019.10.22-10.08.24:357][  0]LogShaderCompilers: Display: Shaders left to compile 328
+[2019.10.22-10.08.24:357][  0]LogShaderCompilers: Display: Shaders left to compile 327
+[2019.10.22-10.08.24:357][  0]LogShaderCompilers: Display: Shaders left to compile 326
+[2019.10.22-10.08.24:357][  0]LogShaderCompilers: Display: Shaders left to compile 325
+[2019.10.22-10.08.24:357][  0]LogShaderCompilers: Display: Shaders left to compile 324
+[2019.10.22-10.08.24:357][  0]LogShaderCompilers: Display: Shaders left to compile 323
+[2019.10.22-10.08.24:357][  0]LogShaderCompilers: Display: Shaders left to compile 322
+[2019.10.22-10.08.24:357][  0]LogShaderCompilers: Display: Shaders left to compile 321
+[2019.10.22-10.08.24:357][  0]LogShaderCompilers: Display: Shaders left to compile 320
+[2019.10.22-10.08.24:357][  0]LogShaderCompilers: Display: Shaders left to compile 319
+[2019.10.22-10.08.24:357][  0]LogShaderCompilers: Display: Shaders left to compile 318
+[2019.10.22-10.08.24:357][  0]LogShaderCompilers: Display: Shaders left to compile 317
+[2019.10.22-10.08.24:357][  0]LogShaderCompilers: Display: Shaders left to compile 316
+[2019.10.22-10.08.24:358][  0]LogShaderCompilers: Display: Shaders left to compile 315
+[2019.10.22-10.08.24:358][  0]LogShaderCompilers: Display: Shaders left to compile 314
+[2019.10.22-10.08.24:358][  0]LogShaderCompilers: Display: Shaders left to compile 313
+[2019.10.22-10.08.24:358][  0]LogShaderCompilers: Display: Shaders left to compile 312
+[2019.10.22-10.08.24:358][  0]LogShaderCompilers: Display: Shaders left to compile 311
+[2019.10.22-10.08.24:358][  0]LogShaderCompilers: Display: Shaders left to compile 310
+[2019.10.22-10.08.24:358][  0]LogShaderCompilers: Display: Shaders left to compile 309
+[2019.10.22-10.08.24:358][  0]LogShaderCompilers: Display: Shaders left to compile 308
+[2019.10.22-10.08.24:358][  0]LogShaderCompilers: Display: Shaders left to compile 307
+[2019.10.22-10.08.24:358][  0]LogShaderCompilers: Display: Shaders left to compile 306
+[2019.10.22-10.08.24:358][  0]LogShaderCompilers: Display: Shaders left to compile 305
+[2019.10.22-10.08.24:358][  0]LogShaderCompilers: Display: Shaders left to compile 304
+[2019.10.22-10.08.24:358][  0]LogShaderCompilers: Display: Shaders left to compile 303
+[2019.10.22-10.08.24:358][  0]LogShaderCompilers: Display: Shaders left to compile 302
+[2019.10.22-10.08.24:358][  0]LogShaderCompilers: Display: Shaders left to compile 301
+[2019.10.22-10.08.24:358][  0]LogShaderCompilers: Display: Shaders left to compile 300
+[2019.10.22-10.08.24:358][  0]LogShaderCompilers: Display: Shaders left to compile 299
+[2019.10.22-10.08.24:358][  0]LogShaderCompilers: Display: Shaders left to compile 298
+[2019.10.22-10.08.24:358][  0]LogShaderCompilers: Display: Shaders left to compile 297
+[2019.10.22-10.08.24:358][  0]LogShaderCompilers: Display: Shaders left to compile 296
+[2019.10.22-10.08.24:358][  0]LogShaderCompilers: Display: Shaders left to compile 295
+[2019.10.22-10.08.24:358][  0]LogShaderCompilers: Display: Shaders left to compile 294
+[2019.10.22-10.08.24:358][  0]LogShaderCompilers: Display: Shaders left to compile 293
+[2019.10.22-10.08.24:358][  0]LogShaderCompilers: Display: Shaders left to compile 292
+[2019.10.22-10.08.24:358][  0]LogShaderCompilers: Display: Shaders left to compile 291
+[2019.10.22-10.08.24:358][  0]LogShaderCompilers: Display: Shaders left to compile 290
+[2019.10.22-10.08.24:358][  0]LogShaderCompilers: Display: Shaders left to compile 289
+[2019.10.22-10.08.24:358][  0]LogShaderCompilers: Display: Shaders left to compile 288
+[2019.10.22-10.08.24:358][  0]LogShaderCompilers: Display: Shaders left to compile 287
+[2019.10.22-10.08.24:358][  0]LogShaderCompilers: Display: Shaders left to compile 286
+[2019.10.22-10.08.24:358][  0]LogShaderCompilers: Display: Shaders left to compile 285
+[2019.10.22-10.08.24:358][  0]LogShaderCompilers: Display: Shaders left to compile 284
+[2019.10.22-10.08.24:358][  0]LogShaderCompilers: Display: Shaders left to compile 283
+[2019.10.22-10.08.24:358][  0]LogShaderCompilers: Display: Shaders left to compile 282
+[2019.10.22-10.08.24:358][  0]LogShaderCompilers: Display: Shaders left to compile 281
+[2019.10.22-10.08.24:358][  0]LogShaderCompilers: Display: Shaders left to compile 280
+[2019.10.22-10.08.24:358][  0]LogShaderCompilers: Display: Shaders left to compile 279
+[2019.10.22-10.08.24:358][  0]LogShaderCompilers: Display: Shaders left to compile 278
+[2019.10.22-10.08.24:358][  0]LogShaderCompilers: Display: Shaders left to compile 277
+[2019.10.22-10.08.24:358][  0]LogShaderCompilers: Display: Shaders left to compile 276
+[2019.10.22-10.08.24:358][  0]LogShaderCompilers: Display: Shaders left to compile 275
+[2019.10.22-10.08.24:358][  0]LogShaderCompilers: Display: Shaders left to compile 274
+[2019.10.22-10.08.24:358][  0]LogShaderCompilers: Display: Shaders left to compile 273
+[2019.10.22-10.08.24:358][  0]LogShaderCompilers: Display: Shaders left to compile 272
+[2019.10.22-10.08.24:358][  0]LogShaderCompilers: Display: Shaders left to compile 271
+[2019.10.22-10.08.24:358][  0]LogShaderCompilers: Display: Shaders left to compile 270
+[2019.10.22-10.08.24:358][  0]LogShaderCompilers: Display: Shaders left to compile 269
+[2019.10.22-10.08.24:358][  0]LogShaderCompilers: Display: Shaders left to compile 268
+[2019.10.22-10.08.24:358][  0]LogShaderCompilers: Display: Shaders left to compile 267
+[2019.10.22-10.08.24:358][  0]LogShaderCompilers: Display: Shaders left to compile 266
+[2019.10.22-10.08.24:358][  0]LogShaderCompilers: Display: Shaders left to compile 265
+[2019.10.22-10.08.24:358][  0]LogShaderCompilers: Display: Shaders left to compile 264
+[2019.10.22-10.08.24:358][  0]LogShaderCompilers: Display: Shaders left to compile 263
+[2019.10.22-10.08.24:358][  0]LogShaderCompilers: Display: Shaders left to compile 262
+[2019.10.22-10.08.24:358][  0]LogShaderCompilers: Display: Shaders left to compile 261
+[2019.10.22-10.08.24:358][  0]LogShaderCompilers: Display: Shaders left to compile 260
+[2019.10.22-10.08.24:358][  0]LogShaderCompilers: Display: Shaders left to compile 259
+[2019.10.22-10.08.24:358][  0]LogShaderCompilers: Display: Shaders left to compile 258
+[2019.10.22-10.08.24:358][  0]LogShaderCompilers: Display: Shaders left to compile 257
+[2019.10.22-10.08.24:358][  0]LogShaderCompilers: Display: Shaders left to compile 256
+[2019.10.22-10.08.24:358][  0]LogShaderCompilers: Display: Shaders left to compile 255
+[2019.10.22-10.08.24:358][  0]LogShaderCompilers: Display: Shaders left to compile 254
+[2019.10.22-10.08.24:358][  0]LogShaderCompilers: Display: Shaders left to compile 253
+[2019.10.22-10.08.24:358][  0]LogShaderCompilers: Display: Shaders left to compile 252
+[2019.10.22-10.08.24:358][  0]LogShaderCompilers: Display: Shaders left to compile 251
+[2019.10.22-10.08.24:358][  0]LogShaderCompilers: Display: Shaders left to compile 250
+[2019.10.22-10.08.24:358][  0]LogShaderCompilers: Display: Shaders left to compile 249
+[2019.10.22-10.08.24:358][  0]LogShaderCompilers: Display: Shaders left to compile 248
+[2019.10.22-10.08.24:358][  0]LogShaderCompilers: Display: Shaders left to compile 247
+[2019.10.22-10.08.24:358][  0]LogShaderCompilers: Display: Shaders left to compile 246
+[2019.10.22-10.08.24:358][  0]LogShaderCompilers: Display: Shaders left to compile 245
+[2019.10.22-10.08.24:358][  0]LogShaderCompilers: Display: Shaders left to compile 244
+[2019.10.22-10.08.24:358][  0]LogShaderCompilers: Display: Shaders left to compile 243
+[2019.10.22-10.08.24:358][  0]LogShaderCompilers: Display: Shaders left to compile 242
+[2019.10.22-10.08.24:358][  0]LogShaderCompilers: Display: Shaders left to compile 241
+[2019.10.22-10.08.24:358][  0]LogShaderCompilers: Display: Shaders left to compile 240
+[2019.10.22-10.08.24:358][  0]LogShaderCompilers: Display: Shaders left to compile 239
+[2019.10.22-10.08.24:358][  0]LogShaderCompilers: Display: Shaders left to compile 238
+[2019.10.22-10.08.24:358][  0]LogShaderCompilers: Display: Shaders left to compile 237
+[2019.10.22-10.08.24:358][  0]LogShaderCompilers: Display: Shaders left to compile 236
+[2019.10.22-10.08.24:358][  0]LogShaderCompilers: Display: Shaders left to compile 235
+[2019.10.22-10.08.24:359][  0]LogShaderCompilers: Display: Shaders left to compile 234
+[2019.10.22-10.08.24:359][  0]LogShaderCompilers: Display: Shaders left to compile 233
+[2019.10.22-10.08.24:359][  0]LogShaderCompilers: Display: Shaders left to compile 232
+[2019.10.22-10.08.24:359][  0]LogShaderCompilers: Display: Shaders left to compile 231
+[2019.10.22-10.08.24:359][  0]LogShaderCompilers: Display: Shaders left to compile 230
+[2019.10.22-10.08.24:359][  0]LogShaderCompilers: Display: Shaders left to compile 229
+[2019.10.22-10.08.24:359][  0]LogShaderCompilers: Display: Shaders left to compile 228
+[2019.10.22-10.08.24:359][  0]LogShaderCompilers: Display: Shaders left to compile 227
+[2019.10.22-10.08.24:359][  0]LogShaderCompilers: Display: Shaders left to compile 226
+[2019.10.22-10.08.24:359][  0]LogShaderCompilers: Display: Shaders left to compile 225
+[2019.10.22-10.08.24:359][  0]LogShaderCompilers: Display: Shaders left to compile 224
+[2019.10.22-10.08.24:359][  0]LogShaderCompilers: Display: Shaders left to compile 223
+[2019.10.22-10.08.24:359][  0]LogShaderCompilers: Display: Shaders left to compile 222
+[2019.10.22-10.08.24:359][  0]LogShaderCompilers: Display: Shaders left to compile 221
+[2019.10.22-10.08.24:359][  0]LogShaderCompilers: Display: Shaders left to compile 220
+[2019.10.22-10.08.24:359][  0]LogShaderCompilers: Display: Shaders left to compile 219
+[2019.10.22-10.08.24:359][  0]LogShaderCompilers: Display: Shaders left to compile 218
+[2019.10.22-10.08.24:359][  0]LogShaderCompilers: Display: Shaders left to compile 217
+[2019.10.22-10.08.24:359][  0]LogShaderCompilers: Display: Shaders left to compile 216
+[2019.10.22-10.08.24:359][  0]LogShaderCompilers: Display: Shaders left to compile 215
+[2019.10.22-10.08.24:359][  0]LogShaderCompilers: Display: Shaders left to compile 214
+[2019.10.22-10.08.24:359][  0]LogShaderCompilers: Display: Shaders left to compile 213
+[2019.10.22-10.08.24:359][  0]LogShaderCompilers: Display: Shaders left to compile 212
+[2019.10.22-10.08.24:359][  0]LogShaderCompilers: Display: Shaders left to compile 211
+[2019.10.22-10.08.24:359][  0]LogShaderCompilers: Display: Shaders left to compile 210
+[2019.10.22-10.08.24:359][  0]LogShaderCompilers: Display: Shaders left to compile 209
+[2019.10.22-10.08.24:359][  0]LogShaderCompilers: Display: Shaders left to compile 208
+[2019.10.22-10.08.24:359][  0]LogShaderCompilers: Display: Shaders left to compile 207
+[2019.10.22-10.08.24:359][  0]LogShaderCompilers: Display: Shaders left to compile 206
+[2019.10.22-10.08.24:359][  0]LogShaderCompilers: Display: Shaders left to compile 205
+[2019.10.22-10.08.24:359][  0]LogShaderCompilers: Display: Shaders left to compile 204
+[2019.10.22-10.08.24:359][  0]LogShaderCompilers: Display: Shaders left to compile 203
+[2019.10.22-10.08.24:359][  0]LogShaderCompilers: Display: Shaders left to compile 202
+[2019.10.22-10.08.24:359][  0]LogShaderCompilers: Display: Shaders left to compile 201
+[2019.10.22-10.08.24:359][  0]LogShaderCompilers: Display: Shaders left to compile 200
+[2019.10.22-10.08.24:359][  0]LogShaderCompilers: Display: Shaders left to compile 199
+[2019.10.22-10.08.24:359][  0]LogShaderCompilers: Display: Shaders left to compile 198
+[2019.10.22-10.08.24:359][  0]LogShaderCompilers: Display: Shaders left to compile 197
+[2019.10.22-10.08.24:359][  0]LogShaderCompilers: Display: Shaders left to compile 196
+[2019.10.22-10.08.24:359][  0]LogShaderCompilers: Display: Shaders left to compile 195
+[2019.10.22-10.08.24:359][  0]LogShaderCompilers: Display: Shaders left to compile 194
+[2019.10.22-10.08.24:359][  0]LogShaderCompilers: Display: Shaders left to compile 193
+[2019.10.22-10.08.24:359][  0]LogShaderCompilers: Display: Shaders left to compile 192
+[2019.10.22-10.08.24:359][  0]LogShaderCompilers: Display: Shaders left to compile 191
+[2019.10.22-10.08.24:359][  0]LogShaderCompilers: Display: Shaders left to compile 190
+[2019.10.22-10.08.24:359][  0]LogShaderCompilers: Display: Shaders left to compile 189
+[2019.10.22-10.08.24:359][  0]LogShaderCompilers: Display: Shaders left to compile 188
+[2019.10.22-10.08.24:359][  0]LogShaderCompilers: Display: Shaders left to compile 187
+[2019.10.22-10.08.24:359][  0]LogShaderCompilers: Display: Shaders left to compile 186
+[2019.10.22-10.08.24:359][  0]LogShaderCompilers: Display: Shaders left to compile 185
+[2019.10.22-10.08.24:359][  0]LogShaderCompilers: Display: Shaders left to compile 184
+[2019.10.22-10.08.24:359][  0]LogShaderCompilers: Display: Shaders left to compile 183
+[2019.10.22-10.08.24:359][  0]LogShaderCompilers: Display: Shaders left to compile 182
+[2019.10.22-10.08.24:359][  0]LogShaderCompilers: Display: Shaders left to compile 181
+[2019.10.22-10.08.24:359][  0]LogShaderCompilers: Display: Shaders left to compile 180
+[2019.10.22-10.08.24:359][  0]LogShaderCompilers: Display: Shaders left to compile 179
+[2019.10.22-10.08.24:359][  0]LogShaderCompilers: Display: Shaders left to compile 178
+[2019.10.22-10.08.24:359][  0]LogShaderCompilers: Display: Shaders left to compile 177
+[2019.10.22-10.08.24:359][  0]LogShaderCompilers: Display: Shaders left to compile 176
+[2019.10.22-10.08.24:359][  0]LogShaderCompilers: Display: Shaders left to compile 175
+[2019.10.22-10.08.24:359][  0]LogShaderCompilers: Display: Shaders left to compile 174
+[2019.10.22-10.08.24:359][  0]LogShaderCompilers: Display: Shaders left to compile 173
+[2019.10.22-10.08.24:359][  0]LogShaderCompilers: Display: Shaders left to compile 172
+[2019.10.22-10.08.24:359][  0]LogShaderCompilers: Display: Shaders left to compile 171
+[2019.10.22-10.08.24:359][  0]LogShaderCompilers: Display: Shaders left to compile 170
+[2019.10.22-10.08.24:359][  0]LogShaderCompilers: Display: Shaders left to compile 169
+[2019.10.22-10.08.24:359][  0]LogShaderCompilers: Display: Shaders left to compile 168
+[2019.10.22-10.08.24:359][  0]LogShaderCompilers: Display: Shaders left to compile 167
+[2019.10.22-10.08.24:359][  0]LogShaderCompilers: Display: Shaders left to compile 166
+[2019.10.22-10.08.24:359][  0]LogShaderCompilers: Display: Shaders left to compile 165
+[2019.10.22-10.08.24:359][  0]LogShaderCompilers: Display: Shaders left to compile 164
+[2019.10.22-10.08.24:359][  0]LogShaderCompilers: Display: Shaders left to compile 163
+[2019.10.22-10.08.24:359][  0]LogShaderCompilers: Display: Shaders left to compile 162
+[2019.10.22-10.08.24:359][  0]LogShaderCompilers: Display: Shaders left to compile 161
+[2019.10.22-10.08.24:359][  0]LogShaderCompilers: Display: Shaders left to compile 160
+[2019.10.22-10.08.24:359][  0]LogShaderCompilers: Display: Shaders left to compile 159
+[2019.10.22-10.08.24:359][  0]LogShaderCompilers: Display: Shaders left to compile 158
+[2019.10.22-10.08.24:359][  0]LogShaderCompilers: Display: Shaders left to compile 157
+[2019.10.22-10.08.24:359][  0]LogShaderCompilers: Display: Shaders left to compile 156
+[2019.10.22-10.08.24:359][  0]LogShaderCompilers: Display: Shaders left to compile 155
+[2019.10.22-10.08.24:359][  0]LogShaderCompilers: Display: Shaders left to compile 154
+[2019.10.22-10.08.24:359][  0]LogShaderCompilers: Display: Shaders left to compile 153
+[2019.10.22-10.08.24:359][  0]LogShaderCompilers: Display: Shaders left to compile 152
+[2019.10.22-10.08.24:359][  0]LogShaderCompilers: Display: Shaders left to compile 151
+[2019.10.22-10.08.24:359][  0]LogShaderCompilers: Display: Shaders left to compile 150
+[2019.10.22-10.08.24:359][  0]LogShaderCompilers: Display: Shaders left to compile 149
+[2019.10.22-10.08.24:359][  0]LogShaderCompilers: Display: Shaders left to compile 148
+[2019.10.22-10.08.24:359][  0]LogShaderCompilers: Display: Shaders left to compile 147
+[2019.10.22-10.08.24:359][  0]LogShaderCompilers: Display: Shaders left to compile 146
+[2019.10.22-10.08.24:359][  0]LogShaderCompilers: Display: Shaders left to compile 145
+[2019.10.22-10.08.24:359][  0]LogShaderCompilers: Display: Shaders left to compile 144
+[2019.10.22-10.08.24:359][  0]LogShaderCompilers: Display: Shaders left to compile 143
+[2019.10.22-10.08.24:359][  0]LogShaderCompilers: Display: Shaders left to compile 142
+[2019.10.22-10.08.24:359][  0]LogShaderCompilers: Display: Shaders left to compile 141
+[2019.10.22-10.08.24:360][  0]LogShaderCompilers: Display: Shaders left to compile 140
+[2019.10.22-10.08.24:360][  0]LogShaderCompilers: Display: Shaders left to compile 139
+[2019.10.22-10.08.24:360][  0]LogShaderCompilers: Display: Shaders left to compile 138
+[2019.10.22-10.08.24:360][  0]LogShaderCompilers: Display: Shaders left to compile 137
+[2019.10.22-10.08.24:360][  0]LogShaderCompilers: Display: Shaders left to compile 136
+[2019.10.22-10.08.24:360][  0]LogShaderCompilers: Display: Shaders left to compile 135
+[2019.10.22-10.08.24:360][  0]LogShaderCompilers: Display: Shaders left to compile 134
+[2019.10.22-10.08.24:360][  0]LogShaderCompilers: Display: Shaders left to compile 133
+[2019.10.22-10.08.24:360][  0]LogShaderCompilers: Display: Shaders left to compile 132
+[2019.10.22-10.08.24:360][  0]LogShaderCompilers: Display: Shaders left to compile 131
+[2019.10.22-10.08.24:360][  0]LogShaderCompilers: Display: Shaders left to compile 130
+[2019.10.22-10.08.24:360][  0]LogShaderCompilers: Display: Shaders left to compile 129
+[2019.10.22-10.08.24:360][  0]LogShaderCompilers: Display: Shaders left to compile 128
+[2019.10.22-10.08.24:360][  0]LogShaderCompilers: Display: Shaders left to compile 127
+[2019.10.22-10.08.24:360][  0]LogShaderCompilers: Display: Shaders left to compile 126
+[2019.10.22-10.08.24:360][  0]LogShaderCompilers: Display: Shaders left to compile 125
+[2019.10.22-10.08.24:360][  0]LogShaderCompilers: Display: Shaders left to compile 124
+[2019.10.22-10.08.24:360][  0]LogShaderCompilers: Display: Shaders left to compile 123
+[2019.10.22-10.08.24:360][  0]LogShaderCompilers: Display: Shaders left to compile 122
+[2019.10.22-10.08.24:360][  0]LogShaderCompilers: Display: Shaders left to compile 121
+[2019.10.22-10.08.24:360][  0]LogShaderCompilers: Display: Shaders left to compile 120
+[2019.10.22-10.08.24:360][  0]LogShaderCompilers: Display: Shaders left to compile 119
+[2019.10.22-10.08.24:360][  0]LogShaderCompilers: Display: Shaders left to compile 118
+[2019.10.22-10.08.24:360][  0]LogShaderCompilers: Display: Shaders left to compile 117
+[2019.10.22-10.08.24:360][  0]LogShaderCompilers: Display: Shaders left to compile 116
+[2019.10.22-10.08.24:360][  0]LogShaderCompilers: Display: Shaders left to compile 115
+[2019.10.22-10.08.24:360][  0]LogShaderCompilers: Display: Shaders left to compile 114
+[2019.10.22-10.08.24:360][  0]LogShaderCompilers: Display: Shaders left to compile 113
+[2019.10.22-10.08.24:360][  0]LogShaderCompilers: Display: Shaders left to compile 112
+[2019.10.22-10.08.24:360][  0]LogShaderCompilers: Display: Shaders left to compile 111
+[2019.10.22-10.08.24:360][  0]LogShaderCompilers: Display: Shaders left to compile 110
+[2019.10.22-10.08.24:360][  0]LogShaderCompilers: Display: Shaders left to compile 109
+[2019.10.22-10.08.24:360][  0]LogShaderCompilers: Display: Shaders left to compile 108
+[2019.10.22-10.08.24:360][  0]LogShaderCompilers: Display: Shaders left to compile 107
+[2019.10.22-10.08.24:360][  0]LogShaderCompilers: Display: Shaders left to compile 106
+[2019.10.22-10.08.24:360][  0]LogShaderCompilers: Display: Shaders left to compile 105
+[2019.10.22-10.08.24:360][  0]LogShaderCompilers: Display: Shaders left to compile 104
+[2019.10.22-10.08.24:360][  0]LogShaderCompilers: Display: Shaders left to compile 103
+[2019.10.22-10.08.24:360][  0]LogShaderCompilers: Display: Shaders left to compile 102
+[2019.10.22-10.08.24:360][  0]LogShaderCompilers: Display: Shaders left to compile 101
+[2019.10.22-10.08.24:360][  0]LogShaderCompilers: Display: Shaders left to compile 100
+[2019.10.22-10.08.24:360][  0]LogShaderCompilers: Display: Shaders left to compile 99
+[2019.10.22-10.08.24:360][  0]LogShaderCompilers: Display: Shaders left to compile 98
+[2019.10.22-10.08.24:360][  0]LogShaderCompilers: Display: Shaders left to compile 97
+[2019.10.22-10.08.24:360][  0]LogShaderCompilers: Display: Shaders left to compile 96
+[2019.10.22-10.08.24:360][  0]LogShaderCompilers: Display: Shaders left to compile 95
+[2019.10.22-10.08.24:360][  0]LogShaderCompilers: Display: Shaders left to compile 94
+[2019.10.22-10.08.24:360][  0]LogShaderCompilers: Display: Shaders left to compile 93
+[2019.10.22-10.08.24:360][  0]LogShaderCompilers: Display: Shaders left to compile 92
+[2019.10.22-10.08.24:360][  0]LogShaderCompilers: Display: Shaders left to compile 91
+[2019.10.22-10.08.24:360][  0]LogShaderCompilers: Display: Shaders left to compile 90
+[2019.10.22-10.08.24:360][  0]LogShaderCompilers: Display: Shaders left to compile 89
+[2019.10.22-10.08.24:360][  0]LogShaderCompilers: Display: Shaders left to compile 88
+[2019.10.22-10.08.24:360][  0]LogShaderCompilers: Display: Shaders left to compile 87
+[2019.10.22-10.08.24:360][  0]LogShaderCompilers: Display: Shaders left to compile 86
+[2019.10.22-10.08.24:360][  0]LogShaderCompilers: Display: Shaders left to compile 85
+[2019.10.22-10.08.24:360][  0]LogShaderCompilers: Display: Shaders left to compile 84
+[2019.10.22-10.08.24:360][  0]LogShaderCompilers: Display: Shaders left to compile 83
+[2019.10.22-10.08.24:360][  0]LogShaderCompilers: Display: Shaders left to compile 82
+[2019.10.22-10.08.24:360][  0]LogShaderCompilers: Display: Shaders left to compile 81
+[2019.10.22-10.08.24:360][  0]LogShaderCompilers: Display: Shaders left to compile 80
+[2019.10.22-10.08.24:360][  0]LogShaderCompilers: Display: Shaders left to compile 79
+[2019.10.22-10.08.24:360][  0]LogShaderCompilers: Display: Shaders left to compile 78
+[2019.10.22-10.08.24:360][  0]LogShaderCompilers: Display: Shaders left to compile 77
+[2019.10.22-10.08.24:360][  0]LogShaderCompilers: Display: Shaders left to compile 76
+[2019.10.22-10.08.24:360][  0]LogShaderCompilers: Display: Shaders left to compile 75
+[2019.10.22-10.08.24:360][  0]LogShaderCompilers: Display: Shaders left to compile 74
+[2019.10.22-10.08.24:360][  0]LogShaderCompilers: Display: Shaders left to compile 73
+[2019.10.22-10.08.24:360][  0]LogShaderCompilers: Display: Shaders left to compile 72
+[2019.10.22-10.08.24:360][  0]LogShaderCompilers: Display: Shaders left to compile 71
+[2019.10.22-10.08.24:360][  0]LogShaderCompilers: Display: Shaders left to compile 70
+[2019.10.22-10.08.24:360][  0]LogShaderCompilers: Display: Shaders left to compile 69
+[2019.10.22-10.08.24:360][  0]LogShaderCompilers: Display: Shaders left to compile 68
+[2019.10.22-10.08.24:360][  0]LogShaderCompilers: Display: Shaders left to compile 67
+[2019.10.22-10.08.24:360][  0]LogShaderCompilers: Display: Shaders left to compile 66
+[2019.10.22-10.08.24:360][  0]LogShaderCompilers: Display: Shaders left to compile 65
+[2019.10.22-10.08.24:360][  0]LogShaderCompilers: Display: Shaders left to compile 64
+[2019.10.22-10.08.24:360][  0]LogShaderCompilers: Display: Shaders left to compile 63
+[2019.10.22-10.08.24:360][  0]LogShaderCompilers: Display: Shaders left to compile 62
+[2019.10.22-10.08.24:360][  0]LogShaderCompilers: Display: Shaders left to compile 61
+[2019.10.22-10.08.24:361][  0]LogShaderCompilers: Display: Shaders left to compile 60
+[2019.10.22-10.08.24:361][  0]LogShaderCompilers: Display: Shaders left to compile 59
+[2019.10.22-10.08.24:361][  0]LogShaderCompilers: Display: Shaders left to compile 58
+[2019.10.22-10.08.24:361][  0]LogShaderCompilers: Display: Shaders left to compile 57
+[2019.10.22-10.08.24:361][  0]LogShaderCompilers: Display: Shaders left to compile 56
+[2019.10.22-10.08.24:361][  0]LogShaderCompilers: Display: Shaders left to compile 55
+[2019.10.22-10.08.24:361][  0]LogShaderCompilers: Display: Shaders left to compile 54
+[2019.10.22-10.08.24:361][  0]LogShaderCompilers: Display: Shaders left to compile 53
+[2019.10.22-10.08.24:361][  0]LogShaderCompilers: Display: Shaders left to compile 52
+[2019.10.22-10.08.24:361][  0]LogShaderCompilers: Display: Shaders left to compile 51
+[2019.10.22-10.08.24:361][  0]LogShaderCompilers: Display: Shaders left to compile 50
+[2019.10.22-10.08.24:361][  0]LogShaderCompilers: Display: Shaders left to compile 49
+[2019.10.22-10.08.24:361][  0]LogShaderCompilers: Display: Shaders left to compile 48
+[2019.10.22-10.08.24:361][  0]LogShaderCompilers: Display: Shaders left to compile 47
+[2019.10.22-10.08.24:361][  0]LogShaderCompilers: Display: Shaders left to compile 46
+[2019.10.22-10.08.24:361][  0]LogShaderCompilers: Display: Shaders left to compile 45
+[2019.10.22-10.08.24:361][  0]LogShaderCompilers: Display: Shaders left to compile 44
+[2019.10.22-10.08.24:361][  0]LogShaderCompilers: Display: Shaders left to compile 43
+[2019.10.22-10.08.24:361][  0]LogShaderCompilers: Display: Shaders left to compile 42
+[2019.10.22-10.08.24:361][  0]LogShaderCompilers: Display: Shaders left to compile 41
+[2019.10.22-10.08.24:361][  0]LogShaderCompilers: Display: Shaders left to compile 40
+[2019.10.22-10.08.24:361][  0]LogShaderCompilers: Display: Shaders left to compile 39
+[2019.10.22-10.08.24:361][  0]LogShaderCompilers: Display: Shaders left to compile 38
+[2019.10.22-10.08.24:361][  0]LogShaderCompilers: Display: Shaders left to compile 37
+[2019.10.22-10.08.24:361][  0]LogShaderCompilers: Display: Shaders left to compile 36
+[2019.10.22-10.08.24:361][  0]LogShaderCompilers: Display: Shaders left to compile 35
+[2019.10.22-10.08.24:361][  0]LogShaderCompilers: Display: Shaders left to compile 34
+[2019.10.22-10.08.24:361][  0]LogShaderCompilers: Display: Shaders left to compile 33
+[2019.10.22-10.08.24:361][  0]LogShaderCompilers: Display: Shaders left to compile 32
+[2019.10.22-10.08.24:361][  0]LogShaderCompilers: Display: Shaders left to compile 31
+[2019.10.22-10.08.24:361][  0]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.10.22-10.08.24:361][  0]LogShaderCompilers: Display: Shaders left to compile 29
+[2019.10.22-10.08.24:361][  0]LogShaderCompilers: Display: Shaders left to compile 28
+[2019.10.22-10.08.24:361][  0]LogShaderCompilers: Display: Shaders left to compile 27
+[2019.10.22-10.08.24:361][  0]LogShaderCompilers: Display: Shaders left to compile 26
+[2019.10.22-10.08.24:361][  0]LogShaderCompilers: Display: Shaders left to compile 25
+[2019.10.22-10.08.24:361][  0]LogShaderCompilers: Display: Shaders left to compile 24
+[2019.10.22-10.08.24:361][  0]LogShaderCompilers: Display: Shaders left to compile 23
+[2019.10.22-10.08.24:361][  0]LogShaderCompilers: Display: Shaders left to compile 22
+[2019.10.22-10.08.24:361][  0]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.10.22-10.08.24:361][  0]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.10.22-10.08.24:361][  0]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.10.22-10.08.24:361][  0]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.10.22-10.08.24:361][  0]LogShaderCompilers: Display: Shaders left to compile 17
+[2019.10.22-10.08.24:361][  0]LogShaderCompilers: Display: Shaders left to compile 16
+[2019.10.22-10.08.24:361][  0]LogShaderCompilers: Display: Shaders left to compile 15
+[2019.10.22-10.08.24:361][  0]LogShaderCompilers: Display: Shaders left to compile 14
+[2019.10.22-10.08.24:361][  0]LogShaderCompilers: Display: Shaders left to compile 13
+[2019.10.22-10.08.24:361][  0]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.10.22-10.08.24:361][  0]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.10.22-10.08.24:361][  0]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.10.22-10.08.24:361][  0]LogShaderCompilers: Display: Shaders left to compile 9
+[2019.10.22-10.08.24:361][  0]LogShaderCompilers: Display: Shaders left to compile 8
+[2019.10.22-10.08.24:361][  0]LogShaderCompilers: Display: Shaders left to compile 7
+[2019.10.22-10.08.24:361][  0]LogShaderCompilers: Display: Shaders left to compile 6
+[2019.10.22-10.08.24:361][  0]LogShaderCompilers: Display: Shaders left to compile 5
+[2019.10.22-10.08.24:361][  0]LogShaderCompilers: Display: Shaders left to compile 4
+[2019.10.22-10.08.24:361][  0]LogShaderCompilers: Display: Shaders left to compile 3
+[2019.10.22-10.08.24:361][  0]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.10.22-10.08.24:361][  0]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.10.22-10.08.24:361][  0]LogMaterial: Display: Missing cached shader map for material DefaultLightFunctionMaterial, compiling. 
+[2019.10.22-10.08.24:557][  0]LogShaderCompilers: Display: Shaders left to compile 3
+[2019.10.22-10.08.24:557][  0]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.10.22-10.08.24:557][  0]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.10.22-10.08.24:557][  0]LogMaterial: Display: Missing cached shader map for material DefaultPostProcessMaterial, compiling. 
+[2019.10.22-10.08.24:928][  0]LogShaderCompilers: Display: Shaders left to compile 8
+[2019.10.22-10.08.24:928][  0]LogShaderCompilers: Display: Shaders left to compile 7
+[2019.10.22-10.08.24:928][  0]LogShaderCompilers: Display: Shaders left to compile 6
+[2019.10.22-10.08.24:928][  0]LogShaderCompilers: Display: Shaders left to compile 5
+[2019.10.22-10.08.24:928][  0]LogShaderCompilers: Display: Shaders left to compile 4
+[2019.10.22-10.08.24:928][  0]LogShaderCompilers: Display: Shaders left to compile 3
+[2019.10.22-10.08.24:928][  0]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.10.22-10.08.24:928][  0]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.10.22-10.08.24:928][  0]LogMaterial: Display: Missing cached shader map for material WorldGridMaterial, compiling. Is special engine material.
