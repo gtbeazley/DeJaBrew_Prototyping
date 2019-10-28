@@ -550,3 +550,6 @@ LogInit: Object subsystem initialized
 [2019.10.28-05.19.30:794][323]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
 [2019.10.28-05.19.30:834][326]LogPlayLevel: Display: Destroying online subsystem :Context_4
 [2019.10.28-05.19.32:601][538]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.28-05.26.31:512][794]LogSavePackage: Moving '../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Saved/Level1_Auto142882ACC4D103F543DF56E81AE1D0DA6.tmp' to '../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Saved/Autosaves/Game/SideScrollerBP/Maps/Level1_Auto1.umap'
+[2019.10.28-05.26.31:517][794]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/SideScrollerBP/Maps/Level1' took 1.333
+[2019.10.28-05.26.31:517][794]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.333
