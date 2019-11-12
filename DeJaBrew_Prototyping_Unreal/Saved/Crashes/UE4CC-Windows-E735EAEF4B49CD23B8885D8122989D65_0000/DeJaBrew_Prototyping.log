@@ -1,0 +1,999 @@
+﻿Log file open, 11/12/19 12:29:26
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: DeJaBrew_Prototyping
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.266405
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +10:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.090s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-6700 CPU @ 3.40GHz, GPU: NVIDIA GeForce GTX 1060 6GB
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.002s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2019.11.12-01.29.26:476][  0]LogInit: Selected Device Profile: [Windows]
+[2019.11.12-01.29.26:476][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.11.12-01.29.26:488][  0]LogHAL: Display: Platform has ~ 32 GB [34293108736 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.11.12-01.29.26:489][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2019.11.12-01.29.26:489][  0]LogInit: Going up to parent DeviceProfile []
+[2019.11.12-01.29.26:489][  0]LogInit: Computer: SYD-C63DCC
+[2019.11.12-01.29.26:489][  0]LogInit: User: s191273
+[2019.11.12-01.29.26:489][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.11.12-01.29.26:489][  0]LogInit: High frequency timer resolution =3.328121 MHz
+[2019.11.12-01.29.26:489][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2019.11.12-01.29.26:489][  0]LogMemory: Platform Memory Stats for Windows
+[2019.11.12-01.29.26:489][  0]LogMemory: Process Physical Memory: 99.93 MB used, 99.93 MB peak
+[2019.11.12-01.29.26:489][  0]LogMemory: Process Virtual Memory: 91.00 MB used, 91.00 MB peak
+[2019.11.12-01.29.26:489][  0]LogMemory: Physical Memory: 4392.57 MB used,  28311.88 MB free, 32704.46 MB total
+[2019.11.12-01.29.26:489][  0]LogMemory: Virtual Memory: 4640.04 MB used,  28311.88 MB free, 134217728.00 MB total
+[2019.11.12-01.29.26:504][  0]LogInit: Using OS detected language (en-US).
+[2019.11.12-01.29.26:505][  0]LogInit: Using OS detected locale (en-US).
+[2019.11.12-01.29.26:505][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.11.12-01.29.26:848][  0]LogStreaming: Display: Took  0.344s to InitEngineTextLocalization.
+[2019.11.12-01.29.26:848][  0]LogInit: Setting process to per monitor DPI aware
+[2019.11.12-01.29.26:881][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.11.12-01.29.26:881][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.11.12-01.29.27:050][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.11.12-01.29.27:050][  0]LogD3D11RHI: D3D11 adapters:
+[2019.11.12-01.29.27:104][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 6GB' (Feature Level 11_0)
+[2019.11.12-01.29.27:104][  0]LogD3D11RHI:       6052/0/16352 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2019.11.12-01.29.27:106][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.11.12-01.29.27:106][  0]LogD3D11RHI:       0/0/16352 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.11.12-01.29.27:106][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.11.12-01.29.27:111][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.11.12-01.29.27:111][  0]LogD3D11RHI:     GPU DeviceId: 0x1c03 (for the marketing name, search the web for "GPU Device Id")
+[2019.11.12-01.29.27:111][  0]LogWindows: EnumDisplayDevices:
+[2019.11.12-01.29.27:111][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:1)
+[2019.11.12-01.29.27:111][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 6GB' (P:1 D:1)
+[2019.11.12-01.29.27:111][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2019.11.12-01.29.27:111][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2019.11.12-01.29.27:111][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2019.11.12-01.29.27:111][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 6GB
+[2019.11.12-01.29.27:111][  0]LogD3D11RHI:   Driver Version: 417.35 (internal:25.21.14.1735, unified:417.35)
+[2019.11.12-01.29.27:111][  0]LogD3D11RHI:      Driver Date: 12-11-2018
+[2019.11.12-01.29.27:111][  0]LogRHI: Texture pool is 4236 MB (70% of 6052 MB)
+[2019.11.12-01.29.27:145][  0]LogD3D11RHI: Async texture creation enabled
+[2019.11.12-01.29.27:162][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.11.12-01.29.27:246][  0]LogShaderCompilers: Guid format shader working directory is -50 characters bigger than the processId version (../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Intermediate/Shaders/WorkingDirectory/12016/).
+[2019.11.12-01.29.27:246][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/s191273/AppData/Local/Temp/UnrealShaderWorkingDir/ECD7E2F143A2CE089F6AEE9A2BAA3866/'.
+[2019.11.12-01.29.27:461][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.11.12-01.29.27:473][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.11.12-01.29.27:484][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.11.12-01.29.27:495][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.11.12-01.29.27:507][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.11.12-01.29.27:518][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.11.12-01.29.27:529][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.11.12-01.29.27:541][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.11.12-01.29.27:546][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.11.12-01.29.27:613][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.11.12-01.29.27:613][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.11.12-01.29.27:613][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.11.12-01.29.27:613][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.11.12-01.29.27:613][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.11.12-01.29.27:614][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.11.12-01.29.27:614][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.11.12-01.29.27:614][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.11.12-01.29.27:614][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.11.12-01.29.27:614][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.11.12-01.29.27:614][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.11.12-01.29.27:614][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.11.12-01.29.27:614][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.11.12-01.29.27:614][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.11.12-01.29.27:614][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.11.12-01.29.27:614][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.11.12-01.29.27:614][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.11.12-01.29.27:614][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.11.12-01.29.27:615][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.11.12-01.29.27:671][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.11.12-01.29.27:671][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.11.12-01.29.27:692][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.11.12-01.29.27:692][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.11.12-01.29.27:702][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.11.12-01.29.27:713][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.11.12-01.29.27:724][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.11.12-01.29.27:735][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.11.12-01.29.27:743][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.11.12-01.29.27:743][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.11.12-01.29.27:789][  0]LogXGEController: Cleaning working directory: C:/Users/s191273/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.11.12-01.29.27:790][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.11.12-01.29.27:790][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.11.12-01.29.27:790][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.11.12-01.29.28:384][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.11.12-01.29.28:431][  0]LogDerivedDataCache: Loaded boot cache 0.05s 71MB C:/Users/s191273/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.11.12-01.29.28:431][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/s191273/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2019.11.12-01.29.28:431][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.11.12-01.29.28:431][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.11.12-01.29.28:431][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.11.12-01.29.28:431][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.11.12-01.29.28:442][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.11.12-01.29.28:454][  0]LogDerivedDataCache: Using Local data cache path C:/Users/s191273/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.11.12-01.29.28:454][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.11.12-01.29.28:454][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.11.12-01.29.28:468][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.11.12-01.29.28:470][  0]LogSlate: Using FreeType 2.6.0
+[2019.11.12-01.29.28:470][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.11.12-01.29.28:535][  0]LogAssetRegistry: FAssetRegistry took 0.0260 seconds to start up
+[2019.11.12-01.29.28:799][  0]LogInit: Selected Device Profile: [Windows]
+[2019.11.12-01.29.28:913][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.11.12-01.29.28:915][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.11.12-01.29.28:915][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.11.12-01.29.28:915][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.11.12-01.29.28:915][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.11.12-01.29.28:929][  0]LogNetVersion: DeJaBrew_Prototyping 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 1964930159)
+[2019.11.12-01.29.29:175][  0]LogLinker: Warning: The file '../../../Engine/Content/EditorMaterials/Thumbnails/SkySphereMaterial.uasset' contains unrecognizable data, check that it is of the expected type.
+[2019.11.12-01.29.29:175][  0]LogLinker: Warning: The file '../../../Engine/Content/EditorMaterials/Thumbnails/SkySphereMaterial.uasset' contains unrecognizable data, check that it is of the expected type.
+[2019.11.12-01.29.29:176][  0]LogLinker: Warning: The file '../../../Engine/Content/EditorMaterials/Thumbnails/SkySphereMaterial.uasset' contains unrecognizable data, check that it is of the expected type.
+[2019.11.12-01.29.29:176][  0]LogLinker: Warning: The file '../../../Engine/Content/EditorMaterials/Thumbnails/SkySphereMaterial.uasset' contains unrecognizable data, check that it is of the expected type.
+[2019.11.12-01.29.29:177][  0]LogLinker: Warning: The file '../../../Engine/Content/EditorMaterials/Thumbnails/SkySphereMaterial.uasset' contains unrecognizable data, check that it is of the expected type.
+[2019.11.12-01.29.29:177][  0]LogLinker: Warning: The file '../../../Engine/Content/EditorMaterials/Thumbnails/SkySphereMaterial.uasset' contains unrecognizable data, check that it is of the expected type.
+[2019.11.12-01.29.29:365][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.096801 seconds
+[2019.11.12-01.29.29:373][  0]LogUObjectArray: 38422 objects as part of root set at end of initial load.
+[2019.11.12-01.29.29:373][  0]LogUObjectAllocator: 6687760 out of 0 bytes used by permanent object pool.
+[2019.11.12-01.29.29:373][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.11.12-01.29.30:090][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.11.12-01.29.30:102][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.11.12-01.29.30:233][  0]SourceControl: Source control is disabled
+[2019.11.12-01.29.30:233][  0]SourceControl: Source control is disabled
+[2019.11.12-01.29.30:234][  0]SourceControl: Source control is disabled
+[2019.11.12-01.29.30:235][  0]SourceControl: Source control is disabled
+[2019.11.12-01.29.30:382][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.11.12-01.29.30:426][  0]LogOcInput: OculusInput pre-init called
+[2019.11.12-01.29.30:479][  0]LogEngine: Initializing Engine...
+[2019.11.12-01.29.30:479][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.11.12-01.29.30:480][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.11.12-01.29.30:480][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.11.12-01.29.30:480][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.11.12-01.29.30:480][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.11.12-01.29.30:659][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.11.12-01.29.30:669][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.11.12-01.29.30:678][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.12-01.29.30:692][  0]LogInit: FAudioDevice initialized.
+[2019.11.12-01.29.30:692][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.11.12-01.29.30:762][  0]LogDerivedDataCache: Saved boot cache 0.07s 71MB C:/Users/s191273/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.11.12-01.29.30:766][  0]LogInit: Texture streaming: Enabled
+[2019.11.12-01.29.30:779][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.11.12-01.29.30:779][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={001533B9-4A38-2E45-F85F-158D72E02EAE}
+[2019.11.12-01.29.30:791][  0]LogInit: Transaction tracking system initialized
+[2019.11.12-01.29.30:806][  0]BlueprintLog: New page: Editor Load
+[2019.11.12-01.29.30:863][  0]LocalizationService: Localization service is disabled
+[2019.11.12-01.29.31:016][  0]LogLinker: Warning: The file '../../../Engine/Content/EditorMaterials/Thumbnails/SkySphereMaterial.uasset' contains unrecognizable data, check that it is of the expected type.
+[2019.11.12-01.29.31:070][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.11.12-01.29.31:070][  0]LogCook: Display: Mobile HDR setting 1
+[2019.11.12-01.29.31:070][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.11.12-01.29.31:070][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.11.12-01.29.31:070][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.11.12-01.29.31:070][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.11.12-01.29.31:070][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.11.12-01.29.31:158][  0]LogFileCache: Scanning file cache for directory 'C:/Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/' took 0.02s
+[2019.11.12-01.29.31:158][  0]SourceControl: Source control is disabled
+[2019.11.12-01.29.31:251][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.11.12-01.29.31:252][  0]LogSlate: Took 0.000138 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.11.12-01.29.33:359][  0]LogSlate: Window 'Restore Packages' being destroyed
+[2019.11.12-01.29.33:360][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.11.12-01.29.33:363][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.11.12-01.29.33:366][  0]Cmd: MAP LOAD FILE="../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Maps/Template.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.11.12-01.29.33:367][  0]LightingResults: New page: Lighting Build
+[2019.11.12-01.29.33:370][  0]MapCheck: New page: Map Check
+[2019.11.12-01.29.33:370][  0]LightingResults: New page: Lighting Build
+[2019.11.12-01.29.33:892][  0]LogLinker: Warning: Can't find file '/Game/SideScrollerBP/Textures/Rocks/Rocks_Base'
+[2019.11.12-01.29.33:893][  0]LogLinker: Warning: Can't find file for asset '/Game/SideScrollerBP/Textures/Rocks/Rocks_Base' while loading ../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Materials/Rock_Material.uasset.
+[2019.11.12-01.29.33:893][  0]LoadErrors: Error: /Game/SideScrollerBP/Materials/Rock_Material : Can't find file for asset. /Game/SideScrollerBP/Textures/Rocks/Rocks_Base
+[2019.11.12-01.29.33:893][  0]LogLinker: Warning: Can't find file '/Game/SideScrollerBP/Textures/Rocks/Rocks_Norm'
+[2019.11.12-01.29.33:893][  0]LogLinker: Warning: Can't find file for asset '/Game/SideScrollerBP/Textures/Rocks/Rocks_Norm' while loading ../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Materials/Rock_Material.uasset.
+[2019.11.12-01.29.33:893][  0]LoadErrors: Error: /Game/SideScrollerBP/Materials/Rock_Material : Can't find file for asset. /Game/SideScrollerBP/Textures/Rocks/Rocks_Norm
+[2019.11.12-01.29.33:893][  0]LogLinker: Warning: Can't find file '/Game/SideScrollerBP/Textures/Rocks/Rocks_Roug'
+[2019.11.12-01.29.33:893][  0]LogLinker: Warning: Can't find file for asset '/Game/SideScrollerBP/Textures/Rocks/Rocks_Roug' while loading ../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Materials/Rock_Material.uasset.
+[2019.11.12-01.29.33:893][  0]LoadErrors: Error: /Game/SideScrollerBP/Materials/Rock_Material : Can't find file for asset. /Game/SideScrollerBP/Textures/Rocks/Rocks_Roug
+[2019.11.12-01.29.33:893][  0]LogLinker: Warning: Can't find file '/Game/SideScrollerBP/Textures/Rocks/Rocks_Base'
+[2019.11.12-01.29.33:893][  0]LogLinker: Warning: Can't find file for asset '/Game/SideScrollerBP/Textures/Rocks/Rocks_Base' while loading ../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Materials/Rock_Material.uasset.
+[2019.11.12-01.29.33:893][  0]LoadErrors: Error: /Game/SideScrollerBP/Materials/Rock_Material : Can't find file for asset. /Game/SideScrollerBP/Textures/Rocks/Rocks_Base
+[2019.11.12-01.29.33:893][  0]LogLinker: Warning: Can't find file '/Game/SideScrollerBP/Textures/Rocks/Rocks_Norm'
+[2019.11.12-01.29.33:894][  0]LogLinker: Warning: Can't find file for asset '/Game/SideScrollerBP/Textures/Rocks/Rocks_Norm' while loading ../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Materials/Rock_Material.uasset.
+[2019.11.12-01.29.33:894][  0]LoadErrors: Error: /Game/SideScrollerBP/Materials/Rock_Material : Can't find file for asset. /Game/SideScrollerBP/Textures/Rocks/Rocks_Norm
+[2019.11.12-01.29.33:894][  0]LogLinker: Warning: Can't find file '/Game/SideScrollerBP/Textures/Rocks/Rocks_Roug'
+[2019.11.12-01.29.33:894][  0]LogLinker: Warning: Can't find file for asset '/Game/SideScrollerBP/Textures/Rocks/Rocks_Roug' while loading ../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Materials/Rock_Material.uasset.
+[2019.11.12-01.29.33:894][  0]LoadErrors: Error: /Game/SideScrollerBP/Materials/Rock_Material : Can't find file for asset. /Game/SideScrollerBP/Textures/Rocks/Rocks_Roug
+[2019.11.12-01.29.34:133][  0]LogLinker: Warning: Can't find file '/Game/SideScrollerBP/Textures/Rocks/Rocks_Base'
+[2019.11.12-01.29.34:134][  0]LoadErrors: Failed to load /Game/SideScrollerBP/Textures/Rocks/Rocks_Base.Rocks_Base Referenced by MaterialExpressionTextureSample_0
+[2019.11.12-01.29.34:134][  0]LogLinker: Warning: Can't find file for asset '/Game/SideScrollerBP/Textures/Rocks/Rocks_Base' while loading NULL.
+[2019.11.12-01.29.34:134][  0]LoadErrors: Failed to load /Game/SideScrollerBP/Textures/Rocks/Rocks_Base.Rocks_Base Referenced by MaterialExpressionTextureSample_0
+[2019.11.12-01.29.34:134][  0]LogLinker: Warning: Can't find file '/Game/SideScrollerBP/Textures/Rocks/Rocks_Norm'
+[2019.11.12-01.29.34:134][  0]LoadErrors: Failed to load /Game/SideScrollerBP/Textures/Rocks/Rocks_Norm.Rocks_Norm Referenced by MaterialExpressionTextureSample_1
+[2019.11.12-01.29.34:134][  0]LogLinker: Warning: Can't find file for asset '/Game/SideScrollerBP/Textures/Rocks/Rocks_Norm' while loading NULL.
+[2019.11.12-01.29.34:134][  0]LoadErrors: Failed to load /Game/SideScrollerBP/Textures/Rocks/Rocks_Norm.Rocks_Norm Referenced by MaterialExpressionTextureSample_1
+[2019.11.12-01.29.34:134][  0]LogLinker: Warning: Can't find file '/Game/SideScrollerBP/Textures/Rocks/Rocks_Roug'
+[2019.11.12-01.29.34:134][  0]LoadErrors: Failed to load /Game/SideScrollerBP/Textures/Rocks/Rocks_Roug.Rocks_Roug Referenced by MaterialExpressionTextureSample_2
+[2019.11.12-01.29.34:134][  0]LogLinker: Warning: Can't find file for asset '/Game/SideScrollerBP/Textures/Rocks/Rocks_Roug' while loading NULL.
+[2019.11.12-01.29.34:134][  0]LoadErrors: Failed to load /Game/SideScrollerBP/Textures/Rocks/Rocks_Roug.Rocks_Roug Referenced by MaterialExpressionTextureSample_2
+[2019.11.12-01.29.34:486][  0]LogMaterial: Display: Missing cached shader map for material Rock_Material, compiling. 
+[2019.11.12-01.29.34:487][  0]LogMaterial: Warning: C:\Users\s191273\Documents\GitHub\DeJaBrew_Prototyping\DeJaBrew_Prototyping_Unreal\Content\SideScrollerBP\Materials\Rock_Material.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2019.11.12-01.29.34:487][  0]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
+[2019.11.12-01.29.34:551][  0]LogAIModule: Creating AISystem for world Template
+[2019.11.12-01.29.34:595][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.11.12-01.29.34:621][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.11.12-01.29.34:709][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 87.476ms to complete.
+[2019.11.12-01.29.34:709][  0]LogFileHelpers: Loading map 'Template' took 1.343
+[2019.11.12-01.29.34:743][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.12-01.29.34:749][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.12-01.29.34:756][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.12-01.29.34:762][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.12-01.29.34:767][  0]LogCollectionManager: Loaded 0 collections in 0.001121 seconds
+[2019.11.12-01.29.34:808][  0]LogFileCache: Scanning file cache for directory 'C:/Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Saved/Collections/' took 0.01s
+[2019.11.12-01.29.34:808][  0]LogFileCache: Scanning file cache for directory 'C:/Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/Developers/s191273/Collections/' took 0.01s
+[2019.11.12-01.29.34:808][  0]LogFileCache: Scanning file cache for directory 'C:/Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/Collections/' took 0.01s
+[2019.11.12-01.29.34:808][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2019.11.12-01.29.34:816][  0]LogContentBrowser: Native class hierarchy populated in 0.0077 seconds. Added 2572 classes and 603 folders.
+[2019.11.12-01.29.34:820][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2019.11.12-01.29.34:849][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2019.11.12-01.29.34:854][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2019.11.12-01.29.34:866][  0]LogSlate: Took 0.000146 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.11.12-01.29.34:870][  0]LogSlate: Took 0.000238 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.11.12-01.29.34:917][  0]LogRenderer: Reallocating scene render targets to support 1216x576 Format 10 NumSamples 1 (Frame:1).
+[2019.11.12-01.29.35:116][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2019.11.12-01.29.35:116][  0]LogLoad: (Engine Initialization) Total time: 9.94 seconds
+[2019.11.12-01.29.35:116][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.11.12-01.29.35:161][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.11.12-01.29.35:168][  0]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.12-01.29.35:201][  0]LogSlate: Took 0.000187 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.11.12-01.29.35:260][  1]LogAssetRegistry: Asset discovery search completed in 6.7479 seconds
+[2019.11.12-01.29.35:261][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.11.12-01.29.35:261][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000055 seconds (updated 0 objects)
+[2019.11.12-01.29.36:158][ 52]LogSlate: Took 0.000215 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.11.12-01.29.40:246][528]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/' took 5.11s
+[2019.11.12-01.29.47:505][399]LogSlate: Window 'Message Log' being destroyed
+[2019.11.12-01.29.47:509][399]LogSlate: Window 'Message Log' being destroyed
+[2019.11.12-01.29.48:816][556]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.12-01.29.55:926][ 93]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Textures/Rocks/Rocks_Base.tga)
+[2019.11.12-01.29.55:973][ 93]LogTexture: Display: Building textures: Rocks_Base (AutoDXT, 2048X2048)
+[2019.11.12-01.29.56:220][ 93]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Textures/Rocks/Rocks_Norm.tga)
+[2019.11.12-01.29.56:274][ 93]LogTexture: Display: Building textures: Rocks_Norm (BC5, 2048X2048)
+[2019.11.12-01.29.56:497][ 93]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Textures/Rocks/Rocks_Roug.tga)
+[2019.11.12-01.29.56:503][ 93]LogTexture: Display: Building textures: Rocks_Roug (BGRA8, 2048X2048)
+[2019.11.12-01.30.01:669][619]LogAssetEditorManager: Opening Asset editor for Material /Game/SideScrollerBP/Materials/Rock_Material.Rock_Material
+[2019.11.12-01.30.01:671][619]LogMaterial: Display: Missing cached shader map for material Rock_Material, compiling. 
+[2019.11.12-01.30.01:672][619]LogMaterial: Warning: /Engine/Transient.Rock_Material (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2019.11.12-01.30.01:672][619]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
+[2019.11.12-01.30.01:909][619]LogMaterial: Display: Missing cached shader map for material Rock_Material, compiling. 
+[2019.11.12-01.30.01:910][619]LogMaterial: Warning: /Engine/Transient.Rock_Material (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2019.11.12-01.30.01:910][619]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
+[2019.11.12-01.30.01:912][619]LogMaterial: Display: Missing cached shader map for material Rock_Material, compiling. 
+[2019.11.12-01.30.01:913][619]LogMaterial: Warning: /Engine/Transient.Rock_Material (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2019.11.12-01.30.01:913][619]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
+[2019.11.12-01.30.01:942][619]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2019.11.12-01.30.01:944][619]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2019.11.12-01.30.01:946][619]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2019.11.12-01.30.01:947][619]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2019.11.12-01.30.01:985][619]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.11.12-01.30.01:985][619]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.11.12-01.30.01:985][619]MaterialEditorStats: Error: [SM5] (Node TextureSample) Texture Sample> Missing input texture
+[2019.11.12-01.30.01:990][619]LogSlate: Took 0.000217 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.11.12-01.30.07:905][213]LogMaterial: Display: Missing cached shader map for material Rock_Material, compiling. 
+[2019.11.12-01.30.07:906][213]LogMaterial: Warning: /Engine/Transient.Rock_Material (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2019.11.12-01.30.07:906][213]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
+[2019.11.12-01.30.07:913][213]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2019.11.12-01.30.07:928][213]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.11.12-01.30.07:928][213]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.11.12-01.30.07:941][213]LogMaterial: Display: Missing cached shader map for material Rock_Material, compiling. 
+[2019.11.12-01.30.07:942][213]LogMaterial: Warning: /Engine/Transient.Rock_Material (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2019.11.12-01.30.07:942][213]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
+[2019.11.12-01.30.12:377][678]LogMaterial: Display: Missing cached shader map for material Rock_Material, compiling. 
+[2019.11.12-01.30.12:377][678]LogMaterial: Warning: /Engine/Transient.Rock_Material (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2019.11.12-01.30.12:377][678]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
+[2019.11.12-01.30.12:385][678]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2019.11.12-01.30.12:399][678]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.11.12-01.30.12:399][678]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.11.12-01.30.12:413][678]LogMaterial: Display: Missing cached shader map for material Rock_Material, compiling. 
+[2019.11.12-01.30.12:413][678]LogMaterial: Warning: /Engine/Transient.Rock_Material (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2019.11.12-01.30.12:413][678]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
+[2019.11.12-01.30.17:074][177]LogMaterial: Display: Missing cached shader map for material Rock_Material, compiling. 
+[2019.11.12-01.30.17:115][177]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2019.11.12-01.30.17:129][177]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.11.12-01.30.17:129][177]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.11.12-01.30.17:129][177]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.11.12-01.30.17:129][177]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.11.12-01.30.17:143][177]LogMaterial: Display: Missing cached shader map for material Rock_Material, compiling. 
+[2019.11.12-01.30.17:324][189]LogShaderCompilers: Display: Shaders left to compile 23
+[2019.11.12-01.30.17:338][189]LogShaderCompilers: Display: Shaders left to compile 22
+[2019.11.12-01.30.17:548][207]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.11.12-01.30.17:605][211]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.11.12-01.30.17:633][213]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.11.12-01.30.17:667][215]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.11.12-01.30.17:765][223]LogShaderCompilers: Display: Shaders left to compile 17
+[2019.11.12-01.30.17:831][228]LogShaderCompilers: Display: Shaders left to compile 16
+[2019.11.12-01.30.17:844][229]LogShaderCompilers: Display: Shaders left to compile 15
+[2019.11.12-01.30.17:871][231]LogShaderCompilers: Display: Shaders left to compile 14
+[2019.11.12-01.30.17:950][237]LogShaderCompilers: Display: Shaders left to compile 13
+[2019.11.12-01.30.18:003][241]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.11.12-01.30.18:014][242]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.11.12-01.30.18:026][243]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.11.12-01.30.18:115][250]LogShaderCompilers: Display: Shaders left to compile 9
+[2019.11.12-01.30.18:281][262]LogShaderCompilers: Display: Shaders left to compile 8
+[2019.11.12-01.30.18:394][271]LogShaderCompilers: Display: Shaders left to compile 7
+[2019.11.12-01.30.18:421][273]LogShaderCompilers: Display: Shaders left to compile 6
+[2019.11.12-01.30.18:478][278]LogShaderCompilers: Display: Shaders left to compile 5
+[2019.11.12-01.30.18:530][283]LogMaterialEditor: Saving and Compiling material Rock_Material
+[2019.11.12-01.30.19:066][283]LogShaderCompilers: Display: Shaders left to compile 4
+[2019.11.12-01.30.19:067][283]LogShaderCompilers: Display: Shaders left to compile 3
+[2019.11.12-01.30.19:067][283]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.11.12-01.30.19:067][283]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.11.12-01.30.19:080][283]LogMaterial: Display: Missing cached shader map for material Rock_Material, compiling. 
+[2019.11.12-01.30.19:124][283]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.11.12-01.30.19:124][283]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.11.12-01.30.19:124][283]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.11.12-01.30.19:124][283]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.11.12-01.30.19:133][283]LogMaterial: Display: Missing cached shader map for material Rock_Material, compiling. 
+[2019.11.12-01.30.19:151][283]LogMaterial: Display: Missing cached shader map for material Rock_Material, compiling. 
+[2019.11.12-01.30.19:193][283]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy Rock_Material, compiling. 
+[2019.11.12-01.30.20:361][283]LogShaderCompilers: Display: Shaders left to compile 40
+[2019.11.12-01.30.20:361][283]LogShaderCompilers: Display: Shaders left to compile 39
+[2019.11.12-01.30.20:361][283]LogShaderCompilers: Display: Shaders left to compile 38
+[2019.11.12-01.30.20:361][283]LogShaderCompilers: Display: Shaders left to compile 37
+[2019.11.12-01.30.20:361][283]LogShaderCompilers: Display: Shaders left to compile 36
+[2019.11.12-01.30.20:361][283]LogShaderCompilers: Display: Shaders left to compile 35
+[2019.11.12-01.30.20:361][283]LogShaderCompilers: Display: Shaders left to compile 34
+[2019.11.12-01.30.20:361][283]LogShaderCompilers: Display: Shaders left to compile 33
+[2019.11.12-01.30.20:361][283]LogShaderCompilers: Display: Shaders left to compile 32
+[2019.11.12-01.30.20:361][283]LogShaderCompilers: Display: Shaders left to compile 31
+[2019.11.12-01.30.20:361][283]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.11.12-01.30.20:361][283]LogShaderCompilers: Display: Shaders left to compile 29
+[2019.11.12-01.30.20:361][283]LogShaderCompilers: Display: Shaders left to compile 28
+[2019.11.12-01.30.20:361][283]LogShaderCompilers: Display: Shaders left to compile 27
+[2019.11.12-01.30.20:361][283]LogShaderCompilers: Display: Shaders left to compile 26
+[2019.11.12-01.30.20:361][283]LogShaderCompilers: Display: Shaders left to compile 25
+[2019.11.12-01.30.20:361][283]LogShaderCompilers: Display: Shaders left to compile 24
+[2019.11.12-01.30.20:361][283]LogShaderCompilers: Display: Shaders left to compile 23
+[2019.11.12-01.30.20:361][283]LogShaderCompilers: Display: Shaders left to compile 22
+[2019.11.12-01.30.20:361][283]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.11.12-01.30.20:361][283]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.11.12-01.30.20:362][283]TextureStreamingBuild: Display: Compiling optional shaders took 1.174 seconds.
+[2019.11.12-01.30.22:564][283]LogSavePackage: Moving '../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Saved/Rock_Material6060DCE345D653E9213CA1A9EB822120.tmp' to '../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Materials/Rock_Material.uasset'
+[2019.11.12-01.30.22:576][283]MaterialEditorStats: Base pass shader: 111 instructions
+[2019.11.12-01.30.22:576][283]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 184 instructions
+[2019.11.12-01.30.22:576][283]MaterialEditorStats: Base pass vertex shader: 36 instructions
+[2019.11.12-01.30.22:576][283]MaterialEditorStats: Texture samplers: 6/16
+[2019.11.12-01.30.22:576][283]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2019.11.12-01.30.22:576][283]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.11.12-01.30.26:885][730]LogSlate: Window 'Rock_Material' being destroyed
+[2019.11.12-01.30.30:424][130]LogEditorViewport: Clicking on Actor (LMB): PathPlat_BP_C (PathPlat_BP)
+[2019.11.12-01.30.31:279][227]LogEditorViewport: Clicking on Actor (LMB): GrassV3_C (GrassV6)
+[2019.11.12-01.30.32:647][388]Cmd: DELETE
+[2019.11.12-01.30.32:647][388]Cmd: ACTOR DELETE
+[2019.11.12-01.30.32:653][388]LogEditorActor: Deleted Actor: GrassV3_C
+[2019.11.12-01.30.32:673][388]LogEditorActor: Deleted 1 Actors (0.026 secs)
+[2019.11.12-01.30.33:726][514]LogEditorViewport: Clicking on Actor (LMB): PathPlat_BP_C (PathPlat_BP)
+[2019.11.12-01.30.35:904][770]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.12-01.30.36:091][780]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/SideScrollerBP/Blueprints/PathPlat_BP.PathPlat_BP
+[2019.11.12-01.30.36:695][780]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 116 classes and 0 folders.
+[2019.11.12-01.30.38:752][891]LogSavePackage: Moving '../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Saved/TemplateFE274D5D43D662AF9FB19B87AF579C84.tmp' to '../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Maps/Template.umap'
+[2019.11.12-01.30.38:821][891]LogSavePackage: Moving '../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Saved/Template_BuiltDataC376FDAC45C1CC0DF8648FBC09B3ED01.tmp' to '../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Maps/Template_BuiltData.uasset'
+[2019.11.12-01.30.40:119][  0]LogRenderer: Reallocating scene render targets to support 1216x712 Format 10 NumSamples 1 (Frame:1).
+[2019.11.12-01.30.46:647][617]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.12-01.30.49:902][884]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.12-01.30.52:454][118]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.12-01.30.58:463][716]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.12-01.31.06:802][520]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.12-01.31.06:872][528]BlueprintLog: New page: Compile PathPlat_BP
+[2019.11.12-01.31.07:408][559]LogSavePackage: Moving '../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Saved/PathPlat_BP1847322840D75B2D5D422BB60591003E.tmp' to '../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Blueprints/PathPlat_BP.uasset'
+[2019.11.12-01.31.09:251][736]LogSlate: Took 0.000171 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.11.12-01.31.09:377][748]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.12-01.31.11:993][  7]BlueprintLog: New page: Compile PathPlat_BP
+[2019.11.12-01.31.12:441][ 30]LogSavePackage: Moving '../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Saved/PathPlat_BP21D2C8124824A3DFB2974E818ECFF279.tmp' to '../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Blueprints/PathPlat_BP.uasset'
+[2019.11.12-01.31.13:356][115]Cmd: DUPLICATE
+[2019.11.12-01.31.13:356][115]Cmd: ACTOR DUPLICATE
+[2019.11.12-01.31.14:586][235]Cmd: TRANSACTION UNDO
+[2019.11.12-01.31.14:586][235]LogEditorTransaction: Undo Duplicate Actors
+[2019.11.12-01.31.26:075][353]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.12-01.31.35:065][227]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.12-01.31.43:913][109]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.12-01.31.43:982][117]BlueprintLog: New page: Compile PathPlat_BP
+[2019.11.12-01.31.44:431][136]LogSavePackage: Moving '../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Saved/PathPlat_BPC21195474EA389C20EDAEF9B5FEE1018.tmp' to '../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Blueprints/PathPlat_BP.uasset'
+[2019.11.12-01.31.45:520][237]LogTemp: Repeating last play command: Selected Viewport
+[2019.11.12-01.31.45:536][237]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/Template.Template:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Template.Template:PersistentLevel.Template' with GeneratedClass '/Game/SideScrollerBP/Maps/Template.Template_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Template.Template:PersistentLevel.Template'
+[2019.11.12-01.31.45:537][237]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.12-01.31.45:548][237]PIE: New page: PIE session: Template (Nov 12, 2019, 11:31:45 PM)
+[2019.11.12-01.31.45:548][237]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_Template
+[2019.11.12-01.31.45:564][237]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015646s)
+[2019.11.12-01.31.45:565][237]LogAIModule: Creating AISystem for world Template
+[2019.11.12-01.31.45:565][237]LogPlayLevel: PIE: World Init took: (0.001253s)
+[2019.11.12-01.31.45:565][237]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/Template.Template to /Game/SideScrollerBP/Maps/UEDPIE_0_Template.Template (0.017166s)
+[2019.11.12-01.31.45:598][237]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.12-01.31.45:610][237]LogInit: FAudioDevice initialized.
+[2019.11.12-01.31.45:648][237]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2019.11.12-01.31.45:653][237]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_Template.Template up for play (max tick rate 0) at 2019.11.12-12.31.45
+[2019.11.12-01.31.45:653][237]LogWorld: Bringing up level for play took: 0.004436
+[2019.11.12-01.31.45:669][237]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 10 classes and 0 folders.
+[2019.11.12-01.31.45:671][237]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.12-01.31.45:671][237]PIE: Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_Template -0.601
+[2019.11.12-01.31.45:671][237]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/Template.Template:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Template.Template:PersistentLevel.Template' with GeneratedClass '/Game/SideScrollerBP/Maps/Template.Template_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Template.Template:PersistentLevel.Template'
+[2019.11.12-01.32.00:352][903]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/Template.Template:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Template.Template:PersistentLevel.Template' with GeneratedClass '/Game/SideScrollerBP/Maps/Template.Template_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Template.Template:PersistentLevel.Template'
+[2019.11.12-01.32.00:352][903]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.12-01.32.00:389][903]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.12-01.32.00:389][903]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/Template.Template:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Template.Template:PersistentLevel.Template' with GeneratedClass '/Game/SideScrollerBP/Maps/Template.Template_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Template.Template:PersistentLevel.Template'
+[2019.11.12-01.32.00:418][903]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.12-01.32.00:460][904]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2019.11.12-01.32.01:060][967]LogEditorViewport: Clicking on Actor (LMB): PathPlat_BP_C (PathPlat_BP)
+[2019.11.12-01.32.05:144][332]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.12-01.32.05:216][339]LogTemp: Repeating last play command: Selected Viewport
+[2019.11.12-01.32.05:230][339]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/Template.Template:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Template.Template:PersistentLevel.Template' with GeneratedClass '/Game/SideScrollerBP/Maps/Template.Template_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Template.Template:PersistentLevel.Template'
+[2019.11.12-01.32.05:231][339]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.12-01.32.05:231][339]PIE: New page: PIE session: Template (Nov 12, 2019, 11:32:05 PM)
+[2019.11.12-01.32.05:231][339]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_Template
+[2019.11.12-01.32.05:246][339]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014911s)
+[2019.11.12-01.32.05:247][339]LogAIModule: Creating AISystem for world Template
+[2019.11.12-01.32.05:247][339]LogPlayLevel: PIE: World Init took: (0.001284s)
+[2019.11.12-01.32.05:247][339]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/Template.Template to /Game/SideScrollerBP/Maps/UEDPIE_0_Template.Template (0.016454s)
+[2019.11.12-01.32.05:280][339]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.12-01.32.05:291][339]LogInit: FAudioDevice initialized.
+[2019.11.12-01.32.05:323][339]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2019.11.12-01.32.05:327][339]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_Template.Template up for play (max tick rate 0) at 2019.11.12-12.32.05
+[2019.11.12-01.32.05:328][339]LogWorld: Bringing up level for play took: 0.004202
+[2019.11.12-01.32.05:342][339]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.12-01.32.05:343][339]PIE: Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_Template 1.071
+[2019.11.12-01.32.05:343][339]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/Template.Template:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Template.Template:PersistentLevel.Template' with GeneratedClass '/Game/SideScrollerBP/Maps/Template.Template_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Template.Template:PersistentLevel.Template'
+[2019.11.12-01.32.14:978][442]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/Template.Template:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Template.Template:PersistentLevel.Template' with GeneratedClass '/Game/SideScrollerBP/Maps/Template.Template_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Template.Template:PersistentLevel.Template'
+[2019.11.12-01.32.14:978][442]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.12-01.32.15:010][442]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.12-01.32.15:011][442]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/Template.Template:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Template.Template:PersistentLevel.Template' with GeneratedClass '/Game/SideScrollerBP/Maps/Template.Template_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Template.Template:PersistentLevel.Template'
+[2019.11.12-01.32.15:041][442]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.12-01.32.15:084][443]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2019.11.12-01.32.15:928][533]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.12-01.32.21:473][ 77]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.12-01.32.28:418][855]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.12-01.32.34:632][547]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.12-01.32.34:729][558]LogTemp: Repeating last play command: Selected Viewport
+[2019.11.12-01.32.34:745][558]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/Template.Template:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Template.Template:PersistentLevel.Template' with GeneratedClass '/Game/SideScrollerBP/Maps/Template.Template_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Template.Template:PersistentLevel.Template'
+[2019.11.12-01.32.34:745][558]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.11.12-01.32.34:746][558]LogPlayLevel: [PlayLevel] Compiling PathPlat_BP before play...
+[2019.11.12-01.32.34:893][558]LogPlayLevel: PlayLevel: Blueprint regeneration took 147 ms (1 blueprints)
+[2019.11.12-01.32.34:893][558]PIE: New page: PIE session: Template (Nov 12, 2019, 11:32:34 PM)
+[2019.11.12-01.32.34:893][558]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_Template
+[2019.11.12-01.32.34:908][558]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015105s)
+[2019.11.12-01.32.34:908][558]LogAIModule: Creating AISystem for world Template
+[2019.11.12-01.32.34:909][558]LogPlayLevel: PIE: World Init took: (0.001046s)
+[2019.11.12-01.32.34:909][558]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/Template.Template to /Game/SideScrollerBP/Maps/UEDPIE_0_Template.Template (0.016391s)
+[2019.11.12-01.32.34:940][558]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.12-01.32.34:951][558]LogInit: FAudioDevice initialized.
+[2019.11.12-01.32.34:985][558]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2019.11.12-01.32.34:989][558]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_Template.Template up for play (max tick rate 0) at 2019.11.12-12.32.34
+[2019.11.12-01.32.34:990][558]LogWorld: Bringing up level for play took: 0.004612
+[2019.11.12-01.32.35:003][558]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.12-01.32.35:004][558]PIE: Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_Template 0.733
+[2019.11.12-01.32.35:004][558]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/Template.Template:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Template.Template:PersistentLevel.Template' with GeneratedClass '/Game/SideScrollerBP/Maps/Template.Template_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Template.Template:PersistentLevel.Template'
+[2019.11.12-01.32.36:837][763]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/Template.Template:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Template.Template:PersistentLevel.Template' with GeneratedClass '/Game/SideScrollerBP/Maps/Template.Template_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Template.Template:PersistentLevel.Template'
+[2019.11.12-01.32.36:838][763]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.12-01.32.36:873][763]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.12-01.32.36:873][763]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/Template.Template:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Template.Template:PersistentLevel.Template' with GeneratedClass '/Game/SideScrollerBP/Maps/Template.Template_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Template.Template:PersistentLevel.Template'
+[2019.11.12-01.32.36:901][763]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.12-01.32.36:956][765]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2019.11.12-01.32.39:000][971]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.12-01.32.39:045][976]LogTemp: Repeating last play command: Selected Viewport
+[2019.11.12-01.32.39:065][976]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/Template.Template:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Template.Template:PersistentLevel.Template' with GeneratedClass '/Game/SideScrollerBP/Maps/Template.Template_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Template.Template:PersistentLevel.Template'
+[2019.11.12-01.32.39:065][976]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.12-01.32.39:065][976]PIE: New page: PIE session: Template (Nov 12, 2019, 11:32:39 PM)
+[2019.11.12-01.32.39:065][976]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_Template
+[2019.11.12-01.32.39:079][976]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013418s)
+[2019.11.12-01.32.39:080][976]LogAIModule: Creating AISystem for world Template
+[2019.11.12-01.32.39:080][976]LogPlayLevel: PIE: World Init took: (0.000651s)
+[2019.11.12-01.32.39:080][976]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/Template.Template to /Game/SideScrollerBP/Maps/UEDPIE_0_Template.Template (0.014239s)
+[2019.11.12-01.32.39:109][976]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.12-01.32.39:120][976]LogInit: FAudioDevice initialized.
+[2019.11.12-01.32.39:149][976]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2019.11.12-01.32.39:153][976]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_Template.Template up for play (max tick rate 0) at 2019.11.12-12.32.39
+[2019.11.12-01.32.39:153][976]LogWorld: Bringing up level for play took: 0.003927
+[2019.11.12-01.32.39:168][976]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.12-01.32.39:168][976]PIE: Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_Template 0.896
+[2019.11.12-01.32.39:168][976]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/Template.Template:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Template.Template:PersistentLevel.Template' with GeneratedClass '/Game/SideScrollerBP/Maps/Template.Template_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Template.Template:PersistentLevel.Template'
+[2019.11.12-01.32.48:949][ 92]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/Template.Template:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Template.Template:PersistentLevel.Template' with GeneratedClass '/Game/SideScrollerBP/Maps/Template.Template_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Template.Template:PersistentLevel.Template'
+[2019.11.12-01.32.48:949][ 92]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.12-01.32.48:986][ 92]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.12-01.32.48:987][ 92]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/Template.Template:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Template.Template:PersistentLevel.Template' with GeneratedClass '/Game/SideScrollerBP/Maps/Template.Template_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Template.Template:PersistentLevel.Template'
+[2019.11.12-01.32.49:012][ 92]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.12-01.32.49:054][ 93]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2019.11.12-01.32.50:826][286]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.12-01.32.52:636][492]LogSavePackage: Moving '../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Saved/PathPlat_BPCF49606D446B5E7D5B9B7BBE4F428740.tmp' to '../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Blueprints/PathPlat_BP.uasset'
+[2019.11.12-01.32.53:313][570]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.12-01.32.54:835][720]LogSavePackage: Moving '../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Saved/TemplateC43EC036420E90C0ECB3A491B9526C6E.tmp' to '../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Maps/Template.umap'
+[2019.11.12-01.32.54:894][720]LogSavePackage: Moving '../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Saved/Template_BuiltDataCAD43BD5499D0C2C40E7D19517B7DE2C.tmp' to '../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Maps/Template_BuiltData.uasset'
+[2019.11.12-01.33.07:307][ 64]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.12-01.33.15:038][880]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.12-01.33.28:587][296]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.12-01.33.28:661][304]BlueprintLog: New page: Compile PathPlat_BP
+[2019.11.12-01.33.29:244][337]LogSavePackage: Moving '../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Saved/PathPlat_BP821721454251904BAA934D90F44D06CA.tmp' to '../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Blueprints/PathPlat_BP.uasset'
+[2019.11.12-01.33.31:464][546]LogSavePackage: Moving '../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Saved/TemplateA9EA8E8040FDFD1B8EE9928A64AEE748.tmp' to '../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Maps/Template.umap'
+[2019.11.12-01.33.31:523][546]LogSavePackage: Moving '../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Saved/Template_BuiltData96A0852441F9E2B1675C9492D056849E.tmp' to '../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Maps/Template_BuiltData.uasset'
+[2019.11.12-01.33.32:363][629]LogTemp: Repeating last play command: Selected Viewport
+[2019.11.12-01.33.32:382][629]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/Template.Template:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Template.Template:PersistentLevel.Template' with GeneratedClass '/Game/SideScrollerBP/Maps/Template.Template_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Template.Template:PersistentLevel.Template'
+[2019.11.12-01.33.32:382][629]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.12-01.33.32:382][629]PIE: New page: PIE session: Template (Nov 12, 2019, 11:33:32 PM)
+[2019.11.12-01.33.32:382][629]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_Template
+[2019.11.12-01.33.32:396][629]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014271s)
+[2019.11.12-01.33.32:397][629]LogAIModule: Creating AISystem for world Template
+[2019.11.12-01.33.32:397][629]LogPlayLevel: PIE: World Init took: (0.000723s)
+[2019.11.12-01.33.32:397][629]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/Template.Template to /Game/SideScrollerBP/Maps/UEDPIE_0_Template.Template (0.015195s)
+[2019.11.12-01.33.32:429][629]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.12-01.33.32:440][629]LogInit: FAudioDevice initialized.
+[2019.11.12-01.33.32:474][629]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2019.11.12-01.33.32:479][629]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_Template.Template up for play (max tick rate 0) at 2019.11.12-12.33.32
+[2019.11.12-01.33.32:480][629]LogWorld: Bringing up level for play took: 0.004922
+[2019.11.12-01.33.32:493][629]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.12-01.33.32:494][629]PIE: Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_Template 0.223
+[2019.11.12-01.33.32:494][629]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/Template.Template:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Template.Template:PersistentLevel.Template' with GeneratedClass '/Game/SideScrollerBP/Maps/Template.Template_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Template.Template:PersistentLevel.Template'
+[2019.11.12-01.33.55:664][261]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/Template.Template:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Template.Template:PersistentLevel.Template' with GeneratedClass '/Game/SideScrollerBP/Maps/Template.Template_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Template.Template:PersistentLevel.Template'
+[2019.11.12-01.33.55:665][261]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.12-01.33.55:705][261]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.12-01.33.55:705][261]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/Template.Template:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Template.Template:PersistentLevel.Template' with GeneratedClass '/Game/SideScrollerBP/Maps/Template.Template_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Template.Template:PersistentLevel.Template'
+[2019.11.12-01.33.55:735][261]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.12-01.33.55:779][262]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2019.11.12-01.33.57:409][442]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.12-01.33.58:743][589]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.12-01.33.58:836][596]LogSavePackage: Moving '../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Saved/PathPlat_BP3269A129455C91A2A412AEAE1959FE14.tmp' to '../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Blueprints/PathPlat_BP.uasset'
+[2019.11.12-01.33.59:408][657]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.12-01.33.59:503][667]LogSlate: Window 'PathPlat_BP' being destroyed
+[2019.11.12-01.36.40:697][989]LogEditorViewport: Clicking on Actor (LMB): PathPlat_BP_C (PathPlat_BP)
+[2019.11.12-01.36.42:154][150]LogEditorViewport: Clicking on Actor (LMB): PathPlat_BP_C (PathPlat_BP2)
+[2019.11.12-01.36.45:194][479]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.11.12-01.36.48:326][826]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.12-01.36.48:392][834]LogTemp: Repeating last play command: Selected Viewport
+[2019.11.12-01.36.48:408][834]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/Template.Template:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Template.Template:PersistentLevel.Template' with GeneratedClass '/Game/SideScrollerBP/Maps/Template.Template_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Template.Template:PersistentLevel.Template'
+[2019.11.12-01.36.48:408][834]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.12-01.36.48:408][834]PIE: New page: PIE session: Template (Nov 12, 2019, 11:36:48 PM)
+[2019.11.12-01.36.48:408][834]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_Template
+[2019.11.12-01.36.48:423][834]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014350s)
+[2019.11.12-01.36.48:424][834]LogAIModule: Creating AISystem for world Template
+[2019.11.12-01.36.48:424][834]LogPlayLevel: PIE: World Init took: (0.000817s)
+[2019.11.12-01.36.48:424][834]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/Template.Template to /Game/SideScrollerBP/Maps/UEDPIE_0_Template.Template (0.015328s)
+[2019.11.12-01.36.48:454][834]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.12-01.36.48:465][834]LogInit: FAudioDevice initialized.
+[2019.11.12-01.36.48:498][834]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2019.11.12-01.36.48:502][834]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_Template.Template up for play (max tick rate 0) at 2019.11.12-12.36.48
+[2019.11.12-01.36.48:502][834]LogWorld: Bringing up level for play took: 0.003960
+[2019.11.12-01.36.48:517][834]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.12-01.36.48:517][834]PIE: Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_Template 0.25
+[2019.11.12-01.36.48:518][834]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/Template.Template:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Template.Template:PersistentLevel.Template' with GeneratedClass '/Game/SideScrollerBP/Maps/Template.Template_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Template.Template:PersistentLevel.Template'
+[2019.11.12-01.36.52:158][265]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/Template.Template:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Template.Template:PersistentLevel.Template' with GeneratedClass '/Game/SideScrollerBP/Maps/Template.Template_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Template.Template:PersistentLevel.Template'
+[2019.11.12-01.36.52:158][265]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.12-01.36.52:195][265]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.12-01.36.52:195][265]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/Template.Template:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Template.Template:PersistentLevel.Template' with GeneratedClass '/Game/SideScrollerBP/Maps/Template.Template_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Template.Template:PersistentLevel.Template'
+[2019.11.12-01.36.52:220][265]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.12-01.36.52:265][267]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2019.11.12-01.36.58:159][972]LogEditorViewport: Clicking on Actor (LMB): GroundEnd_BP_C (GroundEnd_BP)
+[2019.11.12-01.36.58:852][ 51]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.11.12-01.36.59:679][146]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.11.12-01.37.00:287][217]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.11.12-01.37.00:722][267]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.11.12-01.37.01:714][381]Cmd: SELECT NONE
+[2019.11.12-01.37.13:889][836]LogEditorViewport: Clicking on Actor (LMB): GroundEnd_BP_C (GroundEnd_BP)
+[2019.11.12-01.37.15:206][990]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.12-01.37.15:307][  1]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/SideScrollerBP/Blueprints/GroundEnd_BP.GroundEnd_BP
+[2019.11.12-01.37.21:506][532]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.12-01.37.26:098][981]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.12-01.37.38:248][ 72]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.12-01.38.06:992][570]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.12-01.38.25:861][251]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.12-01.38.34:633][222]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.12-01.38.38:493][539]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.12-01.38.48:804][465]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.12-01.38.56:805][122]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.12-01.38.59:187][326]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.12-01.38.59:231][330]LogTemp: Repeating last play command: Selected Viewport
+[2019.11.12-01.38.59:247][330]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/Template.Template:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Template.Template:PersistentLevel.Template' with GeneratedClass '/Game/SideScrollerBP/Maps/Template.Template_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Template.Template:PersistentLevel.Template'
+[2019.11.12-01.38.59:247][330]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.11.12-01.38.59:248][330]LogPlayLevel: [PlayLevel] Compiling GroundEnd_BP before play...
+[2019.11.12-01.38.59:398][330]LogPlayLevel: PlayLevel: Blueprint regeneration took 150 ms (1 blueprints)
+[2019.11.12-01.38.59:398][330]PIE: New page: PIE session: Template (Nov 12, 2019, 11:38:59 PM)
+[2019.11.12-01.38.59:398][330]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_Template
+[2019.11.12-01.38.59:415][330]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016301s)
+[2019.11.12-01.38.59:415][330]LogAIModule: Creating AISystem for world Template
+[2019.11.12-01.38.59:416][330]LogPlayLevel: PIE: World Init took: (0.001142s)
+[2019.11.12-01.38.59:416][330]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/Template.Template to /Game/SideScrollerBP/Maps/UEDPIE_0_Template.Template (0.017689s)
+[2019.11.12-01.38.59:443][330]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.12-01.38.59:455][330]LogInit: FAudioDevice initialized.
+[2019.11.12-01.38.59:482][330]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2019.11.12-01.38.59:486][330]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_Template.Template up for play (max tick rate 0) at 2019.11.12-12.38.59
+[2019.11.12-01.38.59:487][330]LogWorld: Bringing up level for play took: 0.004022
+[2019.11.12-01.38.59:503][330]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.12-01.38.59:503][330]PIE: Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_Template 1.237
+[2019.11.12-01.38.59:503][330]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/Template.Template:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Template.Template:PersistentLevel.Template' with GeneratedClass '/Game/SideScrollerBP/Maps/Template.Template_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Template.Template:PersistentLevel.Template'
+[2019.11.12-01.39.01:918][563]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/Template.Template:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Template.Template:PersistentLevel.Template' with GeneratedClass '/Game/SideScrollerBP/Maps/Template.Template_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Template.Template:PersistentLevel.Template'
+[2019.11.12-01.39.01:918][563]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.12-01.39.01:951][563]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.12-01.39.01:951][563]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/Template.Template:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Template.Template:PersistentLevel.Template' with GeneratedClass '/Game/SideScrollerBP/Maps/Template.Template_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Template.Template:PersistentLevel.Template'
+[2019.11.12-01.39.01:974][563]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.12-01.39.02:027][565]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2019.11.12-01.39.03:951][756]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.12-01.39.20:560][348]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.12-01.39.22:943][591]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.12-01.39.25:347][838]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.12-01.39.26:095][905]LogEditorViewport: Clicking on Actor (LMB): GroundEnd_BP_C (GroundEnd_BP)
+[2019.11.12-01.39.30:098][246]Cmd: TRANSACTION UNDO
+[2019.11.12-01.39.30:098][246]LogEditorTransaction: Undo Rotate Actors
+[2019.11.12-01.39.31:050][325]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.11.12-01.39.32:756][444]LogRenderer: Reallocating scene render targets to support 1216x744 Format 10 NumSamples 1 (Frame:12293).
+[2019.11.12-01.39.34:410][567]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.12-01.39.34:475][573]BlueprintLog: New page: Compile GroundEnd_BP
+[2019.11.12-01.39.34:999][598]LogSavePackage: Moving '../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Saved/GroundEnd_BP74F2614B432ECEAB78BC24B2E4E9FD12.tmp' to '../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Blueprints/GroundEnd_BP.uasset'
+[2019.11.12-01.39.46:320][589]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.12-01.39.53:278][261]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/SideScrollerBP/Blueprints/GrassV3.GrassV3
+[2019.11.12-01.39.53:542][261]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/SideScrollerBP/Blueprints/PathPlat_BP.PathPlat_BP
+[2019.11.12-01.40.02:220][864]LogSlate: Window 'PathPlat_BP' being destroyed
+[2019.11.12-01.40.02:773][907]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.12-01.40.06:169][139]LogSlate: Window 'GrassV3' being destroyed
+[2019.11.12-01.40.06:177][139]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2019.11.12-01.40.06:995][209]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.12-01.40.07:762][279]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.12-01.40.07:765][279]LogSlate: Window 'GroundEnd_BP' being destroyed
+[2019.11.12-01.40.18:665][271]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.12-01.40.20:834][435]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.12-01.40.20:906][441]LogEditorViewport: Clicking on Actor (LMB): GroundEnd_BP_C (GroundEnd_BP)
+[2019.11.12-01.40.30:595][360]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.11.12-01.40.32:178][487]LogEditorViewport: Clicking on Actor (LMB): GroundEnd_BP_C (GroundEnd_BP2)
+[2019.11.12-01.40.32:924][556]Cmd: DELETE
+[2019.11.12-01.40.32:924][556]Cmd: ACTOR DELETE
+[2019.11.12-01.40.32:928][556]LogEditorActor: Deleted Actor: GroundEnd_BP_C
+[2019.11.12-01.40.32:955][556]LogEditorActor: Deleted 1 Actors (0.030 secs)
+[2019.11.12-01.40.35:720][832]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.12-01.40.36:054][838]LogSavePackage: Moving '../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Saved/Template976C00D84A5559E73E9963A0805AF8B3.tmp' to '../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Maps/Template.umap'
+[2019.11.12-01.40.36:119][838]LogSavePackage: Moving '../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Saved/Template_BuiltDataAA454256418CC2CEB41D6D99BAB6FD83.tmp' to '../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Maps/Template_BuiltData.uasset'
+[2019.11.12-01.40.38:851][ 84]LogAIModule: Creating AISystem for world Easy0
+[2019.11.12-01.40.38:871][ 84]LogAssetEditorManager: Opening Asset editor for World /Game/SideScrollerBP/Maps/Easy0.Easy0
+[2019.11.12-01.40.40:058][ 84]LogSlate: Window 'Save Content' being destroyed
+[2019.11.12-01.40.40:297][ 84]LogSavePackage: Moving '../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Saved/Rocks_Base0B60948E43BD24D01586A0B253AFCD7A.tmp' to '../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Textures/Rocks/Rocks_Base.uasset'
+[2019.11.12-01.40.40:925][ 84]LogSavePackage: Moving '../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Saved/Rocks_Norm30F0049B478D58490FFF43B641996E33.tmp' to '../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Textures/Rocks/Rocks_Norm.uasset'
+[2019.11.12-01.40.41:054][ 84]LogSavePackage: Moving '../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Saved/Rocks_RougC1F3A08347A7EF831A930FB3DF8A8F82.tmp' to '../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Textures/Rocks/Rocks_Roug.uasset'
+[2019.11.12-01.40.41:058][ 84]Cmd: MAP LOAD FILE="../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Maps/Easy0.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.11.12-01.40.41:058][ 84]LightingResults: New page: Lighting Build
+[2019.11.12-01.40.41:059][ 84]LoadErrors: New page: Loading map: Easy0.umap
+[2019.11.12-01.40.41:061][ 84]MapCheck: New page: Map Check
+[2019.11.12-01.40.41:061][ 84]LightingResults: New page: Lighting Build
+[2019.11.12-01.40.41:139][ 84]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.11.12-01.40.41:189][ 84]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.11.12-01.40.41:285][ 84]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 96.896ms to complete.
+[2019.11.12-01.40.41:285][ 84]LogFileHelpers: Loading map 'Easy0' took 0.228
+[2019.11.12-01.40.44:066][350]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.12-01.40.44:132][357]LogTemp: Repeating last play command: Selected Viewport
+[2019.11.12-01.40.44:158][357]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/Easy0.Easy0:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Easy0.Easy0:PersistentLevel.Easy0' with GeneratedClass '/Game/SideScrollerBP/Maps/Easy0.Easy0_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Easy0.Easy0:PersistentLevel.Easy0'
+[2019.11.12-01.40.44:158][357]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.12-01.40.44:158][357]PIE: New page: PIE session: Easy0 (Nov 12, 2019, 11:40:44 PM)
+[2019.11.12-01.40.44:158][357]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_Easy0
+[2019.11.12-01.40.44:180][357]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021830s)
+[2019.11.12-01.40.44:180][357]LogAIModule: Creating AISystem for world Easy0
+[2019.11.12-01.40.44:181][357]LogPlayLevel: PIE: World Init took: (0.000675s)
+[2019.11.12-01.40.44:181][357]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/Easy0.Easy0 to /Game/SideScrollerBP/Maps/UEDPIE_0_Easy0.Easy0 (0.022678s)
+[2019.11.12-01.40.44:208][357]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.12-01.40.44:220][357]LogInit: FAudioDevice initialized.
+[2019.11.12-01.40.44:252][357]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2019.11.12-01.40.44:255][357]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_Easy0.Easy0 up for play (max tick rate 0) at 2019.11.12-12.40.44
+[2019.11.12-01.40.44:256][357]LogWorld: Bringing up level for play took: 0.003245
+[2019.11.12-01.40.44:275][357]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.12-01.40.44:275][357]PIE: Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_Easy0 0.011
+[2019.11.12-01.40.44:275][357]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/Easy0.Easy0:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Easy0.Easy0:PersistentLevel.Easy0' with GeneratedClass '/Game/SideScrollerBP/Maps/Easy0.Easy0_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Easy0.Easy0:PersistentLevel.Easy0'
+[2019.11.12-01.40.47:731][728]LogNet: Browse: /Game/SideScrollerBP/Maps/Easy1
+[2019.11.12-01.40.47:732][728]LogLoad: LoadMap: /Game/SideScrollerBP/Maps/Easy1
+[2019.11.12-01.40.48:275][728]LogAIModule: Creating AISystem for world Easy1
+[2019.11.12-01.40.48:276][728]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2019.11.12-01.40.48:318][728]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_Easy1.Easy1 up for play (max tick rate 0) at 2019.11.12-12.40.48
+[2019.11.12-01.40.48:319][728]LogWorld: Bringing up level for play took: 0.042021
+[2019.11.12-01.40.48:322][728]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.12-01.40.48:322][728]LogLoad: Took 0.589935 seconds to LoadMap(/Game/SideScrollerBP/Maps/Easy1)
+[2019.11.12-01.40.54:035][357]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/Easy0.Easy0:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Easy0.Easy0:PersistentLevel.Easy0' with GeneratedClass '/Game/SideScrollerBP/Maps/Easy0.Easy0_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Easy0.Easy0:PersistentLevel.Easy0'
+[2019.11.12-01.40.54:035][357]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.12-01.40.54:069][357]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.12-01.40.54:069][357]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/Easy0.Easy0:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Easy0.Easy0:PersistentLevel.Easy0' with GeneratedClass '/Game/SideScrollerBP/Maps/Easy0.Easy0_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Easy0.Easy0:PersistentLevel.Easy0'
+[2019.11.12-01.40.54:096][357]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.12-01.40.54:143][359]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2019.11.12-01.40.57:666][742]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.12-01.41.12:298][162]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.12-01.41.15:087][391]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/SideScrollerBP/Blueprints/GroundEndGreen_BP.GroundEndGreen_BP
+[2019.11.12-01.41.20:768][944]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.12-01.41.20:826][950]BlueprintLog: New page: Compile GroundEndGreen_BP
+[2019.11.12-01.41.21:337][979]LogSavePackage: Moving '../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Saved/GroundEndGreen_BP9F19956C422FDF68D9437A8EEBE4D00C.tmp' to '../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Blueprints/GroundEndGreen_BP.uasset'
+[2019.11.12-01.43.19:481][779]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.12-01.43.19:785][807]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/SideScrollerBP/Blueprints/GroundFloat_BP.GroundFloat_BP
+[2019.11.12-01.43.24:524][293]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.12-01.43.43:641][233]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.12-01.44.03:728][345]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.12-01.44.10:252][ 30]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.12-01.44.16:585][689]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.12-01.44.26:254][676]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.12-01.44.35:868][672]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.12-01.45.03:353][609]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.12-01.45.03:411][615]BlueprintLog: New page: Compile GroundFloat_BP
+[2019.11.12-01.45.03:820][632]LogSavePackage: Moving '../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Saved/GroundFloat_BP354635574EAAA2DEC6547493DE0903F6.tmp' to '../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Blueprints/GroundFloat_BP.uasset'
+[2019.11.12-01.50.48:705][404]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.12-01.50.48:996][404]LogSavePackage: Moving '../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Saved/Easy0_Auto1E987E5F64D0F5ED37DA6A490FF717103.tmp' to '../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Saved/Autosaves/Game/SideScrollerBP/Maps/Easy0_Auto1.umap'
+[2019.11.12-01.50.49:003][404]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/SideScrollerBP/Maps/Easy0' took 0.274
+[2019.11.12-01.50.49:003][404]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.274
+[2019.11.12-02.28.46:221][917]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.12-02.28.51:517][446]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.12-02.28.56:142][932]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.12-02.29.09:131][258]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.12-02.29.22:149][639]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.12-02.30.00:350][589]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.12-02.30.11:549][741]LogEditorTransaction: Undo Modify Component(s)
+[2019.11.12-02.30.13:589][943]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.12-02.30.23:607][999]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.12-02.30.28:190][487]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.12-02.30.28:255][493]BlueprintLog: New page: Compile GroundFloat_BP
+[2019.11.12-02.30.28:983][545]LogSavePackage: Moving '../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Saved/GroundFloat_BP5CFCB7684C67E802CD3BF891F8D52C1C.tmp' to '../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Blueprints/GroundFloat_BP.uasset'
+[2019.11.12-02.30.29:530][600]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.12-02.30.32:116][861]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.12-02.30.32:788][931]Cmd: TRANSACTION UNDO
+[2019.11.12-02.30.32:788][931]LogEditorTransaction: Undo Remove Components
+[2019.11.12-02.30.33:183][966]Cmd: TRANSACTION UNDO
+[2019.11.12-02.30.33:183][966]LogEditorTransaction: Undo Attach Component
+[2019.11.12-02.30.35:842][244]BlueprintLog: New page: Compile GroundFloat_BP
+[2019.11.12-02.30.36:543][293]LogSavePackage: Moving '../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Saved/GroundFloat_BPD8E862D24BEA8F71C5E08EADE7B4CBE6.tmp' to '../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Blueprints/GroundFloat_BP.uasset'
+[2019.11.12-02.30.36:982][333]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.12-02.30.57:051][450]BlueprintLog: New page: Compile GroundFloat_BP
+[2019.11.12-02.30.57:498][481]LogSavePackage: Moving '../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Saved/GroundFloat_BP988233F64FC1D4ACE4D046815B36B969.tmp' to '../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Blueprints/GroundFloat_BP.uasset'
+[2019.11.12-02.30.57:790][514]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.12-02.31.08:958][656]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.12-02.31.09:024][663]BlueprintLog: New page: Compile GroundEndGreen_BP
+[2019.11.12-02.31.09:457][685]LogSavePackage: Moving '../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Saved/GroundEndGreen_BPB19E150747417BF2E37C59B7F5DA2C4B.tmp' to '../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Blueprints/GroundEndGreen_BP.uasset'
+[2019.11.12-02.31.09:916][728]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.12-02.31.12:761][ 21]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.12-02.31.17:979][528]BlueprintLog: New page: Compile GroundEnd_BP
+[2019.11.12-02.31.18:474][556]LogSavePackage: Moving '../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Saved/GroundEnd_BP9473748C4746E99830A9BA902AAC2377.tmp' to '../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Blueprints/GroundEnd_BP.uasset'
+[2019.11.12-02.31.19:251][631]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.12-02.31.22:583][966]LogSavePackage: Moving '../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Saved/GroundEnd_BP451C45794B0AE7D7A3A032B2A19CF8B4.tmp' to '../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Blueprints/GroundEnd_BP.uasset'
+[2019.11.12-02.31.23:157][ 30]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.12-02.31.32:203][978]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2019.11.12-02.31.34:986][257]LogClass: Warning: In asset 'None', there is an enum property of type 'EComponentMobility' with an invalid value of ''
+[2019.11.12-02.31.34:986][257]LogClass: Warning: In asset 'None', there is an enum property of type 'EComponentMobility' with an invalid value of ''
+[2019.11.12-02.31.36:251][388]BlueprintLog: New page: Compile GroundEndGreen_BP
+[2019.11.12-02.31.36:703][412]LogSavePackage: Moving '../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Saved/GroundEndGreen_BP17909418404E6F3B09740C842BCF2A96.tmp' to '../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Blueprints/GroundEndGreen_BP.uasset'
+[2019.11.12-02.31.38:760][607]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.12-02.31.38:903][620]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/SideScrollerBP/Blueprints/GroundEnd_BP.GroundEnd_BP
+[2019.11.12-02.31.43:755][ 97]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.12-02.31.43:837][105]LogClass: Warning: In asset 'None', there is an enum property of type 'EComponentMobility' with an invalid value of ''
+[2019.11.12-02.31.43:837][105]LogClass: Warning: In asset 'None', there is an enum property of type 'EComponentMobility' with an invalid value of ''
+[2019.11.12-02.31.43:837][105]LogClass: Warning: In asset 'None', there is an enum property of type 'EComponentMobility' with an invalid value of ''
+[2019.11.12-02.31.43:838][105]LogClass: Warning: In asset 'None', there is an enum property of type 'EComponentMobility' with an invalid value of ''
+[2019.11.12-02.31.44:790][200]BlueprintLog: New page: Compile GroundEnd_BP
+[2019.11.12-02.31.45:256][224]LogSavePackage: Moving '../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Saved/GroundEnd_BPA2F138FF492F4CF14B659B82BFB359E8.tmp' to '../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Blueprints/GroundEnd_BP.uasset'
+[2019.11.12-02.31.51:328][821]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/SideScrollerBP/Blueprints/GroundEndRed_BP.GroundEndRed_BP
+[2019.11.12-02.32.01:953][871]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.12-02.32.02:089][883]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/SideScrollerBP/Blueprints/GroundFloat_BP.GroundFloat_BP
+[2019.11.12-02.32.07:516][391]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.12-02.32.07:888][428]LogClass: Warning: In asset 'None', there is an enum property of type 'EComponentMobility' with an invalid value of ''
+[2019.11.12-02.32.07:888][428]LogClass: Warning: In asset 'None', there is an enum property of type 'EComponentMobility' with an invalid value of ''
+[2019.11.12-02.32.07:888][428]LogClass: Warning: In asset 'None', there is an enum property of type 'EComponentMobility' with an invalid value of ''
+[2019.11.12-02.32.08:955][535]BlueprintLog: New page: Compile GroundFloat_BP
+[2019.11.12-02.32.09:545][572]LogSavePackage: Moving '../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Saved/GroundFloat_BP70095FF34357EDEDEA02CB867E36A29A.tmp' to '../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Blueprints/GroundFloat_BP.uasset'
+[2019.11.12-02.32.11:343][731]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/SideScrollerBP/Blueprints/GroundFloatGreen_BP.GroundFloatGreen_BP
+[2019.11.12-02.32.15:888][161]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.12-02.32.16:023][173]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/SideScrollerBP/Blueprints/GroundFloatRed_BP.GroundFloatRed_BP
+[2019.11.12-02.32.21:287][662]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.12-02.32.24:157][956]LogEditorTransaction: Undo Paste Component(s)
+[2019.11.12-02.32.26:636][195]LogUObjectHash: Warning: Ambiguous search, could be StaticMeshComponent /Engine/Transient.Cube_GEN_VARIABLE or StaticMeshComponent /Engine/Transient.Cube_GEN_VARIABLE
+[2019.11.12-02.32.28:867][372]LogEditorTransaction: Undo Paste Component(s)
+[2019.11.12-02.32.29:776][460]LogUObjectHash: Warning: Ambiguous search, could be StaticMeshComponent /Engine/Transient.Cube_GEN_VARIABLE or StaticMeshComponent /Engine/Transient.Cube_GEN_VARIABLE
+[2019.11.12-02.32.43:971][826]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.12-02.32.44:041][833]BlueprintLog: New page: Compile GroundFloatRed_BP
+[2019.11.12-02.32.44:644][869]LogSavePackage: Moving '../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Saved/GroundFloatRed_BP6331F3AA4909B609361314844A41501D.tmp' to '../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Blueprints/GroundFloatRed_BP.uasset'
+[2019.11.12-02.32.52:558][615]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.12-02.32.56:952][ 56]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.12-02.33.02:243][571]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.12-02.33.05:058][868]Cmd: TRANSACTION UNDO
+[2019.11.12-02.33.05:058][868]LogEditorTransaction: Undo Modify Component(s)
+[2019.11.12-02.33.05:560][912]Cmd: TRANSACTION UNDO
+[2019.11.12-02.33.05:560][912]LogEditorTransaction: Undo Edit Static Mesh
+[2019.11.12-02.33.06:137][977]Cmd: TRANSACTION UNDO
+[2019.11.12-02.33.06:137][977]LogEditorTransaction: Undo Attach Component
+[2019.11.12-02.33.06:514][ 19]Cmd: TRANSACTION UNDO
+[2019.11.12-02.33.06:514][ 19]LogEditorTransaction: Undo Paste Component(s)
+[2019.11.12-02.33.08:390][228]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.12-02.33.08:457][236]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2019.11.12-02.33.10:582][446]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/SideScrollerBP/Blueprints/GroundPlat_BP.GroundPlat_BP
+[2019.11.12-02.33.20:647][399]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.12-02.33.32:170][549]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.12-02.33.43:650][700]LogEditorTransaction: Undo Modify Component(s)
+[2019.11.12-02.33.49:051][248]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.12-02.33.58:677][207]LogEditorTransaction: Undo Modify Component(s)
+[2019.11.12-02.34.02:642][611]LogEditorTransaction: Undo Set Location
+[2019.11.12-02.34.03:051][648]LogEditorTransaction: Undo Modify Component(s)
+[2019.11.12-02.34.07:743][127]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.12-02.34.12:338][587]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.12-02.34.18:050][134]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.12-02.34.28:317][181]LogUObjectHash: Warning: Ambiguous search, could be StaticMeshComponent /Engine/Transient.StaticMesh1_GEN_VARIABLE or StaticMeshComponent /Engine/Transient.StaticMesh1_GEN_VARIABLE
+[2019.11.12-02.34.38:147][157]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.12-02.34.49:083][262]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.12-02.34.51:320][487]LogEditorTransaction: Undo Modify Component(s)
+[2019.11.12-02.34.51:664][487]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.340 s
+[2019.11.12-02.34.51:665][487]LogOutputDevice: Error: === Handled ensure: ===
+[2019.11.12-02.34.51:665][487]LogOutputDevice: Error: 
+[2019.11.12-02.34.51:665][487]LogOutputDevice: Error: Ensure condition failed: !GIsTransacting [File:D:\Build\++UE4\Sync\Engine\Source\Editor\UnrealEd\Classes\Editor/TransBuffer.h] [Line: 72]
+[2019.11.12-02.34.51:665][487]LogOutputDevice: Error: 
+[2019.11.12-02.34.51:665][487]LogOutputDevice: Error: Stack: 
+[2019.11.12-02.34.51:665][487]LogOutputDevice: Error: [Callstack] 0x00007ffbd6ec71f6 UE4Editor-Core.dll!UnknownFunction []
+[2019.11.12-02.34.51:665][487]LogOutputDevice: Error: [Callstack] 0x00007ffbd6c00c92 UE4Editor-Core.dll!UnknownFunction []
+[2019.11.12-02.34.51:665][487]LogOutputDevice: Error: [Callstack] 0x00007ffbd6c1b356 UE4Editor-Core.dll!UnknownFunction []
+[2019.11.12-02.34.51:665][487]LogOutputDevice: Error: [Callstack] 0x00007ffbd18deedf UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.11.12-02.34.51:665][487]LogOutputDevice: Error: [Callstack] 0x00007ffbd1884514 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.11.12-02.34.51:665][487]LogOutputDevice: Error: [Callstack] 0x00007ffbcc4141a9 UE4Editor-DetailCustomizations.dll!UnknownFunction []
+[2019.11.12-02.34.51:665][487]LogOutputDevice: Error: [Callstack] 0x00007ffbcc414ee5 UE4Editor-DetailCustomizations.dll!UnknownFunction []
+[2019.11.12-02.34.51:665][487]LogOutputDevice: Error: [Callstack] 0x00007ffbcc3c1a51 UE4Editor-DetailCustomizations.dll!UnknownFunction []
+[2019.11.12-02.34.51:665][487]LogOutputDevice: Error: [Callstack] 0x00007ffbdda6d0d2 UE4Editor-Slate.dll!UnknownFunction []
+[2019.11.12-02.34.51:665][487]LogOutputDevice: Error: [Callstack] 0x00007ffbdda33f79 UE4Editor-Slate.dll!UnknownFunction []
+[2019.11.12-02.34.51:665][487]LogOutputDevice: Error: [Callstack] 0x00007ffbddad6a2e UE4Editor-Slate.dll!UnknownFunction []
+[2019.11.12-02.34.51:665][487]LogOutputDevice: Error: [Callstack] 0x00007ffbdd8e93b0 UE4Editor-Slate.dll!UnknownFunction []
+[2019.11.12-02.34.51:665][487]LogOutputDevice: Error: [Callstack] 0x00007ffbdd881444 UE4Editor-Slate.dll!UnknownFunction []
+[2019.11.12-02.34.51:665][487]LogOutputDevice: Error: [Callstack] 0x00007ffbcf740014 UE4Editor-Kismet.dll!UnknownFunction []
+[2019.11.12-02.34.51:665][487]LogOutputDevice: Error: [Callstack] 0x00007ffbcf3b8d70 UE4Editor-Kismet.dll!UnknownFunction []
+[2019.11.12-02.34.51:665][487]LogOutputDevice: Error: [Callstack] 0x00007ffbcf34f869 UE4Editor-Kismet.dll!UnknownFunction []
+[2019.11.12-02.34.51:665][487]LogOutputDevice: Error: [Callstack] 0x00007ffbcf744833 UE4Editor-Kismet.dll!UnknownFunction []
+[2019.11.12-02.34.51:665][487]LogOutputDevice: Error: [Callstack] 0x00007ffbcf72b550 UE4Editor-Kismet.dll!UnknownFunction []
+[2019.11.12-02.34.51:665][487]LogOutputDevice: Error: [Callstack] 0x00007ffbcf6db524 UE4Editor-Kismet.dll!UnknownFunction []
+[2019.11.12-02.34.51:665][487]LogOutputDevice: Error: [Callstack] 0x00007ffbcf730f0a UE4Editor-Kismet.dll!UnknownFunction []
+[2019.11.12-02.34.51:665][487]LogOutputDevice: Error: [Callstack] 0x00007ffbcf2eb41b UE4Editor-Kismet.dll!UnknownFunction []
+[2019.11.12-02.34.51:665][487]LogOutputDevice: Error: [Callstack] 0x00007ffbcf37843e UE4Editor-Kismet.dll!UnknownFunction []
+[2019.11.12-02.34.51:665][487]LogOutputDevice: Error: [Callstack] 0x00007ffbcf3c5d9d UE4Editor-Kismet.dll!UnknownFunction []
+[2019.11.12-02.34.51:665][487]LogOutputDevice: Error: [Callstack] 0x00007ffbd1884dc6 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.11.12-02.34.51:665][487]LogOutputDevice: Error: [Callstack] 0x00007ffbd18b01fb UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.11.12-02.34.51:665][487]LogOutputDevice: Error: [Callstack] 0x00007ffbd1896535 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.11.12-02.34.51:665][487]LogOutputDevice: Error: [Callstack] 0x00007ffbd1902dc5 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.11.12-02.34.51:665][487]LogOutputDevice: Error: [Callstack] 0x00007ffbd1949b6d UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.11.12-02.34.51:665][487]LogOutputDevice: Error: [Callstack] 0x00007ffbd18dc81f UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.11.12-02.34.51:665][487]LogOutputDevice: Error: [Callstack] 0x00007ffbcf3505b8 UE4Editor-Kismet.dll!UnknownFunction []
+[2019.11.12-02.34.51:665][487]LogOutputDevice: Error: [Callstack] 0x00007ffbdd8824df UE4Editor-Slate.dll!UnknownFunction []
+[2019.11.12-02.34.51:665][487]LogOutputDevice: Error: [Callstack] 0x00007ffbdd8c437e UE4Editor-Slate.dll!UnknownFunction []
+[2019.11.12-02.34.51:665][487]LogOutputDevice: Error: [Callstack] 0x00007ffbd2133a8e UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.11.12-02.34.51:665][487]LogOutputDevice: Error: [Callstack] 0x00007ffbd2121a08 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.11.12-02.34.51:665][487]LogOutputDevice: Error: [Callstack] 0x00007ffbdd8470ac UE4Editor-Slate.dll!UnknownFunction []
+[2019.11.12-02.34.51:665][487]LogOutputDevice: Error: [Callstack] 0x00007ffbdd8c606c UE4Editor-Slate.dll!UnknownFunction []
+[2019.11.12-02.34.51:665][487]LogOutputDevice: Error: [Callstack] 0x00007ffbdd8b9846 UE4Editor-Slate.dll!UnknownFunction []
+[2019.11.12-02.34.51:665][487]LogOutputDevice: Error: [Callstack] 0x00007ffc09b0ce45 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.11.12-02.34.51:665][487]LogOutputDevice: Error: [Callstack] 0x00007ffc09b00270 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.11.12-02.34.51:665][487]LogOutputDevice: Error: [Callstack] 0x00007ffc09b0f4c5 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.11.12-02.34.51:665][487]LogOutputDevice: Error: [Callstack] 0x00007ffc09afc209 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.11.12-02.34.51:665][487]LogOutputDevice: Error: [Callstack] 0x00007ffc1ad96d41 USER32.dll!UnknownFunction []
+[2019.11.12-02.34.51:665][487]LogOutputDevice: Error: [Callstack] 0x00007ffc1ad96713 USER32.dll!UnknownFunction []
+[2019.11.12-02.34.51:665][487]LogOutputDevice: Error: [Callstack] 0x00007ffc09b10646 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.11.12-02.34.51:665][487]LogOutputDevice: Error: [Callstack] 0x00007ff7bb9154e5 UE4Editor.exe!UnknownFunction []
+[2019.11.12-02.34.51:665][487]LogOutputDevice: Error: [Callstack] 0x00007ff7bb925b3c UE4Editor.exe!UnknownFunction []
+[2019.11.12-02.34.51:665][487]LogOutputDevice: Error: [Callstack] 0x00007ff7bb925bba UE4Editor.exe!UnknownFunction []
+[2019.11.12-02.34.51:665][487]LogOutputDevice: Error: [Callstack] 0x00007ff7bb933dac UE4Editor.exe!UnknownFunction []
+[2019.11.12-02.34.51:665][487]LogOutputDevice: Error: [Callstack] 0x00007ff7bb935aaa UE4Editor.exe!UnknownFunction []
+[2019.11.12-02.34.51:665][487]LogOutputDevice: Error: [Callstack] 0x00007ffc1af53034 KERNEL32.DLL!UnknownFunction []
+[2019.11.12-02.34.51:665][487]LogOutputDevice: Error: [Callstack] 0x00007ffc1d291471 ntdll.dll!UnknownFunction []
+[2019.11.12-02.34.51:665][487]LogOutputDevice: Error: 
+[2019.11.12-02.34.51:673][487]LogStats:                SubmitErrorReport -  0.000 s
