@@ -1023,3 +1023,318 @@ please set the "Use T0 as ref pose" option or add them to the bind pose and reim
 [2019.11.12-05.15.02:256][539]LogSkeletalMesh: Building Skeletal Mesh SK_Enemy...
 [2019.11.12-05.15.02:258][539]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/SideScrollerBP/Assets/EnemyLP/SK_Enemy.SK_Enemy
 [2019.11.12-05.15.03:675][669]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.12-05.19.54:016][687]LogSavePackage: Moving '../../../../../../Users/s191263/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Saved/Template_Auto183F35B5A47FD09D46FEFA19C33289938.tmp' to '../../../../../../Users/s191263/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Saved/Autosaves/Game/SideScrollerBP/Maps/Template_Auto1.umap'
+[2019.11.12-05.19.54:025][687]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/SideScrollerBP/Maps/Template' took 0.275
+[2019.11.12-05.19.54:025][687]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.275
+[2019.11.12-05.19.54:028][687]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/SideScrollerBP/Blueprints/SideScrollerCharacter] ([1] browsable assets)...
+[2019.11.12-05.19.54:028][687]OBJ SavePackage: Finished generating thumbnails for package [/Game/SideScrollerBP/Blueprints/SideScrollerCharacter]
+[2019.11.12-05.19.54:179][687]LogSavePackage: Moving '../../../../../../Users/s191263/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Saved/SideScrollerCharacter_Auto1DA0A467143EA7ADE0A33F78DFC1E407C.tmp' to '../../../../../../Users/s191263/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Saved/Autosaves/Game/SideScrollerBP/Blueprints/SideScrollerCharacter_Auto1.uasset'
+[2019.11.12-05.19.54:180][687]LogFileHelpers: Auto-saving content packages took 0.154
+[2019.11.12-05.20.08:613][731]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.12-05.20.20:183][986]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\s191263\Documents\GitHub\DeJaBrew_Prototyping\DeJaBrew_Prototyping_Unreal\Content\SideScrollerBP\Assets\SK_Enemy.fbx)
+[2019.11.12-05.20.20:192][986]LogFbx: Loading FBX Scene from C:\Users\s191263\Documents\GitHub\DeJaBrew_Prototyping\DeJaBrew_Prototyping_Unreal\Content\SideScrollerBP\Assets\SK_Enemy.fbx
+[2019.11.12-05.20.20:205][986]LogFbx: FBX Scene Loaded Succesfully
+[2019.11.12-05.20.20:218][986]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.12-05.20.21:924][986]LogSlate: Window 'FBX Import Options' being destroyed
+[2019.11.12-05.20.21:943][986]LogFbx: =================================================
+[2019.11.12-05.20.21:943][986]LogFbx: Dumping Node START [head] 
+[2019.11.12-05.20.21:943][986]LogFbx: 	Total Deformer Count -2100574992.
+[2019.11.12-05.20.21:943][986]LogFbx: 		[Node 1]  (Type Skin).
+[2019.11.12-05.20.21:943][986]LogFbx: =================================================
+[2019.11.12-05.20.21:943][986]LogFbx: 	Attribute () Type (4).
+[2019.11.12-05.20.21:943][986]LogFbx: 		[Node Attribute Child 1] head (Type Mesh).
+[2019.11.12-05.20.21:943][986]LogFbx: Dumping Node END [head]
+[2019.11.12-05.20.21:943][986]LogFbx: =================================================
+[2019.11.12-05.20.21:943][986]LogFbx: Dumping Node START [body] 
+[2019.11.12-05.20.21:943][986]LogFbx: 	Total Deformer Count -2100574992.
+[2019.11.12-05.20.21:943][986]LogFbx: 		[Node 1]  (Type Skin).
+[2019.11.12-05.20.21:943][986]LogFbx: =================================================
+[2019.11.12-05.20.21:943][986]LogFbx: 	Attribute () Type (4).
+[2019.11.12-05.20.21:943][986]LogFbx: 		[Node Attribute Child 1] body (Type Mesh).
+[2019.11.12-05.20.21:943][986]LogFbx: Dumping Node END [body]
+[2019.11.12-05.20.21:943][986]LogFbx: =================================================
+[2019.11.12-05.20.21:943][986]LogFbx: Dumping Node START [l_arm] 
+[2019.11.12-05.20.21:943][986]LogFbx: 	Total Deformer Count -2100574992.
+[2019.11.12-05.20.21:943][986]LogFbx: 		[Node 1]  (Type Skin).
+[2019.11.12-05.20.21:943][986]LogFbx: =================================================
+[2019.11.12-05.20.21:943][986]LogFbx: 	Attribute () Type (4).
+[2019.11.12-05.20.21:943][986]LogFbx: 		[Node Attribute Child 1] l_arm (Type Mesh).
+[2019.11.12-05.20.21:943][986]LogFbx: Dumping Node END [l_arm]
+[2019.11.12-05.20.21:943][986]LogFbx: =================================================
+[2019.11.12-05.20.21:943][986]LogFbx: Dumping Node START [r_arm] 
+[2019.11.12-05.20.21:943][986]LogFbx: 	Total Deformer Count -2100574992.
+[2019.11.12-05.20.21:943][986]LogFbx: 		[Node 1]  (Type Skin).
+[2019.11.12-05.20.21:943][986]LogFbx: =================================================
+[2019.11.12-05.20.21:943][986]LogFbx: 	Attribute () Type (4).
+[2019.11.12-05.20.21:943][986]LogFbx: 		[Node Attribute Child 1] r_arm (Type Mesh).
+[2019.11.12-05.20.21:943][986]LogFbx: Dumping Node END [r_arm]
+[2019.11.12-05.20.21:943][986]LogFbx: =================================================
+[2019.11.12-05.20.21:943][986]LogFbx: Dumping Node START [r_hand] 
+[2019.11.12-05.20.21:943][986]LogFbx: 	Total Deformer Count 2057632952.
+[2019.11.12-05.20.21:943][986]LogFbx: 		[Node 1]  (Type Skin).
+[2019.11.12-05.20.21:943][986]LogFbx: =================================================
+[2019.11.12-05.20.21:943][986]LogFbx: 	Attribute () Type (4).
+[2019.11.12-05.20.21:943][986]LogFbx: 		[Node Attribute Child 1] r_hand (Type Mesh).
+[2019.11.12-05.20.21:943][986]LogFbx: Dumping Node END [r_hand]
+[2019.11.12-05.20.21:943][986]LogFbx: =================================================
+[2019.11.12-05.20.21:943][986]LogFbx: Dumping Node START [l_hand] 
+[2019.11.12-05.20.21:943][986]LogFbx: 	Total Deformer Count 2057632952.
+[2019.11.12-05.20.21:943][986]LogFbx: 		[Node 1]  (Type Skin).
+[2019.11.12-05.20.21:943][986]LogFbx: =================================================
+[2019.11.12-05.20.21:943][986]LogFbx: 	Attribute () Type (4).
+[2019.11.12-05.20.21:943][986]LogFbx: 		[Node Attribute Child 1] l_hand (Type Mesh).
+[2019.11.12-05.20.21:943][986]LogFbx: Dumping Node END [l_hand]
+[2019.11.12-05.20.21:943][986]LogFbx: =================================================
+[2019.11.12-05.20.21:943][986]LogFbx: Dumping Node START [r_wheel] 
+[2019.11.12-05.20.21:943][986]LogFbx: 	Total Deformer Count 2057632952.
+[2019.11.12-05.20.21:943][986]LogFbx: 		[Node 1]  (Type Skin).
+[2019.11.12-05.20.21:943][986]LogFbx: =================================================
+[2019.11.12-05.20.21:944][986]LogFbx: 	Attribute () Type (4).
+[2019.11.12-05.20.21:944][986]LogFbx: 		[Node Attribute Child 1] r_wheel (Type Mesh).
+[2019.11.12-05.20.21:944][986]LogFbx: Dumping Node END [r_wheel]
+[2019.11.12-05.20.21:944][986]LogFbx: =================================================
+[2019.11.12-05.20.21:944][986]LogFbx: Dumping Node START [l_wheel] 
+[2019.11.12-05.20.21:944][986]LogFbx: 	Total Deformer Count 2057632952.
+[2019.11.12-05.20.21:944][986]LogFbx: 		[Node 1]  (Type Skin).
+[2019.11.12-05.20.21:944][986]LogFbx: =================================================
+[2019.11.12-05.20.21:944][986]LogFbx: 	Attribute () Type (4).
+[2019.11.12-05.20.21:944][986]LogFbx: 		[Node Attribute Child 1] l_wheel (Type Mesh).
+[2019.11.12-05.20.21:944][986]LogFbx: Dumping Node END [l_wheel]
+[2019.11.12-05.20.21:944][986]LogFbx: =================================================
+[2019.11.12-05.20.21:944][986]LogFbx: Dumping Node START [head] 
+[2019.11.12-05.20.21:944][986]LogFbx: 	Total Deformer Count -2100574992.
+[2019.11.12-05.20.21:944][986]LogFbx: 		[Node 1]  (Type Skin).
+[2019.11.12-05.20.21:944][986]LogFbx: =================================================
+[2019.11.12-05.20.21:944][986]LogFbx: 	Attribute () Type (4).
+[2019.11.12-05.20.21:944][986]LogFbx: 		[Node Attribute Child 1] head (Type Mesh).
+[2019.11.12-05.20.21:944][986]LogFbx: Dumping Node END [head]
+[2019.11.12-05.20.21:944][986]LogFbx: =================================================
+[2019.11.12-05.20.21:944][986]LogFbx: Dumping Node START [body] 
+[2019.11.12-05.20.21:944][986]LogFbx: 	Total Deformer Count -2100574992.
+[2019.11.12-05.20.21:944][986]LogFbx: 		[Node 1]  (Type Skin).
+[2019.11.12-05.20.21:944][986]LogFbx: =================================================
+[2019.11.12-05.20.21:944][986]LogFbx: 	Attribute () Type (4).
+[2019.11.12-05.20.21:944][986]LogFbx: 		[Node Attribute Child 1] body (Type Mesh).
+[2019.11.12-05.20.21:944][986]LogFbx: Dumping Node END [body]
+[2019.11.12-05.20.21:944][986]LogFbx: =================================================
+[2019.11.12-05.20.21:944][986]LogFbx: Dumping Node START [l_arm] 
+[2019.11.12-05.20.21:944][986]LogFbx: 	Total Deformer Count -2100574992.
+[2019.11.12-05.20.21:944][986]LogFbx: 		[Node 1]  (Type Skin).
+[2019.11.12-05.20.21:944][986]LogFbx: =================================================
+[2019.11.12-05.20.21:944][986]LogFbx: 	Attribute () Type (4).
+[2019.11.12-05.20.21:944][986]LogFbx: 		[Node Attribute Child 1] l_arm (Type Mesh).
+[2019.11.12-05.20.21:944][986]LogFbx: Dumping Node END [l_arm]
+[2019.11.12-05.20.21:944][986]LogFbx: =================================================
+[2019.11.12-05.20.21:944][986]LogFbx: Dumping Node START [r_arm] 
+[2019.11.12-05.20.21:944][986]LogFbx: 	Total Deformer Count -2100574992.
+[2019.11.12-05.20.21:944][986]LogFbx: 		[Node 1]  (Type Skin).
+[2019.11.12-05.20.21:944][986]LogFbx: =================================================
+[2019.11.12-05.20.21:944][986]LogFbx: 	Attribute () Type (4).
+[2019.11.12-05.20.21:944][986]LogFbx: 		[Node Attribute Child 1] r_arm (Type Mesh).
+[2019.11.12-05.20.21:944][986]LogFbx: Dumping Node END [r_arm]
+[2019.11.12-05.20.21:944][986]LogFbx: =================================================
+[2019.11.12-05.20.21:944][986]LogFbx: Dumping Node START [r_hand] 
+[2019.11.12-05.20.21:944][986]LogFbx: 	Total Deformer Count 2057631384.
+[2019.11.12-05.20.21:944][986]LogFbx: 		[Node 1]  (Type Skin).
+[2019.11.12-05.20.21:944][986]LogFbx: =================================================
+[2019.11.12-05.20.21:944][986]LogFbx: 	Attribute () Type (4).
+[2019.11.12-05.20.21:944][986]LogFbx: 		[Node Attribute Child 1] r_hand (Type Mesh).
+[2019.11.12-05.20.21:944][986]LogFbx: Dumping Node END [r_hand]
+[2019.11.12-05.20.21:944][986]LogFbx: =================================================
+[2019.11.12-05.20.21:944][986]LogFbx: Dumping Node START [l_hand] 
+[2019.11.12-05.20.21:944][986]LogFbx: 	Total Deformer Count 2057631384.
+[2019.11.12-05.20.21:944][986]LogFbx: 		[Node 1]  (Type Skin).
+[2019.11.12-05.20.21:944][986]LogFbx: =================================================
+[2019.11.12-05.20.21:944][986]LogFbx: 	Attribute () Type (4).
+[2019.11.12-05.20.21:944][986]LogFbx: 		[Node Attribute Child 1] l_hand (Type Mesh).
+[2019.11.12-05.20.21:944][986]LogFbx: Dumping Node END [l_hand]
+[2019.11.12-05.20.21:944][986]LogFbx: =================================================
+[2019.11.12-05.20.21:944][986]LogFbx: Dumping Node START [r_wheel] 
+[2019.11.12-05.20.21:944][986]LogFbx: 	Total Deformer Count 2057631384.
+[2019.11.12-05.20.21:944][986]LogFbx: 		[Node 1]  (Type Skin).
+[2019.11.12-05.20.21:944][986]LogFbx: =================================================
+[2019.11.12-05.20.21:944][986]LogFbx: 	Attribute () Type (4).
+[2019.11.12-05.20.21:944][986]LogFbx: 		[Node Attribute Child 1] r_wheel (Type Mesh).
+[2019.11.12-05.20.21:944][986]LogFbx: Dumping Node END [r_wheel]
+[2019.11.12-05.20.21:944][986]LogFbx: =================================================
+[2019.11.12-05.20.21:944][986]LogFbx: Dumping Node START [l_wheel] 
+[2019.11.12-05.20.21:944][986]LogFbx: 	Total Deformer Count 2057631384.
+[2019.11.12-05.20.21:944][986]LogFbx: 		[Node 1]  (Type Skin).
+[2019.11.12-05.20.21:944][986]LogFbx: =================================================
+[2019.11.12-05.20.21:944][986]LogFbx: 	Attribute () Type (4).
+[2019.11.12-05.20.21:944][986]LogFbx: 		[Node Attribute Child 1] l_wheel (Type Mesh).
+[2019.11.12-05.20.21:944][986]LogFbx: Dumping Node END [l_wheel]
+[2019.11.12-05.20.21:945][986]LogFbx: =================================================
+[2019.11.12-05.20.21:945][986]LogFbx: Dumping Node START [head] 
+[2019.11.12-05.20.21:945][986]LogFbx: 	Total Deformer Count -2100574992.
+[2019.11.12-05.20.21:945][986]LogFbx: 		[Node 1]  (Type Skin).
+[2019.11.12-05.20.21:945][986]LogFbx: =================================================
+[2019.11.12-05.20.21:945][986]LogFbx: 	Attribute () Type (4).
+[2019.11.12-05.20.21:945][986]LogFbx: 		[Node Attribute Child 1] head (Type Mesh).
+[2019.11.12-05.20.21:945][986]LogFbx: Dumping Node END [head]
+[2019.11.12-05.20.21:945][986]LogFbx: =================================================
+[2019.11.12-05.20.21:945][986]LogFbx: Dumping Node START [body] 
+[2019.11.12-05.20.21:945][986]LogFbx: 	Total Deformer Count -2100574992.
+[2019.11.12-05.20.21:945][986]LogFbx: 		[Node 1]  (Type Skin).
+[2019.11.12-05.20.21:945][986]LogFbx: =================================================
+[2019.11.12-05.20.21:945][986]LogFbx: 	Attribute () Type (4).
+[2019.11.12-05.20.21:945][986]LogFbx: 		[Node Attribute Child 1] body (Type Mesh).
+[2019.11.12-05.20.21:945][986]LogFbx: Dumping Node END [body]
+[2019.11.12-05.20.21:945][986]LogFbx: =================================================
+[2019.11.12-05.20.21:945][986]LogFbx: Dumping Node START [l_arm] 
+[2019.11.12-05.20.21:945][986]LogFbx: 	Total Deformer Count -2100574992.
+[2019.11.12-05.20.21:945][986]LogFbx: 		[Node 1]  (Type Skin).
+[2019.11.12-05.20.21:945][986]LogFbx: =================================================
+[2019.11.12-05.20.21:945][986]LogFbx: 	Attribute () Type (4).
+[2019.11.12-05.20.21:945][986]LogFbx: 		[Node Attribute Child 1] l_arm (Type Mesh).
+[2019.11.12-05.20.21:945][986]LogFbx: Dumping Node END [l_arm]
+[2019.11.12-05.20.21:945][986]LogFbx: =================================================
+[2019.11.12-05.20.21:945][986]LogFbx: Dumping Node START [r_arm] 
+[2019.11.12-05.20.21:945][986]LogFbx: 	Total Deformer Count -2100574992.
+[2019.11.12-05.20.21:945][986]LogFbx: 		[Node 1]  (Type Skin).
+[2019.11.12-05.20.21:945][986]LogFbx: =================================================
+[2019.11.12-05.20.21:945][986]LogFbx: 	Attribute () Type (4).
+[2019.11.12-05.20.21:945][986]LogFbx: 		[Node Attribute Child 1] r_arm (Type Mesh).
+[2019.11.12-05.20.21:945][986]LogFbx: Dumping Node END [r_arm]
+[2019.11.12-05.20.21:945][986]LogFbx: =================================================
+[2019.11.12-05.20.21:945][986]LogFbx: Dumping Node START [r_hand] 
+[2019.11.12-05.20.21:945][986]LogFbx: 	Total Deformer Count 2057628360.
+[2019.11.12-05.20.21:945][986]LogFbx: 		[Node 1]  (Type Skin).
+[2019.11.12-05.20.21:945][986]LogFbx: =================================================
+[2019.11.12-05.20.21:945][986]LogFbx: 	Attribute () Type (4).
+[2019.11.12-05.20.21:945][986]LogFbx: 		[Node Attribute Child 1] r_hand (Type Mesh).
+[2019.11.12-05.20.21:945][986]LogFbx: Dumping Node END [r_hand]
+[2019.11.12-05.20.21:945][986]LogFbx: =================================================
+[2019.11.12-05.20.21:945][986]LogFbx: Dumping Node START [l_hand] 
+[2019.11.12-05.20.21:945][986]LogFbx: 	Total Deformer Count 2057628360.
+[2019.11.12-05.20.21:945][986]LogFbx: 		[Node 1]  (Type Skin).
+[2019.11.12-05.20.21:945][986]LogFbx: =================================================
+[2019.11.12-05.20.21:945][986]LogFbx: 	Attribute () Type (4).
+[2019.11.12-05.20.21:945][986]LogFbx: 		[Node Attribute Child 1] l_hand (Type Mesh).
+[2019.11.12-05.20.21:945][986]LogFbx: Dumping Node END [l_hand]
+[2019.11.12-05.20.21:945][986]LogFbx: =================================================
+[2019.11.12-05.20.21:945][986]LogFbx: Dumping Node START [r_wheel] 
+[2019.11.12-05.20.21:945][986]LogFbx: 	Total Deformer Count 2057628360.
+[2019.11.12-05.20.21:945][986]LogFbx: 		[Node 1]  (Type Skin).
+[2019.11.12-05.20.21:945][986]LogFbx: =================================================
+[2019.11.12-05.20.21:945][986]LogFbx: 	Attribute () Type (4).
+[2019.11.12-05.20.21:945][986]LogFbx: 		[Node Attribute Child 1] r_wheel (Type Mesh).
+[2019.11.12-05.20.21:945][986]LogFbx: Dumping Node END [r_wheel]
+[2019.11.12-05.20.21:945][986]LogFbx: =================================================
+[2019.11.12-05.20.21:945][986]LogFbx: Dumping Node START [l_wheel] 
+[2019.11.12-05.20.21:945][986]LogFbx: 	Total Deformer Count 2057628360.
+[2019.11.12-05.20.21:945][986]LogFbx: 		[Node 1]  (Type Skin).
+[2019.11.12-05.20.21:945][986]LogFbx: =================================================
+[2019.11.12-05.20.21:945][986]LogFbx: 	Attribute () Type (4).
+[2019.11.12-05.20.21:945][986]LogFbx: 		[Node Attribute Child 1] l_wheel (Type Mesh).
+[2019.11.12-05.20.21:945][986]LogFbx: Dumping Node END [l_wheel]
+[2019.11.12-05.20.21:946][986]LogFbx: Warning: Not valid bind pose for Pose (skinCluster1) - Node head : The relative matrices do not match
+[2019.11.12-05.20.21:946][986]LogFbx: Warning: Not valid bind pose for Pose (skinCluster1) - Node body : The relative matrices do not match
+[2019.11.12-05.20.21:946][986]LogFbx: Warning: Not valid bind pose for Pose (skinCluster1) - Node l_arm : The relative matrices do not match
+[2019.11.12-05.20.21:946][986]LogFbx: Warning: Not valid bind pose for Pose (skinCluster1) - Node r_arm : The relative matrices do not match
+[2019.11.12-05.20.21:946][986]LogFbx: Warning: Not valid bind pose for Pose (skinCluster1) - Node r_hand : The relative matrices do not match
+[2019.11.12-05.20.21:946][986]LogFbx: Warning: Not valid bind pose for Pose (skinCluster1) - Node l_hand : The relative matrices do not match
+[2019.11.12-05.20.21:946][986]LogFbx: Warning: Not valid bind pose for Pose (skinCluster1) - Node r_wheel : The relative matrices do not match
+[2019.11.12-05.20.21:946][986]LogFbx: Warning: Not valid bind pose for Pose (skinCluster1) - Node l_wheel : The relative matrices do not match
+[2019.11.12-05.20.21:946][986]LogFbx: Warning: Not valid bind pose for Pose (skinCluster2) - Node head : The relative matrices do not match
+[2019.11.12-05.20.21:946][986]LogFbx: Warning: Not valid bind pose for Pose (skinCluster2) - Node body : The relative matrices do not match
+[2019.11.12-05.20.21:946][986]LogFbx: Warning: Not valid bind pose for Pose (skinCluster2) - Node l_arm : The relative matrices do not match
+[2019.11.12-05.20.21:946][986]LogFbx: Warning: Not valid bind pose for Pose (skinCluster2) - Node r_arm : The relative matrices do not match
+[2019.11.12-05.20.21:947][986]LogFbx: Warning: Not valid bind pose for Pose (skinCluster2) - Node r_hand : The relative matrices do not match
+[2019.11.12-05.20.21:947][986]LogFbx: Warning: Not valid bind pose for Pose (skinCluster2) - Node l_hand : The relative matrices do not match
+[2019.11.12-05.20.21:947][986]LogFbx: Warning: Not valid bind pose for Pose (skinCluster2) - Node r_wheel : The relative matrices do not match
+[2019.11.12-05.20.21:947][986]LogFbx: Warning: Not valid bind pose for Pose (skinCluster2) - Node l_wheel : The relative matrices do not match
+[2019.11.12-05.20.21:947][986]LogFbx: Warning: Not valid bind pose for Pose (skinCluster3) - Node head : The relative matrices do not match
+[2019.11.12-05.20.21:947][986]LogFbx: Warning: Not valid bind pose for Pose (skinCluster3) - Node body : The relative matrices do not match
+[2019.11.12-05.20.21:947][986]LogFbx: Warning: Not valid bind pose for Pose (skinCluster3) - Node l_arm : The relative matrices do not match
+[2019.11.12-05.20.21:947][986]LogFbx: Warning: Not valid bind pose for Pose (skinCluster3) - Node r_arm : The relative matrices do not match
+[2019.11.12-05.20.21:947][986]LogFbx: Warning: Not valid bind pose for Pose (skinCluster3) - Node r_hand : The relative matrices do not match
+[2019.11.12-05.20.21:947][986]LogFbx: Warning: Not valid bind pose for Pose (skinCluster3) - Node l_hand : The relative matrices do not match
+[2019.11.12-05.20.21:947][986]LogFbx: Warning: Not valid bind pose for Pose (skinCluster3) - Node r_wheel : The relative matrices do not match
+[2019.11.12-05.20.21:947][986]LogFbx: Warning: Not valid bind pose for Pose (skinCluster3) - Node l_wheel : The relative matrices do not match
+[2019.11.12-05.20.21:947][986]LogFbx: Warning: Not valid bind pose for Pose (skinCluster4) - Node head : The relative matrices do not match
+[2019.11.12-05.20.21:947][986]LogFbx: Warning: Not valid bind pose for Pose (skinCluster4) - Node body : The relative matrices do not match
+[2019.11.12-05.20.21:947][986]LogFbx: Warning: Not valid bind pose for Pose (skinCluster4) - Node l_arm : The relative matrices do not match
+[2019.11.12-05.20.21:947][986]LogFbx: Warning: Not valid bind pose for Pose (skinCluster4) - Node r_arm : The relative matrices do not match
+[2019.11.12-05.20.21:947][986]LogFbx: Warning: Not valid bind pose for Pose (skinCluster4) - Node r_hand : The relative matrices do not match
+[2019.11.12-05.20.21:947][986]LogFbx: Warning: Not valid bind pose for Pose (skinCluster4) - Node l_hand : The relative matrices do not match
+[2019.11.12-05.20.21:947][986]LogFbx: Warning: Not valid bind pose for Pose (skinCluster4) - Node r_wheel : The relative matrices do not match
+[2019.11.12-05.20.21:948][986]LogFbx: Warning: Not valid bind pose for Pose (skinCluster4) - Node l_wheel : The relative matrices do not match
+[2019.11.12-05.20.21:948][986]LogFbx: Warning: Not valid bind pose for Pose (skinCluster11) - Node head : The relative matrices do not match
+[2019.11.12-05.20.21:948][986]LogFbx: Warning: Not valid bind pose for Pose (skinCluster11) - Node body : The relative matrices do not match
+[2019.11.12-05.20.21:948][986]LogFbx: Warning: Not valid bind pose for Pose (skinCluster11) - Node l_arm : The relative matrices do not match
+[2019.11.12-05.20.21:948][986]LogFbx: Warning: Not valid bind pose for Pose (skinCluster11) - Node r_arm : The relative matrices do not match
+[2019.11.12-05.20.21:948][986]LogFbx: Warning: Not valid bind pose for Pose (skinCluster11) - Node r_hand : The relative matrices do not match
+[2019.11.12-05.20.21:948][986]LogFbx: Warning: Not valid bind pose for Pose (skinCluster11) - Node l_hand : The relative matrices do not match
+[2019.11.12-05.20.21:948][986]LogFbx: Warning: Not valid bind pose for Pose (skinCluster11) - Node r_wheel : The relative matrices do not match
+[2019.11.12-05.20.21:948][986]LogFbx: Warning: Not valid bind pose for Pose (skinCluster11) - Node l_wheel : The relative matrices do not match
+[2019.11.12-05.20.21:948][986]LogFbx: Warning: Not valid bind pose for Pose (skinCluster14) - Node head : The relative matrices do not match
+[2019.11.12-05.20.21:948][986]LogFbx: Warning: Not valid bind pose for Pose (skinCluster14) - Node body : The relative matrices do not match
+[2019.11.12-05.20.21:948][986]LogFbx: Warning: Not valid bind pose for Pose (skinCluster14) - Node l_arm : The relative matrices do not match
+[2019.11.12-05.20.21:948][986]LogFbx: Warning: Not valid bind pose for Pose (skinCluster14) - Node r_arm : The relative matrices do not match
+[2019.11.12-05.20.21:948][986]LogFbx: Warning: Not valid bind pose for Pose (skinCluster14) - Node r_hand : The relative matrices do not match
+[2019.11.12-05.20.21:948][986]LogFbx: Warning: Not valid bind pose for Pose (skinCluster14) - Node l_hand : The relative matrices do not match
+[2019.11.12-05.20.21:948][986]LogFbx: Warning: Not valid bind pose for Pose (skinCluster14) - Node r_wheel : The relative matrices do not match
+[2019.11.12-05.20.21:948][986]LogFbx: Warning: Not valid bind pose for Pose (skinCluster14) - Node l_wheel : The relative matrices do not match
+[2019.11.12-05.20.21:948][986]LogFbx: Warning: Not valid bind pose for Pose (skinCluster15) - Node head : The relative matrices do not match
+[2019.11.12-05.20.21:948][986]LogFbx: Warning: Not valid bind pose for Pose (skinCluster15) - Node body : The relative matrices do not match
+[2019.11.12-05.20.21:948][986]LogFbx: Warning: Not valid bind pose for Pose (skinCluster15) - Node l_arm : The relative matrices do not match
+[2019.11.12-05.20.21:949][986]LogFbx: Warning: Not valid bind pose for Pose (skinCluster15) - Node r_arm : The relative matrices do not match
+[2019.11.12-05.20.21:949][986]LogFbx: Warning: Not valid bind pose for Pose (skinCluster15) - Node r_hand : The relative matrices do not match
+[2019.11.12-05.20.21:949][986]LogFbx: Warning: Not valid bind pose for Pose (skinCluster15) - Node l_hand : The relative matrices do not match
+[2019.11.12-05.20.21:949][986]LogFbx: Warning: Not valid bind pose for Pose (skinCluster15) - Node r_wheel : The relative matrices do not match
+[2019.11.12-05.20.21:949][986]LogFbx: Warning: Not valid bind pose for Pose (skinCluster15) - Node l_wheel : The relative matrices do not match
+[2019.11.12-05.20.21:949][986]LogFbx: Warning: Not valid bind pose for Pose (skinCluster16) - Node head : The relative matrices do not match
+[2019.11.12-05.20.21:949][986]LogFbx: Warning: Not valid bind pose for Pose (skinCluster16) - Node body : The relative matrices do not match
+[2019.11.12-05.20.21:949][986]LogFbx: Warning: Not valid bind pose for Pose (skinCluster16) - Node l_arm : The relative matrices do not match
+[2019.11.12-05.20.21:949][986]LogFbx: Warning: Not valid bind pose for Pose (skinCluster16) - Node r_arm : The relative matrices do not match
+[2019.11.12-05.20.21:949][986]LogFbx: Warning: Not valid bind pose for Pose (skinCluster16) - Node r_hand : The relative matrices do not match
+[2019.11.12-05.20.21:949][986]LogFbx: Warning: Not valid bind pose for Pose (skinCluster16) - Node l_hand : The relative matrices do not match
+[2019.11.12-05.20.21:949][986]LogFbx: Warning: Not valid bind pose for Pose (skinCluster16) - Node r_wheel : The relative matrices do not match
+[2019.11.12-05.20.21:949][986]LogFbx: Warning: Not valid bind pose for Pose (skinCluster16) - Node l_wheel : The relative matrices do not match
+[2019.11.12-05.20.21:949][986]LogFbx: Warning: Getting valid bind pose failed. Try to recreate bind pose
+[2019.11.12-05.20.21:950][986]LogFbx: Valid bind pose for Pose (FbxSDKBindPose) - head
+[2019.11.12-05.20.21:950][986]LogFbx: Warning: Recreating bind pose succeeded.
+[2019.11.12-05.20.21:950][986]LogFbx: Triangulating skeletal mesh head
+[2019.11.12-05.20.21:963][986]LogFbx: Triangulating skeletal mesh body
+[2019.11.12-05.20.21:965][986]LogFbx: Triangulating skeletal mesh l_arm
+[2019.11.12-05.20.21:966][986]LogFbx: Triangulating skeletal mesh r_arm
+[2019.11.12-05.20.21:967][986]LogFbx: Triangulating skeletal mesh r_hand
+[2019.11.12-05.20.21:969][986]LogFbx: Triangulating skeletal mesh l_hand
+[2019.11.12-05.20.21:972][986]LogFbx: Triangulating skeletal mesh r_wheel
+[2019.11.12-05.20.21:997][986]LogFbx: Triangulating skeletal mesh l_wheel
+[2019.11.12-05.20.22:020][986]LogFbx: Warning: Bones digested - 15  Depth of hierarchy - 5
+[2019.11.12-05.20.22:068][986]LogSkeletalMesh: Section 0: 274 vertices, 4 active bones
+[2019.11.12-05.20.22:068][986]LogSkeletalMesh: Section 1: 1314 vertices, 5 active bones
+[2019.11.12-05.20.22:068][986]LogSkeletalMesh: Section 2: 120 vertices, 2 active bones
+[2019.11.12-05.20.22:068][986]LogSkeletalMesh: Section 0: Material=0, 480 triangles
+[2019.11.12-05.20.22:068][986]LogSkeletalMesh: Section 1: Material=1, 1828 triangles
+[2019.11.12-05.20.22:068][986]LogSkeletalMesh: Section 2: Material=2, 112 triangles
+[2019.11.12-05.20.22:069][986]LogSkeletalMesh: Building Skeletal Mesh SK_Enemy...
+[2019.11.12-05.20.22:070][986]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/SideScrollerBP/Assets/EnemyLP/SK_Enemy.SK_Enemy
+[2019.11.12-05.20.22:076][986]LogSkeletalMesh: Building Skeletal Mesh SK_Enemy...
+[2019.11.12-05.20.22:078][986]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/SideScrollerBP/Assets/EnemyLP/SK_Enemy.SK_Enemy
+[2019.11.12-05.20.22:083][986]FBXImport: Warning: Mesh [Geometry have no name] in the fbx file is not reference by any hierarchy node. 
+[2019.11.12-05.20.22:083][986]FBXImport: Warning: Mesh [Geometry have no name] in the fbx file is not reference by any hierarchy node. 
+[2019.11.12-05.20.22:083][986]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2019.11.12-05.20.22:083][986]FBXImport: Warning: The following bones are missing from the bind pose:
+l_end_jnt  
+r_end_jnt  
+
+This can happen for bones that are not vert weighted. If they are not in the correct orientation after importing,
+please set the "Use T0 as ref pose" option or add them to the bind pose and reimport the skeletal mesh. 
+[2019.11.12-05.20.22:093][986]LogSkeletalMesh: Building Skeletal Mesh SK_Enemy...
+[2019.11.12-05.20.22:095][986]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/SideScrollerBP/Assets/EnemyLP/SK_Enemy.SK_Enemy
+[2019.11.12-05.20.23:720][138]LogSlate: Window 'Message Log' being destroyed
+[2019.11.12-05.20.23:723][138]LogSlate: Window 'Message Log' being destroyed
+[2019.11.12-05.20.24:372][196]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.12-05.20.24:528][208]LogAssetEditorManager: Opening Asset editor for SkeletalMesh /Game/SideScrollerBP/Assets/EnemyLP/SK_Enemy.SK_Enemy
+[2019.11.12-05.20.24:544][208]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_20:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.11.12-05.20.24:566][208]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_20:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2019.11.12-05.20.26:288][333]LogSlate: Window 'SK_Enemy*' being destroyed
+[2019.11.12-05.20.26:292][333]LogSlate: Window 'SK_Enemy*' being destroyed
+[2019.11.12-05.20.27:076][384]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.12-05.20.27:914][432]LogSavePackage: Moving '../../../../../../Users/s191263/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Saved/SK_EnemyCFD2430944CF0D91E6C0979164AF54B3.tmp' to '../../../../../../Users/s191263/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Assets/EnemyLP/SK_Enemy.uasset'
+[2019.11.12-05.20.27:948][432]LogSavePackage: Moving '../../../../../../Users/s191263/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Saved/SK_Enemy_PhysicsAsset37D690704E0048102DB094819770F1F5.tmp' to '../../../../../../Users/s191263/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Assets/EnemyLP/SK_Enemy_PhysicsAsset.uasset'
+[2019.11.12-05.20.27:960][432]LogSavePackage: Moving '../../../../../../Users/s191263/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Saved/SK_Enemy_SkeletonDD674F77473F9DF3B14BCBA8DDF92848.tmp' to '../../../../../../Users/s191263/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Assets/EnemyLP/SK_Enemy_Skeleton.uasset'
+[2019.11.12-05.20.28:182][447]LogSlate: FSceneViewport::OnFocusLost() reason 0
