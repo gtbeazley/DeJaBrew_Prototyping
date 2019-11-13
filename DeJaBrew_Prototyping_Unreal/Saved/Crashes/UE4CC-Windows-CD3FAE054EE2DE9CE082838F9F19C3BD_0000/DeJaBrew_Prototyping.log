@@ -1,0 +1,1613 @@
+﻿Log file open, 11/13/19 14:28:59
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: DeJaBrew_Prototyping
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.261316
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +10:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.089s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-6700 CPU @ 3.40GHz, GPU: NVIDIA GeForce GTX 1060 6GB
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.002s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2019.11.13-03.28.59:369][  0]LogInit: Selected Device Profile: [Windows]
+[2019.11.13-03.28.59:369][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.11.13-03.28.59:382][  0]LogHAL: Display: Platform has ~ 32 GB [34293108736 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.11.13-03.28.59:382][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2019.11.13-03.28.59:382][  0]LogInit: Going up to parent DeviceProfile []
+[2019.11.13-03.28.59:382][  0]LogInit: Computer: SYD-C63DCC
+[2019.11.13-03.28.59:382][  0]LogInit: User: s191273
+[2019.11.13-03.28.59:382][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.11.13-03.28.59:382][  0]LogInit: High frequency timer resolution =3.328130 MHz
+[2019.11.13-03.28.59:383][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2019.11.13-03.28.59:383][  0]LogMemory: Platform Memory Stats for Windows
+[2019.11.13-03.28.59:383][  0]LogMemory: Process Physical Memory: 100.36 MB used, 100.36 MB peak
+[2019.11.13-03.28.59:383][  0]LogMemory: Process Virtual Memory: 89.47 MB used, 89.47 MB peak
+[2019.11.13-03.28.59:383][  0]LogMemory: Physical Memory: 5612.75 MB used,  27091.71 MB free, 32704.46 MB total
+[2019.11.13-03.28.59:383][  0]LogMemory: Virtual Memory: 4638.47 MB used,  27091.71 MB free, 134217728.00 MB total
+[2019.11.13-03.28.59:399][  0]LogInit: Using OS detected language (en-US).
+[2019.11.13-03.28.59:399][  0]LogInit: Using OS detected locale (en-US).
+[2019.11.13-03.28.59:400][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.11.13-03.28.59:762][  0]LogStreaming: Display: Took  0.363s to InitEngineTextLocalization.
+[2019.11.13-03.28.59:762][  0]LogInit: Setting process to per monitor DPI aware
+[2019.11.13-03.28.59:795][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.11.13-03.28.59:795][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.11.13-03.28.59:965][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.11.13-03.28.59:965][  0]LogD3D11RHI: D3D11 adapters:
+[2019.11.13-03.29.00:015][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 6GB' (Feature Level 11_0)
+[2019.11.13-03.29.00:015][  0]LogD3D11RHI:       6052/0/16352 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2019.11.13-03.29.00:016][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.11.13-03.29.00:016][  0]LogD3D11RHI:       0/0/16352 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.11.13-03.29.00:016][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.11.13-03.29.00:022][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.11.13-03.29.00:022][  0]LogD3D11RHI:     GPU DeviceId: 0x1c03 (for the marketing name, search the web for "GPU Device Id")
+[2019.11.13-03.29.00:022][  0]LogWindows: EnumDisplayDevices:
+[2019.11.13-03.29.00:022][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:1)
+[2019.11.13-03.29.00:023][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 6GB' (P:1 D:1)
+[2019.11.13-03.29.00:023][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2019.11.13-03.29.00:023][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2019.11.13-03.29.00:023][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2019.11.13-03.29.00:023][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 6GB
+[2019.11.13-03.29.00:023][  0]LogD3D11RHI:   Driver Version: 417.35 (internal:25.21.14.1735, unified:417.35)
+[2019.11.13-03.29.00:023][  0]LogD3D11RHI:      Driver Date: 12-11-2018
+[2019.11.13-03.29.00:023][  0]LogRHI: Texture pool is 4236 MB (70% of 6052 MB)
+[2019.11.13-03.29.00:053][  0]LogD3D11RHI: Async texture creation enabled
+[2019.11.13-03.29.00:069][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.11.13-03.29.00:153][  0]LogShaderCompilers: Guid format shader working directory is -49 characters bigger than the processId version (../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Intermediate/Shaders/WorkingDirectory/9272/).
+[2019.11.13-03.29.00:153][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/s191273/AppData/Local/Temp/UnrealShaderWorkingDir/C85D21BB4A31545424697FAB0C01DD82/'.
+[2019.11.13-03.29.00:370][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.11.13-03.29.00:381][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.11.13-03.29.00:392][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.11.13-03.29.00:403][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.11.13-03.29.00:414][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.11.13-03.29.00:425][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.11.13-03.29.00:436][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.11.13-03.29.00:447][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.11.13-03.29.00:452][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.11.13-03.29.00:518][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.11.13-03.29.00:518][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.11.13-03.29.00:518][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.11.13-03.29.00:518][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.11.13-03.29.00:518][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.11.13-03.29.00:518][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.11.13-03.29.00:518][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.11.13-03.29.00:518][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.11.13-03.29.00:518][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.11.13-03.29.00:518][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.11.13-03.29.00:518][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.11.13-03.29.00:518][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.11.13-03.29.00:518][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.11.13-03.29.00:518][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.11.13-03.29.00:518][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.11.13-03.29.00:518][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.11.13-03.29.00:518][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.11.13-03.29.00:518][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.11.13-03.29.00:519][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.11.13-03.29.00:576][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.11.13-03.29.00:576][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.11.13-03.29.00:598][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.11.13-03.29.00:598][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.11.13-03.29.00:610][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.11.13-03.29.00:625][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.11.13-03.29.00:637][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.11.13-03.29.00:649][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.11.13-03.29.00:657][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.11.13-03.29.00:657][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.11.13-03.29.00:704][  0]LogXGEController: Cleaning working directory: C:/Users/s191273/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.11.13-03.29.00:704][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.11.13-03.29.00:704][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.11.13-03.29.00:704][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.11.13-03.29.01:303][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.11.13-03.29.01:349][  0]LogDerivedDataCache: Loaded boot cache 0.05s 71MB C:/Users/s191273/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.11.13-03.29.01:349][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/s191273/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2019.11.13-03.29.01:349][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.11.13-03.29.01:349][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.11.13-03.29.01:349][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.11.13-03.29.01:349][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.11.13-03.29.01:360][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.11.13-03.29.01:372][  0]LogDerivedDataCache: Using Local data cache path C:/Users/s191273/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.11.13-03.29.01:372][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.11.13-03.29.01:372][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.11.13-03.29.01:388][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.11.13-03.29.01:389][  0]LogSlate: Using FreeType 2.6.0
+[2019.11.13-03.29.01:389][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.11.13-03.29.01:453][  0]LogAssetRegistry: FAssetRegistry took 0.0254 seconds to start up
+[2019.11.13-03.29.01:710][  0]LogInit: Selected Device Profile: [Windows]
+[2019.11.13-03.29.01:821][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.11.13-03.29.01:824][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.11.13-03.29.01:824][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.11.13-03.29.01:824][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.11.13-03.29.01:824][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.11.13-03.29.01:836][  0]LogNetVersion: DeJaBrew_Prototyping 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 1964930159)
+[2019.11.13-03.29.02:069][  0]LogLinker: Warning: The file '../../../Engine/Content/EditorMaterials/Thumbnails/SkySphereMaterial.uasset' contains unrecognizable data, check that it is of the expected type.
+[2019.11.13-03.29.02:069][  0]LogLinker: Warning: The file '../../../Engine/Content/EditorMaterials/Thumbnails/SkySphereMaterial.uasset' contains unrecognizable data, check that it is of the expected type.
+[2019.11.13-03.29.02:069][  0]LogLinker: Warning: The file '../../../Engine/Content/EditorMaterials/Thumbnails/SkySphereMaterial.uasset' contains unrecognizable data, check that it is of the expected type.
+[2019.11.13-03.29.02:070][  0]LogLinker: Warning: The file '../../../Engine/Content/EditorMaterials/Thumbnails/SkySphereMaterial.uasset' contains unrecognizable data, check that it is of the expected type.
+[2019.11.13-03.29.02:070][  0]LogLinker: Warning: The file '../../../Engine/Content/EditorMaterials/Thumbnails/SkySphereMaterial.uasset' contains unrecognizable data, check that it is of the expected type.
+[2019.11.13-03.29.02:070][  0]LogLinker: Warning: The file '../../../Engine/Content/EditorMaterials/Thumbnails/SkySphereMaterial.uasset' contains unrecognizable data, check that it is of the expected type.
+[2019.11.13-03.29.02:251][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.093128 seconds
+[2019.11.13-03.29.02:258][  0]LogUObjectArray: 38422 objects as part of root set at end of initial load.
+[2019.11.13-03.29.02:258][  0]LogUObjectAllocator: 6687768 out of 0 bytes used by permanent object pool.
+[2019.11.13-03.29.02:258][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.11.13-03.29.02:939][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.11.13-03.29.02:951][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.11.13-03.29.03:079][  0]SourceControl: Source control is disabled
+[2019.11.13-03.29.03:079][  0]SourceControl: Source control is disabled
+[2019.11.13-03.29.03:080][  0]SourceControl: Source control is disabled
+[2019.11.13-03.29.03:081][  0]SourceControl: Source control is disabled
+[2019.11.13-03.29.03:227][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.11.13-03.29.03:267][  0]LogOcInput: OculusInput pre-init called
+[2019.11.13-03.29.03:322][  0]LogEngine: Initializing Engine...
+[2019.11.13-03.29.03:323][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.11.13-03.29.03:324][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.11.13-03.29.03:324][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.11.13-03.29.03:324][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.11.13-03.29.03:324][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.11.13-03.29.03:507][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.11.13-03.29.03:517][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.11.13-03.29.03:524][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.13-03.29.03:554][  0]LogInit: FAudioDevice initialized.
+[2019.11.13-03.29.03:554][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.11.13-03.29.03:626][  0]LogDerivedDataCache: Saved boot cache 0.07s 71MB C:/Users/s191273/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.11.13-03.29.03:631][  0]LogInit: Texture streaming: Enabled
+[2019.11.13-03.29.03:643][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.11.13-03.29.03:655][  0]LogInit: Transaction tracking system initialized
+[2019.11.13-03.29.03:669][  0]BlueprintLog: New page: Editor Load
+[2019.11.13-03.29.03:721][  0]LocalizationService: Localization service is disabled
+[2019.11.13-03.29.03:886][  0]LogLinker: Warning: The file '../../../Engine/Content/EditorMaterials/Thumbnails/SkySphereMaterial.uasset' contains unrecognizable data, check that it is of the expected type.
+[2019.11.13-03.29.03:929][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.11.13-03.29.03:929][  0]LogCook: Display: Mobile HDR setting 1
+[2019.11.13-03.29.03:930][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.11.13-03.29.03:930][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.11.13-03.29.03:930][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.11.13-03.29.03:930][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.11.13-03.29.03:930][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.11.13-03.29.04:019][  0]SourceControl: Source control is disabled
+[2019.11.13-03.29.04:019][  0]Cmd: MAP LOAD FILE="../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Maps/Template.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.11.13-03.29.04:019][  0]LightingResults: New page: Lighting Build
+[2019.11.13-03.29.04:021][  0]MapCheck: New page: Map Check
+[2019.11.13-03.29.04:021][  0]LightingResults: New page: Lighting Build
+[2019.11.13-03.29.04:095][  0]LogLinker: Warning: Can't find file '/Game/SideScrollerBP/Sounds/DeathEnemy/Death_Enemy'
+[2019.11.13-03.29.04:096][  0]LogLinker: Warning: Can't find file for asset '/Game/SideScrollerBP/Sounds/DeathEnemy/Death_Enemy' while loading ../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Sounds/DeathEnemy/Death_Enemy_Cue.uasset.
+[2019.11.13-03.29.04:096][  0]LoadErrors: Error: /Game/SideScrollerBP/Sounds/DeathEnemy/Death_Enemy_Cue : Can't find file for asset. /Game/SideScrollerBP/Sounds/DeathEnemy/Death_Enemy
+[2019.11.13-03.29.04:096][  0]LogLinker: Warning: Can't find file '/Game/SideScrollerBP/Sounds/DeathEnemy/Death_Enemy'
+[2019.11.13-03.29.04:096][  0]LogLinker: Warning: Can't find file for asset '/Game/SideScrollerBP/Sounds/DeathEnemy/Death_Enemy' while loading ../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Sounds/DeathEnemy/Death_Enemy_Cue.uasset.
+[2019.11.13-03.29.04:096][  0]LoadErrors: Error: /Game/SideScrollerBP/Sounds/DeathEnemy/Death_Enemy_Cue : Can't find file for asset. /Game/SideScrollerBP/Sounds/DeathEnemy/Death_Enemy
+[2019.11.13-03.29.04:196][  0]LogLinker: Warning: Can't find file '/Game/SideScrollerBP/Sounds/Checkpoint/Checkpoint'
+[2019.11.13-03.29.04:196][  0]LoadErrors: Failed to load /Game/SideScrollerBP/Sounds/Checkpoint/Checkpoint_Cue.Checkpoint_Cue Referenced by Checkpoint_Cue_GEN_VARIABLE
+[2019.11.13-03.29.04:196][  0]LogLinker: Warning: Can't find file for asset '/Game/SideScrollerBP/Sounds/Checkpoint/Checkpoint' while loading ../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Sounds/Checkpoint/Checkpoint_Cue.uasset.
+[2019.11.13-03.29.04:197][  0]LoadErrors: Failed to load /Game/SideScrollerBP/Sounds/Checkpoint/Checkpoint_Cue.Checkpoint_Cue Referenced by Checkpoint_Cue_GEN_VARIABLE
+[2019.11.13-03.29.04:197][  0]LoadErrors: Error: /Game/SideScrollerBP/Sounds/Checkpoint/Checkpoint_Cue : Can't find file for asset. /Game/SideScrollerBP/Sounds/Checkpoint/Checkpoint
+[2019.11.13-03.29.04:197][  0]LogLinker: Warning: Can't find file '/Game/SideScrollerBP/Sounds/Checkpoint/Checkpoint'
+[2019.11.13-03.29.04:197][  0]LoadErrors: Failed to load /Game/SideScrollerBP/Sounds/Checkpoint/Checkpoint_Cue.Checkpoint_Cue Referenced by Checkpoint_Cue_GEN_VARIABLE
+[2019.11.13-03.29.04:197][  0]LogLinker: Warning: Can't find file for asset '/Game/SideScrollerBP/Sounds/Checkpoint/Checkpoint' while loading ../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Sounds/Checkpoint/Checkpoint_Cue.uasset.
+[2019.11.13-03.29.04:197][  0]LoadErrors: Failed to load /Game/SideScrollerBP/Sounds/Checkpoint/Checkpoint_Cue.Checkpoint_Cue Referenced by Checkpoint_Cue_GEN_VARIABLE
+[2019.11.13-03.29.04:197][  0]LoadErrors: Error: /Game/SideScrollerBP/Sounds/Checkpoint/Checkpoint_Cue : Can't find file for asset. /Game/SideScrollerBP/Sounds/Checkpoint/Checkpoint
+[2019.11.13-03.29.04:695][  0]LogLinker: Warning: Can't find file '/Game/SideScrollerBP/Sounds/DeathEnemy/Death_Enemy'
+[2019.11.13-03.29.04:695][  0]LoadErrors: Failed to load /Game/SideScrollerBP/Sounds/DeathEnemy/Death_Enemy.Death_Enemy Referenced by SoundNodeWavePlayer_0
+[2019.11.13-03.29.04:695][  0]LogLinker: Warning: Can't find file for asset '/Game/SideScrollerBP/Sounds/DeathEnemy/Death_Enemy' while loading NULL.
+[2019.11.13-03.29.04:695][  0]LoadErrors: Failed to load /Game/SideScrollerBP/Sounds/DeathEnemy/Death_Enemy.Death_Enemy Referenced by SoundNodeWavePlayer_0
+[2019.11.13-03.29.04:767][  0]LogLinker: Warning: Can't find file '/Game/SideScrollerBP/Sounds/Checkpoint/Checkpoint'
+[2019.11.13-03.29.04:767][  0]LoadErrors: Failed to load /Game/SideScrollerBP/Sounds/Checkpoint/Checkpoint.Checkpoint Referenced by SoundNodeWavePlayer_0
+[2019.11.13-03.29.04:768][  0]LogLinker: Warning: Can't find file for asset '/Game/SideScrollerBP/Sounds/Checkpoint/Checkpoint' while loading NULL.
+[2019.11.13-03.29.04:768][  0]LoadErrors: Failed to load /Game/SideScrollerBP/Sounds/Checkpoint/Checkpoint.Checkpoint Referenced by SoundNodeWavePlayer_0
+[2019.11.13-03.29.04:784][  0]LogLinker: Warning: Can't find file '/Game/SideScrollerBP/Sounds/DeathEnemy/Death_Enemy'
+[2019.11.13-03.29.04:784][  0]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/SideScrollerBP/Sounds/DeathEnemy/Death_Enemy.Death_Enemy'
+[2019.11.13-03.29.05:019][  0]LogLinker: Warning: Can't find file '/Game/SideScrollerBP/Sounds/Checkpoint/Checkpoint'
+[2019.11.13-03.29.05:019][  0]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/SideScrollerBP/Sounds/Checkpoint/Checkpoint.Checkpoint'
+[2019.11.13-03.29.05:188][  0]LogAIModule: Creating AISystem for world Template
+[2019.11.13-03.29.05:228][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.11.13-03.29.05:253][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.11.13-03.29.05:331][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 76.83ms to complete.
+[2019.11.13-03.29.05:331][  0]LogFileHelpers: Loading map 'Template' took 1.312
+[2019.11.13-03.29.05:427][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.13-03.29.05:432][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.13-03.29.05:438][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.13-03.29.05:444][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.13-03.29.05:449][  0]LogCollectionManager: Loaded 0 collections in 0.001157 seconds
+[2019.11.13-03.29.05:493][  0]LogFileCache: Scanning file cache for directory 'C:/Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Saved/Collections/' took 0.01s
+[2019.11.13-03.29.05:493][  0]LogFileCache: Scanning file cache for directory 'C:/Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/Developers/s191273/Collections/' took 0.01s
+[2019.11.13-03.29.05:493][  0]LogFileCache: Scanning file cache for directory 'C:/Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/Collections/' took 0.01s
+[2019.11.13-03.29.05:493][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.11.13-03.29.05:501][  0]LogContentBrowser: Native class hierarchy populated in 0.0081 seconds. Added 2572 classes and 603 folders.
+[2019.11.13-03.29.05:505][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2019.11.13-03.29.05:533][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2019.11.13-03.29.05:538][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2019.11.13-03.29.05:551][  0]LogSlate: Took 0.000158 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.11.13-03.29.05:552][  0]LogSlate: Took 0.000138 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.11.13-03.29.05:557][  0]LogSlate: Took 0.000150 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.11.13-03.29.05:631][  0]LogRenderer: Reallocating scene render targets to support 1216x576 Format 10 NumSamples 1 (Frame:1).
+[2019.11.13-03.29.05:874][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.11.13-03.29.05:874][  0]LogLoad: (Engine Initialization) Total time: 7.78 seconds
+[2019.11.13-03.29.05:874][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.11.13-03.29.05:884][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.11.13-03.29.05:905][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.11.13-03.29.05:911][  0]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.13-03.29.05:947][  0]LogSlate: Took 0.000140 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.11.13-03.29.05:986][  1]LogAssetRegistry: Asset discovery search completed in 4.5548 seconds
+[2019.11.13-03.29.05:987][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.11.13-03.29.05:987][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000077 seconds (updated 0 objects)
+[2019.11.13-03.29.06:902][ 78]LogSlate: Took 0.000204 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.11.13-03.29.20:853][750]LogSlate: Window 'Message Log' being destroyed
+[2019.11.13-03.29.20:857][750]LogSlate: Window 'Message Log' being destroyed
+[2019.11.13-03.29.21:661][846]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.13-03.34.18:840][247]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Assets/Side3.fbx)
+[2019.11.13-03.34.18:859][247]LogFbx: Loading FBX Scene from ../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Assets/Side3.fbx
+[2019.11.13-03.34.18:864][247]LogFbx: FBX Scene Loaded Succesfully
+[2019.11.13-03.34.20:681][247]LogSlate: Window 'FBX Import Options' being destroyed
+[2019.11.13-03.34.20:701][247]LogFbx: Warning: Triangulating static mesh sides6
+[2019.11.13-03.34.20:706][247]LogStaticMesh: Building static mesh Side3...
+[2019.11.13-03.34.20:709][247]LogStaticMesh: Built static mesh [0.00s] /Game/SideScrollerBP/Assets/Side3.Side3
+[2019.11.13-03.34.20:718][247]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2019.11.13-03.34.20:738][247]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Assets/Side4.fbx)
+[2019.11.13-03.34.22:258][247]LogSlate: Window 'FBX Import Options' being destroyed
+[2019.11.13-03.34.22:301][247]LogFbx: Loading FBX Scene from ../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Assets/Side4.fbx
+[2019.11.13-03.34.22:306][247]LogFbx: FBX Scene Loaded Succesfully
+[2019.11.13-03.34.22:307][247]LogFbx: Warning: Triangulating static mesh sides5
+[2019.11.13-03.34.22:310][247]LogStaticMesh: Building static mesh Side4...
+[2019.11.13-03.34.22:311][247]LogStaticMesh: Built static mesh [0.00s] /Game/SideScrollerBP/Assets/Side4.Side4
+[2019.11.13-03.34.22:320][247]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2019.11.13-03.35.21:946][739]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Textures/side3/Side3_Base.png)
+[2019.11.13-03.35.22:098][739]LogTexture: Display: Building textures: Side3_Base (AutoDXT, 2048X2048)
+[2019.11.13-03.35.22:681][739]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Textures/side3/Side3_Norm.png)
+[2019.11.13-03.35.22:927][739]LogTexture: Display: Building textures: Side3_Norm (BC5, 2048X2048)
+[2019.11.13-03.35.23:114][739]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Textures/side3/Side3_ORM.png)
+[2019.11.13-03.35.23:251][739]LogTexture: Display: Building textures: Side3_ORM (AutoDXT, 2048X2048)
+[2019.11.13-03.36.12:463][453]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Textures/side4/Side4_Base.png)
+[2019.11.13-03.36.12:617][453]LogTexture: Display: Building textures: Side4_Base (AutoDXT, 2048X2048)
+[2019.11.13-03.36.13:116][453]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Textures/side4/Side4_Norm.png)
+[2019.11.13-03.36.13:366][453]LogTexture: Display: Building textures: Side4_Norm (BC5, 2048X2048)
+[2019.11.13-03.36.13:544][453]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Textures/side4/Side4_ORM.png)
+[2019.11.13-03.36.13:693][453]LogTexture: Display: Building textures: Side4_ORM (AutoDXT, 2048X2048)
+[2019.11.13-03.36.37:119][ 60]LogAssetEditorManager: Opening Asset editor for Material /Game/SideScrollerBP/Materials/Side3_Material.Side3_Material
+[2019.11.13-03.36.37:122][ 60]LogMaterial: Display: Missing cached shader map for material Side3_Material, compiling. 
+[2019.11.13-03.36.37:371][ 60]LogMaterial: Display: Missing cached shader map for material Side3_Material, compiling. 
+[2019.11.13-03.36.37:385][ 60]LogMaterial: Display: Missing cached shader map for material Side3_Material, compiling. 
+[2019.11.13-03.36.37:413][ 60]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.11.13-03.36.37:413][ 60]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.11.13-03.36.37:413][ 60]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.11.13-03.36.37:413][ 60]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.11.13-03.36.37:462][ 60]LogSlate: Took 0.000185 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.11.13-03.36.37:927][ 88]LogShaderCompilers: Display: Shaders left to compile 17
+[2019.11.13-03.36.37:966][ 91]LogShaderCompilers: Display: Shaders left to compile 16
+[2019.11.13-03.36.37:966][ 91]LogShaderCompilers: Display: Shaders left to compile 15
+[2019.11.13-03.36.37:989][ 93]LogShaderCompilers: Display: Shaders left to compile 14
+[2019.11.13-03.36.38:094][101]LogShaderCompilers: Display: Shaders left to compile 13
+[2019.11.13-03.36.38:120][103]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.11.13-03.36.38:132][104]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.11.13-03.36.38:155][106]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.11.13-03.36.38:261][115]LogShaderCompilers: Display: Shaders left to compile 9
+[2019.11.13-03.36.38:382][124]LogShaderCompilers: Display: Shaders left to compile 8
+[2019.11.13-03.36.38:503][133]LogShaderCompilers: Display: Shaders left to compile 7
+[2019.11.13-03.36.38:515][134]LogShaderCompilers: Display: Shaders left to compile 6
+[2019.11.13-03.36.38:615][142]LogShaderCompilers: Display: Shaders left to compile 5
+[2019.11.13-03.36.38:739][152]LogShaderCompilers: Display: Shaders left to compile 4
+[2019.11.13-03.36.38:751][153]LogShaderCompilers: Display: Shaders left to compile 3
+[2019.11.13-03.36.38:910][159]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.11.13-03.36.38:968][164]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.11.13-03.36.39:381][211]LogSlate: Window 'Side3_Material*' being destroyed
+[2019.11.13-03.36.39:383][211]MaterialEditorStats: Base pass shader: 99 instructions
+[2019.11.13-03.36.39:383][211]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 172 instructions
+[2019.11.13-03.36.39:383][211]MaterialEditorStats: Base pass vertex shader: 32 instructions
+[2019.11.13-03.36.39:384][211]MaterialEditorStats: Texture samplers: 3/16
+[2019.11.13-03.36.52:071][293]LogTexture: Display: Building textures: SpikesP_Meta (BGRA8, 2048X2048)
+[2019.11.13-03.36.52:071][293]LogTexture: Display: Building textures: SpikesP_Roug (BGRA8, 2048X2048)
+[2019.11.13-03.36.52:071][293]LogTexture: Display: Building textures: SpikesP_Base (AutoDXT, 2048X2048)
+[2019.11.13-03.36.52:071][293]LogTexture: Display: Building textures: SpikesP_Norm (BC5, 2048X2048)
+[2019.11.13-03.36.52:071][293]LogMaterial: Display: Missing cached shader map for material SpikeHolder_Material, compiling. 
+[2019.11.13-03.36.52:097][293]LogShaderCompilers: Display: Shaders left to compile 22
+[2019.11.13-03.36.52:097][293]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.11.13-03.36.52:097][293]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.11.13-03.37.07:198][642]LogMaterial: Display: Missing cached shader map for material Side4_Material, compiling. 
+[2019.11.13-03.37.07:224][643]LogShaderCompilers: Display: Shaders left to compile 22
+[2019.11.13-03.37.07:224][643]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.11.13-03.37.07:224][643]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.11.13-03.37.08:231][711]LogAssetEditorManager: Opening Asset editor for Material /Game/SideScrollerBP/Materials/Side4_Material.Side4_Material
+[2019.11.13-03.37.08:233][711]LogMaterial: Display: Missing cached shader map for material Side4_Material, compiling. 
+[2019.11.13-03.37.08:244][711]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.11.13-03.37.08:244][711]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.11.13-03.37.08:291][711]LogMaterial: Display: Missing cached shader map for material Side4_Material, compiling. 
+[2019.11.13-03.37.08:308][711]LogMaterial: Display: Missing cached shader map for material Side4_Material, compiling. 
+[2019.11.13-03.37.08:458][712]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.11.13-03.37.08:643][724]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.11.13-03.37.08:732][730]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.11.13-03.37.08:777][733]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.11.13-03.37.08:864][738]LogShaderCompilers: Display: Shaders left to compile 17
+[2019.11.13-03.37.08:942][743]LogShaderCompilers: Display: Shaders left to compile 16
+[2019.11.13-03.37.08:959][744]LogShaderCompilers: Display: Shaders left to compile 15
+[2019.11.13-03.37.09:033][749]LogShaderCompilers: Display: Shaders left to compile 14
+[2019.11.13-03.37.09:137][756]LogShaderCompilers: Display: Shaders left to compile 13
+[2019.11.13-03.37.09:153][757]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.11.13-03.37.09:168][758]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.11.13-03.37.09:302][767]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.11.13-03.37.09:528][782]LogShaderCompilers: Display: Shaders left to compile 9
+[2019.11.13-03.37.09:560][784]LogShaderCompilers: Display: Shaders left to compile 8
+[2019.11.13-03.37.09:574][785]LogShaderCompilers: Display: Shaders left to compile 7
+[2019.11.13-03.37.09:803][801]LogShaderCompilers: Display: Shaders left to compile 6
+[2019.11.13-03.37.09:909][808]LogShaderCompilers: Display: Shaders left to compile 5
+[2019.11.13-03.37.09:953][811]LogShaderCompilers: Display: Shaders left to compile 4
+[2019.11.13-03.37.10:057][818]LogShaderCompilers: Display: Shaders left to compile 3
+[2019.11.13-03.37.10:193][827]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.11.13-03.37.10:209][828]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.11.13-03.37.10:525][850]MaterialEditorStats: Base pass shader: 99 instructions
+[2019.11.13-03.37.10:525][850]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 172 instructions
+[2019.11.13-03.37.10:525][850]MaterialEditorStats: Base pass vertex shader: 32 instructions
+[2019.11.13-03.37.10:525][850]MaterialEditorStats: Texture samplers: 3/16
+[2019.11.13-03.37.15:835][394]LogMaterial: Display: Missing cached shader map for material Side3_Material, compiling. 
+[2019.11.13-03.37.15:847][394]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2019.11.13-03.37.15:852][394]LogShaderCompilers: Display: Shaders left to compile 23
+[2019.11.13-03.37.15:852][394]LogShaderCompilers: Display: Shaders left to compile 22
+[2019.11.13-03.37.15:852][394]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.11.13-03.37.15:852][394]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.11.13-03.37.15:875][394]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2019.11.13-03.37.15:889][394]LogMaterial: Display: Missing cached shader map for material Side3_Material, compiling. 
+[2019.11.13-03.37.15:907][394]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2019.11.13-03.37.15:936][394]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2019.11.13-03.37.15:941][394]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2019.11.13-03.37.15:957][394]LogMaterial: Display: Missing cached shader map for material Side3_Material, compiling. 
+[2019.11.13-03.37.15:975][394]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2019.11.13-03.37.16:006][394]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2019.11.13-03.37.16:011][394]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2019.11.13-03.37.16:015][394]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2019.11.13-03.37.16:053][395]LogShaderCompilers: Display: Shaders left to compile 27
+[2019.11.13-03.37.16:053][395]LogShaderCompilers: Display: Shaders left to compile 26
+[2019.11.13-03.37.16:053][395]LogShaderCompilers: Display: Shaders left to compile 25
+[2019.11.13-03.37.16:077][396]LogShaderCompilers: Display: Shaders left to compile 24
+[2019.11.13-03.37.16:241][409]LogShaderCompilers: Display: Shaders left to compile 23
+[2019.11.13-03.37.16:253][410]LogShaderCompilers: Display: Shaders left to compile 22
+[2019.11.13-03.37.16:265][411]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.11.13-03.37.16:275][412]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.11.13-03.37.16:413][423]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.11.13-03.37.16:413][423]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.11.13-03.37.16:413][423]LogShaderCompilers: Display: Shaders left to compile 17
+[2019.11.13-03.37.16:433][425]LogShaderCompilers: Display: Shaders left to compile 16
+[2019.11.13-03.37.16:553][435]LogShaderCompilers: Display: Shaders left to compile 15
+[2019.11.13-03.37.16:661][443]LogShaderCompilers: Display: Shaders left to compile 14
+[2019.11.13-03.37.16:789][453]LogShaderCompilers: Display: Shaders left to compile 13
+[2019.11.13-03.37.16:801][454]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.11.13-03.37.16:900][462]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.11.13-03.37.17:003][470]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.11.13-03.37.17:026][472]LogShaderCompilers: Display: Shaders left to compile 9
+[2019.11.13-03.37.17:169][483]LogShaderCompilers: Display: Shaders left to compile 8
+[2019.11.13-03.37.17:223][488]LogShaderCompilers: Display: Shaders left to compile 7
+[2019.11.13-03.37.17:314][496]LogShaderCompilers: Display: Shaders left to compile 6
+[2019.11.13-03.37.17:349][499]LogShaderCompilers: Display: Shaders left to compile 5
+[2019.11.13-03.37.17:417][505]LogShaderCompilers: Display: Shaders left to compile 4
+[2019.11.13-03.37.17:507][513]LogShaderCompilers: Display: Shaders left to compile 3
+[2019.11.13-03.37.17:566][518]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.11.13-03.37.17:591][520]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.11.13-03.37.17:798][540]MaterialEditorStats: Base pass shader: 99 instructions
+[2019.11.13-03.37.17:799][540]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 172 instructions
+[2019.11.13-03.37.17:799][540]MaterialEditorStats: Base pass vertex shader: 32 instructions
+[2019.11.13-03.37.17:799][540]MaterialEditorStats: Texture samplers: 3/16
+[2019.11.13-03.37.27:597][665]LogMaterial: Display: Missing cached shader map for material Side3_Material, compiling. 
+[2019.11.13-03.37.27:614][665]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.11.13-03.37.27:614][665]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.11.13-03.37.27:614][665]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.11.13-03.37.27:614][665]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.11.13-03.37.27:617][665]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2019.11.13-03.37.27:818][678]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.11.13-03.37.27:830][679]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.11.13-03.37.27:842][680]LogShaderCompilers: Display: Shaders left to compile 17
+[2019.11.13-03.37.27:842][680]LogShaderCompilers: Display: Shaders left to compile 16
+[2019.11.13-03.37.28:000][693]LogShaderCompilers: Display: Shaders left to compile 15
+[2019.11.13-03.37.28:013][694]LogShaderCompilers: Display: Shaders left to compile 14
+[2019.11.13-03.37.28:013][694]LogShaderCompilers: Display: Shaders left to compile 13
+[2019.11.13-03.37.28:024][695]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.11.13-03.37.28:161][707]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.11.13-03.37.28:252][714]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.11.13-03.37.28:389][725]LogShaderCompilers: Display: Shaders left to compile 9
+[2019.11.13-03.37.28:401][726]LogShaderCompilers: Display: Shaders left to compile 8
+[2019.11.13-03.37.28:534][737]LogShaderCompilers: Display: Shaders left to compile 7
+[2019.11.13-03.37.28:624][744]LogShaderCompilers: Display: Shaders left to compile 6
+[2019.11.13-03.37.28:634][745]LogShaderCompilers: Display: Shaders left to compile 5
+[2019.11.13-03.37.28:771][756]LogShaderCompilers: Display: Shaders left to compile 4
+[2019.11.13-03.37.28:865][763]LogShaderCompilers: Display: Shaders left to compile 3
+[2019.11.13-03.37.28:951][770]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.11.13-03.37.28:963][771]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.11.13-03.37.30:953][995]LogMaterial: Display: Missing cached shader map for material Side3_Material, compiling. 
+[2019.11.13-03.37.30:972][995]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.11.13-03.37.30:972][995]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.11.13-03.37.30:972][995]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.11.13-03.37.30:972][995]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.11.13-03.37.30:972][995]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2019.11.13-03.37.31:177][  9]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.11.13-03.37.31:212][ 12]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.11.13-03.37.31:222][ 13]LogShaderCompilers: Display: Shaders left to compile 17
+[2019.11.13-03.37.31:222][ 13]LogShaderCompilers: Display: Shaders left to compile 16
+[2019.11.13-03.37.31:344][ 23]LogShaderCompilers: Display: Shaders left to compile 15
+[2019.11.13-03.37.31:380][ 26]LogShaderCompilers: Display: Shaders left to compile 14
+[2019.11.13-03.37.31:391][ 27]LogShaderCompilers: Display: Shaders left to compile 13
+[2019.11.13-03.37.31:403][ 28]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.11.13-03.37.31:498][ 36]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.11.13-03.37.31:717][ 53]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.11.13-03.37.31:754][ 56]LogShaderCompilers: Display: Shaders left to compile 9
+[2019.11.13-03.37.31:776][ 58]LogShaderCompilers: Display: Shaders left to compile 8
+[2019.11.13-03.37.31:853][ 65]LogShaderCompilers: Display: Shaders left to compile 7
+[2019.11.13-03.37.31:990][ 76]LogShaderCompilers: Display: Shaders left to compile 6
+[2019.11.13-03.37.32:094][ 84]LogShaderCompilers: Display: Shaders left to compile 5
+[2019.11.13-03.37.32:207][ 93]LogShaderCompilers: Display: Shaders left to compile 4
+[2019.11.13-03.37.32:286][100]LogShaderCompilers: Display: Shaders left to compile 3
+[2019.11.13-03.37.32:364][107]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.11.13-03.37.32:403][110]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.11.13-03.37.33:024][178]LogMaterial: Display: Missing cached shader map for material Side3_Material, compiling. 
+[2019.11.13-03.37.33:042][178]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2019.11.13-03.37.33:057][178]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.11.13-03.37.33:057][178]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.11.13-03.37.33:057][178]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.11.13-03.37.33:057][178]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.11.13-03.37.33:253][192]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.11.13-03.37.33:335][200]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.11.13-03.37.33:347][201]LogShaderCompilers: Display: Shaders left to compile 17
+[2019.11.13-03.37.33:347][201]LogShaderCompilers: Display: Shaders left to compile 16
+[2019.11.13-03.37.33:571][222]LogShaderCompilers: Display: Shaders left to compile 15
+[2019.11.13-03.37.33:648][231]LogShaderCompilers: Display: Shaders left to compile 14
+[2019.11.13-03.37.33:648][231]LogShaderCompilers: Display: Shaders left to compile 13
+[2019.11.13-03.37.33:648][231]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.11.13-03.37.33:798][244]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.11.13-03.37.33:903][252]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.11.13-03.37.34:018][261]LogShaderCompilers: Display: Shaders left to compile 9
+[2019.11.13-03.37.34:043][263]LogShaderCompilers: Display: Shaders left to compile 8
+[2019.11.13-03.37.34:139][271]LogShaderCompilers: Display: Shaders left to compile 7
+[2019.11.13-03.37.34:361][293]LogShaderCompilers: Display: Shaders left to compile 6
+[2019.11.13-03.37.34:362][293]LogShaderCompilers: Display: Shaders left to compile 5
+[2019.11.13-03.37.34:362][293]LogShaderCompilers: Display: Shaders left to compile 4
+[2019.11.13-03.37.34:693][325]LogShaderCompilers: Display: Shaders left to compile 3
+[2019.11.13-03.37.34:693][325]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.11.13-03.37.34:709][327]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.11.13-03.37.35:243][385]LogMaterial: Display: Missing cached shader map for material Side3_Material, compiling. 
+[2019.11.13-03.37.35:257][385]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2019.11.13-03.37.35:271][385]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.11.13-03.37.35:271][385]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.11.13-03.37.35:271][385]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.11.13-03.37.35:271][385]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.11.13-03.37.35:473][400]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.11.13-03.37.35:785][434]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.11.13-03.37.35:785][434]LogShaderCompilers: Display: Shaders left to compile 17
+[2019.11.13-03.37.35:785][434]LogShaderCompilers: Display: Shaders left to compile 16
+[2019.11.13-03.37.35:785][434]LogShaderCompilers: Display: Shaders left to compile 15
+[2019.11.13-03.37.35:978][451]LogShaderCompilers: Display: Shaders left to compile 14
+[2019.11.13-03.37.35:978][451]LogShaderCompilers: Display: Shaders left to compile 13
+[2019.11.13-03.37.35:978][451]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.11.13-03.37.35:978][451]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.11.13-03.37.36:419][493]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.11.13-03.37.36:431][494]LogShaderCompilers: Display: Shaders left to compile 9
+[2019.11.13-03.37.36:432][494]LogShaderCompilers: Display: Shaders left to compile 8
+[2019.11.13-03.37.36:453][496]LogShaderCompilers: Display: Shaders left to compile 7
+[2019.11.13-03.37.36:682][515]LogShaderCompilers: Display: Shaders left to compile 6
+[2019.11.13-03.37.37:103][559]LogShaderCompilers: Display: Shaders left to compile 5
+[2019.11.13-03.37.37:248][576]LogShaderCompilers: Display: Shaders left to compile 4
+[2019.11.13-03.37.37:248][576]LogShaderCompilers: Display: Shaders left to compile 3
+[2019.11.13-03.37.37:248][576]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.11.13-03.37.37:282][579]LogMaterial: Display: Missing cached shader map for material Side3_Material, compiling. 
+[2019.11.13-03.37.37:299][579]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2019.11.13-03.37.37:408][586]LogShaderCompilers: Display: Shaders left to compile 23
+[2019.11.13-03.37.37:560][597]LogShaderCompilers: Display: Shaders left to compile 22
+[2019.11.13-03.37.37:560][597]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.11.13-03.37.38:025][646]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.11.13-03.37.38:036][647]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.11.13-03.37.38:144][655]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.11.13-03.37.38:158][656]LogShaderCompilers: Display: Shaders left to compile 17
+[2019.11.13-03.37.38:193][659]LogShaderCompilers: Display: Shaders left to compile 16
+[2019.11.13-03.37.38:204][660]LogShaderCompilers: Display: Shaders left to compile 15
+[2019.11.13-03.37.38:318][669]LogShaderCompilers: Display: Shaders left to compile 14
+[2019.11.13-03.37.38:328][670]LogShaderCompilers: Display: Shaders left to compile 13
+[2019.11.13-03.37.38:328][670]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.11.13-03.37.38:361][673]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.11.13-03.37.38:560][689]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.11.13-03.37.38:709][701]LogShaderCompilers: Display: Shaders left to compile 9
+[2019.11.13-03.37.38:722][702]LogShaderCompilers: Display: Shaders left to compile 8
+[2019.11.13-03.37.38:734][703]LogShaderCompilers: Display: Shaders left to compile 7
+[2019.11.13-03.37.38:935][719]LogShaderCompilers: Display: Shaders left to compile 6
+[2019.11.13-03.37.38:935][719]LogShaderCompilers: Display: Shaders left to compile 5
+[2019.11.13-03.37.39:123][732]LogShaderCompilers: Display: Shaders left to compile 4
+[2019.11.13-03.37.39:151][734]LogShaderCompilers: Display: Shaders left to compile 3
+[2019.11.13-03.37.39:164][735]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.11.13-03.37.39:281][744]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.11.13-03.37.39:483][758]MaterialEditorStats: Base pass shader: 115 instructions
+[2019.11.13-03.37.39:483][758]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 191 instructions
+[2019.11.13-03.37.39:483][758]MaterialEditorStats: Base pass vertex shader: 36 instructions
+[2019.11.13-03.37.39:483][758]MaterialEditorStats: Texture samplers: 6/16
+[2019.11.13-03.37.39:483][758]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2019.11.13-03.37.39:483][758]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.11.13-03.37.58:793][580]LogSlate: Window 'Pick Parent Class' being destroyed
+[2019.11.13-03.38.05:623][ 43]LogSlate: Window 'Pick Parent Class' being destroyed
+[2019.11.13-03.38.08:987][372]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/SideScrollerBP/Blueprints/Side4_BP.Side4_BP
+[2019.11.13-03.38.09:354][372]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 116 classes and 0 folders.
+[2019.11.13-03.38.10:044][373]LogRenderer: Reallocating scene render targets to support 1216x712 Format 10 NumSamples 1 (Frame:1).
+[2019.11.13-03.38.11:467][493]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/SideScrollerBP/Blueprints/Side3_BP.Side3_BP
+[2019.11.13-03.38.15:942][829]LogSlate: Window 'Side3_BP*' being destroyed
+[2019.11.13-03.38.25:157][726]LogActorFactory: Actor Factory created Side3
+[2019.11.13-03.38.26:078][832]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.13-03.38.41:995][390]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.13-03.38.46:972][866]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.13-03.38.47:045][874]BlueprintLog: New page: Compile Side3_BP
+[2019.11.13-03.38.47:589][905]LogSavePackage: Moving '../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Saved/Side3_BP8D5E65C54A255C142497FF8BEE70F06D.tmp' to '../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Blueprints/Side3_BP.uasset'
+[2019.11.13-03.38.49:666][106]LogMaterialEditor: Saving and Compiling material Side3_Material
+[2019.11.13-03.38.50:098][106]LogMaterial: Display: Missing cached shader map for material Side3_Material, compiling. 
+[2019.11.13-03.38.50:138][106]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.11.13-03.38.50:138][106]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.11.13-03.38.50:138][106]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.11.13-03.38.50:138][106]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.11.13-03.38.50:153][106]LogMaterial: Display: Missing cached shader map for material Side3_Material, compiling. 
+[2019.11.13-03.38.50:169][106]LogMaterial: Display: Missing cached shader map for material Side3_Material, compiling. 
+[2019.11.13-03.38.50:222][106]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy Side3_Material, compiling. 
+[2019.11.13-03.38.51:708][106]LogShaderCompilers: Display: Shaders left to compile 40
+[2019.11.13-03.38.51:708][106]LogShaderCompilers: Display: Shaders left to compile 39
+[2019.11.13-03.38.51:708][106]LogShaderCompilers: Display: Shaders left to compile 38
+[2019.11.13-03.38.51:708][106]LogShaderCompilers: Display: Shaders left to compile 37
+[2019.11.13-03.38.51:708][106]LogShaderCompilers: Display: Shaders left to compile 36
+[2019.11.13-03.38.51:708][106]LogShaderCompilers: Display: Shaders left to compile 35
+[2019.11.13-03.38.51:708][106]LogShaderCompilers: Display: Shaders left to compile 34
+[2019.11.13-03.38.51:708][106]LogShaderCompilers: Display: Shaders left to compile 33
+[2019.11.13-03.38.51:708][106]LogShaderCompilers: Display: Shaders left to compile 32
+[2019.11.13-03.38.51:708][106]LogShaderCompilers: Display: Shaders left to compile 31
+[2019.11.13-03.38.51:708][106]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.11.13-03.38.51:708][106]LogShaderCompilers: Display: Shaders left to compile 29
+[2019.11.13-03.38.51:708][106]LogShaderCompilers: Display: Shaders left to compile 28
+[2019.11.13-03.38.51:708][106]LogShaderCompilers: Display: Shaders left to compile 27
+[2019.11.13-03.38.51:708][106]LogShaderCompilers: Display: Shaders left to compile 26
+[2019.11.13-03.38.51:708][106]LogShaderCompilers: Display: Shaders left to compile 25
+[2019.11.13-03.38.51:708][106]LogShaderCompilers: Display: Shaders left to compile 24
+[2019.11.13-03.38.51:708][106]LogShaderCompilers: Display: Shaders left to compile 23
+[2019.11.13-03.38.51:708][106]LogShaderCompilers: Display: Shaders left to compile 22
+[2019.11.13-03.38.51:708][106]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.11.13-03.38.51:708][106]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.11.13-03.38.51:710][106]TextureStreamingBuild: Display: Compiling optional shaders took 1.494 seconds.
+[2019.11.13-03.38.53:741][106]LogSavePackage: Moving '../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Saved/Side3_Material654F447145FBABAF6EB8A09ADD20842E.tmp' to '../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Materials/Side3_Material.uasset'
+[2019.11.13-03.38.56:345][348]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.13-03.39.04:374][ 14]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.13-03.39.07:295][253]LogActorFactory: Actor Factory created Side4
+[2019.11.13-03.39.07:873][319]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.13-03.39.13:962][872]BlueprintLog: New page: Compile Side4_BP
+[2019.11.13-03.39.14:505][903]LogSavePackage: Moving '../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Saved/Side4_BP31653AB3463A4EB862EBC89045977648.tmp' to '../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Blueprints/Side4_BP.uasset'
+[2019.11.13-03.39.22:571][740]LogMaterial: Display: Missing cached shader map for material Side4_Material, compiling. 
+[2019.11.13-03.39.22:581][740]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2019.11.13-03.39.22:587][740]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.11.13-03.39.22:587][740]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.11.13-03.39.22:587][740]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.11.13-03.39.22:587][740]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.11.13-03.39.22:612][740]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2019.11.13-03.39.22:629][740]LogMaterial: Display: Missing cached shader map for material Side4_Material, compiling. 
+[2019.11.13-03.39.22:643][740]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2019.11.13-03.39.22:673][740]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2019.11.13-03.39.22:678][740]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2019.11.13-03.39.22:690][740]LogMaterial: Display: Missing cached shader map for material Side4_Material, compiling. 
+[2019.11.13-03.39.22:702][740]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2019.11.13-03.39.22:734][740]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2019.11.13-03.39.22:739][740]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2019.11.13-03.39.22:742][740]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2019.11.13-03.39.23:104][768]LogShaderCompilers: Display: Shaders left to compile 27
+[2019.11.13-03.39.23:131][770]LogShaderCompilers: Display: Shaders left to compile 26
+[2019.11.13-03.39.23:143][771]LogShaderCompilers: Display: Shaders left to compile 25
+[2019.11.13-03.39.23:143][771]LogShaderCompilers: Display: Shaders left to compile 24
+[2019.11.13-03.39.23:314][785]LogShaderCompilers: Display: Shaders left to compile 23
+[2019.11.13-03.39.23:341][787]LogShaderCompilers: Display: Shaders left to compile 22
+[2019.11.13-03.39.23:354][788]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.11.13-03.39.23:354][788]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.11.13-03.39.23:484][799]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.11.13-03.39.23:496][800]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.11.13-03.39.23:509][801]LogShaderCompilers: Display: Shaders left to compile 17
+[2019.11.13-03.39.23:518][802]LogShaderCompilers: Display: Shaders left to compile 16
+[2019.11.13-03.39.23:642][813]LogShaderCompilers: Display: Shaders left to compile 15
+[2019.11.13-03.39.23:720][819]LogShaderCompilers: Display: Shaders left to compile 14
+[2019.11.13-03.39.23:844][830]LogShaderCompilers: Display: Shaders left to compile 13
+[2019.11.13-03.39.23:876][833]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.11.13-03.39.23:984][843]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.11.13-03.39.24:058][850]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.11.13-03.39.24:058][850]LogShaderCompilers: Display: Shaders left to compile 9
+[2019.11.13-03.39.24:232][866]LogShaderCompilers: Display: Shaders left to compile 8
+[2019.11.13-03.39.24:262][869]LogShaderCompilers: Display: Shaders left to compile 7
+[2019.11.13-03.39.24:354][878]LogShaderCompilers: Display: Shaders left to compile 6
+[2019.11.13-03.39.24:384][881]LogShaderCompilers: Display: Shaders left to compile 5
+[2019.11.13-03.39.24:476][890]LogShaderCompilers: Display: Shaders left to compile 4
+[2019.11.13-03.39.24:573][898]LogShaderCompilers: Display: Shaders left to compile 3
+[2019.11.13-03.39.24:590][899]MaterialEditorStats: Base pass shader: 99 instructions
+[2019.11.13-03.39.24:590][899]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 172 instructions
+[2019.11.13-03.39.24:590][899]MaterialEditorStats: Base pass vertex shader: 32 instructions
+[2019.11.13-03.39.24:590][899]MaterialEditorStats: Texture samplers: 3/16
+[2019.11.13-03.39.24:629][902]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.11.13-03.39.24:642][903]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.11.13-03.39.33:683][923]LogMaterial: Display: Missing cached shader map for material Side4_Material, compiling. 
+[2019.11.13-03.39.33:700][923]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.11.13-03.39.33:700][923]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.11.13-03.39.33:700][923]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.11.13-03.39.33:700][923]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.11.13-03.39.33:703][923]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2019.11.13-03.39.33:901][936]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.11.13-03.39.33:925][938]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.11.13-03.39.33:937][939]LogShaderCompilers: Display: Shaders left to compile 17
+[2019.11.13-03.39.33:950][940]LogShaderCompilers: Display: Shaders left to compile 16
+[2019.11.13-03.39.34:066][948]LogShaderCompilers: Display: Shaders left to compile 15
+[2019.11.13-03.39.34:082][950]LogShaderCompilers: Display: Shaders left to compile 14
+[2019.11.13-03.39.34:105][952]LogShaderCompilers: Display: Shaders left to compile 13
+[2019.11.13-03.39.34:117][953]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.11.13-03.39.34:223][962]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.11.13-03.39.34:335][970]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.11.13-03.39.34:468][979]LogShaderCompilers: Display: Shaders left to compile 9
+[2019.11.13-03.39.34:482][981]LogShaderCompilers: Display: Shaders left to compile 8
+[2019.11.13-03.39.34:569][989]LogShaderCompilers: Display: Shaders left to compile 7
+[2019.11.13-03.39.34:656][997]LogShaderCompilers: Display: Shaders left to compile 6
+[2019.11.13-03.39.34:702][  1]LogShaderCompilers: Display: Shaders left to compile 5
+[2019.11.13-03.39.34:853][ 14]LogShaderCompilers: Display: Shaders left to compile 4
+[2019.11.13-03.39.34:876][ 16]LogShaderCompilers: Display: Shaders left to compile 3
+[2019.11.13-03.39.34:941][ 22]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.11.13-03.39.35:006][ 28]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.11.13-03.39.35:685][102]LogMaterial: Display: Missing cached shader map for material Side4_Material, compiling. 
+[2019.11.13-03.39.35:700][102]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.11.13-03.39.35:700][102]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.11.13-03.39.35:700][102]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.11.13-03.39.35:700][102]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.11.13-03.39.35:703][102]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2019.11.13-03.39.35:897][115]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.11.13-03.39.35:936][118]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.11.13-03.39.35:947][119]LogShaderCompilers: Display: Shaders left to compile 17
+[2019.11.13-03.39.35:947][119]LogShaderCompilers: Display: Shaders left to compile 16
+[2019.11.13-03.39.36:073][129]LogShaderCompilers: Display: Shaders left to compile 15
+[2019.11.13-03.39.36:097][131]LogShaderCompilers: Display: Shaders left to compile 14
+[2019.11.13-03.39.36:108][132]LogShaderCompilers: Display: Shaders left to compile 13
+[2019.11.13-03.39.36:119][133]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.11.13-03.39.36:219][141]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.11.13-03.39.36:347][151]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.11.13-03.39.36:488][162]LogShaderCompilers: Display: Shaders left to compile 9
+[2019.11.13-03.39.36:514][164]LogShaderCompilers: Display: Shaders left to compile 8
+[2019.11.13-03.39.36:577][169]LogShaderCompilers: Display: Shaders left to compile 7
+[2019.11.13-03.39.36:711][180]LogShaderCompilers: Display: Shaders left to compile 6
+[2019.11.13-03.39.36:737][182]LogShaderCompilers: Display: Shaders left to compile 5
+[2019.11.13-03.39.36:968][200]LogShaderCompilers: Display: Shaders left to compile 4
+[2019.11.13-03.39.36:981][201]LogShaderCompilers: Display: Shaders left to compile 3
+[2019.11.13-03.39.37:035][206]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.11.13-03.39.37:095][212]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.11.13-03.39.37:389][241]LogMaterial: Display: Missing cached shader map for material Side4_Material, compiling. 
+[2019.11.13-03.39.37:407][241]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.11.13-03.39.37:407][241]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.11.13-03.39.37:407][241]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.11.13-03.39.37:407][241]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.11.13-03.39.37:410][241]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2019.11.13-03.39.37:611][255]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.11.13-03.39.37:624][256]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.11.13-03.39.37:636][257]LogShaderCompilers: Display: Shaders left to compile 17
+[2019.11.13-03.39.37:648][258]LogShaderCompilers: Display: Shaders left to compile 16
+[2019.11.13-03.39.37:785][269]LogShaderCompilers: Display: Shaders left to compile 15
+[2019.11.13-03.39.37:785][269]LogShaderCompilers: Display: Shaders left to compile 14
+[2019.11.13-03.39.37:798][270]LogShaderCompilers: Display: Shaders left to compile 13
+[2019.11.13-03.39.37:809][271]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.11.13-03.39.37:932][281]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.11.13-03.39.38:030][288]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.11.13-03.39.38:161][298]LogShaderCompilers: Display: Shaders left to compile 9
+[2019.11.13-03.39.38:187][300]LogShaderCompilers: Display: Shaders left to compile 8
+[2019.11.13-03.39.38:302][309]LogShaderCompilers: Display: Shaders left to compile 7
+[2019.11.13-03.39.38:382][315]LogShaderCompilers: Display: Shaders left to compile 6
+[2019.11.13-03.39.38:404][317]LogShaderCompilers: Display: Shaders left to compile 5
+[2019.11.13-03.39.38:545][330]LogShaderCompilers: Display: Shaders left to compile 4
+[2019.11.13-03.39.38:610][336]LogShaderCompilers: Display: Shaders left to compile 3
+[2019.11.13-03.39.38:689][344]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.11.13-03.39.38:723][347]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.11.13-03.39.39:334][413]LogMaterial: Display: Missing cached shader map for material Side4_Material, compiling. 
+[2019.11.13-03.39.39:352][413]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.11.13-03.39.39:352][413]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.11.13-03.39.39:352][413]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.11.13-03.39.39:352][413]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.11.13-03.39.39:355][413]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2019.11.13-03.39.39:573][427]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.11.13-03.39.39:586][428]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.11.13-03.39.39:586][428]LogShaderCompilers: Display: Shaders left to compile 17
+[2019.11.13-03.39.39:598][429]LogShaderCompilers: Display: Shaders left to compile 16
+[2019.11.13-03.39.39:736][440]LogShaderCompilers: Display: Shaders left to compile 15
+[2019.11.13-03.39.39:747][441]LogShaderCompilers: Display: Shaders left to compile 14
+[2019.11.13-03.39.39:760][442]LogShaderCompilers: Display: Shaders left to compile 13
+[2019.11.13-03.39.39:773][443]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.11.13-03.39.39:891][453]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.11.13-03.39.40:014][462]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.11.13-03.39.40:114][470]LogShaderCompilers: Display: Shaders left to compile 9
+[2019.11.13-03.39.40:151][473]LogShaderCompilers: Display: Shaders left to compile 8
+[2019.11.13-03.39.40:251][481]LogShaderCompilers: Display: Shaders left to compile 7
+[2019.11.13-03.39.40:347][489]LogShaderCompilers: Display: Shaders left to compile 6
+[2019.11.13-03.39.40:378][492]LogShaderCompilers: Display: Shaders left to compile 5
+[2019.11.13-03.39.40:510][504]LogShaderCompilers: Display: Shaders left to compile 4
+[2019.11.13-03.39.40:573][509]LogShaderCompilers: Display: Shaders left to compile 3
+[2019.11.13-03.39.40:654][516]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.11.13-03.39.40:718][520]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.11.13-03.39.41:085][559]LogMaterial: Display: Missing cached shader map for material Side4_Material, compiling. 
+[2019.11.13-03.39.41:103][559]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2019.11.13-03.39.41:118][559]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.11.13-03.39.41:118][559]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.11.13-03.39.41:118][559]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.11.13-03.39.41:118][559]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.11.13-03.39.41:312][573]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.11.13-03.39.41:335][575]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.11.13-03.39.41:347][576]LogShaderCompilers: Display: Shaders left to compile 17
+[2019.11.13-03.39.41:358][577]LogShaderCompilers: Display: Shaders left to compile 16
+[2019.11.13-03.39.41:481][587]LogShaderCompilers: Display: Shaders left to compile 15
+[2019.11.13-03.39.41:494][588]LogShaderCompilers: Display: Shaders left to compile 14
+[2019.11.13-03.39.41:507][589]LogShaderCompilers: Display: Shaders left to compile 13
+[2019.11.13-03.39.41:519][590]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.11.13-03.39.41:632][600]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.11.13-03.39.41:752][608]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.11.13-03.39.41:866][617]LogShaderCompilers: Display: Shaders left to compile 9
+[2019.11.13-03.39.41:891][619]LogShaderCompilers: Display: Shaders left to compile 8
+[2019.11.13-03.39.41:985][626]LogShaderCompilers: Display: Shaders left to compile 7
+[2019.11.13-03.39.42:091][634]LogShaderCompilers: Display: Shaders left to compile 6
+[2019.11.13-03.39.42:131][637]LogShaderCompilers: Display: Shaders left to compile 5
+[2019.11.13-03.39.42:288][649]LogShaderCompilers: Display: Shaders left to compile 4
+[2019.11.13-03.39.42:313][651]LogShaderCompilers: Display: Shaders left to compile 3
+[2019.11.13-03.39.42:410][658]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.11.13-03.39.42:476][663]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.11.13-03.39.42:617][676]LogMaterialEditor: Saving and Compiling material Side4_Material
+[2019.11.13-03.39.43:058][676]LogMaterial: Display: Missing cached shader map for material Side4_Material, compiling. 
+[2019.11.13-03.39.43:098][676]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.11.13-03.39.43:098][676]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.11.13-03.39.43:098][676]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.11.13-03.39.43:098][676]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.11.13-03.39.43:112][676]LogMaterial: Display: Missing cached shader map for material Side4_Material, compiling. 
+[2019.11.13-03.39.43:131][676]LogMaterial: Display: Missing cached shader map for material Side4_Material, compiling. 
+[2019.11.13-03.39.43:181][676]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy Side4_Material, compiling. 
+[2019.11.13-03.39.44:349][676]LogShaderCompilers: Display: Shaders left to compile 40
+[2019.11.13-03.39.44:349][676]LogShaderCompilers: Display: Shaders left to compile 39
+[2019.11.13-03.39.44:349][676]LogShaderCompilers: Display: Shaders left to compile 38
+[2019.11.13-03.39.44:349][676]LogShaderCompilers: Display: Shaders left to compile 37
+[2019.11.13-03.39.44:349][676]LogShaderCompilers: Display: Shaders left to compile 36
+[2019.11.13-03.39.44:349][676]LogShaderCompilers: Display: Shaders left to compile 35
+[2019.11.13-03.39.44:349][676]LogShaderCompilers: Display: Shaders left to compile 34
+[2019.11.13-03.39.44:349][676]LogShaderCompilers: Display: Shaders left to compile 33
+[2019.11.13-03.39.44:349][676]LogShaderCompilers: Display: Shaders left to compile 32
+[2019.11.13-03.39.44:349][676]LogShaderCompilers: Display: Shaders left to compile 31
+[2019.11.13-03.39.44:349][676]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.11.13-03.39.44:349][676]LogShaderCompilers: Display: Shaders left to compile 29
+[2019.11.13-03.39.44:349][676]LogShaderCompilers: Display: Shaders left to compile 28
+[2019.11.13-03.39.44:349][676]LogShaderCompilers: Display: Shaders left to compile 27
+[2019.11.13-03.39.44:349][676]LogShaderCompilers: Display: Shaders left to compile 26
+[2019.11.13-03.39.44:349][676]LogShaderCompilers: Display: Shaders left to compile 25
+[2019.11.13-03.39.44:349][676]LogShaderCompilers: Display: Shaders left to compile 24
+[2019.11.13-03.39.44:349][676]LogShaderCompilers: Display: Shaders left to compile 23
+[2019.11.13-03.39.44:349][676]LogShaderCompilers: Display: Shaders left to compile 22
+[2019.11.13-03.39.44:349][676]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.11.13-03.39.44:349][676]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.11.13-03.39.44:351][676]TextureStreamingBuild: Display: Compiling optional shaders took 1.176 seconds.
+[2019.11.13-03.39.46:447][676]LogSavePackage: Moving '../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Saved/Side4_Material3FBB0BEE499086692D20CB853864BDF8.tmp' to '../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Materials/Side4_Material.uasset'
+[2019.11.13-03.39.46:459][676]MaterialEditorStats: Base pass shader: 115 instructions
+[2019.11.13-03.39.46:459][676]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 191 instructions
+[2019.11.13-03.39.46:459][676]MaterialEditorStats: Base pass vertex shader: 36 instructions
+[2019.11.13-03.39.46:459][676]MaterialEditorStats: Texture samplers: 6/16
+[2019.11.13-03.39.46:459][676]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2019.11.13-03.39.46:459][676]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.11.13-03.40.04:783][284]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.13-03.40.11:698][879]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.11.13-03.40.15:376][185]LogEditorViewport: Clicking on Actor (LMB): Side3_BP_C (Side3_BP)
+[2019.11.13-03.40.24:039][951]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.11.13-03.40.27:720][278]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.13-03.40.27:773][283]LogTemp: Repeating last play command: Selected Viewport
+[2019.11.13-03.40.27:793][283]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/Template.Template:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Template.Template:PersistentLevel.Template' with GeneratedClass '/Game/SideScrollerBP/Maps/Template.Template_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Template.Template:PersistentLevel.Template'
+[2019.11.13-03.40.27:793][283]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.13-03.40.27:806][283]PIE: New page: PIE session: Template (Nov 14, 2019, 1:40:27 AM)
+[2019.11.13-03.40.27:806][283]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_Template
+[2019.11.13-03.40.27:820][283]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014571s)
+[2019.11.13-03.40.27:821][283]LogAIModule: Creating AISystem for world Template
+[2019.11.13-03.40.27:821][283]LogPlayLevel: PIE: World Init took: (0.000700s)
+[2019.11.13-03.40.27:821][283]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/Template.Template to /Game/SideScrollerBP/Maps/UEDPIE_0_Template.Template (0.015521s)
+[2019.11.13-03.40.27:851][283]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.13-03.40.27:864][283]LogInit: FAudioDevice initialized.
+[2019.11.13-03.40.27:905][283]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2019.11.13-03.40.27:910][283]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_Template.Template up for play (max tick rate 0) at 2019.11.13-14.40.27
+[2019.11.13-03.40.27:911][283]LogWorld: Bringing up level for play took: 0.004261
+[2019.11.13-03.40.27:928][283]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 10 classes and 0 folders.
+[2019.11.13-03.40.27:933][283]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.13-03.40.27:933][283]PIE: Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_Template 0.853
+[2019.11.13-03.40.27:934][283]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/Template.Template:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Template.Template:PersistentLevel.Template' with GeneratedClass '/Game/SideScrollerBP/Maps/Template.Template_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Template.Template:PersistentLevel.Template'
+[2019.11.13-03.40.31:978][652]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/Template.Template:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Template.Template:PersistentLevel.Template' with GeneratedClass '/Game/SideScrollerBP/Maps/Template.Template_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Template.Template:PersistentLevel.Template'
+[2019.11.13-03.40.31:978][652]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.13-03.40.32:016][652]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.13-03.40.32:016][652]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/Template.Template:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Template.Template:PersistentLevel.Template' with GeneratedClass '/Game/SideScrollerBP/Maps/Template.Template_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Template.Template:PersistentLevel.Template'
+[2019.11.13-03.40.32:043][652]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.13-03.40.32:101][654]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2019.11.13-03.40.33:928][819]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.13-03.40.37:080][ 76]LogEditorViewport: Clicking on Actor (LMB): Side3_BP_C (Side3_BP)
+[2019.11.13-03.40.41:920][516]Cmd: DELETE
+[2019.11.13-03.40.41:920][516]Cmd: ACTOR DELETE
+[2019.11.13-03.40.41:924][516]LogEditorActor: Deleted Actor: Side3_BP_C
+[2019.11.13-03.40.41:950][516]LogEditorActor: Deleted 1 Actors (0.030 secs)
+[2019.11.13-03.40.45:176][798]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.13-03.40.51:735][280]LogAssetEditorManager: Opening Asset editor for Material /Game/SideScrollerBP/Materials/DefaultGreen_Material.DefaultGreen_Material
+[2019.11.13-03.40.51:737][280]LogMaterial: Display: Missing cached shader map for material DefaultGreen_Material, compiling. 
+[2019.11.13-03.40.51:815][280]LogMaterial: Display: Missing cached shader map for material DefaultGreen_Material, compiling. 
+[2019.11.13-03.40.51:827][280]LogMaterial: Display: Missing cached shader map for material DefaultGreen_Material, compiling. 
+[2019.11.13-03.40.51:855][280]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.11.13-03.40.51:855][280]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.11.13-03.40.51:855][280]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.11.13-03.40.51:855][280]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.11.13-03.40.51:867][280]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2019.11.13-03.40.51:872][280]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2019.11.13-03.40.51:876][280]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2019.11.13-03.40.51:882][280]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2019.11.13-03.40.52:387][307]LogShaderCompilers: Display: Shaders left to compile 25
+[2019.11.13-03.40.52:419][309]LogShaderCompilers: Display: Shaders left to compile 24
+[2019.11.13-03.40.52:434][310]LogShaderCompilers: Display: Shaders left to compile 23
+[2019.11.13-03.40.52:448][311]LogShaderCompilers: Display: Shaders left to compile 22
+[2019.11.13-03.40.52:587][320]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.11.13-03.40.52:600][321]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.11.13-03.40.52:616][322]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.11.13-03.40.52:630][323]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.11.13-03.40.52:745][331]LogShaderCompilers: Display: Shaders left to compile 17
+[2019.11.13-03.40.52:861][338]LogShaderCompilers: Display: Shaders left to compile 16
+[2019.11.13-03.40.52:982][346]LogShaderCompilers: Display: Shaders left to compile 15
+[2019.11.13-03.40.52:998][347]LogShaderCompilers: Display: Shaders left to compile 14
+[2019.11.13-03.40.53:120][355]LogShaderCompilers: Display: Shaders left to compile 13
+[2019.11.13-03.40.53:205][361]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.11.13-03.40.53:253][364]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.11.13-03.40.53:374][372]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.11.13-03.40.53:445][377]LogShaderCompilers: Display: Shaders left to compile 9
+[2019.11.13-03.40.53:532][383]LogShaderCompilers: Display: Shaders left to compile 8
+[2019.11.13-03.40.53:595][387]LogShaderCompilers: Display: Shaders left to compile 7
+[2019.11.13-03.40.53:680][393]LogShaderCompilers: Display: Shaders left to compile 6
+[2019.11.13-03.40.53:717][394]LogShaderCompilers: Display: Shaders left to compile 5
+[2019.11.13-03.40.53:740][396]MaterialEditorStats: Base pass shader: 116 instructions
+[2019.11.13-03.40.53:740][396]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 192 instructions
+[2019.11.13-03.40.53:740][396]MaterialEditorStats: Base pass vertex shader: 36 instructions
+[2019.11.13-03.40.53:740][396]MaterialEditorStats: Texture samplers: 6/16
+[2019.11.13-03.40.53:740][396]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2019.11.13-03.40.53:740][396]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.11.13-03.40.53:813][401]LogShaderCompilers: Display: Shaders left to compile 4
+[2019.11.13-03.40.53:817][401]LogShaderCompilers: Display: Shaders left to compile 3
+[2019.11.13-03.40.53:947][410]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.11.13-03.40.53:977][412]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.11.13-03.40.58:075][791]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.DefaultGreen_Material:MaterialGraph_0.MaterialGraphNode_3 or MaterialGraphNode /Engine/Transient.Side4_Material:MaterialGraph_0.MaterialGraphNode_3
+[2019.11.13-03.40.58:075][791]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionConstant3Vector'"MaterialGraphNode_3.MaterialExpressionConstant3Vector_0"',InputName="Base"))'
+[2019.11.13-03.40.58:081][791]LogMaterial: Display: Missing cached shader map for material Side4_Material, compiling. 
+[2019.11.13-03.40.58:094][791]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2019.11.13-03.40.58:113][792]LogShaderCompilers: Display: Shaders left to compile 23
+[2019.11.13-03.40.58:113][792]LogShaderCompilers: Display: Shaders left to compile 22
+[2019.11.13-03.40.58:113][792]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.11.13-03.40.58:114][792]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.11.13-03.40.58:305][806]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.11.13-03.40.58:330][808]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.11.13-03.40.58:342][809]LogShaderCompilers: Display: Shaders left to compile 17
+[2019.11.13-03.40.58:342][809]LogShaderCompilers: Display: Shaders left to compile 16
+[2019.11.13-03.40.58:492][820]LogShaderCompilers: Display: Shaders left to compile 15
+[2019.11.13-03.40.58:504][821]LogShaderCompilers: Display: Shaders left to compile 14
+[2019.11.13-03.40.58:504][821]LogShaderCompilers: Display: Shaders left to compile 13
+[2019.11.13-03.40.58:518][822]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.11.13-03.40.58:650][832]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.11.13-03.40.58:744][838]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.11.13-03.40.58:856][846]LogShaderCompilers: Display: Shaders left to compile 9
+[2019.11.13-03.40.58:884][848]LogShaderCompilers: Display: Shaders left to compile 8
+[2019.11.13-03.40.59:000][856]LogShaderCompilers: Display: Shaders left to compile 7
+[2019.11.13-03.40.59:073][861]LogShaderCompilers: Display: Shaders left to compile 6
+[2019.11.13-03.40.59:129][865]LogShaderCompilers: Display: Shaders left to compile 5
+[2019.11.13-03.40.59:258][874]LogShaderCompilers: Display: Shaders left to compile 4
+[2019.11.13-03.40.59:289][876]LogShaderCompilers: Display: Shaders left to compile 3
+[2019.11.13-03.40.59:405][884]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.11.13-03.40.59:469][888]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.11.13-03.40.59:630][899]MaterialEditorStats: Base pass shader: 115 instructions
+[2019.11.13-03.40.59:631][899]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 191 instructions
+[2019.11.13-03.40.59:631][899]MaterialEditorStats: Base pass vertex shader: 36 instructions
+[2019.11.13-03.40.59:631][899]MaterialEditorStats: Texture samplers: 6/16
+[2019.11.13-03.40.59:631][899]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2019.11.13-03.40.59:631][899]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.11.13-03.41.09:529][852]LogMaterial: Display: Missing cached shader map for material Side4_Material, compiling. 
+[2019.11.13-03.41.09:543][852]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.11.13-03.41.09:543][852]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.11.13-03.41.09:544][852]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.11.13-03.41.09:544][852]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.11.13-03.41.09:546][852]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2019.11.13-03.41.09:578][852]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2019.11.13-03.41.09:749][861]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.11.13-03.41.09:764][862]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.11.13-03.41.09:778][863]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.11.13-03.41.09:778][863]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.11.13-03.41.09:928][873]LogShaderCompilers: Display: Shaders left to compile 17
+[2019.11.13-03.41.09:928][873]LogShaderCompilers: Display: Shaders left to compile 16
+[2019.11.13-03.41.09:940][874]LogShaderCompilers: Display: Shaders left to compile 15
+[2019.11.13-03.41.09:952][875]LogShaderCompilers: Display: Shaders left to compile 14
+[2019.11.13-03.41.10:091][885]LogShaderCompilers: Display: Shaders left to compile 13
+[2019.11.13-03.41.10:182][890]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.11.13-03.41.10:302][898]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.11.13-03.41.10:318][899]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.11.13-03.41.10:441][907]LogShaderCompilers: Display: Shaders left to compile 9
+[2019.11.13-03.41.10:518][911]LogShaderCompilers: Display: Shaders left to compile 8
+[2019.11.13-03.41.10:537][913]LogShaderCompilers: Display: Shaders left to compile 7
+[2019.11.13-03.41.10:700][923]LogShaderCompilers: Display: Shaders left to compile 6
+[2019.11.13-03.41.10:745][926]LogShaderCompilers: Display: Shaders left to compile 5
+[2019.11.13-03.41.10:847][933]LogShaderCompilers: Display: Shaders left to compile 4
+[2019.11.13-03.41.10:881][935]LogShaderCompilers: Display: Shaders left to compile 3
+[2019.11.13-03.41.10:968][941]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.11.13-03.41.11:059][947]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.11.13-03.41.11:083][948]LogMaterial: Display: Missing cached shader map for material Side4_Material, compiling. 
+[2019.11.13-03.41.11:094][948]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.11.13-03.41.11:142][951]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.11.13-03.41.11:248][958]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.11.13-03.41.11:261][959]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.11.13-03.41.11:312][962]LogShaderCompilers: Display: Shaders left to compile 17
+[2019.11.13-03.41.11:355][965]LogShaderCompilers: Display: Shaders left to compile 16
+[2019.11.13-03.41.11:433][970]LogShaderCompilers: Display: Shaders left to compile 15
+[2019.11.13-03.41.11:477][973]LogShaderCompilers: Display: Shaders left to compile 14
+[2019.11.13-03.41.11:492][974]LogShaderCompilers: Display: Shaders left to compile 13
+[2019.11.13-03.41.11:533][977]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.11.13-03.41.11:611][981]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.11.13-03.41.11:611][981]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.11.13-03.41.11:654][985]LogShaderCompilers: Display: Shaders left to compile 9
+[2019.11.13-03.41.11:832][996]LogShaderCompilers: Display: Shaders left to compile 8
+[2019.11.13-03.41.11:879][999]LogShaderCompilers: Display: Shaders left to compile 7
+[2019.11.13-03.41.11:979][  6]LogShaderCompilers: Display: Shaders left to compile 6
+[2019.11.13-03.41.12:011][  8]LogShaderCompilers: Display: Shaders left to compile 5
+[2019.11.13-03.41.12:107][ 14]LogShaderCompilers: Display: Shaders left to compile 4
+[2019.11.13-03.41.12:204][ 20]LogShaderCompilers: Display: Shaders left to compile 3
+[2019.11.13-03.41.12:341][ 29]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.11.13-03.41.12:354][ 30]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.11.13-03.41.12:667][ 53]MaterialEditorStats: Base pass shader: 116 instructions
+[2019.11.13-03.41.12:667][ 53]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 192 instructions
+[2019.11.13-03.41.12:667][ 53]MaterialEditorStats: Base pass vertex shader: 36 instructions
+[2019.11.13-03.41.12:667][ 53]MaterialEditorStats: Texture samplers: 6/16
+[2019.11.13-03.41.12:667][ 53]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2019.11.13-03.41.12:667][ 53]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.11.13-03.41.13:115][ 94]LogMaterialEditor: Saving and Compiling material Side4_Material
+[2019.11.13-03.41.13:544][ 94]LogMaterial: Display: Missing cached shader map for material Side4_Material, compiling. 
+[2019.11.13-03.41.13:585][ 94]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.11.13-03.41.13:585][ 94]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.11.13-03.41.13:585][ 94]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.11.13-03.41.13:585][ 94]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.11.13-03.41.13:598][ 94]LogMaterial: Display: Missing cached shader map for material Side4_Material, compiling. 
+[2019.11.13-03.41.13:617][ 94]LogMaterial: Display: Missing cached shader map for material Side4_Material, compiling. 
+[2019.11.13-03.41.13:665][ 94]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy Side4_Material, compiling. 
+[2019.11.13-03.41.14:820][ 94]LogShaderCompilers: Display: Shaders left to compile 40
+[2019.11.13-03.41.14:820][ 94]LogShaderCompilers: Display: Shaders left to compile 39
+[2019.11.13-03.41.14:820][ 94]LogShaderCompilers: Display: Shaders left to compile 38
+[2019.11.13-03.41.14:820][ 94]LogShaderCompilers: Display: Shaders left to compile 37
+[2019.11.13-03.41.14:820][ 94]LogShaderCompilers: Display: Shaders left to compile 36
+[2019.11.13-03.41.14:820][ 94]LogShaderCompilers: Display: Shaders left to compile 35
+[2019.11.13-03.41.14:820][ 94]LogShaderCompilers: Display: Shaders left to compile 34
+[2019.11.13-03.41.14:820][ 94]LogShaderCompilers: Display: Shaders left to compile 33
+[2019.11.13-03.41.14:820][ 94]LogShaderCompilers: Display: Shaders left to compile 32
+[2019.11.13-03.41.14:820][ 94]LogShaderCompilers: Display: Shaders left to compile 31
+[2019.11.13-03.41.14:820][ 94]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.11.13-03.41.14:820][ 94]LogShaderCompilers: Display: Shaders left to compile 29
+[2019.11.13-03.41.14:820][ 94]LogShaderCompilers: Display: Shaders left to compile 28
+[2019.11.13-03.41.14:820][ 94]LogShaderCompilers: Display: Shaders left to compile 27
+[2019.11.13-03.41.14:820][ 94]LogShaderCompilers: Display: Shaders left to compile 26
+[2019.11.13-03.41.14:820][ 94]LogShaderCompilers: Display: Shaders left to compile 25
+[2019.11.13-03.41.14:820][ 94]LogShaderCompilers: Display: Shaders left to compile 24
+[2019.11.13-03.41.14:820][ 94]LogShaderCompilers: Display: Shaders left to compile 23
+[2019.11.13-03.41.14:820][ 94]LogShaderCompilers: Display: Shaders left to compile 22
+[2019.11.13-03.41.14:820][ 94]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.11.13-03.41.14:820][ 94]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.11.13-03.41.14:822][ 94]TextureStreamingBuild: Display: Compiling optional shaders took 1.161 seconds.
+[2019.11.13-03.41.16:875][ 94]LogSavePackage: Moving '../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Saved/Side4_Material293B92C549DCC44FBF8759850584452C.tmp' to '../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Materials/Side4_Material.uasset'
+[2019.11.13-03.41.18:208][203]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.Side3_Material:MaterialGraph_0.MaterialGraphNode_3 or MaterialGraphNode /Engine/Transient.DefaultGreen_Material:MaterialGraph_0.MaterialGraphNode_3
+[2019.11.13-03.41.18:209][203]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.Side3_Material:MaterialGraph_0.MaterialGraphNode_3 or MaterialGraphNode /Engine/Transient.Side4_Material:MaterialGraph_0.MaterialGraphNode_3
+[2019.11.13-03.41.18:209][203]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionConstant3Vector'"MaterialGraphNode_3.MaterialExpressionConstant3Vector_0"',InputName="Base"))'
+[2019.11.13-03.41.18:214][203]LogMaterial: Display: Missing cached shader map for material Side3_Material, compiling. 
+[2019.11.13-03.41.18:225][203]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2019.11.13-03.41.18:245][204]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.11.13-03.41.18:245][204]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.11.13-03.41.18:245][204]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.11.13-03.41.18:245][204]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.11.13-03.41.18:443][218]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.11.13-03.41.18:458][219]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.11.13-03.41.18:472][220]LogShaderCompilers: Display: Shaders left to compile 17
+[2019.11.13-03.41.18:484][221]LogShaderCompilers: Display: Shaders left to compile 16
+[2019.11.13-03.41.18:621][231]LogShaderCompilers: Display: Shaders left to compile 15
+[2019.11.13-03.41.18:621][231]LogShaderCompilers: Display: Shaders left to compile 14
+[2019.11.13-03.41.18:634][232]LogShaderCompilers: Display: Shaders left to compile 13
+[2019.11.13-03.41.18:645][233]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.11.13-03.41.18:773][243]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.11.13-03.41.18:878][250]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.11.13-03.41.18:977][257]LogShaderCompilers: Display: Shaders left to compile 9
+[2019.11.13-03.41.19:021][260]LogShaderCompilers: Display: Shaders left to compile 8
+[2019.11.13-03.41.19:110][266]LogShaderCompilers: Display: Shaders left to compile 7
+[2019.11.13-03.41.19:199][272]LogShaderCompilers: Display: Shaders left to compile 6
+[2019.11.13-03.41.19:228][274]LogShaderCompilers: Display: Shaders left to compile 5
+[2019.11.13-03.41.19:398][286]LogShaderCompilers: Display: Shaders left to compile 4
+[2019.11.13-03.41.19:413][287]LogShaderCompilers: Display: Shaders left to compile 3
+[2019.11.13-03.41.19:512][294]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.11.13-03.41.19:571][298]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.11.13-03.41.19:746][310]MaterialEditorStats: Base pass shader: 115 instructions
+[2019.11.13-03.41.19:746][310]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 191 instructions
+[2019.11.13-03.41.19:746][310]MaterialEditorStats: Base pass vertex shader: 36 instructions
+[2019.11.13-03.41.19:746][310]MaterialEditorStats: Texture samplers: 6/16
+[2019.11.13-03.41.19:746][310]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2019.11.13-03.41.19:746][310]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.11.13-03.41.26:852][980]LogMaterial: Display: Missing cached shader map for material Side3_Material, compiling. 
+[2019.11.13-03.41.26:868][980]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.11.13-03.41.26:869][980]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.11.13-03.41.26:869][980]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.11.13-03.41.26:869][980]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.11.13-03.41.26:871][980]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2019.11.13-03.41.26:903][980]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2019.11.13-03.41.27:057][988]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.11.13-03.41.27:070][989]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.11.13-03.41.27:099][991]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.11.13-03.41.27:099][991]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.11.13-03.41.27:221][999]LogShaderCompilers: Display: Shaders left to compile 17
+[2019.11.13-03.41.27:237][  0]LogShaderCompilers: Display: Shaders left to compile 16
+[2019.11.13-03.41.27:250][  1]LogShaderCompilers: Display: Shaders left to compile 15
+[2019.11.13-03.41.27:262][  2]LogShaderCompilers: Display: Shaders left to compile 14
+[2019.11.13-03.41.27:372][ 10]LogShaderCompilers: Display: Shaders left to compile 13
+[2019.11.13-03.41.27:493][ 17]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.11.13-03.41.27:601][ 24]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.11.13-03.41.27:631][ 26]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.11.13-03.41.27:719][ 32]LogShaderCompilers: Display: Shaders left to compile 9
+[2019.11.13-03.41.27:812][ 38]LogShaderCompilers: Display: Shaders left to compile 8
+[2019.11.13-03.41.27:841][ 40]LogShaderCompilers: Display: Shaders left to compile 7
+[2019.11.13-03.41.28:039][ 53]LogShaderCompilers: Display: Shaders left to compile 6
+[2019.11.13-03.41.28:039][ 53]LogShaderCompilers: Display: Shaders left to compile 5
+[2019.11.13-03.41.28:129][ 59]LogShaderCompilers: Display: Shaders left to compile 4
+[2019.11.13-03.41.28:189][ 63]LogShaderCompilers: Display: Shaders left to compile 3
+[2019.11.13-03.41.28:278][ 69]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.11.13-03.41.28:347][ 73]LogMaterial: Display: Missing cached shader map for material Side3_Material, compiling. 
+[2019.11.13-03.41.28:373][ 74]LogShaderCompilers: Display: Shaders left to compile 22
+[2019.11.13-03.41.28:406][ 76]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.11.13-03.41.28:422][ 77]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.11.13-03.41.28:539][ 85]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.11.13-03.41.28:583][ 88]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.11.13-03.41.28:627][ 91]LogShaderCompilers: Display: Shaders left to compile 17
+[2019.11.13-03.41.28:639][ 92]LogShaderCompilers: Display: Shaders left to compile 16
+[2019.11.13-03.41.28:742][ 99]LogShaderCompilers: Display: Shaders left to compile 15
+[2019.11.13-03.41.28:742][ 99]LogShaderCompilers: Display: Shaders left to compile 14
+[2019.11.13-03.41.28:785][101]LogShaderCompilers: Display: Shaders left to compile 13
+[2019.11.13-03.41.28:800][103]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.11.13-03.41.28:892][109]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.11.13-03.41.28:921][111]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.11.13-03.41.28:950][113]LogShaderCompilers: Display: Shaders left to compile 9
+[2019.11.13-03.41.29:146][125]LogShaderCompilers: Display: Shaders left to compile 8
+[2019.11.13-03.41.29:191][128]LogShaderCompilers: Display: Shaders left to compile 7
+[2019.11.13-03.41.29:263][133]LogShaderCompilers: Display: Shaders left to compile 6
+[2019.11.13-03.41.29:310][136]LogShaderCompilers: Display: Shaders left to compile 5
+[2019.11.13-03.41.29:415][143]LogShaderCompilers: Display: Shaders left to compile 4
+[2019.11.13-03.41.29:532][150]LogShaderCompilers: Display: Shaders left to compile 3
+[2019.11.13-03.41.29:651][158]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.11.13-03.41.29:668][158]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.11.13-03.41.29:961][180]MaterialEditorStats: Base pass shader: 116 instructions
+[2019.11.13-03.41.29:961][180]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 192 instructions
+[2019.11.13-03.41.29:961][180]MaterialEditorStats: Base pass vertex shader: 36 instructions
+[2019.11.13-03.41.29:961][180]MaterialEditorStats: Texture samplers: 6/16
+[2019.11.13-03.41.29:961][180]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2019.11.13-03.41.29:961][180]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.11.13-03.41.30:253][207]LogMaterialEditor: Saving and Compiling material Side3_Material
+[2019.11.13-03.41.30:689][207]LogMaterial: Display: Missing cached shader map for material Side3_Material, compiling. 
+[2019.11.13-03.41.30:734][207]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.11.13-03.41.30:734][207]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.11.13-03.41.30:734][207]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.11.13-03.41.30:734][207]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.11.13-03.41.30:742][207]LogMaterial: Display: Missing cached shader map for material Side3_Material, compiling. 
+[2019.11.13-03.41.30:758][207]LogMaterial: Display: Missing cached shader map for material Side3_Material, compiling. 
+[2019.11.13-03.41.30:805][207]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy Side3_Material, compiling. 
+[2019.11.13-03.41.31:994][207]LogShaderCompilers: Display: Shaders left to compile 40
+[2019.11.13-03.41.31:994][207]LogShaderCompilers: Display: Shaders left to compile 39
+[2019.11.13-03.41.31:994][207]LogShaderCompilers: Display: Shaders left to compile 38
+[2019.11.13-03.41.31:994][207]LogShaderCompilers: Display: Shaders left to compile 37
+[2019.11.13-03.41.31:994][207]LogShaderCompilers: Display: Shaders left to compile 36
+[2019.11.13-03.41.31:994][207]LogShaderCompilers: Display: Shaders left to compile 35
+[2019.11.13-03.41.31:994][207]LogShaderCompilers: Display: Shaders left to compile 34
+[2019.11.13-03.41.31:994][207]LogShaderCompilers: Display: Shaders left to compile 33
+[2019.11.13-03.41.31:994][207]LogShaderCompilers: Display: Shaders left to compile 32
+[2019.11.13-03.41.31:994][207]LogShaderCompilers: Display: Shaders left to compile 31
+[2019.11.13-03.41.31:994][207]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.11.13-03.41.31:994][207]LogShaderCompilers: Display: Shaders left to compile 29
+[2019.11.13-03.41.31:994][207]LogShaderCompilers: Display: Shaders left to compile 28
+[2019.11.13-03.41.31:994][207]LogShaderCompilers: Display: Shaders left to compile 27
+[2019.11.13-03.41.31:994][207]LogShaderCompilers: Display: Shaders left to compile 26
+[2019.11.13-03.41.31:994][207]LogShaderCompilers: Display: Shaders left to compile 25
+[2019.11.13-03.41.31:994][207]LogShaderCompilers: Display: Shaders left to compile 24
+[2019.11.13-03.41.31:994][207]LogShaderCompilers: Display: Shaders left to compile 23
+[2019.11.13-03.41.31:994][207]LogShaderCompilers: Display: Shaders left to compile 22
+[2019.11.13-03.41.31:994][207]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.11.13-03.41.31:994][207]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.11.13-03.41.31:996][207]TextureStreamingBuild: Display: Compiling optional shaders took 1.198 seconds.
+[2019.11.13-03.41.34:038][207]LogSavePackage: Moving '../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Saved/Side3_MaterialEE9C0B8B4D65FFB7C9F28390AA4A1DDD.tmp' to '../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Materials/Side3_Material.uasset'
+[2019.11.13-03.41.45:336][226]LogSavePackage: Moving '../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Saved/TemplateBC05A01E487AD44C2C3C3BB5A8BCBAC0.tmp' to '../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Maps/Template.umap'
+[2019.11.13-03.42.27:062][224]LogSlate: Took 0.000196 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.11.13-03.42.28:149][327]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.13-03.42.28:240][336]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2019.11.13-03.42.29:942][508]LogSlate: Window 'DefaultGreen_Material' being destroyed
+[2019.11.13-03.42.35:334][ 30]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.13-03.42.37:126][209]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.13-03.42.46:422][270]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.13-03.42.54:761][ 29]LogMetaData: Removing '/Game/SideScrollerBP/Blueprints/AllSide_BP.AllSide_BP:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/SideScrollerBP/Blueprints/Side4_BP.PackageMetaData'
+[2019.11.13-03.42.54:761][ 29]LogMetaData: Removing '/Game/SideScrollerBP/Blueprints/AllSide_BP.SKEL_AllSide_BP_C' ref from Metadata '/Game/SideScrollerBP/Blueprints/Side4_BP.PackageMetaData'
+[2019.11.13-03.42.54:761][ 29]LogMetaData: Removing '/Game/SideScrollerBP/Blueprints/AllSide_BP.AllSide_BP_C' ref from Metadata '/Game/SideScrollerBP/Blueprints/Side4_BP.PackageMetaData'
+[2019.11.13-03.42.54:761][ 29]LogMetaData: Removing '/Game/SideScrollerBP/Blueprints/AllSide_BP.AllSide_BP:EventGraph.K2Node_Event_0' ref from Metadata '/Game/SideScrollerBP/Blueprints/Side4_BP.PackageMetaData'
+[2019.11.13-03.42.54:761][ 29]LogMetaData: Removing '/Game/SideScrollerBP/Blueprints/AllSide_BP.AllSide_BP:EventGraph.K2Node_Event_1' ref from Metadata '/Game/SideScrollerBP/Blueprints/Side4_BP.PackageMetaData'
+[2019.11.13-03.42.54:761][ 29]LogMetaData: Removing '/Game/SideScrollerBP/Blueprints/AllSide_BP.AllSide_BP:EventGraph.K2Node_Event_2' ref from Metadata '/Game/SideScrollerBP/Blueprints/Side4_BP.PackageMetaData'
+[2019.11.13-03.42.54:812][ 29]LogSavePackage: Moving '../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Saved/AllSide_BP1F7808D44E034F43E26CA3851055924A.tmp' to '../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Blueprints/AllSide_BP.uasset'
+[2019.11.13-03.43.30:466][937]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.11.13-03.43.30:466][937]LogPhysics: Warning: ForeachShape(Convex): [/Game/SideScrollerBP/Assets/Side4.Side4] ScaledElem[0] invalid
+[2019.11.13-03.43.30:466][937]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.11.13-03.43.30:466][937]LogPhysics: Warning: ForeachShape(Convex): [/Game/SideScrollerBP/Assets/Side4.Side4] ScaledElem[0] invalid
+[2019.11.13-03.43.30:984][999]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.11.13-03.43.30:984][999]LogPhysics: Warning: ForeachShape(Convex): [/Game/SideScrollerBP/Assets/Side4.Side4] ScaledElem[0] invalid
+[2019.11.13-03.43.30:984][999]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.11.13-03.43.30:984][999]LogPhysics: Warning: ForeachShape(Convex): [/Game/SideScrollerBP/Assets/Side4.Side4] ScaledElem[0] invalid
+[2019.11.13-03.43.37:121][715]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.11.13-03.43.38:936][926]LogEditorViewport: Clicking on Actor (LMB): AllSide_BP_C (Side4_BP)
+[2019.11.13-03.43.39:921][ 41]Cmd: DELETE
+[2019.11.13-03.43.39:921][ 41]Cmd: ACTOR DELETE
+[2019.11.13-03.43.39:926][ 41]LogEditorActor: Deleted Actor: AllSide_BP_C
+[2019.11.13-03.43.39:950][ 41]LogEditorActor: Deleted 1 Actors (0.028 secs)
+[2019.11.13-03.43.42:004][287]LogEditorViewport: Clicking on Actor (LMB): PathPlat_BP_C (PathPlat_BP)
+[2019.11.13-03.43.44:001][498]LogEditorViewport: Clicking on Actor (LMB): Side3_BP_C (Side3_BP)
+[2019.11.13-03.44.49:742][282]Cmd: DELETE
+[2019.11.13-03.44.49:742][282]Cmd: ACTOR DELETE
+[2019.11.13-03.44.49:747][282]LogEditorActor: Deleted Actor: Side3_BP_C
+[2019.11.13-03.44.49:772][282]LogEditorActor: Deleted 1 Actors (0.030 secs)
+[2019.11.13-03.45.01:961][578]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.13-03.45.06:838][ 12]LogMetaData: Removing '/Game/SideScrollerBP/Blueprints/Side4_BP.Side4_BP_C' ref from Metadata '/Game/SideScrollerBP/Blueprints/AllSide_BP.PackageMetaData'
+[2019.11.13-03.45.06:839][ 12]LogMetaData: Removing '/Game/SideScrollerBP/Blueprints/Side4_BP.SKEL_Side4_BP_C' ref from Metadata '/Game/SideScrollerBP/Blueprints/AllSide_BP.PackageMetaData'
+[2019.11.13-03.45.06:839][ 12]LogMetaData: Removing '/Game/SideScrollerBP/Blueprints/Side4_BP.Side4_BP:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/SideScrollerBP/Blueprints/AllSide_BP.PackageMetaData'
+[2019.11.13-03.45.06:839][ 12]LogMetaData: Removing '/Game/SideScrollerBP/Blueprints/Side4_BP.Side4_BP:EventGraph.K2Node_Event_0' ref from Metadata '/Game/SideScrollerBP/Blueprints/AllSide_BP.PackageMetaData'
+[2019.11.13-03.45.06:839][ 12]LogMetaData: Removing '/Game/SideScrollerBP/Blueprints/Side4_BP.Side4_BP:EventGraph.K2Node_Event_1' ref from Metadata '/Game/SideScrollerBP/Blueprints/AllSide_BP.PackageMetaData'
+[2019.11.13-03.45.06:839][ 12]LogMetaData: Removing '/Game/SideScrollerBP/Blueprints/Side4_BP.Side4_BP:EventGraph.K2Node_Event_2' ref from Metadata '/Game/SideScrollerBP/Blueprints/AllSide_BP.PackageMetaData'
+[2019.11.13-03.45.06:887][ 12]LogSavePackage: Moving '../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Saved/Side4_BP0BE4A1944D913D449FF15EBAD4DBA3B4.tmp' to '../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Blueprints/Side4_BP.uasset'
+[2019.11.13-03.45.22:273][500]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.13-03.45.22:413][512]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/SideScrollerBP/Blueprints/PathPlat_BP.PathPlat_BP
+[2019.11.13-03.45.32:363][646]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.13-03.46.07:644][750]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.13-03.46.26:562][282]LogMetaData: Removing '/Game/SideScrollerBP/Blueprints/PathPlatTile_BP.PathPlatTile_BP:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/SideScrollerBP/Blueprints/PathPlat_BP.PackageMetaData'
+[2019.11.13-03.46.26:562][282]LogMetaData: Removing '/Game/SideScrollerBP/Blueprints/PathPlatTile_BP.PathPlatTile_BP_C' ref from Metadata '/Game/SideScrollerBP/Blueprints/PathPlat_BP.PackageMetaData'
+[2019.11.13-03.46.26:563][282]LogMetaData: Removing '/Game/SideScrollerBP/Blueprints/PathPlatTile_BP.PathPlatTile_BP:EventGraph.K2Node_Event_0' ref from Metadata '/Game/SideScrollerBP/Blueprints/PathPlat_BP.PackageMetaData'
+[2019.11.13-03.46.26:563][282]LogMetaData: Removing '/Game/SideScrollerBP/Blueprints/PathPlatTile_BP.PathPlatTile_BP:EventGraph.K2Node_Event_1' ref from Metadata '/Game/SideScrollerBP/Blueprints/PathPlat_BP.PackageMetaData'
+[2019.11.13-03.46.26:563][282]LogMetaData: Removing '/Game/SideScrollerBP/Blueprints/PathPlatTile_BP.PathPlatTile_BP:EventGraph.K2Node_Event_2' ref from Metadata '/Game/SideScrollerBP/Blueprints/PathPlat_BP.PackageMetaData'
+[2019.11.13-03.46.26:563][282]LogMetaData: Removing '/Game/SideScrollerBP/Blueprints/PathPlatTile_BP.SKEL_PathPlatTile_BP_C' ref from Metadata '/Game/SideScrollerBP/Blueprints/PathPlat_BP.PackageMetaData'
+[2019.11.13-03.46.26:620][282]LogSavePackage: Moving '../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Saved/PathPlatTile_BP8521B05F48DF345F69761CACAF409CA7.tmp' to '../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Blueprints/PathPlatTile_BP.uasset'
+[2019.11.13-03.46.26:643][282]LogSavePackage: Moving '../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Saved/PathPlat_BP5630BDA342C638A71A717ABBFFF067E3.tmp' to '../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Blueprints/PathPlat_BP.uasset'
+[2019.11.13-03.46.40:677][402]LogMetaData: Removing '/Game/SideScrollerBP/Blueprints/PathPlatEnd_BP.SKEL_PathPlatEnd_BP_C' ref from Metadata '/Game/SideScrollerBP/Blueprints/PathPlatEnd_BP1.PackageMetaData'
+[2019.11.13-03.46.40:677][402]LogMetaData: Removing '/Game/SideScrollerBP/Blueprints/PathPlatEnd_BP.PathPlatEnd_BP_C' ref from Metadata '/Game/SideScrollerBP/Blueprints/PathPlatEnd_BP1.PackageMetaData'
+[2019.11.13-03.46.40:732][402]LogSavePackage: Moving '../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Saved/PathPlatEnd_BP2CD6208648812099C335F89B1C88A554.tmp' to '../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Blueprints/PathPlatEnd_BP.uasset'
+[2019.11.13-03.46.40:933][402]LogLinker: Warning: Can't find file '/Game/SideScrollerBP/Blueprints/PathPlatEnd_BP1'
+[2019.11.13-03.46.40:934][402]LogLinker: Warning: Can't find file '/Game/SideScrollerBP/Blueprints/PathPlatEnd_BP1'
+[2019.11.13-03.46.40:934][402]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/SideScrollerBP/Blueprints/PathPlatEnd_BP1.PathPlatEnd_BP1'
+[2019.11.13-03.46.41:990][485]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/SideScrollerBP/Blueprints/PathPlatEnd_BP.PathPlatEnd_BP
+[2019.11.13-03.46.46:374][788]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.13-03.47.00:630][855]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.13-03.47.01:158][891]LogSlate: Window 'PathPlatEnd_BP' being destroyed
+[2019.11.13-03.47.07:448][403]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.13-03.47.08:252][480]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.13-03.47.17:016][283]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.13-03.47.50:880][626]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.13-03.48.01:580][699]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.11.13-03.48.01:580][699]LogPhysics: Warning: ForeachShape(Convex): [/Game/SideScrollerBP/Assets/Side4.Side4] ScaledElem[0] invalid
+[2019.11.13-03.48.01:583][699]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.11.13-03.48.01:583][699]LogPhysics: Warning: ForeachShape(Convex): [/Game/SideScrollerBP/Assets/Side4.Side4] ScaledElem[0] invalid
+[2019.11.13-03.48.01:583][699]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.11.13-03.48.01:583][699]LogPhysics: Warning: ForeachShape(Convex): [/Game/SideScrollerBP/Assets/Side4.Side4] ScaledElem[0] invalid
+[2019.11.13-03.48.01:593][700]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.11.13-03.48.01:593][700]LogPhysics: Warning: ForeachShape(Convex): [/Game/SideScrollerBP/Assets/Side4.Side4] ScaledElem[0] invalid
+[2019.11.13-03.48.01:594][700]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.11.13-03.48.01:594][700]LogPhysics: Warning: ForeachShape(Convex): [/Game/SideScrollerBP/Assets/Side4.Side4] ScaledElem[0] invalid
+[2019.11.13-03.48.01:595][700]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.11.13-03.48.01:595][700]LogPhysics: Warning: ForeachShape(Convex): [/Game/SideScrollerBP/Assets/Side4.Side4] ScaledElem[0] invalid
+[2019.11.13-03.48.01:605][701]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.11.13-03.48.01:605][701]LogPhysics: Warning: ForeachShape(Convex): [/Game/SideScrollerBP/Assets/Side4.Side4] ScaledElem[0] invalid
+[2019.11.13-03.48.01:606][701]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.11.13-03.48.01:606][701]LogPhysics: Warning: ForeachShape(Convex): [/Game/SideScrollerBP/Assets/Side4.Side4] ScaledElem[0] invalid
+[2019.11.13-03.48.01:606][701]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.11.13-03.48.01:606][701]LogPhysics: Warning: ForeachShape(Convex): [/Game/SideScrollerBP/Assets/Side4.Side4] ScaledElem[0] invalid
+[2019.11.13-03.48.01:617][702]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.11.13-03.48.01:617][702]LogPhysics: Warning: ForeachShape(Convex): [/Game/SideScrollerBP/Assets/Side4.Side4] ScaledElem[0] invalid
+[2019.11.13-03.48.01:618][702]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.11.13-03.48.01:618][702]LogPhysics: Warning: ForeachShape(Convex): [/Game/SideScrollerBP/Assets/Side4.Side4] ScaledElem[0] invalid
+[2019.11.13-03.48.01:618][702]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.11.13-03.48.01:618][702]LogPhysics: Warning: ForeachShape(Convex): [/Game/SideScrollerBP/Assets/Side4.Side4] ScaledElem[0] invalid
+[2019.11.13-03.48.01:628][703]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.11.13-03.48.01:628][703]LogPhysics: Warning: ForeachShape(Convex): [/Game/SideScrollerBP/Assets/Side4.Side4] ScaledElem[0] invalid
+[2019.11.13-03.48.01:629][703]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.11.13-03.48.01:629][703]LogPhysics: Warning: ForeachShape(Convex): [/Game/SideScrollerBP/Assets/Side4.Side4] ScaledElem[0] invalid
+[2019.11.13-03.48.01:630][703]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.11.13-03.48.01:630][703]LogPhysics: Warning: ForeachShape(Convex): [/Game/SideScrollerBP/Assets/Side4.Side4] ScaledElem[0] invalid
+[2019.11.13-03.48.01:640][704]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.11.13-03.48.01:640][704]LogPhysics: Warning: ForeachShape(Convex): [/Game/SideScrollerBP/Assets/Side4.Side4] ScaledElem[0] invalid
+[2019.11.13-03.48.01:641][704]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.11.13-03.48.01:641][704]LogPhysics: Warning: ForeachShape(Convex): [/Game/SideScrollerBP/Assets/Side4.Side4] ScaledElem[0] invalid
+[2019.11.13-03.48.01:641][704]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.11.13-03.48.01:641][704]LogPhysics: Warning: ForeachShape(Convex): [/Game/SideScrollerBP/Assets/Side4.Side4] ScaledElem[0] invalid
+[2019.11.13-03.48.01:651][705]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.11.13-03.48.01:651][705]LogPhysics: Warning: ForeachShape(Convex): [/Game/SideScrollerBP/Assets/Side4.Side4] ScaledElem[0] invalid
+[2019.11.13-03.48.01:652][705]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.11.13-03.48.01:652][705]LogPhysics: Warning: ForeachShape(Convex): [/Game/SideScrollerBP/Assets/Side4.Side4] ScaledElem[0] invalid
+[2019.11.13-03.48.01:652][705]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.11.13-03.48.01:652][705]LogPhysics: Warning: ForeachShape(Convex): [/Game/SideScrollerBP/Assets/Side4.Side4] ScaledElem[0] invalid
+[2019.11.13-03.48.01:662][706]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.11.13-03.48.01:662][706]LogPhysics: Warning: ForeachShape(Convex): [/Game/SideScrollerBP/Assets/Side4.Side4] ScaledElem[0] invalid
+[2019.11.13-03.48.01:664][706]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.11.13-03.48.01:664][706]LogPhysics: Warning: ForeachShape(Convex): [/Game/SideScrollerBP/Assets/Side4.Side4] ScaledElem[0] invalid
+[2019.11.13-03.48.01:664][706]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.11.13-03.48.01:664][706]LogPhysics: Warning: ForeachShape(Convex): [/Game/SideScrollerBP/Assets/Side4.Side4] ScaledElem[0] invalid
+[2019.11.13-03.48.01:674][707]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.11.13-03.48.01:674][707]LogPhysics: Warning: ForeachShape(Convex): [/Game/SideScrollerBP/Assets/Side4.Side4] ScaledElem[0] invalid
+[2019.11.13-03.48.01:676][707]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.11.13-03.48.01:676][707]LogPhysics: Warning: ForeachShape(Convex): [/Game/SideScrollerBP/Assets/Side4.Side4] ScaledElem[0] invalid
+[2019.11.13-03.48.01:676][707]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.11.13-03.48.01:676][707]LogPhysics: Warning: ForeachShape(Convex): [/Game/SideScrollerBP/Assets/Side4.Side4] ScaledElem[0] invalid
+[2019.11.13-03.48.01:686][708]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.11.13-03.48.01:686][708]LogPhysics: Warning: ForeachShape(Convex): [/Game/SideScrollerBP/Assets/Side4.Side4] ScaledElem[0] invalid
+[2019.11.13-03.48.01:687][708]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.11.13-03.48.01:687][708]LogPhysics: Warning: ForeachShape(Convex): [/Game/SideScrollerBP/Assets/Side4.Side4] ScaledElem[0] invalid
+[2019.11.13-03.48.01:687][708]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.11.13-03.48.01:687][708]LogPhysics: Warning: ForeachShape(Convex): [/Game/SideScrollerBP/Assets/Side4.Side4] ScaledElem[0] invalid
+[2019.11.13-03.48.01:698][709]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.11.13-03.48.01:698][709]LogPhysics: Warning: ForeachShape(Convex): [/Game/SideScrollerBP/Assets/Side4.Side4] ScaledElem[0] invalid
+[2019.11.13-03.48.01:699][709]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.11.13-03.48.01:699][709]LogPhysics: Warning: ForeachShape(Convex): [/Game/SideScrollerBP/Assets/Side4.Side4] ScaledElem[0] invalid
+[2019.11.13-03.48.01:699][709]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.11.13-03.48.01:699][709]LogPhysics: Warning: ForeachShape(Convex): [/Game/SideScrollerBP/Assets/Side4.Side4] ScaledElem[0] invalid
+[2019.11.13-03.48.01:709][710]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.11.13-03.48.01:709][710]LogPhysics: Warning: ForeachShape(Convex): [/Game/SideScrollerBP/Assets/Side4.Side4] ScaledElem[0] invalid
+[2019.11.13-03.48.01:710][710]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.11.13-03.48.01:710][710]LogPhysics: Warning: ForeachShape(Convex): [/Game/SideScrollerBP/Assets/Side4.Side4] ScaledElem[0] invalid
+[2019.11.13-03.48.01:710][710]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.11.13-03.48.01:711][710]LogPhysics: Warning: ForeachShape(Convex): [/Game/SideScrollerBP/Assets/Side4.Side4] ScaledElem[0] invalid
+[2019.11.13-03.48.01:720][711]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.11.13-03.48.01:721][711]LogPhysics: Warning: ForeachShape(Convex): [/Game/SideScrollerBP/Assets/Side4.Side4] ScaledElem[0] invalid
+[2019.11.13-03.48.01:721][711]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.11.13-03.48.01:722][711]LogPhysics: Warning: ForeachShape(Convex): [/Game/SideScrollerBP/Assets/Side4.Side4] ScaledElem[0] invalid
+[2019.11.13-03.48.01:722][711]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.11.13-03.48.01:722][711]LogPhysics: Warning: ForeachShape(Convex): [/Game/SideScrollerBP/Assets/Side4.Side4] ScaledElem[0] invalid
+[2019.11.13-03.48.01:732][712]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.11.13-03.48.01:732][712]LogPhysics: Warning: ForeachShape(Convex): [/Game/SideScrollerBP/Assets/Side4.Side4] ScaledElem[0] invalid
+[2019.11.13-03.48.01:733][712]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.11.13-03.48.01:733][712]LogPhysics: Warning: ForeachShape(Convex): [/Game/SideScrollerBP/Assets/Side4.Side4] ScaledElem[0] invalid
+[2019.11.13-03.48.01:733][712]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.11.13-03.48.01:733][712]LogPhysics: Warning: ForeachShape(Convex): [/Game/SideScrollerBP/Assets/Side4.Side4] ScaledElem[0] invalid
+[2019.11.13-03.48.01:744][713]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.11.13-03.48.01:744][713]LogPhysics: Warning: ForeachShape(Convex): [/Game/SideScrollerBP/Assets/Side4.Side4] ScaledElem[0] invalid
+[2019.11.13-03.48.01:745][713]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.11.13-03.48.01:745][713]LogPhysics: Warning: ForeachShape(Convex): [/Game/SideScrollerBP/Assets/Side4.Side4] ScaledElem[0] invalid
+[2019.11.13-03.48.01:745][713]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.11.13-03.48.01:745][713]LogPhysics: Warning: ForeachShape(Convex): [/Game/SideScrollerBP/Assets/Side4.Side4] ScaledElem[0] invalid
+[2019.11.13-03.48.01:755][714]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.11.13-03.48.01:755][714]LogPhysics: Warning: ForeachShape(Convex): [/Game/SideScrollerBP/Assets/Side4.Side4] ScaledElem[0] invalid
+[2019.11.13-03.48.01:756][714]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.11.13-03.48.01:757][714]LogPhysics: Warning: ForeachShape(Convex): [/Game/SideScrollerBP/Assets/Side4.Side4] ScaledElem[0] invalid
+[2019.11.13-03.48.01:757][714]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.11.13-03.48.01:757][714]LogPhysics: Warning: ForeachShape(Convex): [/Game/SideScrollerBP/Assets/Side4.Side4] ScaledElem[0] invalid
+[2019.11.13-03.48.01:767][715]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.11.13-03.48.01:767][715]LogPhysics: Warning: ForeachShape(Convex): [/Game/SideScrollerBP/Assets/Side4.Side4] ScaledElem[0] invalid
+[2019.11.13-03.48.01:768][715]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.11.13-03.48.01:768][715]LogPhysics: Warning: ForeachShape(Convex): [/Game/SideScrollerBP/Assets/Side4.Side4] ScaledElem[0] invalid
+[2019.11.13-03.48.01:769][715]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.11.13-03.48.01:769][715]LogPhysics: Warning: ForeachShape(Convex): [/Game/SideScrollerBP/Assets/Side4.Side4] ScaledElem[0] invalid
+[2019.11.13-03.48.01:779][716]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.11.13-03.48.01:779][716]LogPhysics: Warning: ForeachShape(Convex): [/Game/SideScrollerBP/Assets/Side4.Side4] ScaledElem[0] invalid
+[2019.11.13-03.48.01:780][716]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.11.13-03.48.01:780][716]LogPhysics: Warning: ForeachShape(Convex): [/Game/SideScrollerBP/Assets/Side4.Side4] ScaledElem[0] invalid
+[2019.11.13-03.48.01:780][716]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.11.13-03.48.01:780][716]LogPhysics: Warning: ForeachShape(Convex): [/Game/SideScrollerBP/Assets/Side4.Side4] ScaledElem[0] invalid
+[2019.11.13-03.48.01:789][717]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.11.13-03.48.01:789][717]LogPhysics: Warning: ForeachShape(Convex): [/Game/SideScrollerBP/Assets/Side4.Side4] ScaledElem[0] invalid
+[2019.11.13-03.48.01:790][717]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.11.13-03.48.01:790][717]LogPhysics: Warning: ForeachShape(Convex): [/Game/SideScrollerBP/Assets/Side4.Side4] ScaledElem[0] invalid
+[2019.11.13-03.48.01:790][717]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.11.13-03.48.01:790][717]LogPhysics: Warning: ForeachShape(Convex): [/Game/SideScrollerBP/Assets/Side4.Side4] ScaledElem[0] invalid
+[2019.11.13-03.48.01:800][718]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.11.13-03.48.01:801][718]LogPhysics: Warning: ForeachShape(Convex): [/Game/SideScrollerBP/Assets/Side4.Side4] ScaledElem[0] invalid
+[2019.11.13-03.48.01:802][718]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.11.13-03.48.01:802][718]LogPhysics: Warning: ForeachShape(Convex): [/Game/SideScrollerBP/Assets/Side4.Side4] ScaledElem[0] invalid
+[2019.11.13-03.48.01:802][718]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.11.13-03.48.01:802][718]LogPhysics: Warning: ForeachShape(Convex): [/Game/SideScrollerBP/Assets/Side4.Side4] ScaledElem[0] invalid
+[2019.11.13-03.48.01:813][719]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.11.13-03.48.01:813][719]LogPhysics: Warning: ForeachShape(Convex): [/Game/SideScrollerBP/Assets/Side4.Side4] ScaledElem[0] invalid
+[2019.11.13-03.48.01:814][719]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.11.13-03.48.01:814][719]LogPhysics: Warning: ForeachShape(Convex): [/Game/SideScrollerBP/Assets/Side4.Side4] ScaledElem[0] invalid
+[2019.11.13-03.48.01:814][719]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.11.13-03.48.01:814][719]LogPhysics: Warning: ForeachShape(Convex): [/Game/SideScrollerBP/Assets/Side4.Side4] ScaledElem[0] invalid
+[2019.11.13-03.48.01:824][720]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.11.13-03.48.01:825][720]LogPhysics: Warning: ForeachShape(Convex): [/Game/SideScrollerBP/Assets/Side4.Side4] ScaledElem[0] invalid
+[2019.11.13-03.48.01:826][720]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.11.13-03.48.01:826][720]LogPhysics: Warning: ForeachShape(Convex): [/Game/SideScrollerBP/Assets/Side4.Side4] ScaledElem[0] invalid
+[2019.11.13-03.48.01:826][720]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.11.13-03.48.01:826][720]LogPhysics: Warning: ForeachShape(Convex): [/Game/SideScrollerBP/Assets/Side4.Side4] ScaledElem[0] invalid
+[2019.11.13-03.48.01:836][721]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.11.13-03.48.01:836][721]LogPhysics: Warning: ForeachShape(Convex): [/Game/SideScrollerBP/Assets/Side4.Side4] ScaledElem[0] invalid
+[2019.11.13-03.48.01:837][721]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.11.13-03.48.01:837][721]LogPhysics: Warning: ForeachShape(Convex): [/Game/SideScrollerBP/Assets/Side4.Side4] ScaledElem[0] invalid
+[2019.11.13-03.48.01:837][721]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.11.13-03.48.01:837][721]LogPhysics: Warning: ForeachShape(Convex): [/Game/SideScrollerBP/Assets/Side4.Side4] ScaledElem[0] invalid
+[2019.11.13-03.48.01:848][722]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.11.13-03.48.01:848][722]LogPhysics: Warning: ForeachShape(Convex): [/Game/SideScrollerBP/Assets/Side4.Side4] ScaledElem[0] invalid
+[2019.11.13-03.48.01:849][722]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.11.13-03.48.01:849][722]LogPhysics: Warning: ForeachShape(Convex): [/Game/SideScrollerBP/Assets/Side4.Side4] ScaledElem[0] invalid
+[2019.11.13-03.48.01:849][722]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.11.13-03.48.01:849][722]LogPhysics: Warning: ForeachShape(Convex): [/Game/SideScrollerBP/Assets/Side4.Side4] ScaledElem[0] invalid
+[2019.11.13-03.48.01:859][723]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.11.13-03.48.01:859][723]LogPhysics: Warning: ForeachShape(Convex): [/Game/SideScrollerBP/Assets/Side4.Side4] ScaledElem[0] invalid
+[2019.11.13-03.48.01:860][723]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.11.13-03.48.01:861][723]LogPhysics: Warning: ForeachShape(Convex): [/Game/SideScrollerBP/Assets/Side4.Side4] ScaledElem[0] invalid
+[2019.11.13-03.48.01:861][723]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.11.13-03.48.01:861][723]LogPhysics: Warning: ForeachShape(Convex): [/Game/SideScrollerBP/Assets/Side4.Side4] ScaledElem[0] invalid
+[2019.11.13-03.48.01:871][724]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.11.13-03.48.01:871][724]LogPhysics: Warning: ForeachShape(Convex): [/Game/SideScrollerBP/Assets/Side4.Side4] ScaledElem[0] invalid
+[2019.11.13-03.48.01:873][724]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.11.13-03.48.01:873][724]LogPhysics: Warning: ForeachShape(Convex): [/Game/SideScrollerBP/Assets/Side4.Side4] ScaledElem[0] invalid
+[2019.11.13-03.48.01:873][724]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.11.13-03.48.01:873][724]LogPhysics: Warning: ForeachShape(Convex): [/Game/SideScrollerBP/Assets/Side4.Side4] ScaledElem[0] invalid
+[2019.11.13-03.48.01:883][725]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.11.13-03.48.01:883][725]LogPhysics: Warning: ForeachShape(Convex): [/Game/SideScrollerBP/Assets/Side4.Side4] ScaledElem[0] invalid
+[2019.11.13-03.48.01:884][725]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.11.13-03.48.01:885][725]LogPhysics: Warning: ForeachShape(Convex): [/Game/SideScrollerBP/Assets/Side4.Side4] ScaledElem[0] invalid
+[2019.11.13-03.48.01:885][725]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.11.13-03.48.01:885][725]LogPhysics: Warning: ForeachShape(Convex): [/Game/SideScrollerBP/Assets/Side4.Side4] ScaledElem[0] invalid
+[2019.11.13-03.48.01:895][726]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.11.13-03.48.01:895][726]LogPhysics: Warning: ForeachShape(Convex): [/Game/SideScrollerBP/Assets/Side4.Side4] ScaledElem[0] invalid
+[2019.11.13-03.48.01:896][726]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.11.13-03.48.01:896][726]LogPhysics: Warning: ForeachShape(Convex): [/Game/SideScrollerBP/Assets/Side4.Side4] ScaledElem[0] invalid
+[2019.11.13-03.48.01:896][726]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.11.13-03.48.01:896][726]LogPhysics: Warning: ForeachShape(Convex): [/Game/SideScrollerBP/Assets/Side4.Side4] ScaledElem[0] invalid
+[2019.11.13-03.48.01:907][727]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.11.13-03.48.01:907][727]LogPhysics: Warning: ForeachShape(Convex): [/Game/SideScrollerBP/Assets/Side4.Side4] ScaledElem[0] invalid
+[2019.11.13-03.48.01:908][727]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.11.13-03.48.01:908][727]LogPhysics: Warning: ForeachShape(Convex): [/Game/SideScrollerBP/Assets/Side4.Side4] ScaledElem[0] invalid
+[2019.11.13-03.48.01:908][727]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.11.13-03.48.01:908][727]LogPhysics: Warning: ForeachShape(Convex): [/Game/SideScrollerBP/Assets/Side4.Side4] ScaledElem[0] invalid
+[2019.11.13-03.48.01:918][728]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.11.13-03.48.01:918][728]LogPhysics: Warning: ForeachShape(Convex): [/Game/SideScrollerBP/Assets/Side4.Side4] ScaledElem[0] invalid
+[2019.11.13-03.48.01:919][728]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.11.13-03.48.01:919][728]LogPhysics: Warning: ForeachShape(Convex): [/Game/SideScrollerBP/Assets/Side4.Side4] ScaledElem[0] invalid
+[2019.11.13-03.48.01:919][728]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.11.13-03.48.01:919][728]LogPhysics: Warning: ForeachShape(Convex): [/Game/SideScrollerBP/Assets/Side4.Side4] ScaledElem[0] invalid
+[2019.11.13-03.48.01:931][729]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.11.13-03.48.01:931][729]LogPhysics: Warning: ForeachShape(Convex): [/Game/SideScrollerBP/Assets/Side4.Side4] ScaledElem[0] invalid
+[2019.11.13-03.48.01:932][729]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.11.13-03.48.01:932][729]LogPhysics: Warning: ForeachShape(Convex): [/Game/SideScrollerBP/Assets/Side4.Side4] ScaledElem[0] invalid
+[2019.11.13-03.48.01:932][729]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.11.13-03.48.01:932][729]LogPhysics: Warning: ForeachShape(Convex): [/Game/SideScrollerBP/Assets/Side4.Side4] ScaledElem[0] invalid
+[2019.11.13-03.48.01:932][729]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2019.11.13-03.48.01:932][729]LogPhysics: Warning: ForeachShape(Convex): [/Game/SideScrollerBP/Assets/Side4.Side4] ScaledElem[0] invalid
+[2019.11.13-03.48.35:491][991]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.13-03.48.35:549][998]BlueprintLog: New page: Compile PathPlatEnd_BP
+[2019.11.13-03.48.36:214][ 10]LogSavePackage: Moving '../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Saved/PathPlatEnd_BPE415950B416C57E6F608389347B19C8F.tmp' to '../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Blueprints/PathPlatEnd_BP.uasset'
+[2019.11.13-03.48.38:001][199]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.13-03.48.48:312][173]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/SideScrollerBP/Blueprints/PathPlatEnd_BP.PathPlatEnd_BP
+[2019.11.13-03.48.50:777][338]LogSlate: Window 'PathPlatEnd_BP' being destroyed
+[2019.11.13-03.49.16:710][724]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.13-03.49.18:280][864]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.13-03.49.22:466][251]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.13-03.49.54:075][373]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.13-03.49.54:146][380]BlueprintLog: New page: Compile PathPlatEnd_BP
+[2019.11.13-03.49.54:679][407]LogSavePackage: Moving '../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Saved/PathPlatEnd_BPA802B0D7408B210D8D7F508E94E9C693.tmp' to '../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Blueprints/PathPlatEnd_BP.uasset'
+[2019.11.13-03.49.57:588][671]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.13-03.50.11:572][192]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/SideScrollerBP/Blueprints/Path_BP.Path_BP
+[2019.11.13-03.50.19:001][918]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_28:PersistentLevel.DESTROYED_Path_BP_C_CHILDACTOR_13.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2019.11.13-03.50.19:003][918]LogActorComponent: RegisterComponentWithWorld: (/Game/SideScrollerBP/Maps/Template.Template:PersistentLevel.DESTROYED_Path_BP_C_CHILDACTOR_44.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2019.11.13-03.50.19:004][918]LogActorComponent: RegisterComponentWithWorld: (/Game/SideScrollerBP/Maps/Template.Template:PersistentLevel.DESTROYED_Path_BP_C_CHILDACTOR_46.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2019.11.13-03.50.19:005][918]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.DESTROYED_Path_BP_C_CHILDACTOR_7.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2019.11.13-03.50.19:006][918]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_29:PersistentLevel.DESTROYED_Path_BP_C_CHILDACTOR_1.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2019.11.13-03.50.19:008][918]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_33:PersistentLevel.DESTROYED_Path_BP_C_CHILDACTOR_397.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2019.11.13-03.50.19:009][918]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_31:PersistentLevel.DESTROYED_Path_BP_C_CHILDACTOR_119.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2019.11.13-03.50.19:010][918]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_30:PersistentLevel.DESTROYED_Path_BP_C_CHILDACTOR_117.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2019.11.13-03.50.22:134][268]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_30:PersistentLevel.DESTROYED_Path_BP_C_CHILDACTOR_119.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2019.11.13-03.50.22:135][268]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_31:PersistentLevel.DESTROYED_Path_BP_C_CHILDACTOR_121.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2019.11.13-03.50.22:137][268]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_33:PersistentLevel.DESTROYED_Path_BP_C_CHILDACTOR_399.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2019.11.13-03.50.22:138][268]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_29:PersistentLevel.DESTROYED_Path_BP_C_CHILDACTOR_3.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2019.11.13-03.50.22:139][268]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.DESTROYED_Path_BP_C_CHILDACTOR_9.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2019.11.13-03.50.22:140][268]LogActorComponent: RegisterComponentWithWorld: (/Game/SideScrollerBP/Maps/Template.Template:PersistentLevel.DESTROYED_Path_BP_C_CHILDACTOR_48.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2019.11.13-03.50.22:141][268]LogActorComponent: RegisterComponentWithWorld: (/Game/SideScrollerBP/Maps/Template.Template:PersistentLevel.DESTROYED_Path_BP_C_CHILDACTOR_50.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2019.11.13-03.50.22:143][268]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_28:PersistentLevel.DESTROYED_Path_BP_C_CHILDACTOR_15.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2019.11.13-03.50.23:604][435]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.13-03.50.25:830][658]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_28:PersistentLevel.DESTROYED_Path_BP_C_CHILDACTOR_17.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2019.11.13-03.50.25:831][658]LogActorComponent: RegisterComponentWithWorld: (/Game/SideScrollerBP/Maps/Template.Template:PersistentLevel.DESTROYED_Path_BP_C_CHILDACTOR_52.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2019.11.13-03.50.25:832][658]LogActorComponent: RegisterComponentWithWorld: (/Game/SideScrollerBP/Maps/Template.Template:PersistentLevel.DESTROYED_Path_BP_C_CHILDACTOR_54.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2019.11.13-03.50.25:833][658]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.DESTROYED_Path_BP_C_CHILDACTOR_11.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2019.11.13-03.50.25:834][658]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_29:PersistentLevel.DESTROYED_Path_BP_C_CHILDACTOR_5.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2019.11.13-03.50.25:835][658]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_33:PersistentLevel.DESTROYED_Path_BP_C_CHILDACTOR_401.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2019.11.13-03.50.25:836][658]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_31:PersistentLevel.DESTROYED_Path_BP_C_CHILDACTOR_123.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2019.11.13-03.50.25:837][658]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_30:PersistentLevel.DESTROYED_Path_BP_C_CHILDACTOR_121.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2019.11.13-03.50.29:712][ 43]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_30:PersistentLevel.DESTROYED_Path_BP_C_CHILDACTOR_123.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2019.11.13-03.50.29:713][ 43]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_31:PersistentLevel.DESTROYED_Path_BP_C_CHILDACTOR_125.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2019.11.13-03.50.29:715][ 43]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_33:PersistentLevel.DESTROYED_Path_BP_C_CHILDACTOR_403.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2019.11.13-03.50.29:716][ 43]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_29:PersistentLevel.DESTROYED_Path_BP_C_CHILDACTOR_7.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2019.11.13-03.50.29:717][ 43]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.DESTROYED_Path_BP_C_CHILDACTOR_13.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2019.11.13-03.50.29:719][ 43]LogActorComponent: RegisterComponentWithWorld: (/Game/SideScrollerBP/Maps/Template.Template:PersistentLevel.DESTROYED_Path_BP_C_CHILDACTOR_56.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2019.11.13-03.50.29:721][ 43]LogActorComponent: RegisterComponentWithWorld: (/Game/SideScrollerBP/Maps/Template.Template:PersistentLevel.DESTROYED_Path_BP_C_CHILDACTOR_58.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2019.11.13-03.50.29:722][ 43]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_28:PersistentLevel.DESTROYED_Path_BP_C_CHILDACTOR_19.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2019.11.13-03.50.31:330][200]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_28:PersistentLevel.DESTROYED_Path_BP_C_CHILDACTOR_21.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2019.11.13-03.50.31:331][200]LogActorComponent: RegisterComponentWithWorld: (/Game/SideScrollerBP/Maps/Template.Template:PersistentLevel.DESTROYED_Path_BP_C_CHILDACTOR_60.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2019.11.13-03.50.31:332][200]LogActorComponent: RegisterComponentWithWorld: (/Game/SideScrollerBP/Maps/Template.Template:PersistentLevel.DESTROYED_Path_BP_C_CHILDACTOR_62.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2019.11.13-03.50.31:333][200]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.DESTROYED_Path_BP_C_CHILDACTOR_15.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2019.11.13-03.50.31:334][200]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_29:PersistentLevel.DESTROYED_Path_BP_C_CHILDACTOR_9.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2019.11.13-03.50.31:335][200]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_33:PersistentLevel.DESTROYED_Path_BP_C_CHILDACTOR_405.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2019.11.13-03.50.31:336][200]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_31:PersistentLevel.DESTROYED_Path_BP_C_CHILDACTOR_127.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2019.11.13-03.50.31:337][200]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_30:PersistentLevel.DESTROYED_Path_BP_C_CHILDACTOR_125.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2019.11.13-03.50.32:541][312]BlueprintLog: New page: Compile Path_BP
+[2019.11.13-03.50.32:684][312]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_30:PersistentLevel.DESTROYED_Path_BP_C_CHILDACTOR_127.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2019.11.13-03.50.32:685][312]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_31:PersistentLevel.DESTROYED_Path_BP_C_CHILDACTOR_129.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2019.11.13-03.50.32:687][312]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_33:PersistentLevel.DESTROYED_Path_BP_C_CHILDACTOR_407.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2019.11.13-03.50.32:687][312]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_29:PersistentLevel.DESTROYED_Path_BP_C_CHILDACTOR_11.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2019.11.13-03.50.32:688][312]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.DESTROYED_Path_BP_C_CHILDACTOR_17.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2019.11.13-03.50.32:690][312]LogActorComponent: RegisterComponentWithWorld: (/Game/SideScrollerBP/Maps/Template.Template:PersistentLevel.DESTROYED_Path_BP_C_CHILDACTOR_64.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2019.11.13-03.50.32:691][312]LogActorComponent: RegisterComponentWithWorld: (/Game/SideScrollerBP/Maps/Template.Template:PersistentLevel.DESTROYED_Path_BP_C_CHILDACTOR_66.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2019.11.13-03.50.32:692][312]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_28:PersistentLevel.DESTROYED_Path_BP_C_CHILDACTOR_23.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2019.11.13-03.50.32:696][312]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_30:PersistentLevel.DESTROYED_Path_BP_C_CHILDACTOR_129.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2019.11.13-03.50.32:697][312]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_31:PersistentLevel.DESTROYED_Path_BP_C_CHILDACTOR_131.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2019.11.13-03.50.32:698][312]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_33:PersistentLevel.DESTROYED_Path_BP_C_CHILDACTOR_409.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2019.11.13-03.50.32:699][312]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_29:PersistentLevel.DESTROYED_Path_BP_C_CHILDACTOR_13.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2019.11.13-03.50.32:700][312]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.DESTROYED_Path_BP_C_CHILDACTOR_19.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2019.11.13-03.50.32:701][312]LogActorComponent: RegisterComponentWithWorld: (/Game/SideScrollerBP/Maps/Template.Template:PersistentLevel.DESTROYED_Path_BP_C_CHILDACTOR_68.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2019.11.13-03.50.32:703][312]LogActorComponent: RegisterComponentWithWorld: (/Game/SideScrollerBP/Maps/Template.Template:PersistentLevel.DESTROYED_Path_BP_C_CHILDACTOR_70.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2019.11.13-03.50.32:704][312]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_28:PersistentLevel.DESTROYED_Path_BP_C_CHILDACTOR_25.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2019.11.13-03.50.33:062][337]LogSavePackage: Moving '../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Saved/Path_BP1AC93FAB49ECE430D1C1228B3B9A8F43.tmp' to '../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Blueprints/Path_BP.uasset'
+[2019.11.13-03.50.57:892][725]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.13-03.51.09:506][787]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.13-03.51.14:578][259]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.13-03.51.14:650][266]BlueprintLog: New page: Compile PathPlatEnd_BP
+[2019.11.13-03.51.15:730][346]LogSavePackage: Moving '../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Saved/PathPlatEnd_BP524F993149E09E10FCC804AAC3A09695.tmp' to '../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Blueprints/PathPlatEnd_BP.uasset'
+[2019.11.13-03.51.17:472][508]LogEditorViewport: Clicking on Actor (LMB): PathPlatTile_BP_C (PathPlat_BP2)
+[2019.11.13-03.51.21:371][850]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.13-03.51.23:863][ 68]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.13-03.51.33:178][933]LogEditorTransaction: Undo Modify Component(s)
+[2019.11.13-03.51.33:892][933]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.688 s
+[2019.11.13-03.51.33:892][933]LogOutputDevice: Error: === Handled ensure: ===
+[2019.11.13-03.51.33:892][933]LogOutputDevice: Error: 
+[2019.11.13-03.51.33:892][933]LogOutputDevice: Error: Ensure condition failed: PinHelpers::UnresolvedPins.Num() == 0 [File:D:\Build\++UE4\Sync\Engine\Source\Runtime\Engine\Private\EdGraph\EdGraphPin.cpp] [Line: 2103]
+[2019.11.13-03.51.33:892][933]LogOutputDevice: Error: 
+[2019.11.13-03.51.33:892][933]LogOutputDevice: Error: Stack: 
+[2019.11.13-03.51.33:892][933]LogOutputDevice: Error: [Callstack] 0x00007ffda54871f6 UE4Editor-Core.dll!UnknownFunction []
+[2019.11.13-03.51.33:892][933]LogOutputDevice: Error: [Callstack] 0x00007ffda51c0c92 UE4Editor-Core.dll!UnknownFunction []
+[2019.11.13-03.51.33:892][933]LogOutputDevice: Error: [Callstack] 0x00007ffda51db356 UE4Editor-Core.dll!UnknownFunction []
+[2019.11.13-03.51.33:892][933]LogOutputDevice: Error: [Callstack] 0x00007ffda255f1e8 UE4Editor-Engine.dll!UnknownFunction []
+[2019.11.13-03.51.33:892][933]LogOutputDevice: Error: [Callstack] 0x00007ffd9fe94c25 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.11.13-03.51.33:892][933]LogOutputDevice: Error: [Callstack] 0x00007ffd9fec01fb UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.11.13-03.51.33:892][933]LogOutputDevice: Error: [Callstack] 0x00007ffd9fea6535 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.11.13-03.51.33:892][933]LogOutputDevice: Error: [Callstack] 0x00007ffd9ff12dc5 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.11.13-03.51.33:892][933]LogOutputDevice: Error: [Callstack] 0x00007ffd9ff59b6d UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.11.13-03.51.33:892][933]LogOutputDevice: Error: [Callstack] 0x00007ffd9feec81f UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.11.13-03.51.33:892][933]LogOutputDevice: Error: [Callstack] 0x00007ffd9d3a05b8 UE4Editor-Kismet.dll!UnknownFunction []
+[2019.11.13-03.51.33:892][933]LogOutputDevice: Error: [Callstack] 0x00007ffda17f24df UE4Editor-Slate.dll!UnknownFunction []
+[2019.11.13-03.51.33:892][933]LogOutputDevice: Error: [Callstack] 0x00007ffda183437e UE4Editor-Slate.dll!UnknownFunction []
+[2019.11.13-03.51.33:892][933]LogOutputDevice: Error: [Callstack] 0x00007ffda0525178 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.11.13-03.51.33:893][933]LogOutputDevice: Error: [Callstack] 0x00007ffda17b70ac UE4Editor-Slate.dll!UnknownFunction []
+[2019.11.13-03.51.33:893][933]LogOutputDevice: Error: [Callstack] 0x00007ffda183606c UE4Editor-Slate.dll!UnknownFunction []
+[2019.11.13-03.51.33:893][933]LogOutputDevice: Error: [Callstack] 0x00007ffda1829846 UE4Editor-Slate.dll!UnknownFunction []
+[2019.11.13-03.51.33:893][933]LogOutputDevice: Error: [Callstack] 0x00007ffddba9ce45 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.11.13-03.51.33:893][933]LogOutputDevice: Error: [Callstack] 0x00007ffddba90270 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.11.13-03.51.33:893][933]LogOutputDevice: Error: [Callstack] 0x00007ffddba9f4c5 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.11.13-03.51.33:893][933]LogOutputDevice: Error: [Callstack] 0x00007ffddba8c209 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.11.13-03.51.33:893][933]LogOutputDevice: Error: [Callstack] 0x00007ffe02f96d41 USER32.dll!UnknownFunction []
+[2019.11.13-03.51.33:893][933]LogOutputDevice: Error: [Callstack] 0x00007ffe02f96713 USER32.dll!UnknownFunction []
+[2019.11.13-03.51.33:893][933]LogOutputDevice: Error: [Callstack] 0x00007ffddbaa0646 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.11.13-03.51.33:893][933]LogOutputDevice: Error: [Callstack] 0x00007ff7e46854e5 UE4Editor.exe!UnknownFunction []
+[2019.11.13-03.51.33:893][933]LogOutputDevice: Error: [Callstack] 0x00007ff7e4695b3c UE4Editor.exe!UnknownFunction []
+[2019.11.13-03.51.33:893][933]LogOutputDevice: Error: [Callstack] 0x00007ff7e4695bba UE4Editor.exe!UnknownFunction []
+[2019.11.13-03.51.33:893][933]LogOutputDevice: Error: [Callstack] 0x00007ff7e46a3dac UE4Editor.exe!UnknownFunction []
+[2019.11.13-03.51.33:893][933]LogOutputDevice: Error: [Callstack] 0x00007ff7e46a5aaa UE4Editor.exe!UnknownFunction []
+[2019.11.13-03.51.33:893][933]LogOutputDevice: Error: [Callstack] 0x00007ffe00bc3034 KERNEL32.DLL!UnknownFunction []
+[2019.11.13-03.51.33:893][933]LogOutputDevice: Error: [Callstack] 0x00007ffe031b1471 ntdll.dll!UnknownFunction []
+[2019.11.13-03.51.33:893][933]LogOutputDevice: Error: 
+[2019.11.13-03.51.33:898][933]LogStats:                SubmitErrorReport -  0.000 s
