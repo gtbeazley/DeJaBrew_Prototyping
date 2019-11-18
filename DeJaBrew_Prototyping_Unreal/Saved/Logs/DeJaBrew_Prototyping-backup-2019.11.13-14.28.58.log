@@ -1,0 +1,1075 @@
+﻿Log file open, 11/13/19 14:19:22
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: DeJaBrew_Prototyping
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.265084
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +10:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.090s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-6700 CPU @ 3.40GHz, GPU: NVIDIA GeForce GTX 1060 6GB
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.002s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2019.11.13-03.19.22:422][  0]LogInit: Selected Device Profile: [Windows]
+[2019.11.13-03.19.22:422][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.11.13-03.19.22:446][  0]LogHAL: Display: Platform has ~ 32 GB [34293108736 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.11.13-03.19.22:446][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2019.11.13-03.19.22:446][  0]LogInit: Going up to parent DeviceProfile []
+[2019.11.13-03.19.22:446][  0]LogInit: Computer: SYD-C63DCC
+[2019.11.13-03.19.22:446][  0]LogInit: User: s191273
+[2019.11.13-03.19.22:446][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.11.13-03.19.22:446][  0]LogInit: High frequency timer resolution =3.328130 MHz
+[2019.11.13-03.19.22:446][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2019.11.13-03.19.22:447][  0]LogMemory: Platform Memory Stats for Windows
+[2019.11.13-03.19.22:447][  0]LogMemory: Process Physical Memory: 100.29 MB used, 100.29 MB peak
+[2019.11.13-03.19.22:447][  0]LogMemory: Process Virtual Memory: 89.50 MB used, 89.50 MB peak
+[2019.11.13-03.19.22:447][  0]LogMemory: Physical Memory: 5671.52 MB used,  27032.93 MB free, 32704.46 MB total
+[2019.11.13-03.19.22:447][  0]LogMemory: Virtual Memory: 4638.47 MB used,  27032.93 MB free, 134217728.00 MB total
+[2019.11.13-03.19.22:463][  0]LogInit: Using OS detected language (en-US).
+[2019.11.13-03.19.22:463][  0]LogInit: Using OS detected locale (en-US).
+[2019.11.13-03.19.22:464][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.11.13-03.19.22:803][  0]LogStreaming: Display: Took  0.340s to InitEngineTextLocalization.
+[2019.11.13-03.19.22:804][  0]LogInit: Setting process to per monitor DPI aware
+[2019.11.13-03.19.22:837][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.11.13-03.19.22:837][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.11.13-03.19.23:012][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.11.13-03.19.23:012][  0]LogD3D11RHI: D3D11 adapters:
+[2019.11.13-03.19.23:063][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 6GB' (Feature Level 11_0)
+[2019.11.13-03.19.23:063][  0]LogD3D11RHI:       6052/0/16352 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2019.11.13-03.19.23:065][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.11.13-03.19.23:065][  0]LogD3D11RHI:       0/0/16352 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.11.13-03.19.23:065][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.11.13-03.19.23:070][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.11.13-03.19.23:070][  0]LogD3D11RHI:     GPU DeviceId: 0x1c03 (for the marketing name, search the web for "GPU Device Id")
+[2019.11.13-03.19.23:070][  0]LogWindows: EnumDisplayDevices:
+[2019.11.13-03.19.23:070][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:1)
+[2019.11.13-03.19.23:070][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 6GB' (P:1 D:1)
+[2019.11.13-03.19.23:070][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2019.11.13-03.19.23:070][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2019.11.13-03.19.23:071][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2019.11.13-03.19.23:071][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 6GB
+[2019.11.13-03.19.23:071][  0]LogD3D11RHI:   Driver Version: 417.35 (internal:25.21.14.1735, unified:417.35)
+[2019.11.13-03.19.23:071][  0]LogD3D11RHI:      Driver Date: 12-11-2018
+[2019.11.13-03.19.23:071][  0]LogRHI: Texture pool is 4236 MB (70% of 6052 MB)
+[2019.11.13-03.19.23:105][  0]LogD3D11RHI: Async texture creation enabled
+[2019.11.13-03.19.23:122][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.11.13-03.19.23:206][  0]LogShaderCompilers: Guid format shader working directory is -49 characters bigger than the processId version (../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Intermediate/Shaders/WorkingDirectory/9284/).
+[2019.11.13-03.19.23:206][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/s191273/AppData/Local/Temp/UnrealShaderWorkingDir/94A158AF464D228ED9F6B0A6C730E5FE/'.
+[2019.11.13-03.19.23:420][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.11.13-03.19.23:431][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.11.13-03.19.23:442][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.11.13-03.19.23:454][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.11.13-03.19.23:465][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.11.13-03.19.23:477][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.11.13-03.19.23:488][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.11.13-03.19.23:499][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.11.13-03.19.23:504][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.11.13-03.19.23:569][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.11.13-03.19.23:569][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.11.13-03.19.23:569][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.11.13-03.19.23:569][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.11.13-03.19.23:569][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.11.13-03.19.23:569][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.11.13-03.19.23:569][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.11.13-03.19.23:569][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.11.13-03.19.23:569][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.11.13-03.19.23:569][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.11.13-03.19.23:569][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.11.13-03.19.23:569][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.11.13-03.19.23:569][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.11.13-03.19.23:569][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.11.13-03.19.23:569][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.11.13-03.19.23:569][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.11.13-03.19.23:569][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.11.13-03.19.23:569][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.11.13-03.19.23:570][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.11.13-03.19.23:627][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.11.13-03.19.23:627][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.11.13-03.19.23:648][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.11.13-03.19.23:648][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.11.13-03.19.23:659][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.11.13-03.19.23:669][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.11.13-03.19.23:680][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.11.13-03.19.23:691][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.11.13-03.19.23:699][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.11.13-03.19.23:699][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.11.13-03.19.23:741][  0]LogXGEController: Cleaning working directory: C:/Users/s191273/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.11.13-03.19.23:741][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.11.13-03.19.23:742][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.11.13-03.19.23:742][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.11.13-03.19.24:333][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.11.13-03.19.24:377][  0]LogDerivedDataCache: Loaded boot cache 0.04s 71MB C:/Users/s191273/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.11.13-03.19.24:377][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/s191273/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2019.11.13-03.19.24:377][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.11.13-03.19.24:377][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.11.13-03.19.24:377][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.11.13-03.19.24:377][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.11.13-03.19.24:389][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.11.13-03.19.24:401][  0]LogDerivedDataCache: Using Local data cache path C:/Users/s191273/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.11.13-03.19.24:401][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.11.13-03.19.24:401][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.11.13-03.19.24:416][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.11.13-03.19.24:417][  0]LogSlate: Using FreeType 2.6.0
+[2019.11.13-03.19.24:418][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.11.13-03.19.24:481][  0]LogAssetRegistry: FAssetRegistry took 0.0258 seconds to start up
+[2019.11.13-03.19.24:743][  0]LogInit: Selected Device Profile: [Windows]
+[2019.11.13-03.19.24:855][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.11.13-03.19.24:858][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.11.13-03.19.24:858][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.11.13-03.19.24:858][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.11.13-03.19.24:858][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.11.13-03.19.24:872][  0]LogNetVersion: DeJaBrew_Prototyping 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 1964930159)
+[2019.11.13-03.19.25:114][  0]LogLinker: Warning: The file '../../../Engine/Content/EditorMaterials/Thumbnails/SkySphereMaterial.uasset' contains unrecognizable data, check that it is of the expected type.
+[2019.11.13-03.19.25:114][  0]LogLinker: Warning: The file '../../../Engine/Content/EditorMaterials/Thumbnails/SkySphereMaterial.uasset' contains unrecognizable data, check that it is of the expected type.
+[2019.11.13-03.19.25:115][  0]LogLinker: Warning: The file '../../../Engine/Content/EditorMaterials/Thumbnails/SkySphereMaterial.uasset' contains unrecognizable data, check that it is of the expected type.
+[2019.11.13-03.19.25:115][  0]LogLinker: Warning: The file '../../../Engine/Content/EditorMaterials/Thumbnails/SkySphereMaterial.uasset' contains unrecognizable data, check that it is of the expected type.
+[2019.11.13-03.19.25:116][  0]LogLinker: Warning: The file '../../../Engine/Content/EditorMaterials/Thumbnails/SkySphereMaterial.uasset' contains unrecognizable data, check that it is of the expected type.
+[2019.11.13-03.19.25:116][  0]LogLinker: Warning: The file '../../../Engine/Content/EditorMaterials/Thumbnails/SkySphereMaterial.uasset' contains unrecognizable data, check that it is of the expected type.
+[2019.11.13-03.19.25:303][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.097936 seconds
+[2019.11.13-03.19.25:309][  0]LogUObjectArray: 38422 objects as part of root set at end of initial load.
+[2019.11.13-03.19.25:309][  0]LogUObjectAllocator: 6687768 out of 0 bytes used by permanent object pool.
+[2019.11.13-03.19.25:309][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.11.13-03.19.26:010][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.11.13-03.19.26:022][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.11.13-03.19.26:149][  0]SourceControl: Source control is disabled
+[2019.11.13-03.19.26:150][  0]SourceControl: Source control is disabled
+[2019.11.13-03.19.26:151][  0]SourceControl: Source control is disabled
+[2019.11.13-03.19.26:151][  0]SourceControl: Source control is disabled
+[2019.11.13-03.19.26:297][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.11.13-03.19.26:339][  0]LogOcInput: OculusInput pre-init called
+[2019.11.13-03.19.26:393][  0]LogEngine: Initializing Engine...
+[2019.11.13-03.19.26:393][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.11.13-03.19.26:395][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.11.13-03.19.26:395][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.11.13-03.19.26:395][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.11.13-03.19.26:395][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.11.13-03.19.26:583][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.11.13-03.19.26:594][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.11.13-03.19.26:604][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.13-03.19.26:634][  0]LogInit: FAudioDevice initialized.
+[2019.11.13-03.19.26:635][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.11.13-03.19.26:830][  0]LogDerivedDataCache: Saved boot cache 0.19s 71MB C:/Users/s191273/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.11.13-03.19.26:834][  0]LogInit: Texture streaming: Enabled
+[2019.11.13-03.19.26:846][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.11.13-03.19.26:859][  0]LogInit: Transaction tracking system initialized
+[2019.11.13-03.19.26:874][  0]BlueprintLog: New page: Editor Load
+[2019.11.13-03.19.26:926][  0]LocalizationService: Localization service is disabled
+[2019.11.13-03.19.27:097][  0]LogLinker: Warning: The file '../../../Engine/Content/EditorMaterials/Thumbnails/SkySphereMaterial.uasset' contains unrecognizable data, check that it is of the expected type.
+[2019.11.13-03.19.27:140][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.11.13-03.19.27:141][  0]LogCook: Display: Mobile HDR setting 1
+[2019.11.13-03.19.27:141][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.11.13-03.19.27:141][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.11.13-03.19.27:141][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.11.13-03.19.27:141][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.11.13-03.19.27:141][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.11.13-03.19.27:230][  0]SourceControl: Source control is disabled
+[2019.11.13-03.19.27:230][  0]Cmd: MAP LOAD FILE="../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Maps/Template.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.11.13-03.19.27:231][  0]LightingResults: New page: Lighting Build
+[2019.11.13-03.19.27:233][  0]MapCheck: New page: Map Check
+[2019.11.13-03.19.27:233][  0]LightingResults: New page: Lighting Build
+[2019.11.13-03.19.27:306][  0]LogLinker: Warning: Can't find file '/Game/SideScrollerBP/Sounds/DeathEnemy/Death_Enemy'
+[2019.11.13-03.19.27:306][  0]LogLinker: Warning: Can't find file for asset '/Game/SideScrollerBP/Sounds/DeathEnemy/Death_Enemy' while loading ../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Sounds/DeathEnemy/Death_Enemy_Cue.uasset.
+[2019.11.13-03.19.27:306][  0]LoadErrors: Error: /Game/SideScrollerBP/Sounds/DeathEnemy/Death_Enemy_Cue : Can't find file for asset. /Game/SideScrollerBP/Sounds/DeathEnemy/Death_Enemy
+[2019.11.13-03.19.27:306][  0]LogLinker: Warning: Can't find file '/Game/SideScrollerBP/Sounds/DeathEnemy/Death_Enemy'
+[2019.11.13-03.19.27:306][  0]LogLinker: Warning: Can't find file for asset '/Game/SideScrollerBP/Sounds/DeathEnemy/Death_Enemy' while loading ../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Sounds/DeathEnemy/Death_Enemy_Cue.uasset.
+[2019.11.13-03.19.27:306][  0]LoadErrors: Error: /Game/SideScrollerBP/Sounds/DeathEnemy/Death_Enemy_Cue : Can't find file for asset. /Game/SideScrollerBP/Sounds/DeathEnemy/Death_Enemy
+[2019.11.13-03.19.27:410][  0]LogLinker: Warning: Can't find file '/Game/SideScrollerBP/Sounds/Checkpoint/Checkpoint'
+[2019.11.13-03.19.27:410][  0]LoadErrors: Failed to load /Game/SideScrollerBP/Sounds/Checkpoint/Checkpoint_Cue.Checkpoint_Cue Referenced by Checkpoint_Cue_GEN_VARIABLE
+[2019.11.13-03.19.27:411][  0]LogLinker: Warning: Can't find file for asset '/Game/SideScrollerBP/Sounds/Checkpoint/Checkpoint' while loading ../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Sounds/Checkpoint/Checkpoint_Cue.uasset.
+[2019.11.13-03.19.27:411][  0]LoadErrors: Failed to load /Game/SideScrollerBP/Sounds/Checkpoint/Checkpoint_Cue.Checkpoint_Cue Referenced by Checkpoint_Cue_GEN_VARIABLE
+[2019.11.13-03.19.27:411][  0]LoadErrors: Error: /Game/SideScrollerBP/Sounds/Checkpoint/Checkpoint_Cue : Can't find file for asset. /Game/SideScrollerBP/Sounds/Checkpoint/Checkpoint
+[2019.11.13-03.19.27:411][  0]LogLinker: Warning: Can't find file '/Game/SideScrollerBP/Sounds/Checkpoint/Checkpoint'
+[2019.11.13-03.19.27:411][  0]LoadErrors: Failed to load /Game/SideScrollerBP/Sounds/Checkpoint/Checkpoint_Cue.Checkpoint_Cue Referenced by Checkpoint_Cue_GEN_VARIABLE
+[2019.11.13-03.19.27:411][  0]LogLinker: Warning: Can't find file for asset '/Game/SideScrollerBP/Sounds/Checkpoint/Checkpoint' while loading ../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Sounds/Checkpoint/Checkpoint_Cue.uasset.
+[2019.11.13-03.19.27:411][  0]LoadErrors: Failed to load /Game/SideScrollerBP/Sounds/Checkpoint/Checkpoint_Cue.Checkpoint_Cue Referenced by Checkpoint_Cue_GEN_VARIABLE
+[2019.11.13-03.19.27:411][  0]LoadErrors: Error: /Game/SideScrollerBP/Sounds/Checkpoint/Checkpoint_Cue : Can't find file for asset. /Game/SideScrollerBP/Sounds/Checkpoint/Checkpoint
+[2019.11.13-03.19.27:944][  0]LogLinker: Warning: Can't find file '/Game/SideScrollerBP/Sounds/Checkpoint/Checkpoint'
+[2019.11.13-03.19.27:944][  0]LoadErrors: Failed to load /Game/SideScrollerBP/Sounds/Checkpoint/Checkpoint.Checkpoint Referenced by SoundNodeWavePlayer_0
+[2019.11.13-03.19.27:944][  0]LogLinker: Warning: Can't find file for asset '/Game/SideScrollerBP/Sounds/Checkpoint/Checkpoint' while loading NULL.
+[2019.11.13-03.19.27:944][  0]LoadErrors: Failed to load /Game/SideScrollerBP/Sounds/Checkpoint/Checkpoint.Checkpoint Referenced by SoundNodeWavePlayer_0
+[2019.11.13-03.19.27:952][  0]LogLinker: Warning: Can't find file '/Game/SideScrollerBP/Sounds/DeathEnemy/Death_Enemy'
+[2019.11.13-03.19.27:952][  0]LoadErrors: Failed to load /Game/SideScrollerBP/Sounds/DeathEnemy/Death_Enemy.Death_Enemy Referenced by SoundNodeWavePlayer_0
+[2019.11.13-03.19.27:952][  0]LogLinker: Warning: Can't find file for asset '/Game/SideScrollerBP/Sounds/DeathEnemy/Death_Enemy' while loading NULL.
+[2019.11.13-03.19.27:952][  0]LoadErrors: Failed to load /Game/SideScrollerBP/Sounds/DeathEnemy/Death_Enemy.Death_Enemy Referenced by SoundNodeWavePlayer_0
+[2019.11.13-03.19.28:107][  0]LogLinker: Warning: Can't find file '/Game/SideScrollerBP/Sounds/Checkpoint/Checkpoint'
+[2019.11.13-03.19.28:107][  0]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/SideScrollerBP/Sounds/Checkpoint/Checkpoint.Checkpoint'
+[2019.11.13-03.19.28:130][  0]LogLinker: Warning: Can't find file '/Game/SideScrollerBP/Sounds/DeathEnemy/Death_Enemy'
+[2019.11.13-03.19.28:130][  0]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/SideScrollerBP/Sounds/DeathEnemy/Death_Enemy.Death_Enemy'
+[2019.11.13-03.19.28:407][  0]LogAIModule: Creating AISystem for world Template
+[2019.11.13-03.19.28:446][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.11.13-03.19.28:470][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.11.13-03.19.28:549][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 78.377ms to complete.
+[2019.11.13-03.19.28:549][  0]LogFileHelpers: Loading map 'Template' took 1.319
+[2019.11.13-03.19.28:648][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.13-03.19.28:654][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.13-03.19.28:660][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.13-03.19.28:667][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.13-03.19.28:672][  0]LogCollectionManager: Loaded 0 collections in 0.001082 seconds
+[2019.11.13-03.19.28:713][  0]LogFileCache: Scanning file cache for directory 'C:/Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Saved/Collections/' took 0.01s
+[2019.11.13-03.19.28:714][  0]LogFileCache: Scanning file cache for directory 'C:/Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/Developers/s191273/Collections/' took 0.01s
+[2019.11.13-03.19.28:714][  0]LogFileCache: Scanning file cache for directory 'C:/Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/Collections/' took 0.01s
+[2019.11.13-03.19.28:714][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.11.13-03.19.28:722][  0]LogContentBrowser: Native class hierarchy populated in 0.0086 seconds. Added 2572 classes and 603 folders.
+[2019.11.13-03.19.28:727][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2019.11.13-03.19.28:756][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2019.11.13-03.19.28:762][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2019.11.13-03.19.28:774][  0]LogSlate: Took 0.000205 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.11.13-03.19.28:776][  0]LogSlate: Took 0.000140 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.11.13-03.19.28:781][  0]LogSlate: Took 0.000219 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.11.13-03.19.28:855][  0]LogRenderer: Reallocating scene render targets to support 1216x576 Format 10 NumSamples 1 (Frame:1).
+[2019.11.13-03.19.29:066][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2019.11.13-03.19.29:066][  0]LogLoad: (Engine Initialization) Total time: 7.92 seconds
+[2019.11.13-03.19.29:066][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.11.13-03.19.29:076][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.11.13-03.19.29:095][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.11.13-03.19.29:101][  0]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.13-03.19.29:139][  0]LogSlate: Took 0.000160 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.11.13-03.19.29:266][  1]LogAssetRegistry: Asset discovery search completed in 4.8068 seconds
+[2019.11.13-03.19.29:267][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.11.13-03.19.29:267][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000081 seconds (updated 0 objects)
+[2019.11.13-03.19.31:346][232]LogSlate: Window 'Message Log' being destroyed
+[2019.11.13-03.19.31:352][232]LogSlate: Window 'Message Log' being destroyed
+[2019.11.13-03.19.36:482][786]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.13-03.19.41:355][100]LogSlate: Took 0.000183 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.11.13-03.19.41:365][100]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Animations/CharAim_Anim.fbx)
+[2019.11.13-03.19.41:380][100]LogFbx: Loading FBX Scene from ../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Animations/CharAim_Anim.fbx
+[2019.11.13-03.19.41:404][100]LogFbx: FBX Scene Loaded Succesfully
+[2019.11.13-03.19.48:113][100]LogSlate: Window 'FBX Import Options' being destroyed
+[2019.11.13-03.19.48:135][100]LogFbx: SortedLinks :(0) COG_jnt
+[2019.11.13-03.19.48:135][100]LogFbx: SortedLinks :(1) spine01_jnt
+[2019.11.13-03.19.48:135][100]LogFbx: SortedLinks :(2) spine02_jnt
+[2019.11.13-03.19.48:135][100]LogFbx: SortedLinks :(3) spine03_jnt
+[2019.11.13-03.19.48:135][100]LogFbx: SortedLinks :(4) neck_jnt
+[2019.11.13-03.19.48:135][100]LogFbx: SortedLinks :(5) head_jnt
+[2019.11.13-03.19.48:135][100]LogFbx: SortedLinks :(6) head_jnt_END
+[2019.11.13-03.19.48:135][100]LogFbx: SortedLinks :(7) antenna_jnt
+[2019.11.13-03.19.48:135][100]LogFbx: SortedLinks :(8) antenna_jnt_END
+[2019.11.13-03.19.48:135][100]LogFbx: SortedLinks :(9) clavicle_l_jnt
+[2019.11.13-03.19.48:135][100]LogFbx: SortedLinks :(10) shoulder_l_jnt
+[2019.11.13-03.19.48:135][100]LogFbx: SortedLinks :(11) elbow_l_jnt
+[2019.11.13-03.19.48:135][100]LogFbx: SortedLinks :(12) wrist_l_jnt
+[2019.11.13-03.19.48:135][100]LogFbx: SortedLinks :(13) hand_l_jnt
+[2019.11.13-03.19.48:135][100]LogFbx: SortedLinks :(14) thumb_1_l_jnt
+[2019.11.13-03.19.48:135][100]LogFbx: SortedLinks :(15) thumb_2_l_jnt
+[2019.11.13-03.19.48:136][100]LogFbx: SortedLinks :(16) thumb_3_l_jnt_END
+[2019.11.13-03.19.48:136][100]LogFbx: SortedLinks :(17) index_1_l_jnt
+[2019.11.13-03.19.48:136][100]LogFbx: SortedLinks :(18) index_2_l_jnt
+[2019.11.13-03.19.48:136][100]LogFbx: SortedLinks :(19) index_3_l_jnt_END
+[2019.11.13-03.19.48:136][100]LogFbx: SortedLinks :(20) ring_1_l_jnt
+[2019.11.13-03.19.48:136][100]LogFbx: SortedLinks :(21) ring_2_l_jnt
+[2019.11.13-03.19.48:136][100]LogFbx: SortedLinks :(22) ring_3_l_jnt_END
+[2019.11.13-03.19.48:136][100]LogFbx: SortedLinks :(23) pinkie_1_l_jnt
+[2019.11.13-03.19.48:136][100]LogFbx: SortedLinks :(24) pinkie_2_l_jnt
+[2019.11.13-03.19.48:136][100]LogFbx: SortedLinks :(25) pinkie_3_l_jnt_END
+[2019.11.13-03.19.48:136][100]LogFbx: SortedLinks :(26) clavicle_r_jnt
+[2019.11.13-03.19.48:136][100]LogFbx: SortedLinks :(27) shoulder_r_jnt
+[2019.11.13-03.19.48:136][100]LogFbx: SortedLinks :(28) elbow_r_jnt
+[2019.11.13-03.19.48:136][100]LogFbx: SortedLinks :(29) wrist_r_jnt
+[2019.11.13-03.19.48:136][100]LogFbx: SortedLinks :(30) hand_r_jnt
+[2019.11.13-03.19.48:136][100]LogFbx: SortedLinks :(31) thumb_1_r_jnt
+[2019.11.13-03.19.48:136][100]LogFbx: SortedLinks :(32) thumb_2_r_jnt
+[2019.11.13-03.19.48:136][100]LogFbx: SortedLinks :(33) thumb_3_r_jnt_END
+[2019.11.13-03.19.48:136][100]LogFbx: SortedLinks :(34) index_1_r_jnt
+[2019.11.13-03.19.48:136][100]LogFbx: SortedLinks :(35) index_2_r_jnt
+[2019.11.13-03.19.48:136][100]LogFbx: SortedLinks :(36) index_3_r_jnt_END
+[2019.11.13-03.19.48:136][100]LogFbx: SortedLinks :(37) ring_1_r_jnt
+[2019.11.13-03.19.48:136][100]LogFbx: SortedLinks :(38) ring_2_r_jnt
+[2019.11.13-03.19.48:136][100]LogFbx: SortedLinks :(39) ring_3_r_jnt_END
+[2019.11.13-03.19.48:136][100]LogFbx: SortedLinks :(40) pinkie_1_r_jnt
+[2019.11.13-03.19.48:136][100]LogFbx: SortedLinks :(41) pinkie_2_r_jnt
+[2019.11.13-03.19.48:136][100]LogFbx: SortedLinks :(42) pinkie_3_r_jnt_END
+[2019.11.13-03.19.48:136][100]LogFbx: SortedLinks :(43) backpack_jnt_END
+[2019.11.13-03.19.48:136][100]LogFbx: SortedLinks :(44) pelvis_jnt
+[2019.11.13-03.19.48:136][100]LogFbx: SortedLinks :(45) hip_l_jnt
+[2019.11.13-03.19.48:136][100]LogFbx: SortedLinks :(46) knee_l_jnt
+[2019.11.13-03.19.48:136][100]LogFbx: SortedLinks :(47) ankle_l_jnt
+[2019.11.13-03.19.48:136][100]LogFbx: SortedLinks :(48) ball_l_jnt
+[2019.11.13-03.19.48:136][100]LogFbx: SortedLinks :(49) toe_l_jnt_END
+[2019.11.13-03.19.48:136][100]LogFbx: SortedLinks :(50) apron_l_jnt_END
+[2019.11.13-03.19.48:136][100]LogFbx: SortedLinks :(51) hip_r_jnt
+[2019.11.13-03.19.48:136][100]LogFbx: SortedLinks :(52) knee_r_jnt
+[2019.11.13-03.19.48:137][100]LogFbx: SortedLinks :(53) ankle_r_jnt
+[2019.11.13-03.19.48:137][100]LogFbx: SortedLinks :(54) ball_r_jnt
+[2019.11.13-03.19.48:137][100]LogFbx: SortedLinks :(55) toe_r_jnt_END
+[2019.11.13-03.19.48:137][100]LogFbx: SortedLinks :(56) apron_r_jnt_END
+[2019.11.13-03.19.48:138][100]LogFbx: Parsing AnimStack Take 001
+[2019.11.13-03.19.48:141][100]LogLinker: Can't find file '/Game/SideScrollerBP/Animations/CharAim_Anim'
+[2019.11.13-03.19.48:141][100]LogLinker: Can't find file '/Game/SideScrollerBP/Animations/CharAim_Anim'
+[2019.11.13-03.19.48:266][100]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/SideScrollerBP/Animations/CharAim_Anim.CharAim_Anim
+[2019.11.13-03.19.48:267][100]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.CharAim_Anim) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.11.13-03.19.48:277][100]FBXImport: Warning: Mesh [Geometry have no name] in the fbx file is not reference by any hierarchy node. 
+[2019.11.13-03.19.48:277][100]FBXImport: Warning: Mesh [Geometry have no name] in the fbx file is not reference by any hierarchy node. 
+[2019.11.13-03.19.48:277][100]FBXImport: Warning: Mesh [Geometry have no name] in the fbx file is not reference by any hierarchy node. 
+[2019.11.13-03.19.48:277][100]FBXImport: Warning: Mesh [Geometry have no name] in the fbx file is not reference by any hierarchy node. 
+[2019.11.13-03.19.48:289][100]LogFactory: FactoryCreateFile: AnimSequence with FbxFactory (0 0 ../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Animations/CharWalk_Anim.fbx)
+[2019.11.13-03.19.50:755][100]LogSlate: Window 'FBX Import Options' being destroyed
+[2019.11.13-03.19.50:800][100]LogFbx: Loading FBX Scene from ../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Animations/CharWalk_Anim.fbx
+[2019.11.13-03.19.50:824][100]LogFbx: FBX Scene Loaded Succesfully
+[2019.11.13-03.19.50:827][100]LogFbx: SortedLinks :(0) COG_jnt
+[2019.11.13-03.19.50:827][100]LogFbx: SortedLinks :(1) spine01_jnt
+[2019.11.13-03.19.50:827][100]LogFbx: SortedLinks :(2) spine02_jnt
+[2019.11.13-03.19.50:827][100]LogFbx: SortedLinks :(3) spine03_jnt
+[2019.11.13-03.19.50:827][100]LogFbx: SortedLinks :(4) neck_jnt
+[2019.11.13-03.19.50:827][100]LogFbx: SortedLinks :(5) head_jnt
+[2019.11.13-03.19.50:827][100]LogFbx: SortedLinks :(6) head_jnt_END
+[2019.11.13-03.19.50:827][100]LogFbx: SortedLinks :(7) antenna_jnt
+[2019.11.13-03.19.50:827][100]LogFbx: SortedLinks :(8) antenna_jnt_END
+[2019.11.13-03.19.50:827][100]LogFbx: SortedLinks :(9) clavicle_l_jnt
+[2019.11.13-03.19.50:827][100]LogFbx: SortedLinks :(10) shoulder_l_jnt
+[2019.11.13-03.19.50:827][100]LogFbx: SortedLinks :(11) elbow_l_jnt
+[2019.11.13-03.19.50:827][100]LogFbx: SortedLinks :(12) wrist_l_jnt
+[2019.11.13-03.19.50:827][100]LogFbx: SortedLinks :(13) hand_l_jnt
+[2019.11.13-03.19.50:827][100]LogFbx: SortedLinks :(14) thumb_1_l_jnt
+[2019.11.13-03.19.50:828][100]LogFbx: SortedLinks :(15) thumb_2_l_jnt
+[2019.11.13-03.19.50:828][100]LogFbx: SortedLinks :(16) thumb_3_l_jnt_END
+[2019.11.13-03.19.50:828][100]LogFbx: SortedLinks :(17) index_1_l_jnt
+[2019.11.13-03.19.50:828][100]LogFbx: SortedLinks :(18) index_2_l_jnt
+[2019.11.13-03.19.50:828][100]LogFbx: SortedLinks :(19) index_3_l_jnt_END
+[2019.11.13-03.19.50:828][100]LogFbx: SortedLinks :(20) ring_1_l_jnt
+[2019.11.13-03.19.50:828][100]LogFbx: SortedLinks :(21) ring_2_l_jnt
+[2019.11.13-03.19.50:828][100]LogFbx: SortedLinks :(22) ring_3_l_jnt_END
+[2019.11.13-03.19.50:828][100]LogFbx: SortedLinks :(23) pinkie_1_l_jnt
+[2019.11.13-03.19.50:828][100]LogFbx: SortedLinks :(24) pinkie_2_l_jnt
+[2019.11.13-03.19.50:828][100]LogFbx: SortedLinks :(25) pinkie_3_l_jnt_END
+[2019.11.13-03.19.50:828][100]LogFbx: SortedLinks :(26) clavicle_r_jnt
+[2019.11.13-03.19.50:828][100]LogFbx: SortedLinks :(27) shoulder_r_jnt
+[2019.11.13-03.19.50:828][100]LogFbx: SortedLinks :(28) elbow_r_jnt
+[2019.11.13-03.19.50:828][100]LogFbx: SortedLinks :(29) wrist_r_jnt
+[2019.11.13-03.19.50:828][100]LogFbx: SortedLinks :(30) hand_r_jnt
+[2019.11.13-03.19.50:828][100]LogFbx: SortedLinks :(31) thumb_1_r_jnt
+[2019.11.13-03.19.50:828][100]LogFbx: SortedLinks :(32) thumb_2_r_jnt
+[2019.11.13-03.19.50:828][100]LogFbx: SortedLinks :(33) thumb_3_r_jnt_END
+[2019.11.13-03.19.50:828][100]LogFbx: SortedLinks :(34) index_1_r_jnt
+[2019.11.13-03.19.50:828][100]LogFbx: SortedLinks :(35) index_2_r_jnt
+[2019.11.13-03.19.50:828][100]LogFbx: SortedLinks :(36) index_3_r_jnt_END
+[2019.11.13-03.19.50:828][100]LogFbx: SortedLinks :(37) ring_1_r_jnt
+[2019.11.13-03.19.50:828][100]LogFbx: SortedLinks :(38) ring_2_r_jnt
+[2019.11.13-03.19.50:828][100]LogFbx: SortedLinks :(39) ring_3_r_jnt_END
+[2019.11.13-03.19.50:828][100]LogFbx: SortedLinks :(40) pinkie_1_r_jnt
+[2019.11.13-03.19.50:828][100]LogFbx: SortedLinks :(41) pinkie_2_r_jnt
+[2019.11.13-03.19.50:829][100]LogFbx: SortedLinks :(42) pinkie_3_r_jnt_END
+[2019.11.13-03.19.50:829][100]LogFbx: SortedLinks :(43) backpack_jnt_END
+[2019.11.13-03.19.50:829][100]LogFbx: SortedLinks :(44) pelvis_jnt
+[2019.11.13-03.19.50:829][100]LogFbx: SortedLinks :(45) hip_l_jnt
+[2019.11.13-03.19.50:829][100]LogFbx: SortedLinks :(46) knee_l_jnt
+[2019.11.13-03.19.50:829][100]LogFbx: SortedLinks :(47) ankle_l_jnt
+[2019.11.13-03.19.50:829][100]LogFbx: SortedLinks :(48) ball_l_jnt
+[2019.11.13-03.19.50:829][100]LogFbx: SortedLinks :(49) toe_l_jnt_END
+[2019.11.13-03.19.50:829][100]LogFbx: SortedLinks :(50) apron_l_jnt_END
+[2019.11.13-03.19.50:829][100]LogFbx: SortedLinks :(51) hip_r_jnt
+[2019.11.13-03.19.50:829][100]LogFbx: SortedLinks :(52) knee_r_jnt
+[2019.11.13-03.19.50:829][100]LogFbx: SortedLinks :(53) ankle_r_jnt
+[2019.11.13-03.19.50:829][100]LogFbx: SortedLinks :(54) ball_r_jnt
+[2019.11.13-03.19.50:829][100]LogFbx: SortedLinks :(55) toe_r_jnt_END
+[2019.11.13-03.19.50:829][100]LogFbx: SortedLinks :(56) apron_r_jnt_END
+[2019.11.13-03.19.50:830][100]LogFbx: Parsing AnimStack Take 001
+[2019.11.13-03.19.50:832][100]LogLinker: Can't find file '/Game/SideScrollerBP/Animations/CharWalk_Anim'
+[2019.11.13-03.19.50:832][100]LogLinker: Can't find file '/Game/SideScrollerBP/Animations/CharWalk_Anim'
+[2019.11.13-03.19.50:981][100]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/SideScrollerBP/Animations/CharWalk_Anim.CharWalk_Anim
+[2019.11.13-03.19.50:981][100]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.CharWalk_Anim) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.11.13-03.19.50:990][100]FBXImport: Warning: Mesh [Geometry have no name] in the fbx file is not reference by any hierarchy node. 
+[2019.11.13-03.19.50:990][100]FBXImport: Warning: Mesh [Geometry have no name] in the fbx file is not reference by any hierarchy node. 
+[2019.11.13-03.19.50:990][100]FBXImport: Warning: Mesh [Geometry have no name] in the fbx file is not reference by any hierarchy node. 
+[2019.11.13-03.19.50:990][100]FBXImport: Warning: Mesh [Geometry have no name] in the fbx file is not reference by any hierarchy node. 
+[2019.11.13-03.19.50:994][100]LogFactory: FactoryCreateFile: AnimSequence with FbxFactory (0 0 ../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Animations/EnemyWalk_Anim.fbx)
+[2019.11.13-03.19.53:001][100]LogSlate: Window 'FBX Import Options' being destroyed
+[2019.11.13-03.19.53:030][100]LogFbx: Loading FBX Scene from ../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Animations/EnemyWalk_Anim.fbx
+[2019.11.13-03.19.53:041][100]LogFbx: FBX Scene Loaded Succesfully
+[2019.11.13-03.19.53:041][100]LogFbx: SortedLinks :(0) cog_jnt
+[2019.11.13-03.19.53:041][100]LogFbx: SortedLinks :(1) l_leg_jnt
+[2019.11.13-03.19.53:041][100]LogFbx: SortedLinks :(2) l_foot_END
+[2019.11.13-03.19.53:041][100]LogFbx: SortedLinks :(3) l_shoulder_jnt
+[2019.11.13-03.19.53:041][100]LogFbx: SortedLinks :(4) l_elbow_jnt
+[2019.11.13-03.19.53:041][100]LogFbx: SortedLinks :(5) l_wrist_jnt
+[2019.11.13-03.19.53:042][100]LogFbx: SortedLinks :(6) l_end_jnt
+[2019.11.13-03.19.53:042][100]LogFbx: SortedLinks :(7) neck_jnt
+[2019.11.13-03.19.53:042][100]LogFbx: SortedLinks :(8) headend_jnt
+[2019.11.13-03.19.53:042][100]LogFbx: SortedLinks :(9) r_shoulder_jnt
+[2019.11.13-03.19.53:042][100]LogFbx: SortedLinks :(10) r_elbow_jnt
+[2019.11.13-03.19.53:042][100]LogFbx: SortedLinks :(11) r_wrist_jnt
+[2019.11.13-03.19.53:042][100]LogFbx: SortedLinks :(12) r_end_jnt
+[2019.11.13-03.19.53:042][100]LogFbx: SortedLinks :(13) r_leg_jnt
+[2019.11.13-03.19.53:042][100]LogFbx: SortedLinks :(14) r_foot_END
+[2019.11.13-03.19.53:042][100]LogFbx: Parsing AnimStack Take 001
+[2019.11.13-03.19.53:043][100]LogLinker: Can't find file '/Game/SideScrollerBP/Animations/EnemyWalk_Anim'
+[2019.11.13-03.19.53:043][100]LogLinker: Can't find file '/Game/SideScrollerBP/Animations/EnemyWalk_Anim'
+[2019.11.13-03.19.53:055][100]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/SideScrollerBP/Animations/EnemyWalk_Anim.EnemyWalk_Anim
+[2019.11.13-03.19.53:056][100]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.EnemyWalk_Anim) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.11.13-03.19.53:058][100]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (neck_jnt:4) 
+Source Global Transform (0.168144,-0.017903,86.397705|89.744347,180.000000,90.000000|17.486000,17.486000,17.486000), 
+Converted Global Transform (-1.193184,-0.605707,-0.000000|0.000000,-152.393372,0.000000|1.000000,1.000000,1.000000)
+[2019.11.13-03.19.53:058][100]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (neck_jnt:4) 
+Source Global Transform (0.168144,-0.017903,86.417046|89.544571,124.220741,34.223843|17.486000,17.486000,17.486000), 
+Converted Global Transform (-1.193184,-0.605707,-0.000000|-0.376050,-152.393387,0.001680|1.000000,1.000000,1.000000)
+[2019.11.13-03.19.53:058][100]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (neck_jnt:4) 
+Source Global Transform (0.168144,-0.017903,86.468140|88.701843,101.358147,11.366766|17.486000,17.486000,17.486000), 
+Converted Global Transform (-1.193184,-0.605707,-0.000000|-1.272792,-152.393433,0.005683|1.000000,1.000000,1.000000)
+[2019.11.13-03.19.53:058][100]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (neck_jnt:4) 
+Source Global Transform (0.168144,-0.017903,86.540627|87.642990,96.221283,6.237077|17.486000,17.486000,17.486000), 
+Converted Global Transform (-1.193184,-0.605707,-0.000000|-2.343117,-152.393585,0.010464|1.000000,1.000000,1.000000)
+[2019.11.13-03.19.53:058][100]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (neck_jnt:4) 
+Source Global Transform (0.168144,-0.017903,86.624130|86.750069,94.502060,4.523724|17.486000,17.486000,17.486000), 
+Converted Global Transform (-1.193184,-0.605707,-0.000000|-3.239859,-152.393784,0.014481|1.000000,1.000000,1.000000)
+[2019.11.13-03.19.53:058][100]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (neck_jnt:4) 
+Source Global Transform (0.168144,-0.017903,86.708282|86.375061,94.032883,4.057040|17.486000,17.486000,17.486000), 
+Converted Global Transform (-1.193184,-0.605707,-0.000000|-3.615909,-152.393890,0.016160|1.000000,1.000000,1.000000)
+[2019.11.13-03.19.53:058][100]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (neck_jnt:4) 
+Source Global Transform (0.168144,-0.017903,86.782707|86.767944,94.527145,4.548695|17.486000,17.486000,17.486000), 
+Converted Global Transform (-1.193184,-0.605707,-0.000000|-3.221984,-152.393784,0.014397|1.000000,1.000000,1.000000)
+[2019.11.13-03.19.53:058][100]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (neck_jnt:4) 
+Source Global Transform (0.168144,-0.017903,86.837044|87.761818,96.553886,6.568717|17.486000,17.486000,17.486000), 
+Converted Global Transform (-1.193184,-0.605707,-0.000000|-2.223595,-152.393555,0.009933|1.000000,1.000000,1.000000)
+[2019.11.13-03.19.53:058][100]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (neck_jnt:4) 
+Source Global Transform (0.168144,-0.017903,86.860916|89.068527,105.931679,15.937492|17.486000,17.486000,17.486000), 
+Converted Global Transform (-1.193184,-0.605707,-0.000000|-0.895875,-152.393402,0.004003|1.000000,1.000000,1.000000)
+[2019.11.13-03.19.53:058][100]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (neck_jnt:4) 
+Source Global Transform (0.168144,-0.039069,86.861214|89.404213,-115.430794,154.566040|17.486000,17.486000,17.486000), 
+Converted Global Transform (-1.193184,-0.605707,-0.000000|0.486064,-152.393387,-0.002170|1.000000,1.000000,1.000000)
+[2019.11.13-03.19.53:058][100]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (neck_jnt:4) 
+Source Global Transform (0.168144,-0.106502,86.861008|88.118507,-97.808197,172.181320|17.486000,17.486000,17.486000), 
+Converted Global Transform (-1.193184,-0.605707,-0.000000|1.647114,-152.393478,-0.007353|1.000000,1.000000,1.000000)
+[2019.11.13-03.19.53:058][100]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (neck_jnt:4) 
+Source Global Transform (0.168144,-0.206009,86.860344|86.818375,-94.603279,175.379593|17.486000,17.486000,17.486000), 
+Converted Global Transform (-1.193184,-0.605707,0.000000|2.710676,-152.393646,-0.012111|1.000000,1.000000,1.000000)
+[2019.11.13-03.19.53:058][100]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (neck_jnt:4) 
+Source Global Transform (0.168144,-0.322922,86.859016|85.385765,-93.166748,176.809082|17.486000,17.486000,17.486000), 
+Converted Global Transform (-1.193183,-0.605707,0.000000|3.860197,-152.393951,-0.017256|1.000000,1.000000,1.000000)
+[2019.11.13-03.19.53:058][100]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (neck_jnt:4) 
+Source Global Transform (0.168144,-0.442576,86.857063|84.044037,-92.447632,177.521729|17.486000,17.486000,17.486000), 
+Converted Global Transform (-1.193184,-0.605707,0.000000|4.910516,-152.394333,-0.021981|1.000000,1.000000,1.000000)
+[2019.11.13-03.19.53:058][100]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (neck_jnt:4) 
+Source Global Transform (0.168144,-0.550308,86.854782|83.015022,-92.083115,177.881714|17.486000,17.486000,17.486000), 
+Converted Global Transform (-1.193184,-0.605707,0.000000|5.676474,-152.394638,-0.025427|1.000000,1.000000,1.000000)
+[2019.11.13-03.19.53:058][100]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (neck_jnt:4) 
+Source Global Transform (0.168144,-0.631462,86.852722|82.520096,-91.943886,178.019409|17.486000,17.486000,17.486000), 
+Converted Global Transform (-1.193183,-0.605707,0.000000|5.972946,-152.394760,-0.026759|1.000000,1.000000,1.000000)
+[2019.11.13-03.19.53:059][100]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (neck_jnt:4) 
+Source Global Transform (0.168144,-0.671387,86.851616|82.827057,-92.029541,177.936676|17.486000,17.486000,17.486000), 
+Converted Global Transform (-1.193184,-0.605707,0.000000|5.567984,-152.394592,-0.024934|1.000000,1.000000,1.000000)
+[2019.11.13-03.19.53:059][100]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (neck_jnt:4) 
+Source Global Transform (0.168144,-0.647641,86.852287|83.874573,-92.382500,177.590271|17.486000,17.486000,17.486000), 
+Converted Global Transform (-1.193184,-0.605707,0.000000|4.577811,-152.394196,-0.020480|1.000000,1.000000,1.000000)
+[2019.11.13-03.19.53:059][100]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (neck_jnt:4) 
+Source Global Transform (0.168144,-0.546168,86.854874|85.359772,-93.152641,176.827866|17.486000,17.486000,17.486000), 
+Converted Global Transform (-1.193183,-0.605707,-0.000000|3.339477,-152.393799,-0.014924|1.000000,1.000000,1.000000)
+[2019.11.13-03.19.53:059][100]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (neck_jnt:4) 
+Source Global Transform (0.168144,-0.389529,86.858009|86.889442,-94.712227,175.275177|17.486000,17.486000,17.486000), 
+Converted Global Transform (-1.193184,-0.605707,0.000000|2.190018,-152.393555,-0.009778|1.000000,1.000000,1.000000)
+[2019.11.13-03.19.53:059][100]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (neck_jnt:4) 
+Source Global Transform (0.168144,-0.201564,86.860382|88.066788,-97.599350,172.391800|17.486000,17.486000,17.486000), 
+Converted Global Transform (-1.193184,-0.605707,-0.000000|1.466503,-152.393463,-0.006552|1.000000,1.000000,1.000000)
+[2019.11.13-03.19.53:059][100]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (neck_jnt:4) 
+Source Global Transform (0.168144,-0.006132,86.861252|88.896057,-103.390968,166.601730|17.486000,17.486000,17.486000), 
+Converted Global Transform (-1.193184,-0.605707,0.000000|1.102905,-152.393417,-0.004929|1.000000,1.000000,1.000000)
+[2019.11.13-03.19.53:059][100]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (neck_jnt:4) 
+Source Global Transform (0.168144,0.172901,86.860611|89.577095,-127.187378,142.805832|17.486000,17.486000,17.486000), 
+Converted Global Transform (-1.193184,-0.605707,0.000000|0.804303,-152.393402,-0.003592|1.000000,1.000000,1.000000)
+[2019.11.13-03.19.53:059][100]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (neck_jnt:4) 
+Source Global Transform (0.168144,0.311673,86.859177|89.647781,136.503952,46.498493|17.486000,17.486000,17.486000), 
+Converted Global Transform (-1.193184,-0.605707,0.000000|0.564399,-152.393387,-0.002520|1.000000,1.000000,1.000000)
+[2019.11.13-03.19.53:059][100]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (neck_jnt:4) 
+Source Global Transform (0.168144,0.386335,86.858063|89.335587,112.647675,22.642826|17.486000,17.486000,17.486000), 
+Converted Global Transform (-1.193184,-0.605707,-0.000000|0.376897,-152.393387,-0.001677|1.000000,1.000000,1.000000)
+[2019.11.13-03.19.53:059][100]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (neck_jnt:4) 
+Source Global Transform (0.168144,0.378850,86.842285|89.220650,109.162445,19.158485|17.486000,17.486000,17.486000), 
+Converted Global Transform (-1.193184,-0.605707,0.000000|0.235512,-152.393372,-0.001051|1.000000,1.000000,1.000000)
+[2019.11.13-03.19.53:059][100]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (neck_jnt:4) 
+Source Global Transform (0.168144,0.309892,86.765495|89.283989,110.930740,20.928030|17.486000,17.486000,17.486000), 
+Converted Global Transform (-1.193184,-0.605707,0.000000|0.133940,-152.393372,-0.000598|1.000000,1.000000,1.000000)
+[2019.11.13-03.19.53:059][100]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (neck_jnt:4) 
+Source Global Transform (0.168144,0.208036,86.651703|89.449631,117.690956,27.689768|17.486000,17.486000,17.486000), 
+Converted Global Transform (-1.193184,-0.605707,-0.000000|0.065898,-152.393372,-0.000296|1.000000,1.000000,1.000000)
+[2019.11.13-03.19.53:059][100]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (neck_jnt:4) 
+Source Global Transform (0.168144,0.100983,86.531624|89.630959,133.874786,43.874611|17.486000,17.486000,17.486000), 
+Converted Global Transform (-1.193184,-0.605707,-0.000000|0.025087,-152.393372,-0.000109|1.000000,1.000000,1.000000)
+[2019.11.13-03.19.53:060][100]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (neck_jnt:4) 
+Source Global Transform (0.168144,0.016436,86.436447|89.732376,162.864441,72.864685|17.486000,17.486000,17.486000), 
+Converted Global Transform (-1.193184,-0.605707,-0.000000|0.005225,-152.393372,-0.000025|1.000000,1.000000,1.000000)
+[2019.11.13-03.19.53:060][100]LogFbx: Warning: IMPORT TRANSFORM ERROR : Bone (neck_jnt:4) 
+Source Global Transform (0.168144,-0.017903,86.397705|89.744347,180.000000,90.000000|17.486000,17.486000,17.486000), 
+Converted Global Transform (-1.193184,-0.605707,-0.000000|0.000000,-152.393372,0.000000|1.000000,1.000000,1.000000)
+[2019.11.13-03.19.53:065][100]FBXImport: Warning: Mesh [Geometry have no name] in the fbx file is not reference by any hierarchy node. 
+[2019.11.13-03.19.53:065][100]FBXImport: Warning: Mesh [Geometry have no name] in the fbx file is not reference by any hierarchy node. 
+[2019.11.13-03.19.53:065][100]FBXImport: Warning: Mesh [Geometry have no name] in the fbx file is not reference by any hierarchy node. 
+[2019.11.13-03.19.53:065][100]FBXImport: Warning: Mesh [Geometry have no name] in the fbx file is not reference by any hierarchy node. 
+[2019.11.13-03.19.53:065][100]FBXImport: Warning: The following bones exist in the imported animation, but not in the Skeleton asset SK_Character_Skeleton.  Any animation on these bones will not be imported: 
+
+ l_leg_jnt  
+l_foot_END  
+l_shoulder_jnt  
+l_elbow_jnt  
+l_wrist_jnt  
+l_end_jnt  
+headend_jnt  
+r_shoulder_jnt  
+r_elbow_jnt  
+r_wrist_jnt  
+r_end_jnt  
+r_leg_jnt  
+r_foot_END  
+ 
+[2019.11.13-03.19.53:066][100]FBXImport: Warning: Imported bone transform is different from original. Please check Output Log to see detail of error.  
+[2019.11.13-03.19.53:072][100]LogFactory: FactoryCreateFile: AnimSequence with FbxFactory (0 0 ../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Animations/ShootRecoil_Anim.fbx)
+[2019.11.13-03.19.55:090][100]LogSlate: Window 'FBX Import Options' being destroyed
+[2019.11.13-03.19.55:123][100]LogFbx: Loading FBX Scene from ../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Animations/ShootRecoil_Anim.fbx
+[2019.11.13-03.19.55:147][100]LogFbx: FBX Scene Loaded Succesfully
+[2019.11.13-03.19.55:150][100]LogFbx: SortedLinks :(0) COG_jnt
+[2019.11.13-03.19.55:150][100]LogFbx: SortedLinks :(1) spine01_jnt
+[2019.11.13-03.19.55:150][100]LogFbx: SortedLinks :(2) spine02_jnt
+[2019.11.13-03.19.55:150][100]LogFbx: SortedLinks :(3) spine03_jnt
+[2019.11.13-03.19.55:150][100]LogFbx: SortedLinks :(4) neck_jnt
+[2019.11.13-03.19.55:150][100]LogFbx: SortedLinks :(5) head_jnt
+[2019.11.13-03.19.55:150][100]LogFbx: SortedLinks :(6) head_jnt_END
+[2019.11.13-03.19.55:150][100]LogFbx: SortedLinks :(7) antenna_jnt
+[2019.11.13-03.19.55:150][100]LogFbx: SortedLinks :(8) antenna_jnt_END
+[2019.11.13-03.19.55:150][100]LogFbx: SortedLinks :(9) clavicle_l_jnt
+[2019.11.13-03.19.55:150][100]LogFbx: SortedLinks :(10) shoulder_l_jnt
+[2019.11.13-03.19.55:150][100]LogFbx: SortedLinks :(11) elbow_l_jnt
+[2019.11.13-03.19.55:150][100]LogFbx: SortedLinks :(12) wrist_l_jnt
+[2019.11.13-03.19.55:150][100]LogFbx: SortedLinks :(13) hand_l_jnt
+[2019.11.13-03.19.55:150][100]LogFbx: SortedLinks :(14) thumb_1_l_jnt
+[2019.11.13-03.19.55:150][100]LogFbx: SortedLinks :(15) thumb_2_l_jnt
+[2019.11.13-03.19.55:150][100]LogFbx: SortedLinks :(16) thumb_3_l_jnt_END
+[2019.11.13-03.19.55:150][100]LogFbx: SortedLinks :(17) index_1_l_jnt
+[2019.11.13-03.19.55:150][100]LogFbx: SortedLinks :(18) index_2_l_jnt
+[2019.11.13-03.19.55:150][100]LogFbx: SortedLinks :(19) index_3_l_jnt_END
+[2019.11.13-03.19.55:150][100]LogFbx: SortedLinks :(20) ring_1_l_jnt
+[2019.11.13-03.19.55:150][100]LogFbx: SortedLinks :(21) ring_2_l_jnt
+[2019.11.13-03.19.55:150][100]LogFbx: SortedLinks :(22) ring_3_l_jnt_END
+[2019.11.13-03.19.55:151][100]LogFbx: SortedLinks :(23) pinkie_1_l_jnt
+[2019.11.13-03.19.55:151][100]LogFbx: SortedLinks :(24) pinkie_2_l_jnt
+[2019.11.13-03.19.55:151][100]LogFbx: SortedLinks :(25) pinkie_3_l_jnt_END
+[2019.11.13-03.19.55:151][100]LogFbx: SortedLinks :(26) clavicle_r_jnt
+[2019.11.13-03.19.55:151][100]LogFbx: SortedLinks :(27) shoulder_r_jnt
+[2019.11.13-03.19.55:151][100]LogFbx: SortedLinks :(28) elbow_r_jnt
+[2019.11.13-03.19.55:151][100]LogFbx: SortedLinks :(29) wrist_r_jnt
+[2019.11.13-03.19.55:151][100]LogFbx: SortedLinks :(30) hand_r_jnt
+[2019.11.13-03.19.55:151][100]LogFbx: SortedLinks :(31) thumb_1_r_jnt
+[2019.11.13-03.19.55:151][100]LogFbx: SortedLinks :(32) thumb_2_r_jnt
+[2019.11.13-03.19.55:151][100]LogFbx: SortedLinks :(33) thumb_3_r_jnt_END
+[2019.11.13-03.19.55:151][100]LogFbx: SortedLinks :(34) index_1_r_jnt
+[2019.11.13-03.19.55:151][100]LogFbx: SortedLinks :(35) index_2_r_jnt
+[2019.11.13-03.19.55:151][100]LogFbx: SortedLinks :(36) index_3_r_jnt_END
+[2019.11.13-03.19.55:151][100]LogFbx: SortedLinks :(37) ring_1_r_jnt
+[2019.11.13-03.19.55:151][100]LogFbx: SortedLinks :(38) ring_2_r_jnt
+[2019.11.13-03.19.55:151][100]LogFbx: SortedLinks :(39) ring_3_r_jnt_END
+[2019.11.13-03.19.55:151][100]LogFbx: SortedLinks :(40) pinkie_1_r_jnt
+[2019.11.13-03.19.55:151][100]LogFbx: SortedLinks :(41) pinkie_2_r_jnt
+[2019.11.13-03.19.55:151][100]LogFbx: SortedLinks :(42) pinkie_3_r_jnt_END
+[2019.11.13-03.19.55:151][100]LogFbx: SortedLinks :(43) backpack_jnt_END
+[2019.11.13-03.19.55:151][100]LogFbx: SortedLinks :(44) pelvis_jnt
+[2019.11.13-03.19.55:152][100]LogFbx: SortedLinks :(45) hip_l_jnt
+[2019.11.13-03.19.55:152][100]LogFbx: SortedLinks :(46) knee_l_jnt
+[2019.11.13-03.19.55:152][100]LogFbx: SortedLinks :(47) ankle_l_jnt
+[2019.11.13-03.19.55:152][100]LogFbx: SortedLinks :(48) ball_l_jnt
+[2019.11.13-03.19.55:152][100]LogFbx: SortedLinks :(49) toe_l_jnt_END
+[2019.11.13-03.19.55:152][100]LogFbx: SortedLinks :(50) apron_l_jnt_END
+[2019.11.13-03.19.55:152][100]LogFbx: SortedLinks :(51) hip_r_jnt
+[2019.11.13-03.19.55:152][100]LogFbx: SortedLinks :(52) knee_r_jnt
+[2019.11.13-03.19.55:152][100]LogFbx: SortedLinks :(53) ankle_r_jnt
+[2019.11.13-03.19.55:152][100]LogFbx: SortedLinks :(54) ball_r_jnt
+[2019.11.13-03.19.55:152][100]LogFbx: SortedLinks :(55) toe_r_jnt_END
+[2019.11.13-03.19.55:152][100]LogFbx: SortedLinks :(56) apron_r_jnt_END
+[2019.11.13-03.19.55:153][100]LogFbx: Parsing AnimStack Take 001
+[2019.11.13-03.19.55:155][100]LogLinker: Can't find file '/Game/SideScrollerBP/Animations/ShootRecoil_Anim'
+[2019.11.13-03.19.55:155][100]LogLinker: Can't find file '/Game/SideScrollerBP/Animations/ShootRecoil_Anim'
+[2019.11.13-03.19.55:303][100]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/SideScrollerBP/Animations/ShootRecoil_Anim.ShootRecoil_Anim
+[2019.11.13-03.19.55:303][100]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.ShootRecoil_Anim) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.11.13-03.19.55:312][100]FBXImport: Warning: Mesh [Geometry have no name] in the fbx file is not reference by any hierarchy node. 
+[2019.11.13-03.19.55:312][100]FBXImport: Warning: Mesh [Geometry have no name] in the fbx file is not reference by any hierarchy node. 
+[2019.11.13-03.19.55:312][100]FBXImport: Warning: Mesh [Geometry have no name] in the fbx file is not reference by any hierarchy node. 
+[2019.11.13-03.19.55:312][100]FBXImport: Warning: Mesh [Geometry have no name] in the fbx file is not reference by any hierarchy node. 
+[2019.11.13-03.19.57:727][352]LogSlate: Window 'Message Log' being destroyed
+[2019.11.13-03.19.57:731][352]LogSlate: Window 'Message Log' being destroyed
+[2019.11.13-03.20.03:707][ 46]LogContentBrowser: Verbose: The majority of assets in the view are of type: Skeleton
+[2019.11.13-03.20.08:835][ 46]LogSlate: Window 'Create Animation Blueprint' being destroyed
+[2019.11.13-03.20.27:189][215]LogContentBrowser: Verbose: The majority of assets in the view are of type: Skeleton
+[2019.11.13-03.20.31:119][215]LogSlate: Window 'Create Animation Blueprint' being destroyed
+[2019.11.13-03.20.39:503][211]LogAssetEditorManager: Opening Asset editor for AnimBlueprint /Game/SideScrollerBP/Animations/AimAnim_BP.AimAnim_BP
+[2019.11.13-03.20.39:513][211]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2019.11.13-03.20.39:680][211]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_4:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.11.13-03.20.39:682][211]LogContentBrowser: Native class hierarchy updated for 'PinnedCommandList' in 0.0002 seconds. Added 1 classes and 0 folders.
+[2019.11.13-03.20.40:054][211]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 116 classes and 0 folders.
+[2019.11.13-03.20.40:660][211]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_4:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2019.11.13-03.20.40:876][211]LogSlate: Took 0.000162 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.11.13-03.20.40:933][211]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.0002 seconds. Added 1 classes and 0 folders.
+[2019.11.13-03.20.54:272][977]LogSlate: Window 'AimAnim_BP*' being destroyed
+[2019.11.13-03.21.32:479][661]LogAssetEditorManager: Opening Asset editor for AnimSequence /Game/SideScrollerBP/Animations/CharAim_Anim.CharAim_Anim
+[2019.11.13-03.21.32:487][661]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.11.13-03.21.32:509][661]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2019.11.13-03.21.32:811][661]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2019.11.13-03.21.55:720][947]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/SideScrollerBP/Animations/CharAim_Anim.CharAim_Anim
+[2019.11.13-03.21.55:723][947]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.AnimSequence_0) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.11.13-03.24.13:071][953]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/SideScrollerBP/Animations/CharAim_Anim.CharAim_Anim
+[2019.11.13-03.24.13:072][953]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.AnimSequence_1) using current/default (AnimCompress_BitwiseCompressOnly_1) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.11.13-03.24.37:053][512]LogSavePackage: Moving '../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Saved/AimAnim_BP65A2AC8B4F00BE3E9A64F1A376B446D8.tmp' to '../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Animations/AimAnim_BP.uasset'
+[2019.11.13-03.24.39:083][750]LogSavePackage: Moving '../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Saved/CharAim_AnimF06B8F0C4AD725004B982585D7790F33.tmp' to '../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Animations/CharAim_Anim.uasset'
+[2019.11.13-03.27.49:735][217]LogSlate: Window 'Save Content' being destroyed
+[2019.11.13-03.27.49:787][217]LogSavePackage: Moving '../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Saved/CharWalk_AnimD59D58274A2B273B66E0C6994F617DF7.tmp' to '../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Animations/CharWalk_Anim.uasset'
+[2019.11.13-03.27.49:828][217]LogSavePackage: Moving '../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Saved/EnemyWalk_AnimC985FC714B9D1627751A57B00309A1C3.tmp' to '../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Animations/EnemyWalk_Anim.uasset'
+[2019.11.13-03.27.49:872][217]LogSavePackage: Moving '../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Saved/RecoilAnim_BP34F9296D419156E653E736AF6B4BF362.tmp' to '../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Animations/RecoilAnim_BP.uasset'
+[2019.11.13-03.27.49:918][217]LogSavePackage: Moving '../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Saved/ShootRecoil_Anim4214618D423ECD847CF739A013603EC4.tmp' to '../../../../../../Users/s191273/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Animations/ShootRecoil_Anim.uasset'
+[2019.11.13-03.27.50:410][217]LogSlate: Window 'DeJaBrew_Prototyping - Unreal Editor' being destroyed
+[2019.11.13-03.27.50:410][217]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.11.13-03.27.50:600][218]Cmd: QUIT_EDITOR
+[2019.11.13-03.27.50:645][218]LogExit: Preparing to exit.
+[2019.11.13-03.27.51:327][218]LogExit: Editor shut down
+[2019.11.13-03.27.51:327][218]LogExit: Transaction tracking system shut down
+[2019.11.13-03.27.51:806][218]LogExit: Object subsystem successfully closed.
+[2019.11.13-03.27.51:827][218]LogShaderCompilers: Display: Shaders left to compile 0
+[2019.11.13-03.27.51:831][218]LogD3D11RHI: Shutdown
+[2019.11.13-03.27.51:831][218]LogD3D11RHI: CleanupD3DDevice
+[2019.11.13-03.27.51:835][218]LogD3D11RHI: ~FD3D11DynamicRHI
+[2019.11.13-03.27.51:849][218]LogModuleManager: Shutting down and abandoning module AnimationEditor (622)
+[2019.11.13-03.27.51:849][218]LogModuleManager: Shutting down and abandoning module ClothingSystemEditorInterface (620)
+[2019.11.13-03.27.51:849][218]LogModuleManager: Shutting down and abandoning module BlueprintGraph (618)
+[2019.11.13-03.27.51:849][218]LogModuleManager: Shutting down and abandoning module PinnedCommandList (616)
+[2019.11.13-03.27.51:849][218]LogModuleManager: Shutting down and abandoning module SkeletonEditor (614)
+[2019.11.13-03.27.51:849][218]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (612)
+[2019.11.13-03.27.51:849][218]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (610)
+[2019.11.13-03.27.51:849][218]LogModuleManager: Shutting down and abandoning module SceneOutliner (608)
+[2019.11.13-03.27.51:849][218]LogModuleManager: Shutting down and abandoning module AddContentDialog (606)
+[2019.11.13-03.27.51:849][218]LogModuleManager: Shutting down and abandoning module WidgetCarousel (605)
+[2019.11.13-03.27.51:849][218]LogModuleManager: Shutting down and abandoning module EditorWidgets (602)
+[2019.11.13-03.27.51:849][218]LogModuleManager: Shutting down and abandoning module CollectionManager (600)
+[2019.11.13-03.27.51:849][218]LogModuleManager: Shutting down and abandoning module StatsViewer (598)
+[2019.11.13-03.27.51:849][218]LogModuleManager: Shutting down and abandoning module FoliageEdit (596)
+[2019.11.13-03.27.51:849][218]LogModuleManager: Shutting down and abandoning module LandscapeEditor (594)
+[2019.11.13-03.27.51:850][218]LogModuleManager: Shutting down and abandoning module MeshPaintMode (592)
+[2019.11.13-03.27.51:850][218]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (590)
+[2019.11.13-03.27.51:850][218]LogModuleManager: Shutting down and abandoning module ActorPickerMode (588)
+[2019.11.13-03.27.51:850][218]LogModuleManager: Shutting down and abandoning module GeometryMode (586)
+[2019.11.13-03.27.51:850][218]LogModuleManager: Shutting down and abandoning module TextureAlignMode (584)
+[2019.11.13-03.27.51:850][218]LogModuleManager: Shutting down and abandoning module BspMode (582)
+[2019.11.13-03.27.51:850][218]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (580)
+[2019.11.13-03.27.51:850][218]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (578)
+[2019.11.13-03.27.51:850][218]LogModuleManager: Shutting down and abandoning module AutomationWorker (576)
+[2019.11.13-03.27.51:850][218]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (574)
+[2019.11.13-03.27.51:850][218]LogModuleManager: Shutting down and abandoning module SequenceRecorder (573)
+[2019.11.13-03.27.51:850][218]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (570)
+[2019.11.13-03.27.51:850][218]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (568)
+[2019.11.13-03.27.51:850][218]LogModuleManager: Shutting down and abandoning module PlacementMode (567)
+[2019.11.13-03.27.51:850][218]LogModuleManager: Shutting down and abandoning module MaterialEditor (566)
+[2019.11.13-03.27.51:850][218]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (562)
+[2019.11.13-03.27.51:850][218]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (560)
+[2019.11.13-03.27.51:850][218]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (558)
+[2019.11.13-03.27.51:850][218]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (556)
+[2019.11.13-03.27.51:850][218]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (554)
+[2019.11.13-03.27.51:850][218]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (552)
+[2019.11.13-03.27.51:850][218]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (550)
+[2019.11.13-03.27.51:850][218]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (548)
+[2019.11.13-03.27.51:850][218]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (546)
+[2019.11.13-03.27.51:850][218]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (544)
+[2019.11.13-03.27.51:850][218]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (542)
+[2019.11.13-03.27.51:850][218]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (540)
+[2019.11.13-03.27.51:850][218]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (538)
+[2019.11.13-03.27.51:850][218]LogModuleManager: Shutting down and abandoning module CharacterAI (536)
+[2019.11.13-03.27.51:850][218]LogModuleManager: Shutting down and abandoning module SmartSnapping (534)
+[2019.11.13-03.27.51:850][218]LogModuleManager: Shutting down and abandoning module SessionServices (532)
+[2019.11.13-03.27.51:850][218]LogModuleManager: Shutting down and abandoning module ViewportSnapping (530)
+[2019.11.13-03.27.51:850][218]LogModuleManager: Shutting down and abandoning module ViewportInteraction (528)
+[2019.11.13-03.27.51:850][218]LogModuleManager: Shutting down and abandoning module ClothPainter (526)
+[2019.11.13-03.27.51:850][218]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (525)
+[2019.11.13-03.27.51:850][218]LogModuleManager: Shutting down and abandoning module LogVisualizer (522)
+[2019.11.13-03.27.51:850][218]LogModuleManager: Shutting down and abandoning module IntroTutorials (520)
+[2019.11.13-03.27.51:850][218]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (519)
+[2019.11.13-03.27.51:850][218]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (516)
+[2019.11.13-03.27.51:850][218]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (514)
+[2019.11.13-03.27.51:850][218]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (512)
+[2019.11.13-03.27.51:850][218]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (510)
+[2019.11.13-03.27.51:850][218]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (509)
+[2019.11.13-03.27.52:225][218]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (506)
+[2019.11.13-03.27.52:225][218]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (504)
+[2019.11.13-03.27.52:225][218]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (502)
+[2019.11.13-03.27.52:225][218]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (500)
+[2019.11.13-03.27.52:225][218]LogModuleManager: Shutting down and abandoning module InputBindingEditor (498)
+[2019.11.13-03.27.52:225][218]LogModuleManager: Shutting down and abandoning module MergeActors (496)
+[2019.11.13-03.27.52:225][218]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (494)
+[2019.11.13-03.27.52:225][218]LogModuleManager: Shutting down and abandoning module LocalizationService (493)
+[2019.11.13-03.27.52:225][218]LogModuleManager: Shutting down and abandoning module HardwareTargeting (490)
+[2019.11.13-03.27.52:225][218]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (488)
+[2019.11.13-03.27.52:225][218]LogModuleManager: Shutting down and abandoning module UndoHistory (486)
+[2019.11.13-03.27.52:225][218]LogModuleManager: Shutting down and abandoning module XmlParser (484)
+[2019.11.13-03.27.52:225][218]LogModuleManager: Shutting down and abandoning module Blutility (482)
+[2019.11.13-03.27.52:225][218]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (480)
+[2019.11.13-03.27.52:225][218]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (479)
+[2019.11.13-03.27.52:225][218]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (476)
+[2019.11.13-03.27.52:225][218]LogModuleManager: Shutting down and abandoning module SettingsEditor (474)
+[2019.11.13-03.27.52:225][218]LogModuleManager: Shutting down and abandoning module ProjectLauncher (472)
+[2019.11.13-03.27.52:225][218]LogModuleManager: Shutting down and abandoning module SessionFrontend (470)
+[2019.11.13-03.27.52:225][218]LogModuleManager: Shutting down and abandoning module ProfilerClient (468)
+[2019.11.13-03.27.52:225][218]LogModuleManager: Shutting down and abandoning module DeviceManager (466)
+[2019.11.13-03.27.52:225][218]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (465)
+[2019.11.13-03.27.52:279][218]LogModuleManager: Shutting down and abandoning module AutomationController (462)
+[2019.11.13-03.27.52:279][218]LogModuleManager: Shutting down and abandoning module AutomationWindow (460)
+[2019.11.13-03.27.52:279][218]LogModuleManager: Shutting down and abandoning module Layers (458)
+[2019.11.13-03.27.52:279][218]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (456)
+[2019.11.13-03.27.52:279][218]LogModuleManager: Shutting down and abandoning module DetailCustomizations (454)
+[2019.11.13-03.27.52:279][218]LogModuleManager: Shutting down and abandoning module PackagesDialog (452)
+[2019.11.13-03.27.52:279][218]LogModuleManager: Shutting down and abandoning module Persona (450)
+[2019.11.13-03.27.52:279][218]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (449)
+[2019.11.13-03.27.52:279][218]LogModuleManager: Shutting down and abandoning module AnimGraph (447)
+[2019.11.13-03.27.52:279][218]LogModuleManager: Shutting down and abandoning module Kismet (444)
+[2019.11.13-03.27.52:283][218]LogModuleManager: Shutting down and abandoning module GraphEditor (442)
+[2019.11.13-03.27.52:283][218]LogModuleManager: Shutting down and abandoning module ClassViewer (440)
+[2019.11.13-03.27.52:284][218]LogModuleManager: Shutting down and abandoning module Toolbox (438)
+[2019.11.13-03.27.52:284][218]LogModuleManager: Shutting down and abandoning module ModuleUI (436)
+[2019.11.13-03.27.52:284][218]LogModuleManager: Shutting down and abandoning module MovieSceneTools (434)
+[2019.11.13-03.27.52:284][218]LogModuleManager: Shutting down and abandoning module OutputLog (432)
+[2019.11.13-03.27.52:284][218]LogModuleManager: Shutting down and abandoning module GammaUI (430)
+[2019.11.13-03.27.52:284][218]LogModuleManager: Shutting down and abandoning module Documentation (428)
+[2019.11.13-03.27.52:284][218]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (426)
+[2019.11.13-03.27.52:284][218]LogModuleManager: Shutting down and abandoning module MovieScene (424)
+[2019.11.13-03.27.52:284][218]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (422)
+[2019.11.13-03.27.52:284][218]LogModuleManager: Shutting down and abandoning module LauncherPlatform (420)
+[2019.11.13-03.27.52:284][218]LogModuleManager: Shutting down and abandoning module AnalyticsET (418)
+[2019.11.13-03.27.52:284][218]LogModuleManager: Shutting down and abandoning module PortalServices (416)
+[2019.11.13-03.27.52:284][218]LogModuleManager: Shutting down and abandoning module PortalRpc (414)
+[2019.11.13-03.27.52:284][218]LogModuleManager: Shutting down and abandoning module MessagingRpc (412)
+[2019.11.13-03.27.52:284][218]LogModuleManager: Shutting down and abandoning module AIModule (410)
+[2019.11.13-03.27.52:284][218]LogModuleManager: Shutting down and abandoning module GameplayDebugger (409)
+[2019.11.13-03.27.52:284][218]LogModuleManager: Shutting down and abandoning module AITestSuite (407)
+[2019.11.13-03.27.52:284][218]LogModuleManager: Shutting down and abandoning module NavigationSystem (405)
+[2019.11.13-03.27.52:284][218]LogModuleManager: Shutting down and abandoning module DesktopPlatform (402)
+[2019.11.13-03.27.52:284][218]LogModuleManager: Shutting down and abandoning module ProfilerService (400)
+[2019.11.13-03.27.52:331][218]LogModuleManager: Shutting down and abandoning module TaskGraph (398)
+[2019.11.13-03.27.52:332][218]LogModuleManager: Shutting down and abandoning module SteamVRController (396)
+[2019.11.13-03.27.52:332][218]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (394)
+[2019.11.13-03.27.52:332][218]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (392)
+[2019.11.13-03.27.52:332][218]LogModuleManager: Shutting down and abandoning module OculusInput (390)
+[2019.11.13-03.27.52:332][218]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (388)
+[2019.11.13-03.27.52:332][218]LogModuleManager: Shutting down and abandoning module EditableMesh (386)
+[2019.11.13-03.27.52:332][218]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (384)
+[2019.11.13-03.27.52:332][218]LogModuleManager: Shutting down and abandoning module CableComponent (382)
+[2019.11.13-03.27.52:332][218]LogModuleManager: Shutting down and abandoning module AudioCapture (380)
+[2019.11.13-03.27.52:332][218]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (378)
+[2019.11.13-03.27.52:332][218]LogModuleManager: Shutting down and abandoning module AndroidPermission (376)
+[2019.11.13-03.27.52:332][218]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (374)
+[2019.11.13-03.27.52:332][218]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (372)
+[2019.11.13-03.27.52:332][218]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (370)
+[2019.11.13-03.27.52:332][218]LogModuleManager: Shutting down and abandoning module MediaCompositing (368)
+[2019.11.13-03.27.52:332][218]LogModuleManager: Shutting down and abandoning module LinearTimecode (366)
+[2019.11.13-03.27.52:332][218]LogModuleManager: Shutting down and abandoning module ImgMedia (364)
+[2019.11.13-03.27.52:336][218]LogModuleManager: Shutting down and abandoning module HTML5Networking (362)
+[2019.11.13-03.27.52:336][218]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (360)
+[2019.11.13-03.27.52:336][218]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (358)
+[2019.11.13-03.27.52:336][218]LogModuleManager: Shutting down and abandoning module BackChannel (356)
+[2019.11.13-03.27.52:336][218]LogModuleManager: Shutting down and abandoning module AppleVision (354)
+[2019.11.13-03.27.52:336][218]LogModuleManager: Shutting down and abandoning module AppleImageUtils (352)
+[2019.11.13-03.27.52:336][218]LogModuleManager: Shutting down and abandoning module AlembicImporter (350)
+[2019.11.13-03.27.52:336][218]LogModuleManager: Shutting down and abandoning module AlembicLibrary (349)
+[2019.11.13-03.27.52:336][218]LogModuleManager: Shutting down and abandoning module GeometryCache (348)
+[2019.11.13-03.27.52:336][218]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (347)
+[2019.11.13-03.27.52:336][218]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (342)
+[2019.11.13-03.27.52:336][218]LogModuleManager: Shutting down and abandoning module DatasmithContent (340)
+[2019.11.13-03.27.52:337][218]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (338)
+[2019.11.13-03.27.52:337][218]LogModuleManager: Shutting down and abandoning module PluginBrowser (336)
+[2019.11.13-03.27.52:337][218]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (334)
+[2019.11.13-03.27.52:337][218]LogModuleManager: Shutting down and abandoning module PolygonModeling (332)
+[2019.11.13-03.27.52:337][218]LogModuleManager: Shutting down and abandoning module MeshEditor (330)
+[2019.11.13-03.27.52:337][218]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (328)
+[2019.11.13-03.27.52:337][218]LogModuleManager: Shutting down and abandoning module CryptoKeys (326)
+[2019.11.13-03.27.52:337][218]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (324)
+[2019.11.13-03.27.52:337][218]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (322)
+[2019.11.13-03.27.52:337][218]LogModuleManager: Shutting down and abandoning module UObjectPlugin (320)
+[2019.11.13-03.27.52:337][218]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (318)
+[2019.11.13-03.27.52:337][218]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (316)
+[2019.11.13-03.27.52:337][218]LogModuleManager: Shutting down and abandoning module GitSourceControl (314)
+[2019.11.13-03.27.52:337][218]LogModuleManager: Shutting down and abandoning module SourceControl (313)
+[2019.11.13-03.27.52:337][218]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (310)
+[2019.11.13-03.27.52:337][218]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (308)
+[2019.11.13-03.27.52:337][218]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (306)
+[2019.11.13-03.27.52:337][218]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (304)
+[2019.11.13-03.27.52:337][218]LogModuleManager: Shutting down and abandoning module Paper2DEditor (302)
+[2019.11.13-03.27.52:337][218]LogModuleManager: Shutting down and abandoning module MeshPaint (301)
+[2019.11.13-03.27.52:337][218]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (298)
+[2019.11.13-03.27.52:337][218]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (296)
+[2019.11.13-03.27.52:337][218]LogModuleManager: Shutting down and abandoning module PhysXVehicles (294)
+[2019.11.13-03.27.52:337][218]LogModuleManager: Shutting down and abandoning module OculusEditor (292)
+[2019.11.13-03.27.52:337][218]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (290)
+[2019.11.13-03.27.52:337][218]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (288)
+[2019.11.13-03.27.52:337][218]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (286)
+[2019.11.13-03.27.52:337][218]LogModuleManager: Shutting down and abandoning module ActorSequence (284)
+[2019.11.13-03.27.52:337][218]LogModuleManager: Shutting down and abandoning module UdpMessaging (282)
+[2019.11.13-03.27.52:438][218]LogModuleManager: Shutting down and abandoning module TcpMessaging (280)
+[2019.11.13-03.27.52:538][218]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (278)
+[2019.11.13-03.27.52:538][218]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (276)
+[2019.11.13-03.27.52:538][218]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (274)
+[2019.11.13-03.27.52:538][218]LogModuleManager: Shutting down and abandoning module FacialAnimation (272)
+[2019.11.13-03.27.52:538][218]LogModuleManager: Shutting down and abandoning module DataValidation (270)
+[2019.11.13-03.27.52:538][218]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (268)
+[2019.11.13-03.27.52:538][218]LogModuleManager: Shutting down and abandoning module LevelEditor (267)
+[2019.11.13-03.27.52:539][218]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (266)
+[2019.11.13-03.27.52:539][218]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (264)
+[2019.11.13-03.27.52:539][218]LogModuleManager: Shutting down and abandoning module MainFrame (262)
+[2019.11.13-03.27.52:539][218]LogModuleManager: Shutting down and abandoning module HotReload (261)
+[2019.11.13-03.27.52:539][218]LogModuleManager: Shutting down and abandoning module ContentBrowser (257)
+[2019.11.13-03.27.52:540][218]LogModuleManager: Shutting down and abandoning module TreeMap (255)
+[2019.11.13-03.27.52:540][218]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (252)
+[2019.11.13-03.27.52:540][218]LogModuleManager: Shutting down and abandoning module AISupportModule (250)
+[2019.11.13-03.27.52:540][218]LogModuleManager: Shutting down and abandoning module Paper2D (248)
+[2019.11.13-03.27.52:540][218]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (246)
+[2019.11.13-03.27.52:540][218]LogModuleManager: Shutting down and abandoning module WmfMedia (244)
+[2019.11.13-03.27.52:544][218]LogModuleManager: Shutting down and abandoning module Media (243)
+[2019.11.13-03.27.52:550][218]LogModuleManager: Shutting down and abandoning module PacketHandler (240)
+[2019.11.13-03.27.52:550][218]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (238)
+[2019.11.13-03.27.52:550][218]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (236)
+[2019.11.13-03.27.52:550][218]LogModuleManager: Shutting down and abandoning module MediaAssets (234)
+[2019.11.13-03.27.52:550][218]LogModuleManager: Shutting down and abandoning module Overlay (232)
+[2019.11.13-03.27.52:550][218]LogModuleManager: Shutting down and abandoning module OverlayEditor (231)
+[2019.11.13-03.27.52:550][218]LogModuleManager: Shutting down and abandoning module VREditor (228)
+[2019.11.13-03.27.52:550][218]LogModuleManager: Shutting down and abandoning module StringTableEditor (226)
+[2019.11.13-03.27.52:550][218]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (224)
+[2019.11.13-03.27.52:550][218]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (222)
+[2019.11.13-03.27.52:550][218]LogModuleManager: Shutting down and abandoning module FunctionalTesting (220)
+[2019.11.13-03.27.52:550][218]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (218)
+[2019.11.13-03.27.52:550][218]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (217)
+[2019.11.13-03.27.52:550][218]LogModuleManager: Shutting down and abandoning module UMG (214)
+[2019.11.13-03.27.52:550][218]LogModuleManager: Shutting down and abandoning module UMGEditor (213)
+[2019.11.13-03.27.52:550][218]LogModuleManager: Shutting down and abandoning module Sequencer (212)
+[2019.11.13-03.27.52:551][218]LogModuleManager: Shutting down and abandoning module MessageLog (209)
+[2019.11.13-03.27.52:551][218]LogModuleManager: Shutting down and abandoning module SlateReflector (204)
+[2019.11.13-03.27.52:551][218]LogModuleManager: Shutting down and abandoning module Slate (202)
+[2019.11.13-03.27.52:551][218]LogModuleManager: Shutting down and abandoning module EditorStyle (200)
+[2019.11.13-03.27.52:552][218]LogModuleManager: Shutting down and abandoning module MRMesh (198)
+[2019.11.13-03.27.52:552][218]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (196)
+[2019.11.13-03.27.52:552][218]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (194)
+[2019.11.13-03.27.52:552][218]LogModuleManager: Shutting down and abandoning module XAudio2 (192)
+[2019.11.13-03.27.52:552][218]LogModuleManager: Shutting down and abandoning module Networking (190)
+[2019.11.13-03.27.52:552][218]LogModuleManager: Shutting down and abandoning module Core (188)
+[2019.11.13-03.27.52:552][218]LogModuleManager: Shutting down and abandoning module LevelSequence (186)
+[2019.11.13-03.27.52:552][218]LogModuleManager: Shutting down and abandoning module KismetCompiler (184)
+[2019.11.13-03.27.52:552][218]LogModuleManager: Shutting down and abandoning module MeshUtilities (182)
+[2019.11.13-03.27.52:552][218]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (181)
+[2019.11.13-03.27.52:552][218]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (180)
+[2019.11.13-03.27.52:552][218]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (179)
+[2019.11.13-03.27.52:552][218]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (177)
+[2019.11.13-03.27.52:552][218]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (175)
+[2019.11.13-03.27.52:552][218]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (173)
+[2019.11.13-03.27.52:552][218]LogModuleManager: Shutting down and abandoning module MaterialBaking (169)
+[2019.11.13-03.27.52:552][218]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (165)
+[2019.11.13-03.27.52:552][218]LogModuleManager: Shutting down and abandoning module DerivedDataCache (162)
+[2019.11.13-03.27.52:600][218]LogDerivedDataCache: Shutdown
+[2019.11.13-03.27.52:601][218]LogModuleManager: Shutting down and abandoning module XGEController (160)
+[2019.11.13-03.27.52:601][218]LogXGEController: Cleaning working directory: C:/Users/s191273/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.11.13-03.27.52:601][218]LogModuleManager: Shutting down and abandoning module TargetPlatform (158)
+[2019.11.13-03.27.52:601][218]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (157)
+[2019.11.13-03.27.52:601][218]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (155)
+[2019.11.13-03.27.52:601][218]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (153)
+[2019.11.13-03.27.52:601][218]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (151)
+[2019.11.13-03.27.52:601][218]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (149)
+[2019.11.13-03.27.52:601][218]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (147)
+[2019.11.13-03.27.52:601][218]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (145)
+[2019.11.13-03.27.52:601][218]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (143)
+[2019.11.13-03.27.52:601][218]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (141)
+[2019.11.13-03.27.52:601][218]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (139)
+[2019.11.13-03.27.52:601][218]LogModuleManager: Shutting down and abandoning module ImageWrapper (138)
+[2019.11.13-03.27.52:601][218]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (135)
+[2019.11.13-03.27.52:601][218]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (133)
+[2019.11.13-03.27.52:601][218]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (131)
+[2019.11.13-03.27.52:601][218]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (129)
+[2019.11.13-03.27.52:601][218]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (127)
+[2019.11.13-03.27.52:601][218]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (125)
+[2019.11.13-03.27.52:601][218]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (123)
+[2019.11.13-03.27.52:601][218]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (121)
+[2019.11.13-03.27.52:601][218]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (119)
+[2019.11.13-03.27.52:601][218]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (117)
+[2019.11.13-03.27.52:602][218]LogModuleManager: Shutting down and abandoning module Messaging (115)
+[2019.11.13-03.27.52:602][218]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (113)
+[2019.11.13-03.27.52:602][218]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (111)
+[2019.11.13-03.27.52:602][218]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (109)
+[2019.11.13-03.27.52:607][218]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (107)
+[2019.11.13-03.27.52:607][218]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (105)
+[2019.11.13-03.27.52:607][218]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (103)
+[2019.11.13-03.27.52:607][218]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (101)
+[2019.11.13-03.27.52:607][218]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (99)
+[2019.11.13-03.27.52:607][218]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (97)
+[2019.11.13-03.27.52:607][218]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (95)
+[2019.11.13-03.27.52:607][218]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (93)
+[2019.11.13-03.27.52:607][218]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (91)
+[2019.11.13-03.27.52:607][218]LogModuleManager: Shutting down and abandoning module InputCore (88)
+[2019.11.13-03.27.52:607][218]LogModuleManager: Shutting down and abandoning module Settings (86)
+[2019.11.13-03.27.52:607][218]LogModuleManager: Shutting down and abandoning module PhysXCooking (84)
+[2019.11.13-03.27.52:607][218]LogModuleManager: Shutting down and abandoning module SteamVR (82)
+[2019.11.13-03.27.52:607][218]LogModuleManager: Shutting down and abandoning module OculusHMD (80)
+[2019.11.13-03.27.52:607][218]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (78)
+[2019.11.13-03.27.52:607][218]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (76)
+[2019.11.13-03.27.52:607][218]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2019.11.13-03.27.52:607][218]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (70)
+[2019.11.13-03.27.52:608][218]LogModuleManager: Shutting down and abandoning module XMPP (65)
+[2019.11.13-03.27.52:608][218]LogModuleManager: Shutting down and abandoning module WebSockets (64)
+[2019.11.13-03.27.52:611][218]LogModuleManager: Shutting down and abandoning module HTTP (61)
+[2019.11.13-03.27.52:611][218]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2019.11.13-03.27.52:611][218]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BE46A5CE1-48D5-A62E-6D5A-6C96E41A511A%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.20.3-4369336%2B%2B%2BUE4%2BRelease-4.20&UserID=ded914804a13d72480500ca0e5f35a68%7C%7C8477ab9a-818f-47f2-b5e7-b7f2564a0fd7&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2019.11.13-03.27.52:623][218]LogModuleManager: Shutting down and abandoning module SSL (60)
+[2019.11.13-03.27.52:624][218]LogModuleManager: Shutting down and abandoning module MagicLeapEmulator (56)
+[2019.11.13-03.27.52:624][218]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (54)
+[2019.11.13-03.27.52:624][218]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (52)
+[2019.11.13-03.27.52:624][218]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (50)
+[2019.11.13-03.27.52:624][218]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (48)
+[2019.11.13-03.27.52:624][218]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (46)
+[2019.11.13-03.27.52:624][218]LogModuleManager: Shutting down and abandoning module MagicLeapGestures (44)
+[2019.11.13-03.27.52:624][218]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (42)
+[2019.11.13-03.27.52:624][218]LogModuleManager: Shutting down and abandoning module MagicLeapController (40)
+[2019.11.13-03.27.52:624][218]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2019.11.13-03.27.52:624][218]LogModuleManager: Shutting down and abandoning module MagicLeap (38)
+[2019.11.13-03.27.52:624][218]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2019.11.13-03.27.52:624][218]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2019.11.13-03.27.52:624][218]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2019.11.13-03.27.52:624][218]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2019.11.13-03.27.52:624][218]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2019.11.13-03.27.52:624][218]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2019.11.13-03.27.52:624][218]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2019.11.13-03.27.52:625][218]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2019.11.13-03.27.52:625][218]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2019.11.13-03.27.52:625][218]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2019.11.13-03.27.52:625][218]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2019.11.13-03.27.52:625][218]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2019.11.13-03.27.52:625][218]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2019.11.13-03.27.52:625][218]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2019.11.13-03.27.52:625][218]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2019.11.13-03.27.52:625][218]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2019.11.13-03.27.52:625][218]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2019.11.13-03.27.52:625][218]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2019.11.13-03.27.52:631][218]LogExit: Exiting.
+[2019.11.13-03.27.52:643][218]Log file closed, 11/13/19 14:27:52
