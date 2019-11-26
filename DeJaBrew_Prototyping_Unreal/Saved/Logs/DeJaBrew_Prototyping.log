@@ -2258,3 +2258,45 @@ LogInit: Object subsystem initialized
 [2019.11.26-01.17.25:521][ 62]OBJ SavePackage: Finished generating thumbnails for package [/Game/SideScrollerBP/Textures/arrow3/arrow3_BC]
 [2019.11.26-01.17.25:549][ 62]LogSavePackage: Moving '../../../../../../Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Saved/arrow3_BC_Auto69F2730134D1D785E4D22308B7104D1A9.tmp' to '../../../../../../Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Saved/Autosaves/Game/SideScrollerBP/Textures/arrow3/arrow3_BC_Auto6.uasset'
 [2019.11.26-01.17.25:551][ 62]LogFileHelpers: Auto-saving content packages took 0.332
+[2019.11.26-01.19.50:281][601]LogSavePackage: Moving '../../../../../../Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Saved/Level2_ArtBF3CC71B4AB19740CB4630B11089CD5E.tmp' to '../../../../../../Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Maps/Art/Decor/Level2_Art.umap'
+[2019.11.26-01.50.31:247][991]LogSavePackage: Moving '../../../../../../Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Saved/Level2_ArtC74F9955435238237E6FDA8E96621EBD.tmp' to '../../../../../../Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Maps/Art/Decor/Level2_Art.umap'
+[2019.11.26-01.50.44:432][ 10]LogSavePackage: Moving '../../../../../../Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Saved/Level2_ArtB40BB74549DBA1BDF25965871C4CB07B.tmp' to '../../../../../../Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Maps/Art/Decor/Level2_Art.umap'
+[2019.11.26-01.50.51:824][610]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.26-01.50.53:837][614]LogSavePackage: Moving '../../../../../../Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Saved/Level2_Art7C0A127D4FD781D52FEB11B345C73E3A.tmp' to '../../../../../../Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Maps/Art/Decor/Level2_Art.umap'
+[2019.11.26-01.50.57:876][627]LogRenderer: Reallocating scene render targets to support 1312x604 Format 10 NumSamples 1 (Frame:740116).
+[2019.11.26-03.35.06:629][940]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.26-03.35.06:721][948]LogTemp: Repeating last play command: Selected Viewport
+[2019.11.26-03.35.06:743][948]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/Art/Decor/Level2_Art.Level2_Art:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Art/Decor/Level2_Art.Level2_Art:PersistentLevel.Level2_Art' with GeneratedClass '/Game/SideScrollerBP/Maps/Art/Decor/Level2_Art.Level2_Art_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Art/Decor/Level2_Art.Level2_Art:PersistentLevel.Level2_Art'
+[2019.11.26-03.35.06:743][948]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.26-03.35.06:743][948]PIE: New page: PIE session: Level2_Art (Nov 27, 2019, 1:35:06 AM)
+[2019.11.26-03.35.06:743][948]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/Art/Decor/UEDPIE_0_Level2_Art
+[2019.11.26-03.35.06:857][948]LogPlayLevel: PIE: StaticDuplicateObject took: (0.113317s)
+[2019.11.26-03.35.06:858][948]LogAIModule: Creating AISystem for world Level2_Art
+[2019.11.26-03.35.06:858][948]LogPlayLevel: PIE: World Init took: (0.000991s)
+[2019.11.26-03.35.06:858][948]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/Art/Decor/Level2_Art.Level2_Art to /Game/SideScrollerBP/Maps/Art/Decor/UEDPIE_0_Level2_Art.Level2_Art (0.114755s)
+[2019.11.26-03.35.06:886][948]LogInit: XAudio2 using 'Realtek Digital Output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.11.26-03.35.06:943][948]LogInit: FAudioDevice initialized.
+[2019.11.26-03.35.06:979][948]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2019.11.26-03.35.07:022][948]LogWorld: Bringing World /Game/SideScrollerBP/Maps/Art/Decor/UEDPIE_0_Level2_Art.Level2_Art up for play (max tick rate 0) at 2019.11.26-14.35.07
+[2019.11.26-03.35.07:033][948]LogWorld: Bringing up level for play took: 0.052943
+[2019.11.26-03.35.07:056][948]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.26-03.35.07:061][948]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.26-03.35.07:065][948]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.26-03.35.07:069][948]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.26-03.35.07:073][948]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.26-03.35.07:078][948]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.26-03.35.07:082][948]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.26-03.35.07:083][948]PIE: Play in editor start time for /Game/SideScrollerBP/Maps/Art/Decor/UEDPIE_0_Level2_Art 0.346
+[2019.11.26-03.35.07:083][948]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/Art/Decor/Level2_Art.Level2_Art:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Art/Decor/Level2_Art.Level2_Art:PersistentLevel.Level2_Art' with GeneratedClass '/Game/SideScrollerBP/Maps/Art/Decor/Level2_Art.Level2_Art_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Art/Decor/Level2_Art.Level2_Art:PersistentLevel.Level2_Art'
+[2019.11.26-03.35.07:142][949]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.089101 > MaxSimulationTimeStep (0.050) for 'Enemy_BP2', movement 'Walking'
+[2019.11.26-03.35.07:142][949]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.088370 > MaxSimulationTimeStep (0.050) for 'Enemy_BP_4', movement 'Walking'
+[2019.11.26-03.35.29:846][659]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.26-03.35.29:846][659]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.26-03.35.38:609][710]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/Art/Decor/Level2_Art.Level2_Art:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Art/Decor/Level2_Art.Level2_Art:PersistentLevel.Level2_Art' with GeneratedClass '/Game/SideScrollerBP/Maps/Art/Decor/Level2_Art.Level2_Art_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Art/Decor/Level2_Art.Level2_Art:PersistentLevel.Level2_Art'
+[2019.11.26-03.35.38:609][710]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.26-03.35.38:659][710]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.26-03.35.38:660][710]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/Art/Decor/Level2_Art.Level2_Art:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/Art/Decor/Level2_Art.Level2_Art:PersistentLevel.Level2_Art' with GeneratedClass '/Game/SideScrollerBP/Maps/Art/Decor/Level2_Art.Level2_Art_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/Art/Decor/Level2_Art.Level2_Art:PersistentLevel.Level2_Art'
+[2019.11.26-03.35.38:692][710]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.26-03.35.38:724][711]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2019.11.26-03.36.24:270][429]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.26-03.36.26:308][434]LogSavePackage: Moving '../../../../../../Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Saved/Level2_Art1AAC65BB47EFCCC663E27E8D36FB39CA.tmp' to '../../../../../../Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Maps/Art/Decor/Level2_Art.umap'
