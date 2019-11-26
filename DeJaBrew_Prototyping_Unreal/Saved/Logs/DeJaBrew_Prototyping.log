@@ -2228,3 +2228,33 @@ LogInit: Object subsystem initialized
 [2019.11.26-01.13.19:488][374]AssetReimport: Attempting to delete ThornsV2_Base (its source file has been removed).
 [2019.11.26-01.13.20:728][499]LogSlate: Window 'Message Log' being destroyed
 [2019.11.26-01.13.20:739][499]LogSlate: Window 'Message Log' being destroyed
+[2019.11.26-01.17.25:217][ 62]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/SideScrollerBP/Maps/Art/Decor/Level2_Art' took 0.023
+[2019.11.26-01.17.25:219][ 62]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/SideScrollerBP/Textures/arrow3/arrow3_BC1] ([1] browsable assets)...
+[2019.11.26-01.17.25:226][ 62]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/SideScrollerBP/Textures/arrow3/arrow3_BC1.arrow3_BC1]
+[2019.11.26-01.17.25:226][ 62]OBJ SavePackage: Finished generating thumbnails for package [/Game/SideScrollerBP/Textures/arrow3/arrow3_BC1]
+[2019.11.26-01.17.25:253][ 62]LogSavePackage: Moving '../../../../../../Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Saved/arrow3_BC1_Auto64AF2BDF24294F9EB1A3EBAB78A1E9B12.tmp' to '../../../../../../Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Saved/Autosaves/Game/SideScrollerBP/Textures/arrow3/arrow3_BC1_Auto6.uasset'
+[2019.11.26-01.17.25:254][ 62]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/SideScrollerBP/Blueprints/Sign_BP] ([1] browsable assets)...
+[2019.11.26-01.17.25:306][ 62]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/SideScrollerBP/Blueprints/Sign_BP.Sign_BP]
+[2019.11.26-01.17.25:306][ 62]OBJ SavePackage: Finished generating thumbnails for package [/Game/SideScrollerBP/Blueprints/Sign_BP]
+[2019.11.26-01.17.25:336][ 62]LogSavePackage: Moving '../../../../../../Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Saved/Sign_BP_Auto6F1E70DCB48B6ABD37A0E348EFDD7857C.tmp' to '../../../../../../Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Saved/Autosaves/Game/SideScrollerBP/Blueprints/Sign_BP_Auto6.uasset'
+[2019.11.26-01.17.25:338][ 62]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/SideScrollerBP/Textures/arrow3/arrow3_BC2] ([1] browsable assets)...
+[2019.11.26-01.17.25:345][ 62]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/SideScrollerBP/Textures/arrow3/arrow3_BC2.arrow3_BC2]
+[2019.11.26-01.17.25:345][ 62]OBJ SavePackage: Finished generating thumbnails for package [/Game/SideScrollerBP/Textures/arrow3/arrow3_BC2]
+[2019.11.26-01.17.25:374][ 62]LogSavePackage: Moving '../../../../../../Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Saved/arrow3_BC2_Auto69FCA10F04207B23E4FBCDC91B498A1DB.tmp' to '../../../../../../Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Saved/Autosaves/Game/SideScrollerBP/Textures/arrow3/arrow3_BC2_Auto6.uasset'
+[2019.11.26-01.17.25:376][ 62]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/SideScrollerBP/Textures/arrow3/arrow3_N] ([1] browsable assets)...
+[2019.11.26-01.17.25:384][ 62]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/SideScrollerBP/Textures/arrow3/arrow3_N.arrow3_N]
+[2019.11.26-01.17.25:384][ 62]OBJ SavePackage: Finished generating thumbnails for package [/Game/SideScrollerBP/Textures/arrow3/arrow3_N]
+[2019.11.26-01.17.25:414][ 62]LogSavePackage: Moving '../../../../../../Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Saved/arrow3_N_Auto6887A330A4AC152DF138955AB1419AE00.tmp' to '../../../../../../Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Saved/Autosaves/Game/SideScrollerBP/Textures/arrow3/arrow3_N_Auto6.uasset'
+[2019.11.26-01.17.25:417][ 62]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/SideScrollerBP/Textures/arrow3/arrow3_ORM] ([1] browsable assets)...
+[2019.11.26-01.17.25:426][ 62]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/SideScrollerBP/Textures/arrow3/arrow3_ORM.arrow3_ORM]
+[2019.11.26-01.17.25:426][ 62]OBJ SavePackage: Finished generating thumbnails for package [/Game/SideScrollerBP/Textures/arrow3/arrow3_ORM]
+[2019.11.26-01.17.25:454][ 62]LogSavePackage: Moving '../../../../../../Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Saved/arrow3_ORM_Auto641936C304AEF87D5E1154B92786130FF.tmp' to '../../../../../../Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Saved/Autosaves/Game/SideScrollerBP/Textures/arrow3/arrow3_ORM_Auto6.uasset'
+[2019.11.26-01.17.25:456][ 62]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/SideScrollerBP/Assets/Arrow3] ([1] browsable assets)...
+[2019.11.26-01.17.25:488][ 62]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/SideScrollerBP/Assets/Arrow3.Arrow3]
+[2019.11.26-01.17.25:488][ 62]OBJ SavePackage: Finished generating thumbnails for package [/Game/SideScrollerBP/Assets/Arrow3]
+[2019.11.26-01.17.25:511][ 62]LogSavePackage: Moving '../../../../../../Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Saved/Arrow3_Auto67094C2C741E8EFD19CFCD5A4C54BA225.tmp' to '../../../../../../Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Saved/Autosaves/Game/SideScrollerBP/Assets/Arrow3_Auto6.uasset'
+[2019.11.26-01.17.25:513][ 62]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/SideScrollerBP/Textures/arrow3/arrow3_BC] ([1] browsable assets)...
+[2019.11.26-01.17.25:521][ 62]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/SideScrollerBP/Textures/arrow3/arrow3_BC.arrow3_BC]
+[2019.11.26-01.17.25:521][ 62]OBJ SavePackage: Finished generating thumbnails for package [/Game/SideScrollerBP/Textures/arrow3/arrow3_BC]
+[2019.11.26-01.17.25:549][ 62]LogSavePackage: Moving '../../../../../../Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Saved/arrow3_BC_Auto69F2730134D1D785E4D22308B7104D1A9.tmp' to '../../../../../../Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Saved/Autosaves/Game/SideScrollerBP/Textures/arrow3/arrow3_BC_Auto6.uasset'
+[2019.11.26-01.17.25:551][ 62]LogFileHelpers: Auto-saving content packages took 0.332
