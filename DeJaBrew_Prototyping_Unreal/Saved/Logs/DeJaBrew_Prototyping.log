@@ -1903,3 +1903,328 @@ LogInit: Object subsystem initialized
 [2019.11.26-01.07.13:963][802]LogSlate: FSceneViewport::OnFocusLost() reason 0
 [2019.11.26-01.07.15:895][810]LogSavePackage: Moving '../../../../../../Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Saved/Level2_ArtF87025334A232D3FB6346DBB2D8BD478.tmp' to '../../../../../../Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Maps/Art/Decor/Level2_Art.umap'
 [2019.11.26-01.09.43:929][221]LogSlate: Window 'Source Control Login' being destroyed
+[2019.11.26-01.11.53:411][ 39]AssetReimport: New page: Outstanding source content changes 11:11:53 PM
+[2019.11.26-01.11.53:436][ 39]LogEditorFactories: Performing atomic reimport of [C:/Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Assets/arrow3.fbx]
+[2019.11.26-01.11.53:459][ 39]LogFbx: Loading FBX Scene from C:/Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Assets/arrow3.fbx
+[2019.11.26-01.11.53:469][ 39]LogFbx: FBX Scene Loaded Succesfully
+[2019.11.26-01.11.53:482][ 39]LogStaticMesh: Building static mesh Arrow3...
+[2019.11.26-01.11.53:486][ 39]LogStaticMesh: Built static mesh [0.00s] /Game/SideScrollerBP/Assets/Arrow3.Arrow3
+[2019.11.26-01.11.53:492][ 39]LogEditorFactories: -- imported successfully
+[2019.11.26-01.11.53:521][ 40]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Assets/npcLP.fbx)
+[2019.11.26-01.11.53:529][ 40]LogFbx: Loading FBX Scene from C:/Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Assets/npcLP.fbx
+[2019.11.26-01.11.53:538][ 40]LogFbx: FBX Scene Loaded Succesfully
+[2019.11.26-01.11.59:268][ 40]LogSlate: Window 'FBX Import Options' being destroyed
+[2019.11.26-01.11.59:707][ 40]LogStaticMesh: Building static mesh npcLP...
+[2019.11.26-01.11.59:824][ 40]LogStaticMesh: Built static mesh [0.12s] /Game/SideScrollerBP/Assets/npcLP.npcLP
+[2019.11.26-01.11.59:920][ 41]LogEditorFactories: Performing atomic reimport of [C:/Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Textures/arrow3/arrow3_BC.png]
+[2019.11.26-01.11.59:926][ 41]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Textures/arrow3/arrow3_BC.png)
+[2019.11.26-01.12.00:731][ 41]LogEditorFactories: -- imported successfully
+[2019.11.26-01.12.01:703][ 42]LogEditorFactories: Performing atomic reimport of [C:/Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Textures/arrow3/arrow3_BC1.png]
+[2019.11.26-01.12.01:709][ 42]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Textures/arrow3/arrow3_BC1.png)
+[2019.11.26-01.12.02:564][ 42]LogEditorFactories: -- imported successfully
+[2019.11.26-01.12.02:616][ 43]LogEditorFactories: Performing atomic reimport of [C:/Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Textures/arrow3/arrow3_BC2.png]
+[2019.11.26-01.12.02:623][ 43]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Textures/arrow3/arrow3_BC2.png)
+[2019.11.26-01.12.03:428][ 43]LogEditorFactories: -- imported successfully
+[2019.11.26-01.12.03:477][ 44]LogEditorFactories: Performing atomic reimport of [C:/Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Textures/arrow3/arrow3_N.png]
+[2019.11.26-01.12.03:489][ 44]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Textures/arrow3/arrow3_N.png)
+[2019.11.26-01.12.03:888][ 44]LogEditorFactories: -- imported successfully
+[2019.11.26-01.12.03:939][ 45]LogEditorFactories: Performing atomic reimport of [C:/Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Textures/arrow3/arrow3_ORM.png]
+[2019.11.26-01.12.03:942][ 45]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Textures/arrow3/arrow3_ORM.png)
+[2019.11.26-01.12.04:566][ 45]LogEditorFactories: -- imported successfully
+[2019.11.26-01.12.04:631][ 46]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Textures/NPC/npc_asian_Base.tga)
+[2019.11.26-01.12.04:967][ 47]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Textures/NPC/npc_asian_Norm.tga)
+[2019.11.26-01.12.05:294][ 48]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Textures/NPC/npc_asian_Roug.tga)
+[2019.11.26-01.12.05:627][ 49]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Textures/NPC/npc_black_Base.tga)
+[2019.11.26-01.12.05:963][ 50]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Textures/NPC/npc_white_Base.tga)
+[2019.11.26-01.12.06:278][ 51]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Textures/sign2/Sign_Base.png)
+[2019.11.26-01.12.07:620][ 52]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Textures/ThornsV2/Thorns_Base.png)
+[2019.11.26-01.12.07:942][ 53]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Assets/NPS_botFlat/NPS_bot6.fbx)
+[2019.11.26-01.12.07:950][ 53]LogFbx: Loading FBX Scene from C:/Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Assets/NPS_botFlat/NPS_bot6.fbx
+[2019.11.26-01.12.07:956][ 53]LogFbx: FBX Scene Loaded Succesfully
+[2019.11.26-01.12.09:717][ 53]LogSlate: Window 'FBX Import Options' being destroyed
+[2019.11.26-01.12.09:760][ 53]LogStaticMesh: Building static mesh NPS_bot6...
+[2019.11.26-01.12.09:770][ 53]LogStaticMesh: Built static mesh [0.01s] /Game/SideScrollerBP/Assets/NPS_botFlat/NPS_bot6.NPS_bot6
+[2019.11.26-01.12.09:825][ 54]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Assets/NPS_botFlat/NPS_bot5.fbx)
+[2019.11.26-01.12.09:832][ 54]LogFbx: Loading FBX Scene from C:/Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Assets/NPS_botFlat/NPS_bot5.fbx
+[2019.11.26-01.12.09:838][ 54]LogFbx: FBX Scene Loaded Succesfully
+[2019.11.26-01.12.11:581][ 54]LogSlate: Window 'FBX Import Options' being destroyed
+[2019.11.26-01.12.11:608][ 54]LogStaticMesh: Building static mesh NPS_bot5...
+[2019.11.26-01.12.11:623][ 54]LogStaticMesh: Built static mesh [0.02s] /Game/SideScrollerBP/Assets/NPS_botFlat/NPS_bot5.NPS_bot5
+[2019.11.26-01.12.11:648][ 55]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Assets/NPS_botFlat/NPS_bot4.fbx)
+[2019.11.26-01.12.11:656][ 55]LogFbx: Loading FBX Scene from C:/Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Assets/NPS_botFlat/NPS_bot4.fbx
+[2019.11.26-01.12.11:661][ 55]LogFbx: FBX Scene Loaded Succesfully
+[2019.11.26-01.12.12:430][ 55]LogSlate: Window 'FBX Import Options' being destroyed
+[2019.11.26-01.12.12:454][ 55]LogStaticMesh: Building static mesh NPS_bot4...
+[2019.11.26-01.12.12:464][ 55]LogStaticMesh: Built static mesh [0.01s] /Game/SideScrollerBP/Assets/NPS_botFlat/NPS_bot4.NPS_bot4
+[2019.11.26-01.12.12:489][ 56]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Assets/NPS_botFlat/NPS_bot3.fbx)
+[2019.11.26-01.12.12:497][ 56]LogFbx: Loading FBX Scene from C:/Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Assets/NPS_botFlat/NPS_bot3.fbx
+[2019.11.26-01.12.12:502][ 56]LogFbx: FBX Scene Loaded Succesfully
+[2019.11.26-01.12.13:018][ 56]LogSlate: Window 'FBX Import Options' being destroyed
+[2019.11.26-01.12.13:044][ 56]LogStaticMesh: Building static mesh NPS_bot3...
+[2019.11.26-01.12.13:057][ 56]LogStaticMesh: Built static mesh [0.01s] /Game/SideScrollerBP/Assets/NPS_botFlat/NPS_bot3.NPS_bot3
+[2019.11.26-01.12.13:082][ 57]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Assets/NPS_botFlat/NPS_bot2.fbx)
+[2019.11.26-01.12.13:089][ 57]LogFbx: Loading FBX Scene from C:/Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Assets/NPS_botFlat/NPS_bot2.fbx
+[2019.11.26-01.12.13:095][ 57]LogFbx: FBX Scene Loaded Succesfully
+[2019.11.26-01.12.15:398][ 57]LogSlate: Window 'FBX Import Options' being destroyed
+[2019.11.26-01.12.15:426][ 57]LogStaticMesh: Building static mesh NPS_bot2...
+[2019.11.26-01.12.15:437][ 57]LogStaticMesh: Built static mesh [0.01s] /Game/SideScrollerBP/Assets/NPS_botFlat/NPS_bot2.NPS_bot2
+[2019.11.26-01.12.15:462][ 58]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Assets/NPS_botFlat/NPS_bot1.fbx)
+[2019.11.26-01.12.15:470][ 58]LogFbx: Loading FBX Scene from C:/Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Assets/NPS_botFlat/NPS_bot1.fbx
+[2019.11.26-01.12.15:477][ 58]LogFbx: FBX Scene Loaded Succesfully
+[2019.11.26-01.12.15:943][ 58]LogSlate: Window 'FBX Import Options' being destroyed
+[2019.11.26-01.12.15:969][ 58]LogStaticMesh: Building static mesh NPS_bot1...
+[2019.11.26-01.12.15:984][ 58]LogStaticMesh: Built static mesh [0.02s] /Game/SideScrollerBP/Assets/NPS_botFlat/NPS_bot1.NPS_bot1
+[2019.11.26-01.12.16:011][ 59]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Assets/FourBevels/NPS_FB8.fbx)
+[2019.11.26-01.12.16:018][ 59]LogFbx: Loading FBX Scene from C:/Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Assets/FourBevels/NPS_FB8.fbx
+[2019.11.26-01.12.16:026][ 59]LogFbx: FBX Scene Loaded Succesfully
+[2019.11.26-01.12.16:466][ 59]LogSlate: Window 'FBX Import Options' being destroyed
+[2019.11.26-01.12.16:491][ 59]LogStaticMesh: Building static mesh NPS_FB8...
+[2019.11.26-01.12.16:494][ 59]LogStaticMesh: Built static mesh [0.00s] /Game/SideScrollerBP/Assets/FourBevels/NPS_FB8.NPS_FB8
+[2019.11.26-01.12.16:517][ 60]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Assets/FourBevels/NPS_FB7.fbx)
+[2019.11.26-01.12.16:524][ 60]LogFbx: Loading FBX Scene from C:/Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Assets/FourBevels/NPS_FB7.fbx
+[2019.11.26-01.12.16:530][ 60]LogFbx: FBX Scene Loaded Succesfully
+[2019.11.26-01.12.16:934][ 60]LogSlate: Window 'FBX Import Options' being destroyed
+[2019.11.26-01.12.16:958][ 60]LogStaticMesh: Building static mesh NPS_FB7...
+[2019.11.26-01.12.16:962][ 60]LogStaticMesh: Built static mesh [0.00s] /Game/SideScrollerBP/Assets/FourBevels/NPS_FB7.NPS_FB7
+[2019.11.26-01.12.16:986][ 61]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Assets/FourBevels/NPS_FB6.fbx)
+[2019.11.26-01.12.16:995][ 61]LogFbx: Loading FBX Scene from C:/Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Assets/FourBevels/NPS_FB6.fbx
+[2019.11.26-01.12.17:002][ 61]LogFbx: FBX Scene Loaded Succesfully
+[2019.11.26-01.12.17:371][ 61]LogSlate: Window 'FBX Import Options' being destroyed
+[2019.11.26-01.12.17:394][ 61]LogStaticMesh: Building static mesh NPS_FB6...
+[2019.11.26-01.12.17:397][ 61]LogStaticMesh: Built static mesh [0.00s] /Game/SideScrollerBP/Assets/FourBevels/NPS_FB6.NPS_FB6
+[2019.11.26-01.12.17:445][ 62]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Textures/FourBevels/NPS_FB_BC.png)
+[2019.11.26-01.12.18:423][ 63]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Assets/windLP.fbx)
+[2019.11.26-01.12.18:431][ 63]LogFbx: Loading FBX Scene from C:/Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Assets/windLP.fbx
+[2019.11.26-01.12.18:440][ 63]LogFbx: FBX Scene Loaded Succesfully
+[2019.11.26-01.12.19:891][ 63]LogSlate: Window 'FBX Import Options' being destroyed
+[2019.11.26-01.12.19:983][ 63]LogStaticMesh: Building static mesh windLP...
+[2019.11.26-01.12.21:110][ 63]LogStaticMesh: Built static mesh [1.13s] /Game/SideScrollerBP/Assets/windLP.windLP
+[2019.11.26-01.12.21:137][ 64]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Assets/NPS_topFlat/NPS_top8.fbx)
+[2019.11.26-01.12.21:144][ 64]LogFbx: Loading FBX Scene from C:/Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Assets/NPS_topFlat/NPS_top8.fbx
+[2019.11.26-01.12.21:150][ 64]LogFbx: FBX Scene Loaded Succesfully
+[2019.11.26-01.12.22:668][ 64]LogSlate: Window 'FBX Import Options' being destroyed
+[2019.11.26-01.12.22:693][ 64]LogStaticMesh: Building static mesh NPS_top8...
+[2019.11.26-01.12.22:703][ 64]LogStaticMesh: Built static mesh [0.01s] /Game/SideScrollerBP/Assets/NPS_topFlat/NPS_top8.NPS_top8
+[2019.11.26-01.12.22:737][ 65]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Assets/NPS_topFlat/NPS_top7.fbx)
+[2019.11.26-01.12.22:745][ 65]LogFbx: Loading FBX Scene from C:/Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Assets/NPS_topFlat/NPS_top7.fbx
+[2019.11.26-01.12.22:751][ 65]LogFbx: FBX Scene Loaded Succesfully
+[2019.11.26-01.12.23:224][ 65]LogSlate: Window 'FBX Import Options' being destroyed
+[2019.11.26-01.12.23:247][ 65]LogStaticMesh: Building static mesh NPS_top7...
+[2019.11.26-01.12.23:262][ 65]LogStaticMesh: Built static mesh [0.01s] /Game/SideScrollerBP/Assets/NPS_topFlat/NPS_top7.NPS_top7
+[2019.11.26-01.12.23:287][ 66]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Assets/NPS_topFlat/NPS_top6.fbx)
+[2019.11.26-01.12.23:294][ 66]LogFbx: Loading FBX Scene from C:/Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Assets/NPS_topFlat/NPS_top6.fbx
+[2019.11.26-01.12.23:300][ 66]LogFbx: FBX Scene Loaded Succesfully
+[2019.11.26-01.12.23:768][ 66]LogSlate: Window 'FBX Import Options' being destroyed
+[2019.11.26-01.12.23:793][ 66]LogStaticMesh: Building static mesh NPS_top6...
+[2019.11.26-01.12.23:803][ 66]LogStaticMesh: Built static mesh [0.01s] /Game/SideScrollerBP/Assets/NPS_topFlat/NPS_top6.NPS_top6
+[2019.11.26-01.12.23:848][ 67]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Textures/npsT/npsT_N.png)
+[2019.11.26-01.12.24:377][ 68]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Textures/npsT/npsT_ORM.png)
+[2019.11.26-01.12.25:380][ 69]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Textures/npsT/npsT_BC.png)
+[2019.11.26-01.12.26:525][ 70]LogSlate: Window 'Message Log' being destroyed
+[2019.11.26-01.12.26:537][ 70]LogSlate: Window 'Message Log' being destroyed
+[2019.11.26-01.12.26:568][ 70]LogEditorViewport: Clicking on Actor (LMB): SpikeHolder_BP_C (SpikeHolder_BP7)
+[2019.11.26-01.12.26:677][ 70]LogFactory: FactoryCreateFile: DataTable with ReimportDataTableFactory (0 1 C:/Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Textures/npsT/PBR - Metallic Roughness.json)
+[2019.11.26-01.12.26:686][ 70]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.26-01.12.28:421][ 70]LogSlate: Window 'DataTable Options' being destroyed
+[2019.11.26-01.12.28:495][ 71]LogFactory: FactoryCreateFile: DataTable with ReimportDataTableFactory (0 1 C:/Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Textures/npsB/PBR - Metallic Roughness.json)
+[2019.11.26-01.12.28:502][ 71]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.26-01.12.28:998][ 71]LogSlate: Window 'DataTable Options' being destroyed
+[2019.11.26-01.12.29:064][ 72]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Textures/npsB/NPS_ORM.png)
+[2019.11.26-01.12.30:337][ 73]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Textures/npsB/NPS_N.png)
+[2019.11.26-01.12.30:855][ 74]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Textures/npsB/NPS_BC.png)
+[2019.11.26-01.12.32:030][ 75]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.26-01.12.32:031][ 75]LogFactory: FactoryCreateFile: DataTable with ReimportDataTableFactory (0 1 C:/Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Textures/FourBevels/PBR - Metallic Roughness.json)
+[2019.11.26-01.12.34:703][ 75]LogSlate: Window 'DataTable Options' being destroyed
+[2019.11.26-01.12.34:769][ 76]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Textures/FourBevels/NPS_FB_ORM.png)
+[2019.11.26-01.12.35:767][ 77]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Textures/FourBevels/NPS_FB_N.png)
+[2019.11.26-01.12.36:250][ 78]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Assets/NPS_topFlat/NPS_top5.fbx)
+[2019.11.26-01.12.36:258][ 78]LogFbx: Loading FBX Scene from C:/Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Assets/NPS_topFlat/NPS_top5.fbx
+[2019.11.26-01.12.36:263][ 78]LogFbx: FBX Scene Loaded Succesfully
+[2019.11.26-01.12.37:670][ 78]LogSlate: Window 'FBX Import Options' being destroyed
+[2019.11.26-01.12.37:698][ 78]LogStaticMesh: Building static mesh NPS_top5...
+[2019.11.26-01.12.37:712][ 78]LogStaticMesh: Built static mesh [0.01s] /Game/SideScrollerBP/Assets/NPS_topFlat/NPS_top5.NPS_top5
+[2019.11.26-01.12.37:758][ 79]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Assets/NPS_topFlat/NPS_top4.fbx)
+[2019.11.26-01.12.37:766][ 79]LogFbx: Loading FBX Scene from C:/Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Assets/NPS_topFlat/NPS_top4.fbx
+[2019.11.26-01.12.37:772][ 79]LogFbx: FBX Scene Loaded Succesfully
+[2019.11.26-01.12.38:702][ 79]LogSlate: Window 'FBX Import Options' being destroyed
+[2019.11.26-01.12.38:726][ 79]LogStaticMesh: Building static mesh NPS_top4...
+[2019.11.26-01.12.38:737][ 79]LogStaticMesh: Built static mesh [0.01s] /Game/SideScrollerBP/Assets/NPS_topFlat/NPS_top4.NPS_top4
+[2019.11.26-01.12.38:762][ 80]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Assets/NPS_topFlat/NPS_top3.fbx)
+[2019.11.26-01.12.38:770][ 80]LogFbx: Loading FBX Scene from C:/Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Assets/NPS_topFlat/NPS_top3.fbx
+[2019.11.26-01.12.38:776][ 80]LogFbx: FBX Scene Loaded Succesfully
+[2019.11.26-01.12.39:240][ 80]LogSlate: Window 'FBX Import Options' being destroyed
+[2019.11.26-01.12.39:265][ 80]LogStaticMesh: Building static mesh NPS_top3...
+[2019.11.26-01.12.39:280][ 80]LogStaticMesh: Built static mesh [0.01s] /Game/SideScrollerBP/Assets/NPS_topFlat/NPS_top3.NPS_top3
+[2019.11.26-01.12.39:305][ 81]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Assets/NPS_topFlat/NPS_top2.fbx)
+[2019.11.26-01.12.39:314][ 81]LogFbx: Loading FBX Scene from C:/Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Assets/NPS_topFlat/NPS_top2.fbx
+[2019.11.26-01.12.39:320][ 81]LogFbx: FBX Scene Loaded Succesfully
+[2019.11.26-01.12.39:713][ 81]LogSlate: Window 'FBX Import Options' being destroyed
+[2019.11.26-01.12.39:738][ 81]LogStaticMesh: Building static mesh NPS_top2...
+[2019.11.26-01.12.39:749][ 81]LogStaticMesh: Built static mesh [0.01s] /Game/SideScrollerBP/Assets/NPS_topFlat/NPS_top2.NPS_top2
+[2019.11.26-01.12.39:772][ 82]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Assets/NPS_topFlat/NPS_top1.fbx)
+[2019.11.26-01.12.39:780][ 82]LogFbx: Loading FBX Scene from C:/Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Assets/NPS_topFlat/NPS_top1.fbx
+[2019.11.26-01.12.39:786][ 82]LogFbx: FBX Scene Loaded Succesfully
+[2019.11.26-01.12.40:174][ 82]LogSlate: Window 'FBX Import Options' being destroyed
+[2019.11.26-01.12.40:199][ 82]LogStaticMesh: Building static mesh NPS_top1...
+[2019.11.26-01.12.40:216][ 82]LogStaticMesh: Built static mesh [0.02s] /Game/SideScrollerBP/Assets/NPS_topFlat/NPS_top1.NPS_top1
+[2019.11.26-01.12.40:242][ 83]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Assets/NPS_botFlat/NPS_bot8.fbx)
+[2019.11.26-01.12.40:249][ 83]LogFbx: Loading FBX Scene from C:/Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Assets/NPS_botFlat/NPS_bot8.fbx
+[2019.11.26-01.12.40:256][ 83]LogFbx: FBX Scene Loaded Succesfully
+[2019.11.26-01.12.40:584][ 83]LogSlate: Window 'FBX Import Options' being destroyed
+[2019.11.26-01.12.40:608][ 83]LogStaticMesh: Building static mesh NPS_bot8...
+[2019.11.26-01.12.40:617][ 83]LogStaticMesh: Built static mesh [0.01s] /Game/SideScrollerBP/Assets/NPS_botFlat/NPS_bot8.NPS_bot8
+[2019.11.26-01.12.40:644][ 84]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Assets/NPS_botFlat/NPS_bot7.fbx)
+[2019.11.26-01.12.40:652][ 84]LogFbx: Loading FBX Scene from C:/Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Assets/NPS_botFlat/NPS_bot7.fbx
+[2019.11.26-01.12.40:658][ 84]LogFbx: FBX Scene Loaded Succesfully
+[2019.11.26-01.12.41:028][ 84]LogSlate: Window 'FBX Import Options' being destroyed
+[2019.11.26-01.12.41:053][ 84]LogStaticMesh: Building static mesh NPS_bot7...
+[2019.11.26-01.12.41:067][ 84]LogStaticMesh: Built static mesh [0.01s] /Game/SideScrollerBP/Assets/NPS_botFlat/NPS_bot7.NPS_bot7
+[2019.11.26-01.12.41:093][ 85]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Assets/FourBevels/NPS_FB5.fbx)
+[2019.11.26-01.12.41:100][ 85]LogFbx: Loading FBX Scene from C:/Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Assets/FourBevels/NPS_FB5.fbx
+[2019.11.26-01.12.41:106][ 85]LogFbx: FBX Scene Loaded Succesfully
+[2019.11.26-01.12.41:476][ 85]LogSlate: Window 'FBX Import Options' being destroyed
+[2019.11.26-01.12.41:500][ 85]LogStaticMesh: Building static mesh NPS_FB5...
+[2019.11.26-01.12.41:503][ 85]LogStaticMesh: Built static mesh [0.00s] /Game/SideScrollerBP/Assets/FourBevels/NPS_FB5.NPS_FB5
+[2019.11.26-01.12.41:528][ 86]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Assets/FourBevels/NPS_FB4.fbx)
+[2019.11.26-01.12.41:536][ 86]LogFbx: Loading FBX Scene from C:/Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Assets/FourBevels/NPS_FB4.fbx
+[2019.11.26-01.12.41:541][ 86]LogFbx: FBX Scene Loaded Succesfully
+[2019.11.26-01.12.41:888][ 86]LogSlate: Window 'FBX Import Options' being destroyed
+[2019.11.26-01.12.41:912][ 86]LogStaticMesh: Building static mesh NPS_FB4...
+[2019.11.26-01.12.41:915][ 86]LogStaticMesh: Built static mesh [0.00s] /Game/SideScrollerBP/Assets/FourBevels/NPS_FB4.NPS_FB4
+[2019.11.26-01.12.41:941][ 87]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Assets/FourBevels/NPS_FB3.fbx)
+[2019.11.26-01.12.41:951][ 87]LogFbx: Loading FBX Scene from C:/Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Assets/FourBevels/NPS_FB3.fbx
+[2019.11.26-01.12.41:957][ 87]LogFbx: FBX Scene Loaded Succesfully
+[2019.11.26-01.12.42:307][ 87]LogSlate: Window 'FBX Import Options' being destroyed
+[2019.11.26-01.12.42:331][ 87]LogStaticMesh: Building static mesh NPS_FB3...
+[2019.11.26-01.12.42:335][ 87]LogStaticMesh: Built static mesh [0.00s] /Game/SideScrollerBP/Assets/FourBevels/NPS_FB3.NPS_FB3
+[2019.11.26-01.12.42:360][ 88]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Assets/FourBevels/NPS_FB2.fbx)
+[2019.11.26-01.12.42:367][ 88]LogFbx: Loading FBX Scene from C:/Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Assets/FourBevels/NPS_FB2.fbx
+[2019.11.26-01.12.42:373][ 88]LogFbx: FBX Scene Loaded Succesfully
+[2019.11.26-01.12.42:679][ 88]LogSlate: Window 'FBX Import Options' being destroyed
+[2019.11.26-01.12.42:703][ 88]LogStaticMesh: Building static mesh NPS_FB2...
+[2019.11.26-01.12.42:706][ 88]LogStaticMesh: Built static mesh [0.00s] /Game/SideScrollerBP/Assets/FourBevels/NPS_FB2.NPS_FB2
+[2019.11.26-01.12.42:733][ 89]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Assets/FourBevels/NPS_FB1.fbx)
+[2019.11.26-01.12.42:741][ 89]LogFbx: Loading FBX Scene from C:/Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Assets/FourBevels/NPS_FB1.fbx
+[2019.11.26-01.12.42:749][ 89]LogFbx: FBX Scene Loaded Succesfully
+[2019.11.26-01.12.43:139][ 89]LogSlate: Window 'FBX Import Options' being destroyed
+[2019.11.26-01.12.43:162][ 89]LogStaticMesh: Building static mesh NPS_FB1...
+[2019.11.26-01.12.43:165][ 89]LogStaticMesh: Built static mesh [0.00s] /Game/SideScrollerBP/Assets/FourBevels/NPS_FB1.NPS_FB1
+[2019.11.26-01.12.43:417][ 90]LogEditorFactories: Performing atomic reimport of [C:/Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Textures/ThornsV2/Thorns_Base2.png]
+[2019.11.26-01.12.43:417][ 90]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Textures/ThornsV2/Thorns_Base2.png)
+[2019.11.26-01.12.43:710][ 90]LogEditorFactories: -- imported successfully
+[2019.11.26-01.12.43:763][ 91]LogEditorFactories: Performing atomic reimport of [C:/Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Textures/Grass/gradient.png]
+[2019.11.26-01.12.43:763][ 91]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Textures/Grass/gradient.png)
+[2019.11.26-01.12.43:828][ 91]LogEditorFactories: -- imported successfully
+[2019.11.26-01.12.44:610][ 92]LogTexture: Display: Building textures: ThornsTall_Norm (BC5, 2048X2048)
+[2019.11.26-01.12.44:610][ 92]LogTexture: Display: Building textures: ThornsTall_ORM (AutoDXT, 2048X2048)
+[2019.11.26-01.12.44:610][ 92]LogTexture: Display: Building textures: ThornsV2_Base (AutoDXT, 2048X2048)
+[2019.11.26-01.12.54:636][ 92]LogSlate: Window 'Delete Assets' being destroyed
+[2019.11.26-01.12.55:215][ 93]LogSavePackage: Moving '../../../../../../Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Saved/npcLP3FA0D8FF40E3253587AC4A92B9ADEC9D.tmp' to '../../../../../../Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Assets/npcLP.uasset'
+[2019.11.26-01.12.55:573][ 93]LogSavePackage: Moving '../../../../../../Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Saved/npc_asian_BaseAF07AB7543B91B5951A9F09F4C6C634E.tmp' to '../../../../../../Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Textures/NPC/npc_asian_Base.uasset'
+[2019.11.26-01.12.56:183][ 93]LogSavePackage: Moving '../../../../../../Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Saved/npc_asian_Norm9FEE10EA4E0DBFF06A7E7BA230A94970.tmp' to '../../../../../../Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Textures/NPC/npc_asian_Norm.uasset'
+[2019.11.26-01.12.56:563][ 93]LogSavePackage: Moving '../../../../../../Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Saved/npc_asian_Roug310B78DA429946F4414D7D87BA4E3502.tmp' to '../../../../../../Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Textures/NPC/npc_asian_Roug.uasset'
+[2019.11.26-01.12.56:930][ 93]LogSavePackage: Moving '../../../../../../Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Saved/npc_black_Base9E7574454251133D83918684A440ECEB.tmp' to '../../../../../../Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Textures/NPC/npc_black_Base.uasset'
+[2019.11.26-01.12.57:303][ 93]LogSavePackage: Moving '../../../../../../Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Saved/npc_white_Base208D595A421A4E81CF14DBB6EAE262FA.tmp' to '../../../../../../Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Textures/NPC/npc_white_Base.uasset'
+[2019.11.26-01.12.58:680][ 93]LogSavePackage: Moving '../../../../../../Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Saved/Sign_Base532008DC42C641C5DF0F4983419D7225.tmp' to '../../../../../../Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Textures/sign2/Sign_Base.uasset'
+[2019.11.26-01.12.59:545][ 93]LogSavePackage: Moving '../../../../../../Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Saved/Thorns_Base57CAB0114FDDDEC5996EA9BB2287D48C.tmp' to '../../../../../../Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Textures/ThornsV2/Thorns_Base.uasset'
+[2019.11.26-01.12.59:717][ 93]LogSavePackage: Moving '../../../../../../Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Saved/NPS_bot6D483C1CC49581A9FD75E23B4EE13A14F.tmp' to '../../../../../../Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Assets/NPS_botFlat/NPS_bot6.uasset'
+[2019.11.26-01.12.59:921][ 93]LogSavePackage: Moving '../../../../../../Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Saved/NPS_bot5811D6CF344699B87A04E8B99AD7033B4.tmp' to '../../../../../../Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Assets/NPS_botFlat/NPS_bot5.uasset'
+[2019.11.26-01.13.00:104][ 93]LogSavePackage: Moving '../../../../../../Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Saved/NPS_bot478FEA5AF407C4030743047AABF66D71F.tmp' to '../../../../../../Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Assets/NPS_botFlat/NPS_bot4.uasset'
+[2019.11.26-01.13.00:270][ 93]LogSavePackage: Moving '../../../../../../Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Saved/NPS_bot3DD4287F8487187DF1C92C6844B54B29B.tmp' to '../../../../../../Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Assets/NPS_botFlat/NPS_bot3.uasset'
+[2019.11.26-01.13.00:439][ 93]LogSavePackage: Moving '../../../../../../Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Saved/NPS_bot205430DD74DED98CB7E7F4E929E858D58.tmp' to '../../../../../../Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Assets/NPS_botFlat/NPS_bot2.uasset'
+[2019.11.26-01.13.00:606][ 93]LogSavePackage: Moving '../../../../../../Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Saved/NPS_bot1F8B9474D4336E2B4CF6FFE97CBA25FE3.tmp' to '../../../../../../Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Assets/NPS_botFlat/NPS_bot1.uasset'
+[2019.11.26-01.13.00:771][ 93]LogSavePackage: Moving '../../../../../../Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Saved/NPS_FB84C14A8AB4871CE16183C07B5BD0B2C9E.tmp' to '../../../../../../Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Assets/FourBevels/NPS_FB8.uasset'
+[2019.11.26-01.13.00:950][ 93]LogSavePackage: Moving '../../../../../../Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Saved/NPS_FB7F34FA6A144F816CDB68985A9DD268344.tmp' to '../../../../../../Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Assets/FourBevels/NPS_FB7.uasset'
+[2019.11.26-01.13.01:133][ 93]LogSavePackage: Moving '../../../../../../Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Saved/NPS_FB6BFC37B834A8A518268C27090621995FC.tmp' to '../../../../../../Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Assets/FourBevels/NPS_FB6.uasset'
+[2019.11.26-01.13.02:202][ 93]LogSavePackage: Moving '../../../../../../Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Saved/NPS_FB_BCFE4D9BA5484BA3D97CE405B5FB6395EA.tmp' to '../../../../../../Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Textures/FourBevels/NPS_FB_BC.uasset'
+[2019.11.26-01.13.02:969][ 93]LogSavePackage: Moving '../../../../../../Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Saved/windLP938E319D4867D33E44CE3B9491A4F419.tmp' to '../../../../../../Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Assets/windLP.uasset'
+[2019.11.26-01.13.03:231][ 93]LogSavePackage: Moving '../../../../../../Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Saved/NPS_top89C4819F24FC9990471CEEF9F8F3AA455.tmp' to '../../../../../../Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Assets/NPS_topFlat/NPS_top8.uasset'
+[2019.11.26-01.13.03:385][ 93]LogSavePackage: Moving '../../../../../../Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Saved/NPS_top7E4CBC89F412C9FDF6BA4B6832C2083EA.tmp' to '../../../../../../Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Assets/NPS_topFlat/NPS_top7.uasset'
+[2019.11.26-01.13.03:529][ 93]LogSavePackage: Moving '../../../../../../Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Saved/NPS_top69131F7544A9361B6B7EA9B887ADD52B4.tmp' to '../../../../../../Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Assets/NPS_topFlat/NPS_top6.uasset'
+[2019.11.26-01.13.04:518][ 93]LogSavePackage: Moving '../../../../../../Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Saved/npsT_N4103E9E54F8A3977B97CFCBD4982C854.tmp' to '../../../../../../Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Textures/npsT/npsT_N.uasset'
+[2019.11.26-01.13.05:624][ 93]LogSavePackage: Moving '../../../../../../Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Saved/npsT_ORMB70C07184905D3D4671CF289A77AB461.tmp' to '../../../../../../Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Textures/npsT/npsT_ORM.uasset'
+[2019.11.26-01.13.07:062][ 93]LogSavePackage: Moving '../../../../../../Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Saved/npsT_BC40159A914A54B7FCDB0C5B8D6C6C3F4C.tmp' to '../../../../../../Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Textures/npsT/npsT_BC.uasset'
+[2019.11.26-01.13.08:318][ 93]LogSavePackage: Moving '../../../../../../Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Saved/NPS_ORMD13BE0BC4286D8BEFF07A09DAD71ED13.tmp' to '../../../../../../Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Textures/npsB/NPS_ORM.uasset'
+[2019.11.26-01.13.09:685][ 93]LogSavePackage: Moving '../../../../../../Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Saved/NPS_N85C725C546DC87E04B7B8CA0167B5172.tmp' to '../../../../../../Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Textures/npsB/NPS_N.uasset'
+[2019.11.26-01.13.11:407][ 93]LogSavePackage: Moving '../../../../../../Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Saved/NPS_BC660DE6CD4E872E3C0DCA078DBA3F04A7.tmp' to '../../../../../../Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Textures/npsB/NPS_BC.uasset'
+[2019.11.26-01.13.12:609][ 93]LogSavePackage: Moving '../../../../../../Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Saved/NPS_FB_ORM0EE65C0C48B52EDD4595D8BD774F8FAF.tmp' to '../../../../../../Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Textures/FourBevels/NPS_FB_ORM.uasset'
+[2019.11.26-01.13.13:745][ 93]LogSavePackage: Moving '../../../../../../Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Saved/NPS_FB_N17B9DBC4429372A264DDDD83A9893F01.tmp' to '../../../../../../Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Textures/FourBevels/NPS_FB_N.uasset'
+[2019.11.26-01.13.14:335][ 93]LogSavePackage: Moving '../../../../../../Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Saved/NPS_top53C273CB146B006DDB210858E234CFFCC.tmp' to '../../../../../../Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Assets/NPS_topFlat/NPS_top5.uasset'
+[2019.11.26-01.13.14:502][ 93]LogSavePackage: Moving '../../../../../../Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Saved/NPS_top4B5E325E24041300C7B175B81FCB68A2F.tmp' to '../../../../../../Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Assets/NPS_topFlat/NPS_top4.uasset'
+[2019.11.26-01.13.14:668][ 93]LogSavePackage: Moving '../../../../../../Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Saved/NPS_top3DB2236E4467F8FBFC5DC3BB178094540.tmp' to '../../../../../../Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Assets/NPS_topFlat/NPS_top3.uasset'
+[2019.11.26-01.13.14:833][ 93]LogSavePackage: Moving '../../../../../../Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Saved/NPS_top27551148B441FCC9947F8D3AE71BF8BBA.tmp' to '../../../../../../Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Assets/NPS_topFlat/NPS_top2.uasset'
+[2019.11.26-01.13.15:015][ 93]LogSavePackage: Moving '../../../../../../Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Saved/NPS_top1101221C04E4802F8172EC1AEEEFB33F2.tmp' to '../../../../../../Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Assets/NPS_topFlat/NPS_top1.uasset'
+[2019.11.26-01.13.15:199][ 93]LogSavePackage: Moving '../../../../../../Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Saved/NPS_bot8C2A7B3C14B58118333EAB6956BFC9AAA.tmp' to '../../../../../../Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Assets/NPS_botFlat/NPS_bot8.uasset'
+[2019.11.26-01.13.15:369][ 93]LogSavePackage: Moving '../../../../../../Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Saved/NPS_bot70357D5D54D7954866C12998196949822.tmp' to '../../../../../../Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Assets/NPS_botFlat/NPS_bot7.uasset'
+[2019.11.26-01.13.15:548][ 93]LogSavePackage: Moving '../../../../../../Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Saved/NPS_FB5BF8A85C444514168E34F7F9C88314B3A.tmp' to '../../../../../../Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Assets/FourBevels/NPS_FB5.uasset'
+[2019.11.26-01.13.15:705][ 93]LogSavePackage: Moving '../../../../../../Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Saved/NPS_FB4E89130B54E586D5C61945281BA896039.tmp' to '../../../../../../Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Assets/FourBevels/NPS_FB4.uasset'
+[2019.11.26-01.13.15:859][ 93]LogSavePackage: Moving '../../../../../../Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Saved/NPS_FB39E7938754747BBF2894198AC60C47921.tmp' to '../../../../../../Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Assets/FourBevels/NPS_FB3.uasset'
+[2019.11.26-01.13.16:015][ 93]LogSavePackage: Moving '../../../../../../Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Saved/NPS_FB2A4F5E5B4473BBC960CF76CB6903E4CEA.tmp' to '../../../../../../Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Assets/FourBevels/NPS_FB2.uasset'
+[2019.11.26-01.13.16:158][ 93]LogSavePackage: Moving '../../../../../../Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Saved/NPS_FB10812D86D4DC7BC7E885467A26EEDE10E.tmp' to '../../../../../../Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Assets/FourBevels/NPS_FB1.uasset'
+[2019.11.26-01.13.16:450][ 93]LogSavePackage: Moving '../../../../../../Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Saved/Thorns_Base255C5F372487E5FCE455B159E9739D9B1.tmp' to '../../../../../../Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Textures/ThornsV2/Thorns_Base2.uasset'
+[2019.11.26-01.13.16:473][ 93]LogSavePackage: Moving '../../../../../../Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Saved/gradientB12689314CB67E2EFE9BF6B506DCADEA.tmp' to '../../../../../../Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Textures/Grass/gradient.uasset'
+[2019.11.26-01.13.19:487][374]AssetReimport: Reimported asset Arrow3 from C:/Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Assets/arrow3.fbx.
+[2019.11.26-01.13.19:487][374]AssetReimport: Importing new asset /Game/SideScrollerBP/Assets/npcLP.
+[2019.11.26-01.13.19:487][374]AssetReimport: Reimported asset arrow3_BC from C:/Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Textures/arrow3/arrow3_BC.png.
+[2019.11.26-01.13.19:487][374]AssetReimport: Reimported asset arrow3_BC1 from C:/Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Textures/arrow3/arrow3_BC1.png.
+[2019.11.26-01.13.19:487][374]AssetReimport: Reimported asset arrow3_BC2 from C:/Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Textures/arrow3/arrow3_BC2.png.
+[2019.11.26-01.13.19:487][374]AssetReimport: Reimported asset arrow3_N from C:/Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Textures/arrow3/arrow3_N.png.
+[2019.11.26-01.13.19:487][374]AssetReimport: Reimported asset arrow3_ORM from C:/Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Textures/arrow3/arrow3_ORM.png.
+[2019.11.26-01.13.19:487][374]AssetReimport: Importing new asset /Game/SideScrollerBP/Textures/NPC/npc_asian_Base.
+[2019.11.26-01.13.19:487][374]AssetReimport: Importing new asset /Game/SideScrollerBP/Textures/NPC/npc_asian_Norm.
+[2019.11.26-01.13.19:487][374]AssetReimport: Importing new asset /Game/SideScrollerBP/Textures/NPC/npc_asian_Roug.
+[2019.11.26-01.13.19:487][374]AssetReimport: Importing new asset /Game/SideScrollerBP/Textures/NPC/npc_black_Base.
+[2019.11.26-01.13.19:487][374]AssetReimport: Importing new asset /Game/SideScrollerBP/Textures/NPC/npc_white_Base.
+[2019.11.26-01.13.19:487][374]AssetReimport: Importing new asset /Game/SideScrollerBP/Textures/sign2/Sign_Base.
+[2019.11.26-01.13.19:487][374]AssetReimport: Importing new asset /Game/SideScrollerBP/Textures/ThornsV2/Thorns_Base.
+[2019.11.26-01.13.19:487][374]AssetReimport: Importing new asset /Game/SideScrollerBP/Assets/NPS_botFlat/NPS_bot6.
+[2019.11.26-01.13.19:487][374]AssetReimport: Importing new asset /Game/SideScrollerBP/Assets/NPS_botFlat/NPS_bot5.
+[2019.11.26-01.13.19:487][374]AssetReimport: Importing new asset /Game/SideScrollerBP/Assets/NPS_botFlat/NPS_bot4.
+[2019.11.26-01.13.19:488][374]AssetReimport: Importing new asset /Game/SideScrollerBP/Assets/NPS_botFlat/NPS_bot3.
+[2019.11.26-01.13.19:488][374]AssetReimport: Importing new asset /Game/SideScrollerBP/Assets/NPS_botFlat/NPS_bot2.
+[2019.11.26-01.13.19:488][374]AssetReimport: Importing new asset /Game/SideScrollerBP/Assets/NPS_botFlat/NPS_bot1.
+[2019.11.26-01.13.19:488][374]AssetReimport: Importing new asset /Game/SideScrollerBP/Assets/FourBevels/NPS_FB8.
+[2019.11.26-01.13.19:488][374]AssetReimport: Importing new asset /Game/SideScrollerBP/Assets/FourBevels/NPS_FB7.
+[2019.11.26-01.13.19:488][374]AssetReimport: Importing new asset /Game/SideScrollerBP/Assets/FourBevels/NPS_FB6.
+[2019.11.26-01.13.19:488][374]AssetReimport: Importing new asset /Game/SideScrollerBP/Textures/FourBevels/NPS_FB_BC.
+[2019.11.26-01.13.19:488][374]AssetReimport: Importing new asset /Game/SideScrollerBP/Assets/windLP.
+[2019.11.26-01.13.19:488][374]AssetReimport: Importing new asset /Game/SideScrollerBP/Assets/NPS_topFlat/NPS_top8.
+[2019.11.26-01.13.19:488][374]AssetReimport: Importing new asset /Game/SideScrollerBP/Assets/NPS_topFlat/NPS_top7.
+[2019.11.26-01.13.19:488][374]AssetReimport: Importing new asset /Game/SideScrollerBP/Assets/NPS_topFlat/NPS_top6.
+[2019.11.26-01.13.19:488][374]AssetReimport: Importing new asset /Game/SideScrollerBP/Textures/npsT/npsT_N.
+[2019.11.26-01.13.19:488][374]AssetReimport: Importing new asset /Game/SideScrollerBP/Textures/npsT/npsT_ORM.
+[2019.11.26-01.13.19:488][374]AssetReimport: Importing new asset /Game/SideScrollerBP/Textures/npsT/npsT_BC.
+[2019.11.26-01.13.19:488][374]AssetReimport: Importing new asset /Game/SideScrollerBP/Textures/npsT/PBR_-_Metallic_Roughness.
+[2019.11.26-01.13.19:488][374]AssetReimport: Failed to import file C:/Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Textures/npsT/PBR - Metallic Roughness.json.
+[2019.11.26-01.13.19:488][374]AssetReimport: Importing new asset /Game/SideScrollerBP/Textures/npsB/PBR_-_Metallic_Roughness.
+[2019.11.26-01.13.19:488][374]AssetReimport: Failed to import file C:/Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Textures/npsB/PBR - Metallic Roughness.json.
+[2019.11.26-01.13.19:488][374]AssetReimport: Importing new asset /Game/SideScrollerBP/Textures/npsB/NPS_ORM.
+[2019.11.26-01.13.19:488][374]AssetReimport: Importing new asset /Game/SideScrollerBP/Textures/npsB/NPS_N.
+[2019.11.26-01.13.19:488][374]AssetReimport: Importing new asset /Game/SideScrollerBP/Textures/npsB/NPS_BC.
+[2019.11.26-01.13.19:488][374]AssetReimport: Importing new asset /Game/SideScrollerBP/Textures/FourBevels/PBR_-_Metallic_Roughness.
+[2019.11.26-01.13.19:488][374]AssetReimport: Failed to import file C:/Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Textures/FourBevels/PBR - Metallic Roughness.json.
+[2019.11.26-01.13.19:488][374]AssetReimport: Importing new asset /Game/SideScrollerBP/Textures/FourBevels/NPS_FB_ORM.
+[2019.11.26-01.13.19:488][374]AssetReimport: Importing new asset /Game/SideScrollerBP/Textures/FourBevels/NPS_FB_N.
+[2019.11.26-01.13.19:488][374]AssetReimport: Importing new asset /Game/SideScrollerBP/Assets/NPS_topFlat/NPS_top5.
+[2019.11.26-01.13.19:488][374]AssetReimport: Importing new asset /Game/SideScrollerBP/Assets/NPS_topFlat/NPS_top4.
+[2019.11.26-01.13.19:488][374]AssetReimport: Importing new asset /Game/SideScrollerBP/Assets/NPS_topFlat/NPS_top3.
+[2019.11.26-01.13.19:488][374]AssetReimport: Importing new asset /Game/SideScrollerBP/Assets/NPS_topFlat/NPS_top2.
+[2019.11.26-01.13.19:488][374]AssetReimport: Importing new asset /Game/SideScrollerBP/Assets/NPS_topFlat/NPS_top1.
+[2019.11.26-01.13.19:488][374]AssetReimport: Importing new asset /Game/SideScrollerBP/Assets/NPS_botFlat/NPS_bot8.
+[2019.11.26-01.13.19:488][374]AssetReimport: Importing new asset /Game/SideScrollerBP/Assets/NPS_botFlat/NPS_bot7.
+[2019.11.26-01.13.19:488][374]AssetReimport: Importing new asset /Game/SideScrollerBP/Assets/FourBevels/NPS_FB5.
+[2019.11.26-01.13.19:488][374]AssetReimport: Importing new asset /Game/SideScrollerBP/Assets/FourBevels/NPS_FB4.
+[2019.11.26-01.13.19:488][374]AssetReimport: Importing new asset /Game/SideScrollerBP/Assets/FourBevels/NPS_FB3.
+[2019.11.26-01.13.19:488][374]AssetReimport: Importing new asset /Game/SideScrollerBP/Assets/FourBevels/NPS_FB2.
+[2019.11.26-01.13.19:488][374]AssetReimport: Importing new asset /Game/SideScrollerBP/Assets/FourBevels/NPS_FB1.
+[2019.11.26-01.13.19:488][374]AssetReimport: Reimported asset Thorns_Base2 from C:/Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Textures/ThornsV2/Thorns_Base2.png.
+[2019.11.26-01.13.19:488][374]AssetReimport: Reimported asset gradient from C:/Users/s191246/Documents/GitHub/DeJaBrew_Prototyping/DeJaBrew_Prototyping_Unreal/Content/SideScrollerBP/Textures/Grass/gradient.png.
+[2019.11.26-01.13.19:488][374]AssetReimport: Attempting to delete ThornsTall_Norm (its source file has been removed).
+[2019.11.26-01.13.19:488][374]AssetReimport: Attempting to delete ThornsTall_ORM (its source file has been removed).
+[2019.11.26-01.13.19:488][374]AssetReimport: Attempting to delete ThornsTall_Base3 (its source file has been removed).
+[2019.11.26-01.13.19:488][374]AssetReimport: Attempting to delete ThornsTall_Norm2 (its source file has been removed).
+[2019.11.26-01.13.19:488][374]AssetReimport: Attempting to delete ThornsTall_ORM2 (its source file has been removed).
+[2019.11.26-01.13.19:488][374]AssetReimport: Attempting to delete Thorns2V2_Base (its source file has been removed).
+[2019.11.26-01.13.19:488][374]AssetReimport: Attempting to delete ThornsV2_Base (its source file has been removed).
+[2019.11.26-01.13.20:728][499]LogSlate: Window 'Message Log' being destroyed
+[2019.11.26-01.13.20:739][499]LogSlate: Window 'Message Log' being destroyed
